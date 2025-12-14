@@ -64,8 +64,18 @@ function convertExcalidrawToSvg(excalidrawData) {
     svgContent.push(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="${minX} ${minY} ${width} ${height}" class="w-full h-auto">`);
     svgContent.push('<defs>');
     svgContent.push('<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>');
-    svgContent.push('<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">');
-    svgContent.push('<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>');
+    // Dynamic arrowhead markers - will be created per stroke color
+    svgContent.push('<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">');
+    svgContent.push('<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>');
+    svgContent.push('</marker>');
+    svgContent.push('<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">');
+    svgContent.push('<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>');
+    svgContent.push('</marker>');
+    svgContent.push('<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">');
+    svgContent.push('<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>');
+    svgContent.push('</marker>');
+    svgContent.push('<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">');
+    svgContent.push('<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>');
     svgContent.push('</marker>');
     svgContent.push('</defs>');
 
@@ -115,7 +125,16 @@ function convertExcalidrawToSvg(excalidrawData) {
                         return `${cmd} ${x + p[0]} ${y + p[1]}`;
                     }).join(' ');
 
-                    const markerEnd = el.type === 'arrow' && el.endArrowhead ? ' marker-end="url(#ah)"' : '';
+                    // Add arrowhead for arrow type (always, unless explicitly disabled)
+                    let markerEnd = '';
+                    if (el.type === 'arrow' && el.endArrowhead !== 'none') {
+                        // Select marker color based on stroke
+                        let markerId = 'ah';
+                        if (stroke === '#1976d2' || stroke.toLowerCase() === '#1976d2') markerId = 'ah-blue';
+                        else if (stroke === '#388e3c' || stroke.toLowerCase() === '#388e3c') markerId = 'ah-green';
+                        else if (stroke === '#f57c00' || stroke.toLowerCase() === '#f57c00') markerId = 'ah-orange';
+                        markerEnd = ` marker-end="url(#${markerId})"`;
+                    }
                     svgContent.push(`<path d="${pathData}" stroke="${stroke}" fill="none" stroke-width="${strokeWidth}"${markerEnd} opacity="${opacity}"/>`);
                 }
                 break;

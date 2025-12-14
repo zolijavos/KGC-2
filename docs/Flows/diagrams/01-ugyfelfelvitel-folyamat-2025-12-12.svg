@@ -1,8 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -20 980 1060" class="w-full h-auto">
 <defs>
 <style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
-<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
 </marker>
 </defs>
 <rect x="10" y="-20" width="980" height="1060" fill="#ffffff"/>
@@ -22,7 +31,7 @@
 <rect x="340" y="390" width="200" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
 <text x="440" y="417" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Bérgép kiválasztása</text>
 <text x="440" y="431.4" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">(cikkszám/vonalkód)</text>
-<path d="M 440 450 L 440 480" stroke="#388e3c" fill="none" stroke-width="3" marker-end="url(#ah)" opacity="1"/>
+<path d="M 440 450 L 440 480" stroke="#388e3c" fill="none" stroke-width="3" marker-end="url(#ah-green)" opacity="1"/>
 <rect x="300" y="490" width="280" height="100" stroke="#388e3c" fill="#e8f5e9" stroke-width="3" rx="8" opacity="1"/>
 <text x="440" y="512" font-size="12" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">🆕 R.1 Kiadási Javaslat</text>
 <text x="440" y="526.4" font-size="12" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
@@ -39,7 +48,7 @@
 <text x="710" y="659.2" font-size="11" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">• Másik tárhely választás</text>
 <text x="710" y="672.4" font-size="11" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">• Indoklás KÖTELEZŐ</text>
 <text x="710" y="685.6" font-size="11" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">• KIADASI_AUDIT log</text>
-<path d="M 440 710 L 440 740" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 440 710 L 440 740" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
 <text x="450" y="727" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">IGEN</text>
 <path d="M 710 720 L 710 780 L 440 780" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="340" y="750" width="200" height="60" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="8" opacity="1"/>

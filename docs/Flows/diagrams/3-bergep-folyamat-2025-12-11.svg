@@ -1,8 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="60 -20 920 940" class="w-full h-auto">
 <defs>
 <style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
-<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
 </marker>
 </defs>
 <rect x="60" y="-20" width="920" height="940" fill="#ffffff"/>
@@ -11,11 +20,11 @@
 <ellipse cx="600" cy="130" rx="60" ry="30" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
 <text x="600" y="132" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Berles</text>
 <text x="600" y="148.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">kezdes</text>
-<path d="M 600 160 L 600 200" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 600 160 L 600 200" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
 <rect x="520" y="210" width="160" height="70" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
 <text x="600" y="239" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Bergep kivalasztas</text>
 <text x="600" y="255.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(CIKK)</text>
-<path d="M 600 280 L 600 320" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 600 280 L 600 320" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
 <rect x="520" y="330" width="160" height="80" stroke="#00796b" fill="#e0f2f1" stroke-width="2" rx="8" opacity="1"/>
 <text x="600" y="352" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">BERGEP_TARTOZEK</text>
 <text x="600" y="366.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">kivalasztas</text>
@@ -23,12 +32,12 @@
 <path d="M 600 410 L 600 450" stroke="#00796b" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <polygon points="600,460 670,510 600,560 530,510" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
 <text x="600" y="509" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Idotartam?</text>
-<path d="M 530 490 L 450 530" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 530 490 L 450 530" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
 <text x="445" y="500" font-size="10" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">3 ora</text>
 <rect x="300" y="530" width="140" height="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
 <text x="370" y="551" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">napi_dij * 0.5</text>
 <text x="370" y="564.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(fél nap)</text>
-<path d="M 600 560 L 600 610" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 600 560 L 600 610" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
 <text x="635" y="580" font-size="10" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">1 nap</text>
 <rect x="520" y="620" width="160" height="50" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
 <text x="600" y="641" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">napi_dij * 1.0</text>
@@ -42,11 +51,11 @@
 <rect x="520" y="720" width="160" height="60" stroke="#c62828" fill="#ffebee" stroke-width="2" rx="8" opacity="1"/>
 <text x="600" y="747" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Kaucio szamitas</text>
 <text x="600" y="761.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(napi_dij * 2)</text>
-<path d="M 600 670 L 600 720" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 600 670 L 600 720" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
 <ellipse cx="600" cy="850" rx="60" ry="30" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
 <text x="600" y="850" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Berles</text>
 <text x="600" y="864.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">letrehozva</text>
-<path d="M 600 780 L 600 820" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 600 780 L 600 820" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
 <rect x="100" y="100" width="280" height="240" stroke="#616161" fill="#fafafa" stroke-width="1" rx="0" opacity="1"/>
 <text x="240" y="129" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">v3.0 VALTOZASOK</text>
 <text x="115" y="161" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">UJ ARAZASI OPCIO:</text>

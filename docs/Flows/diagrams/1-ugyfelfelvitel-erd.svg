@@ -1,8 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="60 -20 1180 1000" class="w-full h-auto">
 <defs>
 <style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
-<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
 </marker>
 </defs>
 <rect x="60" y="-20" width="1180" height="1000" fill="#ffffff"/>
@@ -101,25 +110,25 @@
 <path d="M 380 200 L 500 200" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <text x="440" y="180" font-size="10" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">1 ─ N</text>
 <text x="440" y="192" font-size="10" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">birtokolja</text>
-<path d="M 240 400 L 240 460" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 240 400 L 240 460" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
 <text x="290" y="425" font-size="10" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">1 ─ N</text>
 <text x="290" y="437" font-size="10" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">bérel</text>
 <path d="M 600 340 L 420 460" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <text x="520" y="400" font-size="10" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">0..1 ─ N</text>
 <text x="520" y="412" font-size="10" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">számláz</text>
-<path d="M 380 580 L 500 520" stroke="#616161" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 380 580 L 500 520" stroke="#616161" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <text x="460" y="550" font-size="10" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">N ─ 1</text>
 <text x="460" y="562" font-size="10" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">tartalmazza</text>
-<path d="M 380 500 L 900 300" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 380 500 L 900 300" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
 <text x="660" y="360" font-size="10" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">1 ─ 0..N</text>
 <text x="660" y="372" font-size="10" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">generál</text>
 <path d="M 780 460 L 900 340" stroke="#616161" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <text x="860" y="390" font-size="10" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">N ─ N</text>
 <text x="860" y="402" font-size="10" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">tétel</text>
-<path d="M 380 350 L 900 550" stroke="#f57c00" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 380 350 L 900 550" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
 <text x="640" y="460" font-size="10" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">N ─ 1</text>
 <text x="640" y="472" font-size="10" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">rögzíti</text>
-<path d="M 380 700 L 900 600" stroke="#f57c00" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 380 700 L 900 600" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
 <text x="650" y="670" font-size="10" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">N ─ 1</text>
 <text x="650" y="682" font-size="10" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">rögzíti/visszaveszi</text>
 <rect x="100" y="820" width="600" height="120" stroke="#616161" fill="#fafafa" stroke-width="1" rx="0" opacity="1"/>

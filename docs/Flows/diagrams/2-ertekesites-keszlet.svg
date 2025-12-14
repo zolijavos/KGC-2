@@ -1,8 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="60 -20 830 1000" class="w-full h-auto">
 <defs>
 <style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
-<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
 </marker>
 </defs>
 <rect x="60" y="-20" width="830" height="1000" fill="#ffffff"/>
@@ -20,7 +29,7 @@
 <rect x="620" y="100" width="200" height="50" stroke="#1976d2" fill="#bbdefb" stroke-width="2" rx="0" opacity="1"/>
 <text x="720" y="129" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">D1: Készlet</text>
 <path d="M 620 150 L 820 150" stroke="#1976d2" fill="none" stroke-width="2" opacity="1"/>
-<path d="M 530 140 L 620 140" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 530 140 L 620 140" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
 <text x="575" y="125" font-size="10" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">+N darab</text>
 <path d="M 100 260 L 850 260" stroke="#616161" fill="none" stroke-width="1" opacity="1"/>
 <text x="450" y="282" font-size="12" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">─── ÁTCSOPORTOSÍTÁS ───</text>
@@ -41,10 +50,10 @@
 <ellipse cx="440" cy="500" rx="90" ry="50" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" opacity="1"/>
 <text x="440" y="494" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">3.0</text>
 <text x="440" y="510.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">PLUSZ (+)</text>
-<path d="M 280 500 L 350 500" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 280 500 L 350 500" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
 <rect x="620" y="470" width="200" height="50" stroke="#1976d2" fill="#bbdefb" stroke-width="2" rx="0" opacity="1"/>
 <text x="720" y="499" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">D1: Készlet</text>
-<path d="M 530 495 L 620 495" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 530 495 L 620 495" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
 <text x="575" y="480" font-size="10" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">+N darab</text>
 <path d="M 100 590 L 850 590" stroke="#616161" fill="none" stroke-width="1" opacity="1"/>
 <text x="450" y="612" font-size="12" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">─── ELADÁS ───</text>
@@ -54,7 +63,7 @@
 <ellipse cx="440" cy="690" rx="90" ry="50" stroke="#1565c0" fill="#90caf9" stroke-width="2" opacity="1"/>
 <text x="440" y="684" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">4.0</text>
 <text x="440" y="700.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Értékesítés</text>
-<path d="M 260 690 L 350 690" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 260 690 L 350 690" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
 <rect x="620" y="660" width="200" height="50" stroke="#1976d2" fill="#bbdefb" stroke-width="2" rx="0" opacity="1"/>
 <text x="720" y="689" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">D1: Készlet</text>
 <path d="M 530 685 L 620 685" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>

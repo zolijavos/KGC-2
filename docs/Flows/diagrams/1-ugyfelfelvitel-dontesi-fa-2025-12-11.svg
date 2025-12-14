@@ -1,8 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="60 -20 1170 900" class="w-full h-auto">
 <defs>
 <style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
-<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
 </marker>
 </defs>
 <rect x="60" y="-20" width="1170" height="900" fill="#ffffff"/>
@@ -11,7 +20,7 @@
 <polygon points="610,100 690,150 610,200 530,150" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
 <text x="610" y="144" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">D1: Meglevo</text>
 <text x="610" y="160.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">partner?</text>
-<path d="M 690 150 L 770 150" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 690 150 L 770 150" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
 <text x="730" y="140" font-size="10" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">IGEN</text>
 <rect x="780" y="120" width="140" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
 <text x="850" y="147" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Partner</text>
@@ -21,7 +30,7 @@
 <polygon points="610,260 690,310 610,360 530,310" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
 <text x="610" y="304" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">D2: Partner</text>
 <text x="610" y="320.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">tipus?</text>
-<path d="M 530 310 L 450 310" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 530 310 L 450 310" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
 <text x="480" y="300" font-size="10" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Magan</text>
 <rect x="300" y="280" width="140" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
 <text x="370" y="301" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">PARTNER rogzites</text>
@@ -31,7 +40,7 @@
 <polygon points="870,260 960,310 870,360 780,310" stroke="#9c27b0" fill="#f3e5f5" stroke-width="2" opacity="1"/>
 <text x="870" y="302" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">D3: Van</text>
 <text x="870" y="316.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">meghatalmazott?</text>
-<path d="M 960 310 L 1020 310" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 960 310 L 1020 310" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
 <rect x="1030" y="275" width="160" height="70" stroke="#9c27b0" fill="#f3e5f5" stroke-width="2" rx="8" opacity="1"/>
 <text x="1110" y="296" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">CEG_MEGHATALMAZOTT</text>
 <text x="1110" y="309.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">rogzites</text>
@@ -39,12 +48,12 @@
 <polygon points="610,420 690,470 610,520 530,470" stroke="#c62828" fill="#ffebee" stroke-width="2" opacity="1"/>
 <text x="610" y="464" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">D4: Kaucio</text>
 <text x="610" y="480.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">fizetes mod?</text>
-<path d="M 530 470 L 450 470" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 530 470 L 450 470" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
 <text x="485" y="460" font-size="10" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">Keszpenz</text>
 <rect x="300" y="440" width="140" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
 <text x="370" y="461" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">kaucio_tipus = kp</text>
 <text x="370" y="474.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Keszpenz bevetel</text>
-<path d="M 690 470 L 770 470" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 690 470 L 770 470" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
 <text x="735" y="460" font-size="10" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Kartya</text>
 <rect x="780" y="430" width="180" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
 <text x="870" y="451" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">kaucio_tipus = kartya</text>
@@ -62,11 +71,11 @@
 <polygon points="610,740 690,790 610,840 530,790" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" opacity="1"/>
 <text x="610" y="781" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">D9: Visszafizetes</text>
 <text x="610" y="794.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">modja? (ADR-013)</text>
-<path d="M 530 790 L 450 790" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 530 790 L 450 790" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
 <rect x="300" y="760" width="140" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
 <text x="370" y="786" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Keszpenz</text>
 <text x="370" y="799.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">visszafizetes</text>
-<path d="M 690 790 L 770 790" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 690 790 L 770 790" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
 <rect x="780" y="755" width="180" height="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
 <text x="870" y="776" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">MyPos refund</text>
 <text x="870" y="789.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">payment_token-nel</text>

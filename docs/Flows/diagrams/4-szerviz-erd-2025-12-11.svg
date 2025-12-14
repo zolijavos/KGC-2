@@ -1,8 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="60 -20 1230 830" class="w-full h-auto">
 <defs>
 <style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
-<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
 </marker>
 </defs>
 <rect x="60" y="-20" width="1230" height="830" fill="#ffffff"/>
@@ -87,9 +96,9 @@
 <rect x="1130" y="300" width="120" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
 <text x="1190" y="326" font-size="11" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">quote</text>
 <text x="1190" y="339.2" font-size="11" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">arajanlat</text>
-<path d="M 920 260 L 920 300" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
-<path d="M 1000 260 L 1050 300" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
-<path d="M 1040 260 L 1170 300" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 920 260 L 920 300" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 1000 260 L 1050 300" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<path d="M 1040 260 L 1170 300" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
 <rect x="850" y="400" width="400" height="100" stroke="#c62828" fill="#ffebee" stroke-width="1" rx="0" opacity="1"/>
 <text x="865" y="426" font-size="11" fill="#c62828" text-anchor="start" class="excalidraw-text" opacity="1">BEVIZSGALASI DIJ SZABALY (ADR-013):</text>
 <text x="865" y="439.2" font-size="11" fill="#c62828" text-anchor="start" class="excalidraw-text" opacity="1"></text>

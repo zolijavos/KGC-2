@@ -1,8 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -20 1130 710" class="w-full h-auto">
 <defs>
 <style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
-<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
 </marker>
 </defs>
 <rect x="10" y="-20" width="1130" height="710" fill="#ffffff"/>
@@ -64,11 +73,11 @@
 <text x="460" y="436.4" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   szamlaszam: VARCHAR</text>
 <text x="460" y="450.8" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   vegosszeg: DECIMAL</text>
 <text x="460" y="465.2" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   fizetve: BOOLEAN</text>
-<path d="M 370 200 L 450 200" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 370 200 L 450 200" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
 <text x="385" y="194" font-size="14" fill="#1976d2" text-anchor="start" class="excalidraw-text" opacity="1">N:1</text>
 <path d="M 370 400 L 450 400" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <text x="385" y="394" font-size="14" fill="#7b1fa2" text-anchor="start" class="excalidraw-text" opacity="1">N:1</text>
-<path d="M 730 200 L 800 200" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 730 200 L 800 200" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
 <text x="745" y="194" font-size="14" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">1:N</text>
 <rect x="800" y="360" width="280" height="180" stroke="#d32f2f" fill="#ffebee" stroke-width="2" rx="8" opacity="1"/>
 <text x="810" y="384" font-size="16" fill="#d32f2f" text-anchor="start" class="excalidraw-text" opacity="1">Pontozási Rendszer 🆕</text>

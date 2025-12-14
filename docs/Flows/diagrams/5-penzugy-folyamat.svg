@@ -1,8 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -20 945 950" class="w-full h-auto">
 <defs>
 <style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
-<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
 </marker>
 </defs>
 <rect x="-5" y="-20" width="945" height="950" fill="#ffffff"/>
@@ -14,23 +23,23 @@
 <rect x="50" y="190" width="140" height="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
 <text x="120" y="214" font-size="12" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">Teljesítések</text>
 <text x="120" y="228.4" font-size="12" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">menüpont</text>
-<path d="M 120 160 L 120 190" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 120 160 L 120 190" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="50" y="270" width="140" height="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
 <text x="120" y="294" font-size="12" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">Nyitott vevői</text>
 <text x="120" y="308.4" font-size="12" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">tartozások</text>
-<path d="M 120 240 L 120 270" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 120 240 L 120 270" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <polygon points="120,350 205,385 120,420 35,385" stroke="#c62828" fill="#ffebee" stroke-width="2" opacity="1"/>
 <text x="120" y="384" font-size="12" fill="#b71c1c" text-anchor="middle" class="excalidraw-text" opacity="1">Teljes vagy</text>
 <text x="120" y="398.4" font-size="12" fill="#b71c1c" text-anchor="middle" class="excalidraw-text" opacity="1">rész fizetés?</text>
-<path d="M 120 320 L 120 350" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 120 320 L 120 350" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="50" y="450" width="140" height="50" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
 <text x="120" y="477" font-size="12" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">Pipa rárakása</text>
-<path d="M 120 420 L 120 450" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 120 420 L 120 450" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <text x="145" y="436" font-size="11" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">Teljes</text>
 <rect x="230" y="370" width="140" height="50" stroke="#f57c00" fill="#fff8e1" stroke-width="2" rx="0" opacity="1"/>
 <text x="300" y="394" font-size="12" fill="#e65100" text-anchor="middle" class="excalidraw-text" opacity="1">Összeg megadása</text>
 <text x="300" y="408.4" font-size="12" fill="#e65100" text-anchor="middle" class="excalidraw-text" opacity="1">+ megjegyzés</text>
-<path d="M 205 385 L 230 385" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 205 385 L 230 385" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <text x="220" y="376" font-size="11" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">Rész</text>
 <rect x="230" y="270" width="160" height="70" stroke="#795548" fill="#efebe9" stroke-width="1" rx="0" opacity="1"/>
 <text x="240" y="291" font-size="11" fill="#4e342e" text-anchor="start" class="excalidraw-text" opacity="1">Színkódok:</text>
@@ -42,31 +51,31 @@
 <rect x="450" y="190" width="140" height="50" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
 <text x="520" y="214" font-size="12" fill="#4a148c" text-anchor="middle" class="excalidraw-text" opacity="1">Időszaki</text>
 <text x="520" y="228.4" font-size="12" fill="#4a148c" text-anchor="middle" class="excalidraw-text" opacity="1">pénzjelentés</text>
-<path d="M 520 160 L 520 190" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 520 160 L 520 190" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="450" y="270" width="140" height="50" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
 <text x="520" y="294" font-size="12" fill="#4a148c" text-anchor="middle" class="excalidraw-text" opacity="1">ÁFA tábla</text>
 <text x="520" y="308.4" font-size="12" fill="#4a148c" text-anchor="middle" class="excalidraw-text" opacity="1">lekérdezés</text>
-<path d="M 520 240 L 520 270" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 520 240 L 520 270" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="450" y="350" width="140" height="50" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
 <text x="520" y="377" font-size="12" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">Excel export</text>
-<path d="M 520 320 L 520 350" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 520 320 L 520 350" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="450" y="430" width="140" height="50" stroke="#0288d1" fill="#e1f5fe" stroke-width="2" rx="0" opacity="1"/>
 <text x="520" y="457" font-size="12" fill="#01579b" text-anchor="middle" class="excalidraw-text" opacity="1">Küldés könyvelőnek</text>
-<path d="M 520 400 L 520 430" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 520 400 L 520 430" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <text x="700" y="96" font-size="16" fill="#e65100" text-anchor="start" class="excalidraw-text" opacity="1">SZÁLLÍTÓLEVÉL SZÁMLÁZÁS</text>
 <ellipse cx="780" cy="135" rx="80" ry="25" stroke="#e65100" fill="#fff3e0" stroke-width="2" opacity="1"/>
 <text x="780" y="134" font-size="12" fill="#bf360c" text-anchor="middle" class="excalidraw-text" opacity="1">Szállítólevelek</text>
 <text x="780" y="148.4" font-size="12" fill="#bf360c" text-anchor="middle" class="excalidraw-text" opacity="1">összegyűltek</text>
 <rect x="700" y="190" width="160" height="50" stroke="#e65100" fill="#fff3e0" stroke-width="2" rx="0" opacity="1"/>
 <text x="780" y="217" font-size="12" fill="#bf360c" text-anchor="middle" class="excalidraw-text" opacity="1">Ügyfél keresése</text>
-<path d="M 780 160 L 780 190" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 780 160 L 780 190" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="700" y="270" width="160" height="50" stroke="#e65100" fill="#fff3e0" stroke-width="2" rx="0" opacity="1"/>
 <text x="780" y="294" font-size="12" fill="#bf360c" text-anchor="middle" class="excalidraw-text" opacity="1">Nyitott szállítólevelek</text>
 <text x="780" y="308.4" font-size="12" fill="#bf360c" text-anchor="middle" class="excalidraw-text" opacity="1">kijelölése</text>
-<path d="M 780 240 L 780 270" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 780 240 L 780 270" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="700" y="350" width="160" height="50" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
 <text x="780" y="377" font-size="12" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">Számla generálás</text>
-<path d="M 780 320 L 780 350" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 780 320 L 780 350" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="700" y="430" width="180" height="80" stroke="#d84315" fill="#fbe9e7" stroke-width="1" rx="0" opacity="1"/>
 <text x="710" y="450" font-size="10" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">FONTOS:</text>
 <text x="710" y="462" font-size="10" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">Szállítólevél számlák</text>
@@ -78,19 +87,19 @@
 <rect x="50" y="650" width="140" height="50" stroke="#c62828" fill="#ffcdd2" stroke-width="2" rx="0" opacity="1"/>
 <text x="120" y="674" font-size="12" fill="#b71c1c" text-anchor="middle" class="excalidraw-text" opacity="1">Cikkarton szerinti</text>
 <text x="120" y="688.4" font-size="12" fill="#b71c1c" text-anchor="middle" class="excalidraw-text" opacity="1">leltár</text>
-<path d="M 120 620 L 120 650" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 120 620 L 120 650" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="230" y="650" width="160" height="50" stroke="#f57c00" fill="#fff8e1" stroke-width="2" rx="0" opacity="1"/>
 <text x="310" y="674" font-size="12" fill="#e65100" text-anchor="middle" class="excalidraw-text" opacity="1">Program vs. valós</text>
 <text x="310" y="688.4" font-size="12" fill="#e65100" text-anchor="middle" class="excalidraw-text" opacity="1">összehasonlítás</text>
-<path d="M 190 675 L 230 675" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 190 675 L 230 675" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="430" y="650" width="160" height="50" stroke="#c62828" fill="#ffcdd2" stroke-width="2" rx="0" opacity="1"/>
 <text x="510" y="674" font-size="12" fill="#b71c1c" text-anchor="middle" class="excalidraw-text" opacity="1">Eltérések</text>
 <text x="510" y="688.4" font-size="12" fill="#b71c1c" text-anchor="middle" class="excalidraw-text" opacity="1">átfésülése</text>
-<path d="M 390 675 L 430 675" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 390 675 L 430 675" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="630" y="650" width="160" height="50" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
 <text x="710" y="674" font-size="12" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">Készlet feltöltés</text>
 <text x="710" y="688.4" font-size="12" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">(Laci)</text>
-<path d="M 590 675 L 630 675" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 590 675 L 630 675" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="430" y="720" width="200" height="60" stroke="#d84315" fill="#fbe9e7" stroke-width="1" rx="0" opacity="1"/>
 <text x="440" y="741" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">PROBLÉMA: A program</text>
 <text x="440" y="754.2" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">készlet gyakran nem stimmel</text>
@@ -112,19 +121,19 @@
 <rect x="450" y="650" width="160" height="50" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
 <text x="530" y="674" font-size="12" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">Előleg számla</text>
 <text x="530" y="688.4" font-size="12" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">kiállítása (30%)</text>
-<path d="M 530 620 L 530 650" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 530 620 L 530 650" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="450" y="730" width="160" height="50" stroke="#f57c00" fill="#fff8e1" stroke-width="2" rx="0" opacity="1"/>
 <text x="530" y="754" font-size="12" fill="#e65100" text-anchor="middle" class="excalidraw-text" opacity="1">Részletfizetési</text>
 <text x="530" y="768.4" font-size="12" fill="#e65100" text-anchor="middle" class="excalidraw-text" opacity="1">terv készítése</text>
-<path d="M 530 700 L 530 730" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 530 700 L 530 730" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="650" y="650" width="160" height="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
 <text x="730" y="674" font-size="12" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">Havi díjbekérők</text>
 <text x="730" y="688.4" font-size="12" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">automatikus</text>
-<path d="M 610 755 L 650 755 L 650 675" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 610 755 L 650 755 L 650 675" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="650" y="730" width="160" height="50" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
 <text x="730" y="754" font-size="12" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">Végszámla</text>
 <text x="730" y="768.4" font-size="12" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">(maradék összeg)</text>
-<path d="M 730 700 L 730 730" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 730 700 L 730 730" stroke="#424242" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
 <rect x="450" y="810" width="360" height="70" stroke="#2e7d32" fill="#e8f5e9" stroke-width="1" rx="0" opacity="1"/>
 <text x="460" y="831" font-size="11" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">🆕 8. RÉSZ BŐVÍTÉS:</text>
 <text x="460" y="844.2" font-size="11" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">• Előleg: nagy értékű megrendeléseknél (30%)</text>
