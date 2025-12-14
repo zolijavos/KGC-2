@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -20 930 940" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="10" y="-20" width="930" height="940" fill="#ffffff"/>
+<text x="650" y="48" font-size="28" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - PWA Push Értesítések v3.0</text>
+<text x="575" y="69" font-size="14" fill="#666666" text-anchor="middle" class="excalidraw-text" opacity="1">2025-12-12 | N.3 Push csatorna</text>
+<rect x="50" y="100" width="200" height="120" stroke="#616161" fill="#fafafa" stroke-width="2" rx="8" opacity="1"/>
+<text x="60" y="122" font-size="14" fill="#616161" text-anchor="start" class="excalidraw-text" opacity="1">N.1 Email (meglévő)</text>
+<text x="60" y="151" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">SMTP küldés</text>
+<text x="60" y="164.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">Templates</text>
+<text x="60" y="177.4" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">Rendszeres értesítések</text>
+<rect x="280" y="100" width="200" height="120" stroke="#616161" fill="#fafafa" stroke-width="2" rx="8" opacity="1"/>
+<text x="290" y="122" font-size="14" fill="#616161" text-anchor="start" class="excalidraw-text" opacity="1">N.2 SMS (meglévő)</text>
+<text x="290" y="151" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">SMS Gateway</text>
+<text x="290" y="164.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">Sürgős értesítések</text>
+<text x="290" y="177.4" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">Lejárat emlékeztető</text>
+<rect x="510" y="100" width="250" height="120" stroke="#388e3c" fill="#e8f5e9" stroke-width="3" rx="8" opacity="1"/>
+<text x="520" y="122" font-size="14" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">N.3 Push (ÚJ) 🆕</text>
+<text x="520" y="151" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">Firebase Cloud Messaging</text>
+<text x="520" y="164.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">PWA Service Worker</text>
+<text x="520" y="177.4" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">Azonnali értesítés</text>
+<text x="520" y="190.6" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">Offline is működik!</text>
+<path d="M 150 220 L 150 280" stroke="#333333" fill="none" stroke-width="1" marker-end="url(#ah)" opacity="1"/>
+<path d="M 380 220 L 380 280" stroke="#333333" fill="none" stroke-width="1" marker-end="url(#ah)" opacity="1"/>
+<path d="M 635 220 L 635 280" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="200" y="290" width="400" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="210" y="312" font-size="12" fill="#1976d2" text-anchor="start" class="excalidraw-text" opacity="1">ÉRTESÍTÉS_BEÁLLÍTÁSOK (bővítve)</text>
+<text x="210" y="326.4" font-size="12" fill="#1976d2" text-anchor="start" class="excalidraw-text" opacity="1">+ push_engedelyezett: BOOLEAN</text>
+<text x="210" y="340.8" font-size="12" fill="#1976d2" text-anchor="start" class="excalidraw-text" opacity="1">+ push_subscription_json: JSONB</text>
+<rect x="50" y="420" width="300" height="280" stroke="#388e3c" fill="#e8f5e9" stroke-width="3" rx="8" opacity="1"/>
+<text x="60" y="444" font-size="16" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">PUSH_SUBSCRIPTION 🆕</text>
+<path d="M 50 455 L 350 455" stroke="#388e3c" fill="none" stroke-width="1" opacity="1"/>
+<text x="60" y="477" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">PK subscription_id: INT</text>
+<text x="60" y="491.4" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   tenant_id: UUID</text>
+<text x="60" y="505.8" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">FK felhasznalo_id: INT</text>
+<text x="60" y="520.2" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   endpoint: TEXT</text>
+<text x="60" y="534.6" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   p256dh_key: VARCHAR(200)</text>
+<text x="60" y="549" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   auth_key: VARCHAR(100)</text>
+<text x="60" y="563.4" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   user_agent: VARCHAR(500)</text>
+<text x="60" y="577.8" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   eszkoz_tipus: ENUM</text>
+<text x="60" y="592.2" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   (desktop/mobile/tablet)</text>
+<text x="60" y="606.6" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   aktiv: BOOLEAN</text>
+<text x="60" y="621" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   utolso_hasznalat: DATETIME</text>
+<text x="60" y="635.4" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   letrehozva: DATETIME</text>
+<text x="60" y="649.8" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="60" y="664.2" font-size="12" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">UNIQUE(felhasznalo_id, endpoint)</text>
+<rect x="400" y="420" width="400" height="280" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="8" opacity="1"/>
+<text x="410" y="444" font-size="16" fill="#7b1fa2" text-anchor="start" class="excalidraw-text" opacity="1">Push Értesítés Folyamat</text>
+<path d="M 400 455 L 800 455" stroke="#7b1fa2" fill="none" stroke-width="1" opacity="1"/>
+<text x="410" y="476" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">1. Felhasználó megnyitja a PWA-t</text>
+<text x="410" y="489.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   └─ Service Worker regisztráció</text>
+<text x="410" y="502.4" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="410" y="515.6" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">2. Push engedély kérés</text>
+<text x="410" y="528.8" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   └─ Browser notification permission</text>
+<text x="410" y="542" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="410" y="555.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">3. Subscription létrehozása</text>
+<text x="410" y="568.4" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   └─ pushManager.subscribe()</text>
+<text x="410" y="581.6" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   └─ PUSH_SUBSCRIPTION mentés</text>
+<text x="410" y="594.8" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="410" y="608" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">4. Esemény kiváltásakor (lejárat, számla):</text>
+<text x="410" y="621.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   └─ Backend → FCM API hívás</text>
+<text x="410" y="634.4" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   └─ FCM → Service Worker</text>
+<text x="410" y="647.6" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">   └─ Service Worker → self.registration</text>
+<text x="410" y="660.8" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">                        .showNotification()</text>
+<text x="410" y="674" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="410" y="687.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">5. Kattintás: PWA megnyitás adott oldalon</text>
+<rect x="50" y="730" width="300" height="150" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="60" y="752" font-size="14" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">Push Értesítés Típusok</text>
+<text x="60" y="781" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">BERLES_LEJAR  - Bérlés lejár (1/3/7 nap)</text>
+<text x="60" y="794.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">SZAMLA_KESZULT - Új számla elérhető</text>
+<text x="60" y="807.4" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">KESZLET_ALACSONY - Készletfigyelmeztetés</text>
+<text x="60" y="820.6" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">PAROSITAS_VARAKOZIK - Kézi párosítás kell</text>
+<text x="60" y="833.8" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">RENDSZER_UZENET - Rendszer értesítés</text>
+<rect x="400" y="730" width="400" height="150" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="410" y="752" font-size="14" fill="#1976d2" text-anchor="start" class="excalidraw-text" opacity="1">Firebase Cloud Messaging Konfig</text>
+<text x="410" y="781" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">// .env konfigurációk</text>
+<text x="410" y="794.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">FCM_PROJECT_ID=kgc-erp-prod</text>
+<text x="410" y="807.4" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">FCM_PRIVATE_KEY=*** (titkosított)</text>
+<text x="410" y="820.6" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">FCM_CLIENT_EMAIL=fcm@kgc-erp.iam...</text>
+<text x="410" y="833.8" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="410" y="847" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">// VAPID kulcsok generálása szükséges</text>
+<text x="410" y="860.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">VAPID_PUBLIC_KEY=B...</text>
+<text x="410" y="873.4" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">VAPID_PRIVATE_KEY=***</text>
+<rect x="620" y="100" width="150" height="40" stroke="#d32f2f" fill="#ffebee" stroke-width="2" rx="8" opacity="1"/>
+<text x="640" y="121" font-size="11" fill="#d32f2f" text-anchor="start" class="excalidraw-text" opacity="1">ADR-002 Offline</text>
+</svg>

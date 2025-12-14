@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 -20 830 1000" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="60" y="-20" width="830" height="1000" fill="#ffffff"/>
+<text x="650" y="38" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - Készletmozgás Diagram</text>
+<text x="650" y="59.599999999999994" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">2. rész: Bevételezés és Átcsoportosítás</text>
+<rect x="100" y="120" width="160" height="80" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="3" rx="0" opacity="1"/>
+<text x="180" y="157" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">BESZÁLLÍTÓ</text>
+<text x="180" y="171.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Külső)</text>
+<ellipse cx="440" cy="160" rx="90" ry="50" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<text x="440" y="154" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">1.0</text>
+<text x="440" y="170.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Bevételezés</text>
+<path d="M 260 160 L 350 160" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="305" y="144" font-size="9" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Számla +</text>
+<text x="305" y="154.8" font-size="9" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Termékek</text>
+<rect x="620" y="100" width="200" height="50" stroke="#1976d2" fill="#bbdefb" stroke-width="2" rx="0" opacity="1"/>
+<text x="720" y="129" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">D1: Készlet</text>
+<path d="M 620 150 L 820 150" stroke="#1976d2" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 530 140 L 620 140" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="575" y="125" font-size="10" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">+N darab</text>
+<path d="M 100 260 L 850 260" stroke="#616161" fill="none" stroke-width="1" opacity="1"/>
+<text x="450" y="282" font-size="12" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">─── ÁTCSOPORTOSÍTÁS ───</text>
+<rect x="100" y="320" width="180" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="190" y="352" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Eredeti cikkszám</text>
+<text x="190" y="366.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Belső kód)</text>
+<ellipse cx="440" cy="360" rx="90" ry="50" stroke="#d32f2f" fill="#ffebee" stroke-width="2" opacity="1"/>
+<text x="440" y="354" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">2.0</text>
+<text x="440" y="370.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">MÍNUSZ (-)</text>
+<path d="M 280 360 L 350 360" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="620" y="320" width="200" height="50" stroke="#1976d2" fill="#bbdefb" stroke-width="2" rx="0" opacity="1"/>
+<text x="720" y="349" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">D1: Készlet</text>
+<path d="M 530 350 L 620 350" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="575" y="335" font-size="10" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">-N darab</text>
+<rect x="100" y="460" width="180" height="80" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="190" y="492" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Vevő cikkszáma</text>
+<text x="190" y="506.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(FGS: 43 10 429)</text>
+<ellipse cx="440" cy="500" rx="90" ry="50" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" opacity="1"/>
+<text x="440" y="494" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">3.0</text>
+<text x="440" y="510.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">PLUSZ (+)</text>
+<path d="M 280 500 L 350 500" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="620" y="470" width="200" height="50" stroke="#1976d2" fill="#bbdefb" stroke-width="2" rx="0" opacity="1"/>
+<text x="720" y="499" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">D1: Készlet</text>
+<path d="M 530 495 L 620 495" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="575" y="480" font-size="10" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">+N darab</text>
+<path d="M 100 590 L 850 590" stroke="#616161" fill="none" stroke-width="1" opacity="1"/>
+<text x="450" y="612" font-size="12" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">─── ELADÁS ───</text>
+<rect x="100" y="650" width="160" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="3" rx="0" opacity="1"/>
+<text x="180" y="687" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">VEVŐ</text>
+<text x="180" y="701.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Partner)</text>
+<ellipse cx="440" cy="690" rx="90" ry="50" stroke="#1565c0" fill="#90caf9" stroke-width="2" opacity="1"/>
+<text x="440" y="684" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">4.0</text>
+<text x="440" y="700.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Értékesítés</text>
+<path d="M 260 690 L 350 690" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="620" y="660" width="200" height="50" stroke="#1976d2" fill="#bbdefb" stroke-width="2" rx="0" opacity="1"/>
+<text x="720" y="689" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">D1: Készlet</text>
+<path d="M 530 685 L 620 685" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="575" y="670" font-size="10" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">-N darab</text>
+<rect x="100" y="780" width="720" height="100" stroke="#616161" fill="#fafafa" stroke-width="1" rx="0" opacity="1"/>
+<text x="460" y="802" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">JELMAGYARÁZAT</text>
+<text x="120" y="836" font-size="11" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">+N = Készlet növekedés (zöld)</text>
+<text x="120" y="861" font-size="11" fill="#d32f2f" text-anchor="start" class="excalidraw-text" opacity="1">-N = Készlet csökkenés (piros)</text>
+<text x="380" y="836" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Téglalap (vastag) = Külső entitás</text>
+<text x="380" y="861" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Ellipszis = Folyamat</text>
+<text x="620" y="836" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Nyitott téglalap = Adattár</text>
+<text x="460" y="921" font-size="11" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - Készletmozgás v1.0</text>
+<text x="460" y="934.2" font-size="11" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">2. rész: Értékesítés Modul</text>
+</svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="45 -20 925 750" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="45" y="-20" width="925" height="750" fill="#ffffff"/>
+<text x="500" y="52" font-size="32" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - Megrendelés Folyamat</text>
+<ellipse cx="180" cy="125" rx="80" ry="25" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" opacity="1"/>
+<text x="180" y="124" font-size="12" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">Ügyfél rendelni</text>
+<text x="180" y="138.4" font-size="12" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">szeretne</text>
+<polygon points="180,180 275,215 180,250 85,215" stroke="#c62828" fill="#ffebee" stroke-width="2" opacity="1"/>
+<text x="180" y="214" font-size="12" fill="#b71c1c" text-anchor="middle" class="excalidraw-text" opacity="1">Van már</text>
+<text x="180" y="228.4" font-size="12" fill="#b71c1c" text-anchor="middle" class="excalidraw-text" opacity="1">cikkszám?</text>
+<path d="M 180 150 L 180 180" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<rect x="320" y="190" width="140" height="50" stroke="#f57c00" fill="#fff8e1" stroke-width="2" rx="0" opacity="1"/>
+<text x="390" y="217" font-size="12" fill="#e65100" text-anchor="middle" class="excalidraw-text" opacity="1">Cikk felvétele</text>
+<path d="M 275 215 L 320 215" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<text x="295" y="206" font-size="11" fill="#c62828" text-anchor="middle" class="excalidraw-text" opacity="1">Nem</text>
+<rect x="100" y="280" width="160" height="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="180" y="303" font-size="11" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">Cikkszám beírása</text>
+<text x="180" y="316.2" font-size="11" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">Rendelőlap generálás</text>
+<path d="M 180 250 L 180 280" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<text x="200" y="266" font-size="11" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">Igen</text>
+<path d="M 390 240 L 390 280" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 390 280 L 260 280 L 260 305" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<polygon points="180,360 275,395 180,430 85,395" stroke="#c62828" fill="#ffebee" stroke-width="2" opacity="1"/>
+<text x="180" y="394" font-size="12" fill="#b71c1c" text-anchor="middle" class="excalidraw-text" opacity="1">Nagy értékű</text>
+<text x="180" y="408.4" font-size="12" fill="#b71c1c" text-anchor="middle" class="excalidraw-text" opacity="1">tétel?</text>
+<path d="M 180 330 L 180 360" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<rect x="320" y="370" width="140" height="50" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
+<text x="390" y="393" font-size="11" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">Előleg bekérés</text>
+<text x="390" y="406.2" font-size="11" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">és rögzítés</text>
+<path d="M 275 395 L 320 395" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<text x="295" y="386" font-size="11" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">Igen</text>
+<polygon points="180,460 275,495 180,530 85,495" stroke="#c62828" fill="#ffebee" stroke-width="2" opacity="1"/>
+<text x="180" y="494" font-size="12" fill="#b71c1c" text-anchor="middle" class="excalidraw-text" opacity="1">Sürgős</text>
+<text x="180" y="508.4" font-size="12" fill="#b71c1c" text-anchor="middle" class="excalidraw-text" opacity="1">rendelés?</text>
+<path d="M 180 430 L 180 460" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<text x="200" y="446" font-size="11" fill="#c62828" text-anchor="middle" class="excalidraw-text" opacity="1">Nem</text>
+<path d="M 390 420 L 390 495" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 390 495 L 275 495" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<rect x="320" y="470" width="160" height="50" stroke="#c62828" fill="#ffcdd2" stroke-width="2" rx="0" opacity="1"/>
+<text x="400" y="493" font-size="11" fill="#b71c1c" text-anchor="middle" class="excalidraw-text" opacity="1">Pipa bekapcsolás</text>
+<text x="400" y="506.2" font-size="11" fill="#b71c1c" text-anchor="middle" class="excalidraw-text" opacity="1">+ Külön megrendelés</text>
+<path d="M 275 495 L 320 495" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<text x="295" y="486" font-size="11" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">Igen</text>
+<rect x="100" y="560" width="160" height="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="180" y="583" font-size="11" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">Beszállító kiválasztás</text>
+<text x="180" y="596.2" font-size="11" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">Rendelőlap nyomtatás</text>
+<path d="M 180 530 L 180 560" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<text x="200" y="546" font-size="11" fill="#c62828" text-anchor="middle" class="excalidraw-text" opacity="1">Nem</text>
+<ellipse cx="180" cy="665" rx="80" ry="25" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" opacity="1"/>
+<text x="180" y="664" font-size="12" fill="#4a148c" text-anchor="middle" class="excalidraw-text" opacity="1">Ügyfél megkapja</text>
+<text x="180" y="678.4" font-size="12" fill="#4a148c" text-anchor="middle" class="excalidraw-text" opacity="1">a rendelőlapot</text>
+<path d="M 180 610 L 180 640" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<text x="550" y="120" font-size="20" fill="#2e7d32" text-anchor="start" class="excalidraw-text" opacity="1">BEÉRKEZÉS FOLYAMAT</text>
+<ellipse cx="630" cy="175" rx="80" ry="25" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" opacity="1"/>
+<text x="630" y="177" font-size="12" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">Termék beérkezik</text>
+<rect x="550" y="230" width="160" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="630" y="256" font-size="11" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">Rendszer jelzi:</text>
+<text x="630" y="269.2" font-size="11" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">Kinek, milyen rendelés#</text>
+<path d="M 630 200 L 630 230" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<rect x="550" y="320" width="160" height="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="630" y="343" font-size="11" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">Megrendelőlap</text>
+<text x="630" y="356.2" font-size="11" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">megkeresése</text>
+<path d="M 630 290 L 630 320" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<rect x="550" y="400" width="160" height="50" stroke="#0288d1" fill="#e1f5fe" stroke-width="2" rx="0" opacity="1"/>
+<text x="630" y="427" font-size="12" fill="#01579b" text-anchor="middle" class="excalidraw-text" opacity="1">Ügyfél értesítése</text>
+<path d="M 630 370 L 630 400" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<rect x="550" y="480" width="160" height="50" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
+<text x="630" y="503" font-size="11" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">Átvétel + Számlázás</text>
+<text x="630" y="516.2" font-size="11" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">(előleg beszámítás)</text>
+<path d="M 630 450 L 630 480" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<ellipse cx="630" cy="585" rx="80" ry="25" stroke="#c62828" fill="#ffcdd2" stroke-width="2" opacity="1"/>
+<text x="630" y="587" font-size="12" fill="#b71c1c" text-anchor="middle" class="excalidraw-text" opacity="1">Rendelés lezárva</text>
+<path d="M 630 530 L 630 560" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<rect x="320" y="550" width="180" height="100" stroke="#d84315" fill="#fbe9e7" stroke-width="2" rx="0" opacity="1"/>
+<text x="330" y="571" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">FIGYELEM!</text>
+<text x="330" y="584.2" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="330" y="597.4" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">Sürgős pipa kivétele,</text>
+<text x="330" y="610.6" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">különben duplikálódik</text>
+<text x="330" y="623.8" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">a rendelés!</text>
+<rect x="750" y="150" width="180" height="180" stroke="#616161" fill="#fafafa" stroke-width="1" rx="0" opacity="1"/>
+<text x="840" y="174" font-size="14" fill="#424242" text-anchor="middle" class="excalidraw-text" opacity="1">Jelmagyarázat</text>
+<rect x="760" y="190" width="20" height="15" stroke="#1976d2" fill="#e3f2fd" stroke-width="1" rx="0" opacity="1"/>
+<text x="790" y="201" font-size="11" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">Folyamat lépés</text>
+<polygon points="770,215 785,225 770,235 755,225" stroke="#c62828" fill="#ffebee" stroke-width="1" opacity="1"/>
+<text x="790" y="229" font-size="11" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">Döntési pont</text>
+<rect x="760" y="245" width="20" height="15" stroke="#f57c00" fill="#fff8e1" stroke-width="1" rx="0" opacity="1"/>
+<text x="790" y="256" font-size="11" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">Opcionális</text>
+<ellipse cx="770" cy="277.5" rx="10" ry="7.5" stroke="#2e7d32" fill="#c8e6c9" stroke-width="1" opacity="1"/>
+<text x="790" y="281" font-size="11" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">Kezdet/Vég</text>
+<rect x="760" y="295" width="20" height="15" stroke="#c62828" fill="#ffcdd2" stroke-width="1" rx="0" opacity="1"/>
+<text x="790" y="306" font-size="11" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">Sürgős/Figyelem</text>
+</svg>

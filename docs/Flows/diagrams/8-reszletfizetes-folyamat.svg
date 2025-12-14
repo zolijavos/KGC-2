@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -20 1030 920" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="10" y="-20" width="1030" height="920" fill="#ffffff"/>
+<text x="700" y="48" font-size="28" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - RÉSZLETFIZETÉS FOLYAMAT</text>
+<text x="700" y="79" font-size="14" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Előleg, Díjbekérő, Részletfizetési terv kezelése</text>
+<ellipse cx="520" cy="120" rx="40" ry="20" stroke="#2f9e44" fill="#b2f2bb" stroke-width="2" opacity="1"/>
+<text x="520" y="124" font-size="12" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">Kezdet</text>
+<path d="M 520 140 L 520 170" stroke="#495057" fill="none" stroke-width="2" opacity="1"/>
+<polygon points="520,170 590,210 520,250 450,210" stroke="#e67700" fill="#fff3bf" stroke-width="2" opacity="1"/>
+<text x="520" y="207" font-size="12" fill="#e67700" text-anchor="middle" class="excalidraw-text" opacity="1">Fizetési</text>
+<text x="520" y="221.4" font-size="12" fill="#e67700" text-anchor="middle" class="excalidraw-text" opacity="1">mód?</text>
+<path d="M 450 210 L 330 210" stroke="#495057" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 590 210 L 710 210" stroke="#495057" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 520 250 L 520 290" stroke="#495057" fill="none" stroke-width="2" opacity="1"/>
+<text x="360" y="200" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Előleg</text>
+<text x="620" y="200" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Részlet</text>
+<text x="530" y="275" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Díjbekérő</text>
+<rect x="200" y="180" width="130" height="60" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" rx="0" opacity="1"/>
+<text x="265" y="207" font-size="12" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">📋 Előleg</text>
+<text x="265" y="221.4" font-size="12" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">számla</text>
+<rect x="710" y="180" width="130" height="60" stroke="#9c36b5" fill="#f8f0fc" stroke-width="2" rx="0" opacity="1"/>
+<text x="775" y="207" font-size="12" fill="#9c36b5" text-anchor="middle" class="excalidraw-text" opacity="1">📊 Részletfiz.</text>
+<text x="775" y="221.4" font-size="12" fill="#9c36b5" text-anchor="middle" class="excalidraw-text" opacity="1">terv készítés</text>
+<rect x="455" y="290" width="130" height="60" stroke="#2f9e44" fill="#ebfbee" stroke-width="2" rx="0" opacity="1"/>
+<text x="520" y="317" font-size="12" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">📨 Díjbekérő</text>
+<text x="520" y="331.4" font-size="12" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">kiállítás</text>
+<rect x="50" y="280" width="280" height="180" stroke="#1971c2" fill="#e7f5ff" stroke-width="1" rx="0" opacity="1"/>
+<text x="60" y="304" font-size="14" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">ELŐLEG FOLYAMAT</text>
+<text x="60" y="331" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">1. Megrendelés felvétel</text>
+<text x="60" y="344.2" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">2. Előleg % meghatározás (10-50%)</text>
+<text x="60" y="357.4" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">3. Előlegszámla kiállítás</text>
+<text x="60" y="370.6" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">4. Befizetés rögzítés</text>
+<text x="60" y="383.8" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">5. Áru/szolg. teljesítés</text>
+<text x="60" y="397" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">6. Végszámla kiállítás</text>
+<text x="60" y="410.2" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">   → Előleg automatikus levonás</text>
+<text x="60" y="423.4" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">7. Fennmaradó összeg fizetése</text>
+<rect x="670" y="280" width="280" height="180" stroke="#9c36b5" fill="#f8f0fc" stroke-width="1" rx="0" opacity="1"/>
+<text x="680" y="304" font-size="14" fill="#9c36b5" text-anchor="start" class="excalidraw-text" opacity="1">RÉSZLETFIZETÉS FOLYAMAT</text>
+<text x="680" y="331" font-size="11" fill="#9c36b5" text-anchor="start" class="excalidraw-text" opacity="1">1. Részletfizetési kérelem</text>
+<text x="680" y="344.2" font-size="11" fill="#9c36b5" text-anchor="start" class="excalidraw-text" opacity="1">2. Hitelképesség ellenőrzés</text>
+<text x="680" y="357.4" font-size="11" fill="#9c36b5" text-anchor="start" class="excalidraw-text" opacity="1">3. Részletfiz. terv készítés</text>
+<text x="680" y="370.6" font-size="11" fill="#9c36b5" text-anchor="start" class="excalidraw-text" opacity="1">   • Havi összeg</text>
+<text x="680" y="383.8" font-size="11" fill="#9c36b5" text-anchor="start" class="excalidraw-text" opacity="1">   • Törlesztések száma</text>
+<text x="680" y="397" font-size="11" fill="#9c36b5" text-anchor="start" class="excalidraw-text" opacity="1">   • Határidők</text>
+<text x="680" y="410.2" font-size="11" fill="#9c36b5" text-anchor="start" class="excalidraw-text" opacity="1">4. Törlesztési ütemezés</text>
+<text x="680" y="423.4" font-size="11" fill="#9c36b5" text-anchor="start" class="excalidraw-text" opacity="1">5. Emlékeztető értesítések</text>
+<text x="680" y="436.6" font-size="11" fill="#9c36b5" text-anchor="start" class="excalidraw-text" opacity="1">6. Késés → Blokkolás</text>
+<rect x="380" y="380" width="280" height="120" stroke="#2f9e44" fill="#ebfbee" stroke-width="1" rx="0" opacity="1"/>
+<text x="390" y="404" font-size="14" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">DÍJBEKÉRŐ FOLYAMAT</text>
+<text x="390" y="431" font-size="11" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">1. Díjbekérő kiállítás (nem számla!)</text>
+<text x="390" y="444.2" font-size="11" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">2. Befizetés várása</text>
+<text x="390" y="457.4" font-size="11" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">3. Befizetés után → Számla kiállítás</text>
+<text x="390" y="470.6" font-size="11" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">4. Ha nem fizet → Emlékeztető</text>
+<rect x="50" y="520" width="420" height="200" stroke="#e8590c" fill="#fff4e6" stroke-width="2" rx="0" opacity="1"/>
+<rect x="50" y="520" width="420" height="30" stroke="#e8590c" fill="#e8590c" stroke-width="2" rx="0" opacity="1"/>
+<text x="60" y="541" font-size="14" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">📊 RÉSZLETFIZETÉSI_TERV Entitás</text>
+<text x="60" y="571" font-size="11" fill="#e8590c" text-anchor="start" class="excalidraw-text" opacity="1">🔑 terv_id           INT (PK)</text>
+<text x="60" y="584.2" font-size="11" fill="#e8590c" text-anchor="start" class="excalidraw-text" opacity="1">   tenant_id         UUID (FK)         -- ADR-001</text>
+<text x="60" y="597.4" font-size="11" fill="#e8590c" text-anchor="start" class="excalidraw-text" opacity="1">   partner_id        INT (FK)          -- Ügyfél</text>
+<text x="60" y="610.6" font-size="11" fill="#e8590c" text-anchor="start" class="excalidraw-text" opacity="1">   szamla_id         INT (FK)          -- Eredeti számla</text>
+<text x="60" y="623.8" font-size="11" fill="#e8590c" text-anchor="start" class="excalidraw-text" opacity="1">   teljes_osszeg     DECIMAL</text>
+<text x="60" y="637" font-size="11" fill="#e8590c" text-anchor="start" class="excalidraw-text" opacity="1">   torlesztesek_szama INT              -- Hány részlet</text>
+<text x="60" y="650.2" font-size="11" fill="#e8590c" text-anchor="start" class="excalidraw-text" opacity="1">   havi_osszeg       DECIMAL</text>
+<text x="60" y="663.4" font-size="11" fill="#e8590c" text-anchor="start" class="excalidraw-text" opacity="1">   kezdo_datum       DATE</text>
+<text x="60" y="676.6" font-size="11" fill="#e8590c" text-anchor="start" class="excalidraw-text" opacity="1">   statusz           ENUM              -- aktiv/lezart/keses</text>
+<text x="60" y="689.8" font-size="11" fill="#e8590c" text-anchor="start" class="excalidraw-text" opacity="1">   created_at        TIMESTAMP</text>
+<rect x="530" y="520" width="420" height="200" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" rx="0" opacity="1"/>
+<rect x="530" y="520" width="420" height="30" stroke="#1971c2" fill="#1971c2" stroke-width="2" rx="0" opacity="1"/>
+<text x="540" y="541" font-size="14" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">📋 TÖRLESZTÉS Entitás</text>
+<text x="540" y="571" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">🔑 torleszt_id       INT (PK)</text>
+<text x="540" y="584.2" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">   terv_id           INT (FK)          -- Részletfiz. terv</text>
+<text x="540" y="597.4" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">   sorszam           INT               -- Hanyadik részlet</text>
+<text x="540" y="610.6" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">   esedekesseg       DATE</text>
+<text x="540" y="623.8" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">   osszeg            DECIMAL</text>
+<text x="540" y="637" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">   befizetve         DECIMAL           -- Ténylegesen befizetve</text>
+<text x="540" y="650.2" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">   fizetes_datum     DATE</text>
+<text x="540" y="663.4" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">   statusz           ENUM              -- pending/fizetve/keses</text>
+<text x="540" y="676.6" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">   keses_napok       INT               -- Késés napokban</text>
+<rect x="50" y="740" width="420" height="120" stroke="#5f3dc4" fill="#f3d9fa" stroke-width="2" rx="0" opacity="1"/>
+<rect x="50" y="740" width="420" height="30" stroke="#5f3dc4" fill="#5f3dc4" stroke-width="2" rx="0" opacity="1"/>
+<text x="60" y="761" font-size="14" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">💰 ELŐLEG Entitás</text>
+<text x="60" y="791" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">🔑 eloleg_id         INT (PK)</text>
+<text x="60" y="804.2" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">   megrendeles_id    INT (FK)          -- Megrendeléshez kötve</text>
+<text x="60" y="817.4" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">   eloleg_szamla_id  INT (FK)          -- Előlegszámla</text>
+<text x="60" y="830.6" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">   vegszamla_id      INT (FK)          -- Végszámla (ha van)</text>
+<text x="60" y="843.8" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">   osszeg            DECIMAL</text>
+<text x="60" y="857" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">   statusz           ENUM              -- pending/fizetve/felhasznalva</text>
+</svg>

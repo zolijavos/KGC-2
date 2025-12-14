@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -20 1180 1580" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="10" y="-20" width="1180" height="1580" fill="#ffffff"/>
+<text x="750" y="52" font-size="32" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC Árazási Stratégia - Hierarchikus Rendszer</text>
+<text x="700" y="88" font-size="18" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">E) Kombinált Megoldás - Prioritásos Feldolgozás</text>
+<rect x="400" y="120" width="300" height="60" stroke="#1971c2" fill="#a5d8ff" stroke-width="3" rx="0" opacity="1"/>
+<text x="550" y="149" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">BEVÉTELEZÉS</text>
+<text x="550" y="165.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Beszerzési ár megadva</text>
+<path d="M 550 185 L 550 235" stroke="#1e1e1e" fill="none" stroke-width="2" opacity="1"/>
+<rect x="350" y="240" width="400" height="80" stroke="#e03131" fill="#ffe3e3" stroke-width="3" rx="0" opacity="1"/>
+<text x="550" y="266" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">1️⃣ CIKK SZINTŰ SZABÁLY</text>
+<text x="550" y="285.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Van egyedi ár beállítva erre a cikkre?</text>
+<text x="260" y="267" font-size="12" fill="#e03131" text-anchor="middle" class="excalidraw-text" opacity="1">PRIORITÁS</text>
+<text x="260" y="281.4" font-size="12" fill="#e03131" text-anchor="middle" class="excalidraw-text" opacity="1">#1</text>
+<text x="260" y="295.8" font-size="12" fill="#e03131" text-anchor="middle" class="excalidraw-text" opacity="1">(Legmagasabb)</text>
+<path d="M 755 280 L 875 280" stroke="#2f9e44" fill="none" stroke-width="2" opacity="1"/>
+<text x="800" y="272" font-size="12" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">IGEN</text>
+<rect x="880" y="240" width="250" height="80" stroke="#2f9e44" fill="#b2f2bb" stroke-width="2" rx="0" opacity="1"/>
+<text x="1005" y="268" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">✅ Egyedi ár használata</text>
+<text x="1005" y="283.6" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Pl: Fix 150.000 Ft</text>
+<text x="1005" y="299.2" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">vagy +25% árrés</text>
+<path d="M 550 325 L 550 365" stroke="#e03131" fill="none" stroke-width="2" opacity="1"/>
+<text x="560" y="346" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">NEM</text>
+<rect x="350" y="370" width="400" height="80" stroke="#e8590c" fill="#ffd8a8" stroke-width="3" rx="0" opacity="1"/>
+<text x="550" y="396" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">2️⃣ BESZÁLLÍTÓ SZABÁLY</text>
+<text x="550" y="415.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Van szabály erre a beszállítóra?</text>
+<text x="260" y="397" font-size="12" fill="#e8590c" text-anchor="middle" class="excalidraw-text" opacity="1">PRIORITÁS</text>
+<text x="260" y="411.4" font-size="12" fill="#e8590c" text-anchor="middle" class="excalidraw-text" opacity="1">#2</text>
+<path d="M 755 410 L 875 410" stroke="#2f9e44" fill="none" stroke-width="2" opacity="1"/>
+<text x="800" y="402" font-size="12" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">IGEN</text>
+<rect x="880" y="370" width="250" height="80" stroke="#2f9e44" fill="#b2f2bb" stroke-width="2" rx="0" opacity="1"/>
+<text x="1005" y="393" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">✅ Beszállító szabály</text>
+<text x="1005" y="408.6" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Makita → LISTAÁR</text>
+<text x="1005" y="424.2" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Kínai → +70%</text>
+<path d="M 550 455 L 550 495" stroke="#e03131" fill="none" stroke-width="2" opacity="1"/>
+<text x="560" y="476" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">NEM</text>
+<rect x="350" y="500" width="400" height="80" stroke="#9c36b5" fill="#eebefa" stroke-width="3" rx="0" opacity="1"/>
+<text x="550" y="526" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">3️⃣ CIKKCSOPORT SZABÁLY</text>
+<text x="550" y="545.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Van szabály erre a cikkcsoportra?</text>
+<text x="260" y="527" font-size="12" fill="#9c36b5" text-anchor="middle" class="excalidraw-text" opacity="1">PRIORITÁS</text>
+<text x="260" y="541.4" font-size="12" fill="#9c36b5" text-anchor="middle" class="excalidraw-text" opacity="1">#3</text>
+<path d="M 755 540 L 875 540" stroke="#2f9e44" fill="none" stroke-width="2" opacity="1"/>
+<text x="800" y="532" font-size="12" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">IGEN</text>
+<rect x="880" y="500" width="250" height="80" stroke="#2f9e44" fill="#b2f2bb" stroke-width="2" rx="0" opacity="1"/>
+<text x="1005" y="523" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">✅ Cikkcsoport árrés</text>
+<text x="1005" y="538.6" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Gép → +35%</text>
+<text x="1005" y="554.2" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Alkatrész → +65%</text>
+<path d="M 550 585 L 550 625" stroke="#e03131" fill="none" stroke-width="2" opacity="1"/>
+<text x="560" y="606" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">NEM</text>
+<rect x="350" y="630" width="400" height="80" stroke="#868e96" fill="#e9ecef" stroke-width="3" rx="0" opacity="1"/>
+<text x="550" y="656" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">4️⃣ ÉRTÉKHATÁR SZABÁLY (Fallback)</text>
+<text x="550" y="675.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Beszerzési ár alapján automatikus</text>
+<text x="260" y="657" font-size="12" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">PRIORITÁS</text>
+<text x="260" y="671.4" font-size="12" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">#4</text>
+<text x="260" y="685.8" font-size="12" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">(Legalacsonyabb)</text>
+<path d="M 755 670 L 875 670" stroke="#2f9e44" fill="none" stroke-width="2" opacity="1"/>
+<rect x="880" y="630" width="250" height="80" stroke="#2f9e44" fill="#b2f2bb" stroke-width="2" rx="0" opacity="1"/>
+<text x="1005" y="653" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">✅ Értékhatár árrés</text>
+<text x="1005" y="668.6" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">0-5k → +80%</text>
+<text x="1005" y="684.2" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">100k+ → +30%</text>
+<rect x="50" y="780" width="550" height="350" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" rx="0" opacity="1"/>
+<text x="325" y="817" font-size="22" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">📋 PÉLDÁK</text>
+<text x="70" y="847" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PÉLDA 1: Makita DDF481 fúró (85.000 Ft beszerzési)</text>
+<text x="70" y="861.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+<text x="70" y="875.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">1. Cikk szabály? → NEM</text>
+<text x="70" y="890.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">2. Beszállító (Makita)? → IGEN: LISTAÁR</text>
+<text x="70" y="904.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   → Eredmény: 129.900 Ft (Makita hivatalos ár)</text>
+<text x="70" y="919" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="70" y="933.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PÉLDA 2: Kínai fúrógép (25.000 Ft beszerzési)</text>
+<text x="70" y="947.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+<text x="70" y="962.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">1. Cikk szabály? → NEM</text>
+<text x="70" y="976.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">2. Beszállító (Kínai Import)? → IGEN: +70%</text>
+<text x="70" y="991" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   → Eredmény: 25.000 × 1.70 = 42.500 Ft</text>
+<text x="70" y="1005.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="70" y="1019.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PÉLDA 3: Ismeretlen alkatrész (3.500 Ft beszerzési)</text>
+<text x="70" y="1034.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+<text x="70" y="1048.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">1. Cikk szabály? → NEM</text>
+<text x="70" y="1063" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">2. Beszállító? → NEM (új beszállító)</text>
+<text x="70" y="1077.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">3. Cikkcsoport (Alkatrész)? → IGEN: +65%</text>
+<text x="70" y="1091.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   → Eredmény: 3.500 × 1.65 = 5.775 Ft</text>
+<rect x="620" y="780" width="530" height="350" stroke="#e8590c" fill="#fff4e6" stroke-width="2" rx="0" opacity="1"/>
+<text x="885" y="817" font-size="22" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">⚙️ BEÁLLÍTÁSOK</text>
+<text x="640" y="847" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">BESZÁLLÍTÓ SZABÁLYOK</text>
+<text x="640" y="861.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+<text x="640" y="875.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Makita Hungary      → LISTAÁR (API/tábla)</text>
+<text x="640" y="890.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Hikoki Hungary      → LISTAÁR (API/tábla)</text>
+<text x="640" y="904.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Eurohatár Kft.      → +45%</text>
+<text x="640" y="919" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Robel/Cembre        → +40%</text>
+<text x="640" y="933.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Kínai import        → +70%</text>
+<text x="640" y="947.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FGSZ                → +35%</text>
+<text x="640" y="987" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">CIKKCSOPORT SZABÁLYOK</text>
+<text x="640" y="1001.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">━━━━━━━━━━━━━━━━━━━━━</text>
+<text x="640" y="1015.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Gép         → +35%</text>
+<text x="640" y="1030.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Bérgép      → 0% (nem eladó)</text>
+<text x="640" y="1044.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Tartozék    → +50%</text>
+<text x="640" y="1059" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Alkatrész   → +65%</text>
+<text x="890" y="987" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">ÉRTÉKHATÁR SZABÁLYOK</text>
+<text x="890" y="1001.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">━━━━━━━━━━━━━━━━━━━━━━━━</text>
+<text x="890" y="1015.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">0 - 5.000 Ft      → +80%</text>
+<text x="890" y="1030.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">5.001 - 20.000    → +60%</text>
+<text x="890" y="1044.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">20.001 - 100.000  → +45%</text>
+<text x="890" y="1059" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">100.000+ Ft       → +30%</text>
+<rect x="50" y="1150" width="1100" height="200" stroke="#2f9e44" fill="#d3f9d8" stroke-width="2" rx="0" opacity="1"/>
+<text x="600" y="1187" font-size="22" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">✅ ELŐNYÖK</text>
+<text x="70" y="1218" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">AUTOMATIZÁLÁS</text>
+<text x="70" y="1233.6" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Bevételezéskor azonnal számol</text>
+<text x="70" y="1249.2" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Nincs manuális ár beállítás</text>
+<text x="70" y="1264.8" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Konzisztens árak minden kollégánál</text>
+<text x="70" y="1280.4" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="70" y="1296" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">LISTAÁR TÁMOGATÁS</text>
+<text x="70" y="1311.6" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Makita/Hikoki listaár tartható</text>
+<text x="70" y="1327.2" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Beszállító szinten állítható</text>
+<text x="430" y="1218" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">SKÁLÁZHATÓSÁG</text>
+<text x="430" y="1233.6" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Új beszállító = 1 szabály</text>
+<text x="430" y="1249.2" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Nem kell 1000 cikket beállítani</text>
+<text x="430" y="1264.8" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Kevés karbantartás (~20 szabály)</text>
+<text x="430" y="1280.4" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="430" y="1296" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">RUGALMAS</text>
+<text x="430" y="1311.6" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Bármikor egyedi ár felülírás</text>
+<text x="430" y="1327.2" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Admin jóváhagyással</text>
+<text x="790" y="1218" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">BIZTONSÁG</text>
+<text x="790" y="1233.6" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Van fallback (értékhatár)</text>
+<text x="790" y="1249.2" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Soha nem marad ár nélkül</text>
+<text x="790" y="1264.8" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Figyelmeztetés új terméknél</text>
+<text x="790" y="1280.4" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="790" y="1296" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">AUDITÁLHATÓ</text>
+<text x="790" y="1311.6" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Látszik melyik szabály alapján</text>
+<text x="790" y="1327.2" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Visszakövethető döntések</text>
+<rect x="50" y="1370" width="1100" height="150" stroke="#1971c2" fill="#e7f5ff" stroke-width="3" rx="0" opacity="1"/>
+<text x="600" y="1405" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🖥️ BEVÉTELEZÉS UI ELŐNÉZET</text>
+<text x="70" y="1431" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">┌────────────────────────────────────────────────────────────────────────────────────────────────────────────┐</text>
+<text x="70" y="1444.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">│  Cikk: MAK-DDF481  │  Beszerzési: 85.000 Ft  │  📊 Szabály: Beszállító (Makita) → LISTAÁR                 │</text>
+<text x="70" y="1457.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">│                                                                                                            │</text>
+<text x="70" y="1470.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">│  Számított eladási ár: 129.900 Ft            │  [ ] Egyedi felülírás: [________] Ft  ⚠️ Admin jóváhagyás  │</text>
+<text x="70" y="1483.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">│                                                                                                            │</text>
+<text x="70" y="1497" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">│  ⚠️ ÁR VÁLTOZOTT! Régi: 125.900 Ft → Új: 129.900 Ft     [ ] Árcédula nyomtatás (5 db)    [Hozzáadás]      │</text>
+<text x="70" y="1510.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">└────────────────────────────────────────────────────────────────────────────────────────────────────────────┘</text>
+</svg>

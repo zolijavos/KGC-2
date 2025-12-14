@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 -20 1230 830" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="60" y="-20" width="1230" height="830" fill="#ffffff"/>
+<text x="750" y="40" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - Szerviz ERD v3.0</text>
+<text x="750" y="64" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">2025-12-11 - intake_type, tartozek checklist</text>
+<rect x="100" y="100" width="320" height="480" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<rect x="100" y="100" width="320" height="40" stroke="#1976d2" fill="#1976d2" stroke-width="2" rx="0" opacity="1"/>
+<text x="260" y="126" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">MUNKALAP (v3.0)</text>
+<text x="115" y="166" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  munkalap_id (INT)</text>
+<text x="115" y="179.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    tenant_id (UUID)</text>
+<text x="115" y="192.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">---------------------</text>
+<text x="115" y="205.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  partner_id (INT)</text>
+<text x="115" y="218.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  ceg_id (INT) [nullable]</text>
+<text x="115" y="232" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  cikk_id (INT)</text>
+<text x="115" y="245.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  rogzito_id (INT)</text>
+<text x="115" y="258.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  szerelo_id (INT)</text>
+<text x="115" y="271.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    bevetel_datum (DATETIME)</text>
+<text x="115" y="284.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    befejezes_datum (DATETIME)</text>
+<text x="115" y="298" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    hiba_leiras (TEXT)</text>
+<text x="115" y="311.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    javitas_leiras (TEXT)</text>
+<text x="115" y="324.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    allapot (ENUM)</text>
+<text x="115" y="337.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    prioritas (ENUM)</text>
+<text x="115" y="350.79999999999995" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    becsult_munkaora (DECIMAL)</text>
+<text x="115" y="364" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    becsult_anyagkoltseg (DECIMAL)</text>
+<text x="115" y="377.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">--- v3.0 UJ MEZOK (ADR-013) ---</text>
+<text x="115" y="390.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    intake_type (ENUM):</text>
+<text x="115" y="403.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      - warranty (garancialis)</text>
+<text x="115" y="416.79999999999995" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      - repair (fizetos javitas)</text>
+<text x="115" y="430" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      - quote (arajanlat)</text>
+<text x="115" y="443.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    bevizsgalasi_dij (DECIMAL)</text>
+<text x="115" y="456.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      DEFAULT 0 (warranty eseten!)</text>
+<text x="115" y="469.59999999999997" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    internal_notes (TEXT)</text>
+<text x="115" y="482.79999999999995" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      Indoklas ha bevizsg &gt; 0</text>
+<rect x="500" y="100" width="300" height="260" stroke="#00796b" fill="#e0f2f1" stroke-width="2" rx="0" opacity="1"/>
+<rect x="500" y="100" width="300" height="40" stroke="#00796b" fill="#00796b" stroke-width="2" rx="0" opacity="1"/>
+<text x="650" y="126" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">SZERVIZ_TARTOZEK (UJ)</text>
+<text x="515" y="166" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  tartozek_id (INT)</text>
+<text x="515" y="179.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  munkalap_id (INT)</text>
+<text x="515" y="192.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">---------------------</text>
+<text x="515" y="205.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    tartozek_tipus (VARCHAR):</text>
+<text x="515" y="218.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      - tok_taska</text>
+<text x="515" y="232" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      - tolto</text>
+<text x="515" y="245.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      - akkumulator</text>
+<text x="515" y="258.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      - penge_fej</text>
+<text x="515" y="271.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      - doboz</text>
+<text x="515" y="284.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      - egyeb</text>
+<text x="515" y="298" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    darabszam (INT) DEFAULT 1</text>
+<text x="515" y="311.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    allapot (VARCHAR): jo/serult</text>
+<text x="515" y="324.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    megjegyzes (TEXT)</text>
+<text x="515" y="337.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    foto_url (VARCHAR)</text>
+<text x="515" y="350.79999999999995" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    visszaadva (BOOLEAN)</text>
+<text x="515" y="364" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    visszaadas_datum (DATETIME)</text>
+<rect x="500" y="400" width="300" height="220" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<rect x="500" y="400" width="300" height="40" stroke="#7b1fa2" fill="#7b1fa2" stroke-width="2" rx="0" opacity="1"/>
+<text x="650" y="425" font-size="15" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">MUNKALAP_CSATOLMANY (UJ)</text>
+<text x="515" y="466" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  csatolmany_id (INT)</text>
+<text x="515" y="479.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  munkalap_id (INT)</text>
+<text x="515" y="492.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">---------------------</text>
+<text x="515" y="505.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    tipus (VARCHAR):</text>
+<text x="515" y="518.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      - foto_bevetel</text>
+<text x="515" y="532" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      - foto_hiba</text>
+<text x="515" y="545.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      - foto_javitas</text>
+<text x="515" y="558.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      - foto_keszre</text>
+<text x="515" y="571.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      - dokumentum</text>
+<text x="515" y="584.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    url (VARCHAR)</text>
+<text x="515" y="598" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    leiras (VARCHAR)</text>
+<text x="515" y="611.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  feltolto_user_id (INT)</text>
+<text x="515" y="624.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    created_at (DATETIME)</text>
+<path d="M 420 200 L 500 200" stroke="#00796b" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="460" y="181" font-size="11" fill="#00796b" text-anchor="middle" class="excalidraw-text" opacity="1">1 - N</text>
+<path d="M 420 450 L 500 450" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="460" y="431" font-size="11" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">1 - N</text>
+<polygon points="970,140 1060,200 970,260 880,200" stroke="#c62828" fill="#ffebee" stroke-width="2" opacity="1"/>
+<text x="970" y="194" font-size="14" fill="#c62828" text-anchor="middle" class="excalidraw-text" opacity="1">intake_type</text>
+<text x="970" y="210.8" font-size="14" fill="#c62828" text-anchor="middle" class="excalidraw-text" opacity="1">(ADR-013)</text>
+<rect x="850" y="300" width="120" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="910" y="326" font-size="11" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">warranty</text>
+<text x="910" y="339.2" font-size="11" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">bevizsg=0</text>
+<rect x="990" y="300" width="120" height="60" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="0" opacity="1"/>
+<text x="1050" y="326" font-size="11" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">repair</text>
+<text x="1050" y="339.2" font-size="11" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">bevizsg&gt;0</text>
+<rect x="1130" y="300" width="120" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="1190" y="326" font-size="11" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">quote</text>
+<text x="1190" y="339.2" font-size="11" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">arajanlat</text>
+<path d="M 920 260 L 920 300" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 1000 260 L 1050 300" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 1040 260 L 1170 300" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="850" y="400" width="400" height="100" stroke="#c62828" fill="#ffebee" stroke-width="1" rx="0" opacity="1"/>
+<text x="865" y="426" font-size="11" fill="#c62828" text-anchor="start" class="excalidraw-text" opacity="1">BEVIZSGALASI DIJ SZABALY (ADR-013):</text>
+<text x="865" y="439.2" font-size="11" fill="#c62828" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="865" y="452.4" font-size="11" fill="#c62828" text-anchor="start" class="excalidraw-text" opacity="1">IF intake_type = &apos;warranty&apos; AND bevizsgalasi_dij &gt; 0:</text>
+<text x="865" y="465.6" font-size="11" fill="#c62828" text-anchor="start" class="excalidraw-text" opacity="1">   REQUIRE internal_notes IS NOT NULL</text>
+<text x="865" y="478.8" font-size="11" fill="#c62828" text-anchor="start" class="excalidraw-text" opacity="1">   --&gt; Indoklas kotelezo a kivetelek dokumentalasahoz</text>
+<rect x="100" y="650" width="700" height="120" stroke="#616161" fill="#fafafa" stroke-width="1" rx="0" opacity="1"/>
+<text x="450" y="679" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">v3.0 VALTOZASOK OSSZEFOGLALAS</text>
+<text x="115" y="706" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">UJ ENTITASOK: SZERVIZ_TARTOZEK (tok, tolto, akkumulator checklist), MUNKALAP_CSATOLMANY (foto, doc)</text>
+<text x="115" y="719.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">UJ MEZOK: intake_type (warranty/repair/quote), bevizsgalasi_dij (0 Ft warranty-nel), internal_notes</text>
+<text x="115" y="732.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">ADR-013: Garancialisnal bevizsgalasi dij = 0 Ft default, kivetelek indoklasal</text>
+</svg>

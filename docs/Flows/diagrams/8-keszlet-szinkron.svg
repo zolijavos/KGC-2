@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -20 1030 920" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="10" y="-20" width="1030" height="920" fill="#ffffff"/>
+<text x="700" y="48" font-size="28" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - KÉSZLET SZINKRONIZÁCIÓ</text>
+<text x="700" y="79" font-size="14" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Országos készlet láthatóság - Webshop + Franchise integráció</text>
+<rect x="350" y="100" width="300" height="120" stroke="#7950f2" fill="#f3d9fa" stroke-width="3" rx="0" opacity="1"/>
+<rect x="350" y="100" width="300" height="35" stroke="#7950f2" fill="#7950f2" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="123" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">🏢 KÖZPONTI KÉSZLET NÉZET</text>
+<text x="500" y="156" font-size="11" fill="#7950f2" text-anchor="middle" class="excalidraw-text" opacity="1">• Aggregált készlet minden boltból</text>
+<text x="500" y="169.2" font-size="11" fill="#7950f2" text-anchor="middle" class="excalidraw-text" opacity="1">• Valós idejű frissítés</text>
+<text x="500" y="182.4" font-size="11" fill="#7950f2" text-anchor="middle" class="excalidraw-text" opacity="1">• Webshop számára egy forrás</text>
+<text x="500" y="195.6" font-size="11" fill="#7950f2" text-anchor="middle" class="excalidraw-text" opacity="1">• Franchise statisztikák</text>
+<path d="M 400 220 L 250 280" stroke="#495057" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 500 220 L 500 280" stroke="#495057" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 600 220 L 750 280" stroke="#495057" fill="none" stroke-width="2" opacity="1"/>
+<rect x="100" y="290" width="200" height="100" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" rx="0" opacity="1"/>
+<rect x="100" y="290" width="200" height="30" stroke="#1971c2" fill="#1971c2" stroke-width="2" rx="0" opacity="1"/>
+<text x="200" y="310" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">🏪 KGC Központ</text>
+<text x="200" y="340" font-size="10" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">tenant_id: KGC-01</text>
+<text x="200" y="352" font-size="10" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">Készlet: Saját raktár</text>
+<text x="200" y="364" font-size="10" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">Státusz: Fő bolt</text>
+<rect x="400" y="290" width="200" height="100" stroke="#2f9e44" fill="#ebfbee" stroke-width="2" rx="0" opacity="1"/>
+<rect x="400" y="290" width="200" height="30" stroke="#2f9e44" fill="#2f9e44" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="310" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">🏪 Franchise #1</text>
+<text x="500" y="340" font-size="10" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">tenant_id: FRAN-01</text>
+<text x="500" y="352" font-size="10" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">Készlet: Saját raktár</text>
+<text x="500" y="364" font-size="10" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">Státusz: Partner</text>
+<rect x="700" y="290" width="200" height="100" stroke="#e8590c" fill="#fff4e6" stroke-width="2" rx="0" opacity="1"/>
+<rect x="700" y="290" width="200" height="30" stroke="#e8590c" fill="#e8590c" stroke-width="2" rx="0" opacity="1"/>
+<text x="800" y="310" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">🏪 Franchise #N</text>
+<text x="800" y="340" font-size="10" fill="#e8590c" text-anchor="middle" class="excalidraw-text" opacity="1">tenant_id: FRAN-N</text>
+<text x="800" y="352" font-size="10" fill="#e8590c" text-anchor="middle" class="excalidraw-text" opacity="1">Készlet: Saját raktár</text>
+<text x="800" y="364" font-size="10" fill="#e8590c" text-anchor="middle" class="excalidraw-text" opacity="1">Státusz: Partner</text>
+<rect x="50" y="100" width="200" height="120" stroke="#f783ac" fill="#fff0f6" stroke-width="2" rx="0" opacity="1"/>
+<rect x="50" y="100" width="200" height="35" stroke="#f783ac" fill="#f783ac" stroke-width="2" rx="0" opacity="1"/>
+<text x="150" y="123" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">🌐 WEBSHOP</text>
+<text x="150" y="155" font-size="10" fill="#f783ac" text-anchor="middle" class="excalidraw-text" opacity="1">• Vevő böngész gépeket</text>
+<text x="150" y="167" font-size="10" fill="#f783ac" text-anchor="middle" class="excalidraw-text" opacity="1">• Látja: hol elérhető</text>
+<text x="150" y="179" font-size="10" fill="#f783ac" text-anchor="middle" class="excalidraw-text" opacity="1">• Foglalás/rendelés</text>
+<text x="150" y="191" font-size="10" fill="#f783ac" text-anchor="middle" class="excalidraw-text" opacity="1">• Átvételi hely választás</text>
+<path d="M 250 160 L 350 160" stroke="#f783ac" fill="none" stroke-width="2" opacity="1"/>
+<text x="270" y="155" font-size="10" fill="#f783ac" text-anchor="start" class="excalidraw-text" opacity="1">API</text>
+<rect x="750" y="100" width="200" height="120" stroke="#fab005" fill="#fff9db" stroke-width="2" rx="0" opacity="1"/>
+<rect x="750" y="100" width="200" height="35" stroke="#fab005" fill="#fab005" stroke-width="2" rx="0" opacity="1"/>
+<text x="850" y="123" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">👤 VEVŐ LÁTJA</text>
+<text x="850" y="155" font-size="10" fill="#fab005" text-anchor="middle" class="excalidraw-text" opacity="1">&quot;Makita fúrógép&quot;</text>
+<text x="850" y="167" font-size="10" fill="#fab005" text-anchor="middle" class="excalidraw-text" opacity="1">✅ KGC Központ: 3 db</text>
+<text x="850" y="179" font-size="10" fill="#fab005" text-anchor="middle" class="excalidraw-text" opacity="1">✅ Franchise #1: 1 db</text>
+<text x="850" y="191" font-size="10" fill="#fab005" text-anchor="middle" class="excalidraw-text" opacity="1">❌ Franchise #2: 0 db</text>
+<path d="M 650 160 L 750 160" stroke="#fab005" fill="none" stroke-width="2" opacity="1"/>
+<rect x="50" y="420" width="450" height="220" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" rx="0" opacity="1"/>
+<rect x="50" y="420" width="450" height="30" stroke="#1971c2" fill="#1971c2" stroke-width="2" rx="0" opacity="1"/>
+<text x="60" y="441" font-size="14" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">📊 KÉSZLET_AGGREGÁLT Nézet (View)</text>
+<text x="60" y="470" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">CREATE VIEW keszlet_aggregalt AS</text>
+<text x="60" y="482" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">SELECT</text>
+<text x="60" y="494" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">    c.cikk_id,</text>
+<text x="60" y="506" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">    c.nev AS cikk_nev,</text>
+<text x="60" y="518" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">    c.cikkszam,</text>
+<text x="60" y="530" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">    t.tenant_id,</text>
+<text x="60" y="542" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">    t.nev AS bolt_nev,</text>
+<text x="60" y="554" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">    t.varos,</text>
+<text x="60" y="566" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">    COALESCE(k.mennyiseg, 0) AS keszlet,</text>
+<text x="60" y="578" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">    COALESCE(k.foglalt, 0) AS foglalt,</text>
+<text x="60" y="590" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">    COALESCE(k.mennyiseg, 0) - COALESCE(k.foglalt, 0) AS elerheto</text>
+<text x="60" y="602" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">FROM cikk c</text>
+<text x="60" y="614" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">CROSS JOIN tenant t</text>
+<text x="60" y="626" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">LEFT JOIN keszlet k ON k.cikk_id = c.cikk_id AND k.tenant_id = t.tenant_id</text>
+<text x="60" y="638" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">WHERE t.aktiv = true AND t.keszlet_publikus = true;</text>
+<rect x="520" y="420" width="430" height="220" stroke="#2f9e44" fill="#ebfbee" stroke-width="2" rx="0" opacity="1"/>
+<rect x="520" y="420" width="430" height="30" stroke="#2f9e44" fill="#2f9e44" stroke-width="2" rx="0" opacity="1"/>
+<text x="530" y="441" font-size="14" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">🔄 SZINKRONIZÁCIÓS FOLYAMAT</text>
+<text x="530" y="470" font-size="10" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">1. VÁLTOZÁS DETEKTÁLÁS</text>
+<text x="530" y="482" font-size="10" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">   └─ Készlet mozgás trigger (bevételezés, eladás, bérlés)</text>
+<text x="530" y="494" font-size="10" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="530" y="506" font-size="10" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">2. KÖZPONTI FRISSÍTÉS</text>
+<text x="530" y="518" font-size="10" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">   └─ Tenant készlet → Központi aggregáció</text>
+<text x="530" y="530" font-size="10" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">   └─ Event-driven (nem polling!)</text>
+<text x="530" y="542" font-size="10" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="530" y="554" font-size="10" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">3. WEBSHOP CACHE INVALIDÁCIÓ</text>
+<text x="530" y="566" font-size="10" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">   └─ Redis pub/sub értesítés</text>
+<text x="530" y="578" font-size="10" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">   └─ CDN cache törlés az érintett cikkeknél</text>
+<text x="530" y="590" font-size="10" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="530" y="602" font-size="10" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">4. VALÓS IDEJŰ MEGJELENÍTÉS</text>
+<text x="530" y="614" font-size="10" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">   └─ WebSocket push a böngészőknek</text>
+<text x="530" y="626" font-size="10" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">   └─ &quot;Készlet frissült&quot; animáció</text>
+<rect x="50" y="660" width="900" height="100" stroke="#f783ac" fill="#fff0f6" stroke-width="2" rx="0" opacity="1"/>
+<text x="60" y="684" font-size="14" fill="#f783ac" text-anchor="start" class="excalidraw-text" opacity="1">🌐 WEBSHOP API ENDPOINT</text>
+<text x="60" y="705" font-size="10" fill="#f783ac" text-anchor="start" class="excalidraw-text" opacity="1">GET /api/v1/products/{cikkszam}/availability</text>
+<text x="60" y="717" font-size="10" fill="#f783ac" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="60" y="729" font-size="10" fill="#f783ac" text-anchor="start" class="excalidraw-text" opacity="1">Response: { &quot;cikkszam&quot;: &quot;MAK-DHP453&quot;, &quot;nev&quot;: &quot;Makita akkus fúró&quot;, &quot;locations&quot;: [</text>
+<text x="60" y="741" font-size="10" fill="#f783ac" text-anchor="start" class="excalidraw-text" opacity="1">    { &quot;bolt&quot;: &quot;KGC Központ&quot;, &quot;varos&quot;: &quot;Budapest&quot;, &quot;elerheto&quot;: 3, &quot;cim&quot;: &quot;Fő u. 1.&quot; },</text>
+<text x="60" y="753" font-size="10" fill="#f783ac" text-anchor="start" class="excalidraw-text" opacity="1">    { &quot;bolt&quot;: &quot;Franchise Szeged&quot;, &quot;varos&quot;: &quot;Szeged&quot;, &quot;elerheto&quot;: 1, &quot;cim&quot;: &quot;Kossuth tér 5.&quot; }</text>
+<text x="60" y="765" font-size="10" fill="#f783ac" text-anchor="start" class="excalidraw-text" opacity="1">]}</text>
+<rect x="50" y="780" width="900" height="80" stroke="#e03131" fill="#ffe3e3" stroke-width="2" rx="0" opacity="1"/>
+<text x="60" y="804" font-size="14" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">🔒 ADATVÉDELMI SZABÁLYOK</text>
+<text x="60" y="825" font-size="10" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">• Franchise partner dönthet: megosztja-e készletét a webshopban (keszlet_publikus flag)</text>
+<text x="60" y="837" font-size="10" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">• Központ látja az összes készletet (statisztikához), de franchise pénzügyét NEM</text>
+<text x="60" y="849" font-size="10" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">• Vevő csak az elérhető mennyiséget látja, árat nem (az bolt-specifikus lehet)</text>
+</svg>

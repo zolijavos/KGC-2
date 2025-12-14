@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 -20 1180 1220" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="60" y="-20" width="1180" height="1220" fill="#ffffff"/>
+<text x="900" y="40" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - Entitas-Kapcsolat Diagram (ERD) v3.0</text>
+<text x="900" y="64" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Ugyfel Felvetel es Berles Folyamat (2025-12-11)</text>
+<rect x="100" y="120" width="300" height="380" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<rect x="100" y="120" width="300" height="40" stroke="#1976d2" fill="#1976d2" stroke-width="2" rx="0" opacity="1"/>
+<text x="250" y="146" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">PARTNER (v3.0)</text>
+<text x="115" y="187" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  partner_id (INT)</text>
+<text x="115" y="201.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    tenant_id (UUID)</text>
+<text x="115" y="215.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">---------------------</text>
+<text x="115" y="230.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    nev (VARCHAR)</text>
+<text x="115" y="244.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    cim (VARCHAR)</text>
+<text x="115" y="259" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    igazolvanyszam (VARCHAR)</text>
+<text x="115" y="273.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    telefon (VARCHAR)</text>
+<text x="115" y="287.79999999999995" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    email (VARCHAR)</text>
+<text x="115" y="302.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    e_szamla (BOOLEAN)</text>
+<text x="115" y="316.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  rogzito_id (INT)</text>
+<text x="115" y="331" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    rogzites_datum (DATETIME)</text>
+<text x="115" y="345.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    tipus (ENUM: magan/ceg)</text>
+<text x="115" y="359.79999999999995" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">--- v3.0 UJ MEZOK ---</text>
+<text x="115" y="374.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    mothers_name (VARCHAR)</text>
+<text x="115" y="388.59999999999997" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    birth_place (VARCHAR)</text>
+<text x="115" y="403" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    birth_date (DATE)</text>
+<text x="115" y="417.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    temporary_address (VARCHAR)</text>
+<text x="115" y="431.79999999999995" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    is_employee (BOOLEAN)</text>
+<rect x="500" y="120" width="300" height="280" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<rect x="500" y="120" width="300" height="40" stroke="#7b1fa2" fill="#7b1fa2" stroke-width="2" rx="0" opacity="1"/>
+<text x="650" y="146" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">CEG (v3.0)</text>
+<text x="515" y="187" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  ceg_id (INT)</text>
+<text x="515" y="201.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    tenant_id (UUID)</text>
+<text x="515" y="215.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">---------------------</text>
+<text x="515" y="230.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  partner_id (INT)</text>
+<text x="515" y="244.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    cegnev (VARCHAR)</text>
+<text x="515" y="259" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    adoszam (VARCHAR)</text>
+<text x="515" y="273.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    cim (VARCHAR)</text>
+<text x="515" y="287.79999999999995" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    mukodo (BOOLEAN)</text>
+<text x="515" y="302.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    nav_ellenorzott (DATETIME)</text>
+<text x="515" y="316.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">--- v3.0 UJ MEZOK ---</text>
+<text x="515" y="331" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    vat_zone (ENUM: HU/EU/NON_EU)</text>
+<text x="515" y="345.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    eu_adoszam (VARCHAR)</text>
+<rect x="500" y="420" width="300" height="180" stroke="#9c27b0" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<rect x="500" y="420" width="300" height="40" stroke="#9c27b0" fill="#9c27b0" stroke-width="2" rx="0" opacity="1"/>
+<text x="650" y="444" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">CEG_MEGHATALMAZOTT (UJ)</text>
+<text x="515" y="487" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  meghatalmazott_id (INT)</text>
+<text x="515" y="501.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  ceg_id (INT)</text>
+<text x="515" y="515.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">---------------------</text>
+<text x="515" y="530.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    nev (VARCHAR)</text>
+<text x="515" y="544.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    telefonszam (VARCHAR)</text>
+<text x="515" y="559" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    ervenyesseg_kezdete (DATE)</text>
+<text x="515" y="573.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    ervenyesseg_vege (DATE)</text>
+<rect x="100" y="540" width="300" height="420" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<rect x="100" y="540" width="300" height="40" stroke="#388e3c" fill="#388e3c" stroke-width="2" rx="0" opacity="1"/>
+<text x="250" y="566" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">BERLES (v3.0)</text>
+<text x="115" y="606" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  berles_id (INT)</text>
+<text x="115" y="619.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    tenant_id (UUID)</text>
+<text x="115" y="632.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">---------------------</text>
+<text x="115" y="645.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  partner_id (INT)</text>
+<text x="115" y="658.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  ceg_id (INT) [nullable]</text>
+<text x="115" y="672" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  cikk_id (INT)</text>
+<text x="115" y="685.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  rogzito_id (INT)</text>
+<text x="115" y="698.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  visszavevo_id (INT)</text>
+<text x="115" y="711.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    kezdes (DATETIME)</text>
+<text x="115" y="724.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    vart_befejezes (DATETIME)</text>
+<text x="115" y="738" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    befejezes (DATETIME)</text>
+<text x="115" y="751.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    idotartam (ENUM)</text>
+<text x="115" y="764.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    kaucio (DECIMAL)</text>
+<text x="115" y="777.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    statusz (ENUM: aktiv/lezart)</text>
+<text x="115" y="790.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">--- v3.0 UJ MEZOK ---</text>
+<text x="115" y="804" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  kiadta_fizikai_user_id (INT)</text>
+<text x="115" y="817.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  visszavette_fizikai_user_id</text>
+<text x="115" y="830.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    kaucio_tipus (ENUM: kp/kartya)</text>
+<text x="115" y="843.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    payment_token (VARCHAR)</text>
+<text x="115" y="856.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    kaucio_visszafizetes (ENUM)</text>
+<text x="115" y="870" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    kaucio_visszafizetes_datum</text>
+<rect x="500" y="640" width="300" height="200" stroke="#00796b" fill="#e0f2f1" stroke-width="2" rx="0" opacity="1"/>
+<rect x="500" y="640" width="300" height="40" stroke="#00796b" fill="#00796b" stroke-width="2" rx="0" opacity="1"/>
+<text x="650" y="664" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">BERLES_TARTOZEK (UJ)</text>
+<text x="515" y="707" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  tartozek_id (INT)</text>
+<text x="515" y="721.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  berles_id (INT)</text>
+<text x="515" y="735.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">---------------------</text>
+<text x="515" y="750.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    tartozek_tipus (VARCHAR)</text>
+<text x="515" y="764.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    darabszam (INT)</text>
+<text x="515" y="779" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    kiadva (BOOLEAN)</text>
+<text x="515" y="793.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    visszaveve (BOOLEAN)</text>
+<text x="515" y="807.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    megjegyzes (TEXT)</text>
+<rect x="900" y="120" width="300" height="220" stroke="#c62828" fill="#ffebee" stroke-width="2" rx="0" opacity="1"/>
+<rect x="900" y="120" width="300" height="40" stroke="#c62828" fill="#c62828" stroke-width="2" rx="0" opacity="1"/>
+<text x="1050" y="144" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">KAUCIO_JEGYZOKONYV (UJ)</text>
+<text x="915" y="187" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  jegyzokonyv_id (INT)</text>
+<text x="915" y="201.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  berles_id (INT)</text>
+<text x="915" y="215.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">---------------------</text>
+<text x="915" y="230.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    datum (DATETIME)</text>
+<text x="915" y="244.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    kaucio_osszeg (DECIMAL)</text>
+<text x="915" y="259" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    kar_osszeg (DECIMAL)</text>
+<text x="915" y="273.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    kar_leiras (TEXT)</text>
+<text x="915" y="287.79999999999995" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    visszafizetett (DECIMAL)</text>
+<text x="915" y="302.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    visszafizetes_mod (ENUM)</text>
+<text x="915" y="316.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  atvevo_user_id (INT)</text>
+<rect x="900" y="380" width="300" height="240" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="0" opacity="1"/>
+<rect x="900" y="380" width="300" height="40" stroke="#f57c00" fill="#f57c00" stroke-width="2" rx="0" opacity="1"/>
+<text x="1050" y="406" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">FELHASZNALO (v3.0)</text>
+<text x="915" y="447" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  felhasznalo_id (INT)</text>
+<text x="915" y="461.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    tenant_id (UUID)</text>
+<text x="915" y="475.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">---------------------</text>
+<text x="915" y="490.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    felhasznalonev (VARCHAR)</text>
+<text x="915" y="504.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    jelszo_hash (VARCHAR)</text>
+<text x="915" y="519" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    nev (VARCHAR)</text>
+<text x="915" y="533.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    kod (VARCHAR)</text>
+<text x="915" y="547.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    szerep (ENUM: RBAC)</text>
+<text x="915" y="562.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    aktiv (BOOLEAN)</text>
+<text x="915" y="576.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">--- v3.0 UJ MEZOK ---</text>
+<text x="915" y="591" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    pin_kod (CHAR(4))</text>
+<path d="M 400 260 L 500 260" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="450" y="241" font-size="11" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">1 - N</text>
+<path d="M 650 400 L 650 420" stroke="#9c27b0" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="690" y="410" font-size="10" fill="#9c27b0" text-anchor="middle" class="excalidraw-text" opacity="1">1 - N</text>
+<path d="M 250 500 L 250 540" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="290" y="521" font-size="11" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">1 - N</text>
+<path d="M 400 740 L 500 740" stroke="#00796b" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="450" y="720" font-size="10" fill="#00796b" text-anchor="middle" class="excalidraw-text" opacity="1">1 - N</text>
+<rect x="100" y="1000" width="1100" height="160" stroke="#616161" fill="#fafafa" stroke-width="1" rx="0" opacity="1"/>
+<text x="650" y="1029" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">JELMAGYARAZAT - v3.0 Valtozasok</text>
+<text x="120" y="1061" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">v3.0 UJ ENTITASOK:</text>
+<text x="120" y="1074.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">- CEG_MEGHATALMAZOTT: Ceges berlok meghatalmazottjai (ADR-013)</text>
+<text x="120" y="1087.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">- BERLES_TARTOZEK: Kellekek es tartozekok checklist (pl. tok, tolto, akkumulator)</text>
+<text x="120" y="1100.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">- KAUCIO_JEGYZOKONYV: Kaucio visszaadas dokumentacio (kar esetén levonasok)</text>
+<text x="120" y="1113.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="120" y="1127" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">v3.0 UJ MEZOK: PARTNER (mothers_name, birth_place, is_employee), CEG (vat_zone: HU/EU/NON_EU),</text>
+<text x="120" y="1140.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">              BERLES (MyPos: kaucio_tipus, payment_token), FELHASZNALO (pin_kod - ADR-013)</text>
+<rect x="900" y="660" width="300" height="100" stroke="#1565c0" fill="#e3f2fd" stroke-width="1" rx="0" opacity="1"/>
+<text x="915" y="686" font-size="11" fill="#1565c0" text-anchor="start" class="excalidraw-text" opacity="1">ADR Referenciak:</text>
+<text x="915" y="699.2" font-size="11" fill="#1565c0" text-anchor="start" class="excalidraw-text" opacity="1">- ADR-001: Multi-tenant (tenant_id)</text>
+<text x="915" y="712.4" font-size="11" fill="#1565c0" text-anchor="start" class="excalidraw-text" opacity="1">- ADR-013: PIN kod, Kaucio, Meghatalmazott</text>
+<text x="915" y="725.6" font-size="11" fill="#1565c0" text-anchor="start" class="excalidraw-text" opacity="1">- ADR-014: Modularis architektura</text>
+</svg>

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -20 1400 1000" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="0" y="-20" width="1400" height="1000" fill="#ffffff"/>
+<text x="700" y="56" font-size="36" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - Multi-Tenant Séma Struktúra</text>
+<text x="700" y="90" font-size="20" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">A+B Hibrid Architektúra - 1 Szerver, Séma Szeparáció</text>
+<rect x="40" y="120" width="1320" height="340" stroke="#2f9e44" fill="#b2f2bb" stroke-width="3" rx="0" opacity="0.3"/>
+<text x="60" y="154" font-size="24" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">KÖZÖS SÉMA (public) - Minden bolt látja</text>
+<rect x="60" y="170" width="400" height="270" stroke="#1971c2" fill="#a5d8ff" stroke-width="2" rx="0" opacity="0.5"/>
+<text x="80" y="200" font-size="20" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">CORE MODUL</text>
+<rect x="80" y="215" width="160" height="40" stroke="#1971c2" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="160" y="241" font-size="16" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">tenants</text>
+<rect x="260" y="215" width="160" height="40" stroke="#1971c2" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="340" y="241" font-size="16" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">users + PIN</text>
+<rect x="80" y="270" width="160" height="40" stroke="#1971c2" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="160" y="296" font-size="16" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">roles (RBAC)</text>
+<rect x="260" y="270" width="160" height="40" stroke="#1971c2" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="340" y="296" font-size="16" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">permissions</text>
+<rect x="80" y="325" width="160" height="40" stroke="#1971c2" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="160" y="351" font-size="16" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">settings</text>
+<rect x="480" y="170" width="200" height="270" stroke="#e8590c" fill="#ffe8cc" stroke-width="2" rx="0" opacity="0.5"/>
+<text x="500" y="200" font-size="20" fill="#e8590c" text-anchor="start" class="excalidraw-text" opacity="1">PARTNER MODUL</text>
+<rect x="500" y="215" width="160" height="40" stroke="#e8590c" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="580" y="241" font-size="16" fill="#e8590c" text-anchor="middle" class="excalidraw-text" opacity="1">partner</text>
+<rect x="500" y="270" width="160" height="40" stroke="#e8590c" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="580" y="296" font-size="16" fill="#e8590c" text-anchor="middle" class="excalidraw-text" opacity="1">ceg</text>
+<rect x="500" y="325" width="160" height="40" stroke="#e8590c" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="580" y="351" font-size="16" fill="#e8590c" text-anchor="middle" class="excalidraw-text" opacity="1">meghatalmazott</text>
+<rect x="700" y="170" width="320" height="270" stroke="#9c36b5" fill="#eebefa" stroke-width="2" rx="0" opacity="0.5"/>
+<text x="720" y="200" font-size="20" fill="#9c36b5" text-anchor="start" class="excalidraw-text" opacity="1">KÉSZLET MODUL</text>
+<rect x="720" y="215" width="140" height="40" stroke="#9c36b5" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="790" y="241" font-size="16" fill="#9c36b5" text-anchor="middle" class="excalidraw-text" opacity="1">cikk</text>
+<rect x="870" y="215" width="140" height="40" stroke="#9c36b5" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="940" y="241" font-size="16" fill="#9c36b5" text-anchor="middle" class="excalidraw-text" opacity="1">cikkcsoport</text>
+<rect x="720" y="270" width="140" height="40" stroke="#9c36b5" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="790" y="296" font-size="16" fill="#9c36b5" text-anchor="middle" class="excalidraw-text" opacity="1">beszallito</text>
+<rect x="870" y="270" width="140" height="40" stroke="#9c36b5" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="940" y="296" font-size="16" fill="#9c36b5" text-anchor="middle" class="excalidraw-text" opacity="1">arszabaly</text>
+<rect x="720" y="325" width="290" height="40" stroke="#9c36b5" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="865" y="351" font-size="16" fill="#9c36b5" text-anchor="middle" class="excalidraw-text" opacity="1">robbantott_abra (tudásbázis)</text>
+<rect x="1040" y="170" width="300" height="270" stroke="#868e96" fill="#f8f9fa" stroke-width="2" rx="0" opacity="0.5"/>
+<text x="1060" y="200" font-size="20" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">JELMAGYARÁZAT</text>
+<text x="1060" y="229" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">🔵 CORE - Auth, Users, RBAC</text>
+<text x="1060" y="245.8" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="1060" y="262.6" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">🟠 PARTNER - Központi ügyféltörzs</text>
+<text x="1060" y="279.4" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="1060" y="296.2" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">🟣 KÉSZLET - Központi cikktörzs</text>
+<text x="1060" y="313" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="1060" y="329.8" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">🔴 BÉRLÉS - Bolt-specifikus</text>
+<text x="1060" y="346.6" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="1060" y="363.4" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">🟢 SZERVIZ - Bolt-specifikus</text>
+<text x="1060" y="380.20000000000005" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="1060" y="397" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">🟡 ÉRTÉKESÍTÉS - Bolt-specifikus</text>
+<path d="M 700 460 L 700 500" stroke="#495057" fill="none" stroke-width="3" marker-end="url(#ah)" opacity="1"/>
+<text x="720" y="486" font-size="16" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Hivatkozások</text>
+<rect x="40" y="520" width="420" height="380" stroke="#c92a2a" fill="#ffc9c9" stroke-width="2" rx="0" opacity="0.3"/>
+<text x="60" y="550" font-size="20" fill="#c92a2a" text-anchor="start" class="excalidraw-text" opacity="1">tenant_kgc1 (KGC Pest) SÉMA</text>
+<rect x="60" y="565" width="180" height="150" stroke="#c92a2a" fill="#ffffff" stroke-width="2" rx="0" opacity="0.8"/>
+<text x="150" y="591" font-size="16" fill="#c92a2a" text-anchor="middle" class="excalidraw-text" opacity="1">BÉRLÉS</text>
+<text x="70" y="614" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• bergep</text>
+<text x="70" y="630.8" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• berles</text>
+<text x="70" y="647.6" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• szerzodes</text>
+<text x="70" y="664.4" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• kaucio</text>
+<text x="70" y="681.2" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• keses</text>
+<rect x="260" y="565" width="180" height="150" stroke="#2f9e44" fill="#ffffff" stroke-width="2" rx="0" opacity="0.8"/>
+<text x="350" y="591" font-size="16" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">SZERVIZ</text>
+<text x="270" y="614" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• munkalap</text>
+<text x="270" y="630.8" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• munkalap_tetel</text>
+<text x="270" y="647.6" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• arajanlat</text>
+<text x="270" y="664.4" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• garancia_claim</text>
+<text x="270" y="681.2" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• belso_megjegyzes</text>
+<rect x="60" y="730" width="380" height="150" stroke="#e67700" fill="#ffffff" stroke-width="2" rx="0" opacity="0.8"/>
+<text x="270" y="756" font-size="16" fill="#e67700" text-anchor="middle" class="excalidraw-text" opacity="1">ÉRTÉKESÍTÉS</text>
+<text x="70" y="779" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• keszlet (bolt készlet)    • szamla</text>
+<text x="70" y="795.8" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• keszlet_mozgas            • szamla_tetel</text>
+<text x="70" y="812.6" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• bevetelezes               • befizetés</text>
+<text x="70" y="829.4" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• bevetelezes_tetel         • audit_log</text>
+<text x="70" y="846.2" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• eladas / eladas_tetel</text>
+<rect x="490" y="520" width="420" height="380" stroke="#1971c2" fill="#a5d8ff" stroke-width="2" rx="0" opacity="0.3"/>
+<text x="510" y="550" font-size="20" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">tenant_kgc2 (KGC Buda) SÉMA</text>
+<text x="510" y="579" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Ugyanaz a struktúra mint tenant_kgc1</text>
+<text x="510" y="595.8" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="510" y="612.6" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">DE: Külön adatok!</text>
+<text x="510" y="629.4" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• Saját bérgépek, bérlések</text>
+<text x="510" y="646.2" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• Saját munkalapok, szerviz</text>
+<text x="510" y="663" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• Saját készlet szintek</text>
+<rect x="940" y="520" width="420" height="380" stroke="#9c36b5" fill="#eebefa" stroke-width="2" rx="0" opacity="0.3"/>
+<text x="960" y="550" font-size="20" fill="#9c36b5" text-anchor="start" class="excalidraw-text" opacity="1">tenant_fr01 (Franchise Győr) SÉMA</text>
+<text x="960" y="579" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Ugyanaz a struktúra</text>
+<text x="960" y="595.8" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="960" y="612.6" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">DE: Teljesen izolált adatok!</text>
+<text x="960" y="629.4" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="960" y="646.2" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• Partner alapadatokat LÁTJA</text>
+<text x="960" y="663" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• Partner tranzakciókat NEM LÁTJA</text>
+<text x="960" y="679.8" font-size="14" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">• Saját készlet, saját audit log</text>
+<rect x="490" y="700" width="420" height="180" stroke="#495057" fill="#f8f9fa" stroke-width="2" rx="0" opacity="0.8"/>
+<text x="510" y="728" font-size="18" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">HIVATKOZÁSOK (Foreign Keys)</text>
+<text x="510" y="752" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">tenant.berles.partner_id → public.partner.id</text>
+<text x="510" y="766.4" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">tenant.berles.bergep_id → tenant.bergep.id</text>
+<text x="510" y="780.8" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">tenant.bergep.cikk_id → public.cikk.id</text>
+<text x="510" y="795.2" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">tenant.munkalap.partner_id → public.partner.id</text>
+<text x="510" y="809.6" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">tenant.munkalap_tetel.cikk_id → public.cikk.id</text>
+<text x="510" y="824" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">tenant.keszlet.cikk_id → public.cikk.id</text>
+<text x="510" y="838.4" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">tenant.*.user_id → public.users.id</text>
+<rect x="940" y="700" width="420" height="180" stroke="#f08c00" fill="#fff3bf" stroke-width="2" rx="0" opacity="0.8"/>
+<text x="960" y="728" font-size="18" fill="#f08c00" text-anchor="start" class="excalidraw-text" opacity="1">⚠️ FRANCHISE LÁTHATÓSÁG</text>
+<text x="960" y="752" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">LÁTJA:</text>
+<text x="960" y="766.4" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">✅ public.partner (alapadatok)</text>
+<text x="960" y="780.8" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">✅ public.cikk, arszabaly</text>
+<text x="960" y="795.2" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">✅ tenant_fr01.* (saját adatok)</text>
+<text x="960" y="809.6" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="960" y="824" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">NEM LÁTJA:</text>
+<text x="960" y="838.4" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">❌ tenant_kgc1.*, tenant_kgc2.*</text>
+<text x="960" y="852.8" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">❌ Más boltok tranzakciói</text>
+<text x="40" y="934" font-size="14" fill="#868e96" text-anchor="start" class="excalidraw-text" opacity="1">ADR-014 | KGC ERP Multi-Tenant Architektúra | 2025-12-11 | Winston (Architect)</text>
+</svg>

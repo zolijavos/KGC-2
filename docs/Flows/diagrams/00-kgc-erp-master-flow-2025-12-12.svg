@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -20 2020 2680" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="0" y="-20" width="2020" height="2680" fill="#ffffff"/>
+<rect x="400" y="20" width="1200" height="80" stroke="#1976d2" fill="#1976d2" stroke-width="2" rx="8" opacity="1"/>
+<text x="1000" y="68" font-size="28" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP v3.0 - MASTER FLOWCHART (Maximalista)</text>
+<text x="1000" y="126" font-size="16" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">Ügyfél-központú | ~122 elem | 8 üzleti ág | 2025-12-12</text>
+<ellipse cx="1000" cy="190" rx="100" ry="30" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="1000" y="192" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">ÜGYFÉL BELÉP</text>
+<rect x="880" y="260" width="240" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="1000" y="292" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Partner azonosítás</text>
+<path d="M 1000 220 L 1000 260" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<polygon points="1000,360 1100,400 1000,440 900,400" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<text x="1000" y="402" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Szolgáltatás?</text>
+<path d="M 1000 320 L 1000 360" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="100" y="500" width="160" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="180" y="534" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">BÉRLÉS</text>
+<rect x="320" y="500" width="160" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="400" y="534" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">ELADÁS</text>
+<rect x="540" y="500" width="160" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="620" y="532" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">SZERVIZ (A)</text>
+<rect x="760" y="500" width="180" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="850" y="532" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">VISSZAVÉTEL (B)</text>
+<rect x="1000" y="500" width="180" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1090" y="532" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">ÁRAJÁNLAT (E)</text>
+<rect x="1240" y="500" width="160" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1320" y="532" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">LELTÁR (C)</text>
+<rect x="1460" y="500" width="200" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1560" y="530" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">ÁTCSOPORTOSÍTÁS (D)</text>
+<rect x="1720" y="500" width="180" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="1810" y="532" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">BEVÉTELEZÉS</text>
+<rect x="140" y="620" width="200" height="80" stroke="#388e3c" fill="#e8f5e9" stroke-width="3" rx="8" opacity="1"/>
+<text x="240" y="647" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🆕 R.1 KIADÁSI</text>
+<text x="240" y="661.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">JAVASLAT</text>
+<text x="240" y="675.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(KÉSZLET_HELY)</text>
+<polygon points="240,740 320,780 240,820 160,780" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<text x="240" y="780" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">R.2 Elfogad?</text>
+<rect x="360" y="740" width="180" height="80" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="450" y="766" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Felülbírálás</text>
+<text x="450" y="779.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">+ KIADASI_AUDIT</text>
+<text x="450" y="792.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">+ Indoklás</text>
+<rect x="140" y="880" width="200" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="240" y="912" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Kaució / Számla</text>
+<rect x="100" y="980" width="280" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="240" y="1010" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KÉSZLET_HELY.mennyiseg -= n</text>
+<rect x="100" y="1080" width="280" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="240" y="1110" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KÉSZLET_MOZGÁS (-, tarhely_kod)</text>
+<polygon points="240,1180 320,1220 240,1260 160,1220" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<text x="240" y="1220" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Fizetési mód?</text>
+<rect x="40" y="1300" width="100" height="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="90" y="1324" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Készpénz</text>
+<rect x="180" y="1300" width="100" height="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="230" y="1324" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Kártya</text>
+<rect x="320" y="1300" width="100" height="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="370" y="1324" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Átutalás</text>
+<rect x="540" y="620" width="160" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="620" y="650" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Munkalap nyitás</text>
+<rect x="540" y="720" width="160" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="620" y="750" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Diagnosztika</text>
+<polygon points="620,820 700,860 620,900 540,860" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<text x="620" y="860" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Garanciális?</text>
+<rect x="540" y="940" width="160" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="620" y="970" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Javítás</text>
+<rect x="540" y="1040" width="160" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="620" y="1069" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Alkatrész (készlet-)</text>
+<rect x="540" y="1140" width="160" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="620" y="1170" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Munkalap zárás</text>
+<rect x="760" y="620" width="180" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="850" y="650" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Állapot felmérés</text>
+<polygon points="850,720 930,760 850,800 770,760" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<text x="850" y="760" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Sérült?</text>
+<rect x="760" y="840" width="180" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="850" y="869" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Kaució visszaadás</text>
+<rect x="760" y="940" width="180" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="850" y="969" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KÉSZLET_HELY += 1</text>
+<rect x="1000" y="620" width="180" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1090" y="650" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Árajánlat készítés</text>
+<polygon points="1090,720 1170,760 1090,800 1010,760" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<text x="1090" y="760" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Elfogadta?</text>
+<rect x="1000" y="840" width="180" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1090" y="870" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Rendelés</text>
+<rect x="1000" y="940" width="180" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1090" y="970" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Foglalás</text>
+<rect x="1240" y="620" width="160" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1320" y="650" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Leltár nyitás</text>
+<rect x="1240" y="720" width="160" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1320" y="749" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Cikkek számlálása</text>
+<polygon points="1320,820 1400,860 1320,900 1240,860" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<text x="1320" y="860" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Eltérés?</text>
+<rect x="1240" y="940" width="160" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1320" y="969" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KÉSZLET_HELY mod</text>
+<rect x="1240" y="1040" width="160" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1320" y="1068" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KÉSZLET_MOZGÁS (L)</text>
+<rect x="1460" y="620" width="200" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1560" y="650" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Forrás tárhely</text>
+<rect x="1460" y="720" width="200" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1560" y="750" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Cél tárhely</text>
+<rect x="1460" y="820" width="200" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1560" y="849" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KÉSZLET_MOZGÁS (T)</text>
+<rect x="1720" y="620" width="180" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="1810" y="649" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Beszállítói számla</text>
+<rect x="1720" y="720" width="180" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="3" rx="8" opacity="1"/>
+<text x="1810" y="749" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🆕 Tárhely (KÖTELEZŐ)</text>
+<rect x="1720" y="820" width="180" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1810" y="849" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KÉSZLET_HELY += n</text>
+<rect x="1720" y="920" width="180" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1810" y="949" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KÉSZLET_MOZGÁS (+)</text>
+<rect x="500" y="1420" width="1000" height="60" stroke="#388e3c" fill="#388e3c" stroke-width="2" rx="8" opacity="1"/>
+<text x="1000" y="1458" font-size="20" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">🆕 P5 AUTOMATIZÁLT ELSZÁMOLÁS</text>
+<rect x="520" y="1520" width="180" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="610" y="1548" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Bank CSV</text>
+<text x="610" y="1560" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(OTP/K&amp;H/Erste)</text>
+<rect x="740" y="1520" width="180" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="830" y="1548" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Futár API</text>
+<text x="830" y="1560" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(GLS/DPD/MPL)</text>
+<rect x="960" y="1520" width="180" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="1050" y="1548" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">MyPos POS</text>
+<text x="1050" y="1560" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">terminál</text>
+<rect x="1180" y="1520" width="180" height="60" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="1270" y="1548" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Részletfizetés (F)</text>
+<text x="1270" y="1560" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">befizetések</text>
+<rect x="780" y="1620" width="240" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="3" rx="8" opacity="1"/>
+<text x="900" y="1650" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">BANK_TRANZAKCIÓ</text>
+<text x="900" y="1664.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">létrehozás</text>
+<rect x="780" y="1720" width="240" height="100" stroke="#388e3c" fill="#e8f5e9" stroke-width="3" rx="8" opacity="1"/>
+<text x="900" y="1746" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🆕 P5.3 PONTOZÁS</text>
+<text x="900" y="1759.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">összeg(40) + közl(35)</text>
+<text x="900" y="1772.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">+ partner(15) + dát(10)</text>
+<text x="900" y="1785.6" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">= 100 pont max</text>
+<polygon points="900,1860 960,1900 900,1940 840,1900" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<text x="900" y="1900" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Score?</text>
+<rect x="600" y="1980" width="140" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="670" y="2009" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">AUTO</text>
+<text x="670" y="2022.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">párosítás</text>
+<text x="670" y="1970" font-size="10" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">≥90 pont</text>
+<rect x="830" y="1980" width="140" height="60" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="900" y="2009" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">JAVASLAT</text>
+<text x="900" y="2022.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">+ Push</text>
+<text x="900" y="1970" font-size="10" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">70-89 pont</text>
+<rect x="1060" y="1980" width="140" height="60" stroke="#616161" fill="#f5f5f5" stroke-width="2" rx="8" opacity="1"/>
+<text x="1130" y="2009" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KÉZI</text>
+<text x="1130" y="2022.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">párosítás</text>
+<text x="1130" y="1970" font-size="10" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">&lt;70 pont</text>
+<rect x="780" y="2100" width="240" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="3" rx="8" opacity="1"/>
+<text x="900" y="2130" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">SZÁMLA.fizetve = TRUE</text>
+<rect x="500" y="2200" width="1000" height="60" stroke="#1976d2" fill="#1976d2" stroke-width="2" rx="8" opacity="1"/>
+<text x="1000" y="2236" font-size="18" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">🆕 N.3 ÉRTESÍTÉSEK (SMS / Email / PWA Push)</text>
+<rect x="580" y="2300" width="300" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="730" y="2325" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Trigger események:</text>
+<text x="730" y="2337" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">BERLES_LEJAR | SZAMLA_KESZULT</text>
+<text x="730" y="2349" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">PAROSITAS_VARAKOZIK | KESES</text>
+<rect x="940" y="2300" width="100" height="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="990" y="2325" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">SMS</text>
+<rect x="1060" y="2300" width="100" height="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="1110" y="2325" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Email</text>
+<rect x="1180" y="2300" width="140" height="50" stroke="#388e3c" fill="#e8f5e9" stroke-width="3" rx="8" opacity="1"/>
+<text x="1250" y="2324" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🆕 PWA Push</text>
+<rect x="1180" y="2380" width="140" height="50" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1250" y="2404" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Firebase FCM</text>
+<rect x="1180" y="2460" width="140" height="50" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1250" y="2484" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Service Worker</text>
+<ellipse cx="950" cy="2590" rx="100" ry="30" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="950" y="2590" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">ÜGYFÉL ÉRTESÍTVE</text>
+<rect x="40" y="1420" width="400" height="40" stroke="#f57c00" fill="#f57c00" stroke-width="2" rx="8" opacity="1"/>
+<text x="240" y="1442" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">GARANCIÁLIS JAVÍTÁS (G)</text>
+<rect x="60" y="1500" width="180" height="60" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="150" y="1529" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Garancia ellenőrzés</text>
+<polygon points="150,1600 220,1640 150,1680 80,1640" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<text x="150" y="1639" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Érvényes?</text>
+<rect x="60" y="1720" width="180" height="60" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="150" y="1749" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Gyártói bejelentés</text>
+<rect x="60" y="1820" width="180" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="150" y="1849" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Díjmentes javítás</text>
+<rect x="280" y="1720" width="140" height="60" stroke="#616161" fill="#f5f5f5" stroke-width="2" rx="8" opacity="1"/>
+<text x="350" y="1749" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Fizetős szerviz</text>
+<rect x="1560" y="1020" width="300" height="40" stroke="#f57c00" fill="#f57c00" stroke-width="2" rx="8" opacity="1"/>
+<text x="1710" y="1042" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">RÉSZLETFIZETÉS (F)</text>
+<rect x="1580" y="1100" width="180" height="60" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="1670" y="1129" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Törlesztési ütemezés</text>
+<rect x="1580" y="1200" width="180" height="60" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="1670" y="1229" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Részlet esedékesség</text>
+<polygon points="1670,1300 1740,1340 1670,1380 1600,1340" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<text x="1670" y="1339" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Befizetve?</text>
+<rect x="1700" y="2200" width="280" height="360" stroke="#616161" fill="#ffffff" stroke-width="2" rx="8" opacity="1"/>
+<text x="1840" y="2234" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">JELMAGYARÁZAT</text>
+<rect x="1720" y="2260" width="80" height="30" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="4" opacity="1"/>
+<text x="1810" y="2278" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Folyamat lépés</text>
+<rect x="1720" y="2300" width="80" height="30" stroke="#388e3c" fill="#e8f5e9" stroke-width="3" rx="4" opacity="1"/>
+<text x="1810" y="2318" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">🆕 Új v3.0 funkció</text>
+<polygon points="1750,2340 1780,2360 1750,2380 1720,2360" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<text x="1810" y="2363" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Döntési pont</text>
+<ellipse cx="1760" cy="2405" rx="40" ry="15" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="1810" y="2408" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Start / End pont</text>
+<rect x="1720" y="2430" width="80" height="30" stroke="#616161" fill="#f5f5f5" stroke-width="2" rx="4" opacity="1"/>
+<text x="1810" y="2448" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Manuális / Fallback</text>
+<text x="1720" y="2489" font-size="9" fill="#616161" text-anchor="start" class="excalidraw-text" opacity="1">Forrás: fit-gap-analysis-2025-12-12</text>
+<text x="1720" y="2499.8" font-size="9" fill="#616161" text-anchor="start" class="excalidraw-text" opacity="1">R.1/R.2: Készlet optimalizáció</text>
+<text x="1720" y="2510.6" font-size="9" fill="#616161" text-anchor="start" class="excalidraw-text" opacity="1">P.1-P.3: Automatizált elszámolás</text>
+<text x="1720" y="2521.4" font-size="9" fill="#616161" text-anchor="start" class="excalidraw-text" opacity="1">N.1: PWA Push értesítések</text>
+</svg>

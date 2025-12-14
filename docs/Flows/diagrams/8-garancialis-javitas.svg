@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 -20 980 1000" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="60" y="-20" width="980" height="1000" fill="#ffffff"/>
+<text x="700" y="48" font-size="28" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - GARANCIÁLIS JAVÍTÁS</text>
+<text x="700" y="79" font-size="14" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Gyártói garancia elszámolás - Makita norma vs. egyedi</text>
+<ellipse cx="520" cy="120" rx="40" ry="20" stroke="#2f9e44" fill="#b2f2bb" stroke-width="2" opacity="1"/>
+<text x="520" y="122" font-size="10" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">Gép behoz.</text>
+<path d="M 520 140 L 520 170" stroke="#495057" fill="none" stroke-width="2" opacity="1"/>
+<polygon points="520,170 590,210 520,250 450,210" stroke="#e67700" fill="#fff3bf" stroke-width="2" opacity="1"/>
+<text x="520" y="207" font-size="12" fill="#e67700" text-anchor="middle" class="excalidraw-text" opacity="1">Garanciális</text>
+<text x="520" y="221.4" font-size="12" fill="#e67700" text-anchor="middle" class="excalidraw-text" opacity="1">javítás?</text>
+<path d="M 590 210 L 670 210" stroke="#495057" fill="none" stroke-width="2" opacity="1"/>
+<text x="610" y="205" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">NEM</text>
+<rect x="670" y="185" width="120" height="50" stroke="#868e96" fill="#f8f9fa" stroke-width="2" rx="0" opacity="1"/>
+<text x="730" y="210" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Normál szerviz</text>
+<text x="730" y="222" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">→ 04-szerviz</text>
+<path d="M 520 250 L 520 280" stroke="#495057" fill="none" stroke-width="2" opacity="1"/>
+<text x="530" y="270" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">IGEN</text>
+<polygon points="520,280 590,320 520,360 450,320" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" opacity="1"/>
+<text x="520" y="317" font-size="12" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">Gyártó</text>
+<text x="520" y="331.4" font-size="12" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">típusa?</text>
+<path d="M 450 320 L 330 320" stroke="#495057" fill="none" stroke-width="2" opacity="1"/>
+<text x="350" y="315" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Makita</text>
+<path d="M 590 320 L 710 320" stroke="#495057" fill="none" stroke-width="2" opacity="1"/>
+<text x="620" y="315" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Egyéb gyártó</text>
+<rect x="100" y="280" width="230" height="280" stroke="#e03131" fill="#ffe3e3" stroke-width="2" rx="0" opacity="1"/>
+<rect x="100" y="280" width="230" height="35" stroke="#e03131" fill="#e03131" stroke-width="2" rx="0" opacity="1"/>
+<text x="215" y="300" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">🔴 MAKITA NORMA RENDSZER</text>
+<text x="110" y="336" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">1. Hiba azonosítás</text>
+<text x="110" y="349.2" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">   → Hibakód kiválasztás</text>
+<text x="110" y="362.4" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="110" y="375.6" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">2. Norma táblázat lekérés</text>
+<text x="110" y="388.8" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">   • Fix munkadíj (pl. 4500 Ft)</text>
+<text x="110" y="402" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">   • Alkatrész ár (lista)</text>
+<text x="110" y="415.2" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">   • Max javítási idő</text>
+<text x="110" y="428.4" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="110" y="441.6" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">3. Javítás elvégzése</text>
+<text x="110" y="454.8" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="110" y="468" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">4. Garancia claim</text>
+<text x="110" y="481.2" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">   → Makita online felület</text>
+<text x="110" y="494.4" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">   → Automatikus kitöltés</text>
+<text x="110" y="507.6" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="110" y="520.8" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">5. Jóváírás érkezése</text>
+<text x="110" y="534" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">   → Makita átutalás</text>
+<rect x="710" y="280" width="230" height="280" stroke="#5f3dc4" fill="#f3d9fa" stroke-width="2" rx="0" opacity="1"/>
+<rect x="710" y="280" width="230" height="35" stroke="#5f3dc4" fill="#5f3dc4" stroke-width="2" rx="0" opacity="1"/>
+<text x="825" y="300" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">🟣 EGYEDI ELBÍRÁLÁS</text>
+<text x="720" y="336" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">1. Diagnosztika</text>
+<text x="720" y="349.2" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">   → Részletes hibaleírás</text>
+<text x="720" y="362.4" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="720" y="375.6" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">2. Árajánlat készítés</text>
+<text x="720" y="388.8" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">   • Becsült munkadíj</text>
+<text x="720" y="402" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">   • Alkatrész árak</text>
+<text x="720" y="415.2" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">   • Fotó dokumentáció</text>
+<text x="720" y="428.4" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="720" y="441.6" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">3. Gyártónak küldés</text>
+<text x="720" y="454.8" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">   → Email / Portál</text>
+<text x="720" y="468" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">   → Jóváhagyás várása</text>
+<text x="720" y="481.2" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="720" y="494.4" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">4. Javítás (ha jóváhagyva)</text>
+<text x="720" y="507.6" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="720" y="520.8" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">5. Elszámolás</text>
+<text x="720" y="534" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">   → Egyedi megállapodás</text>
+<text x="720" y="547.2" font-size="11" fill="#5f3dc4" text-anchor="start" class="excalidraw-text" opacity="1">   → Lehet részleges is</text>
+<rect x="100" y="580" width="350" height="180" stroke="#e03131" fill="#fff5f5" stroke-width="1" rx="0" opacity="1"/>
+<text x="110" y="603" font-size="13" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">📊 MAKITA NORMA TÁBLÁZAT (példa)</text>
+<text x="110" y="630" font-size="10" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">┌─────────────┬──────────┬───────────┬─────────┐</text>
+<text x="110" y="642" font-size="10" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">│ Hibakód     │ Leírás   │ Munkadíj  │ Max idő │</text>
+<text x="110" y="654" font-size="10" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">├─────────────┼──────────┼───────────┼─────────┤</text>
+<text x="110" y="666" font-size="10" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">│ M-001       │ Motor cs.│ 8.500 Ft  │ 45 perc │</text>
+<text x="110" y="678" font-size="10" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">│ M-002       │ Szénkefe │ 3.200 Ft  │ 20 perc │</text>
+<text x="110" y="690" font-size="10" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">│ M-003       │ Kapcsoló │ 4.500 Ft  │ 30 perc │</text>
+<text x="110" y="702" font-size="10" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">│ M-004       │ Csapágy  │ 5.800 Ft  │ 40 perc │</text>
+<text x="110" y="714" font-size="10" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">└─────────────┴──────────┴───────────┴─────────┘</text>
+<rect x="500" y="580" width="440" height="180" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" rx="0" opacity="1"/>
+<rect x="500" y="580" width="440" height="30" stroke="#1971c2" fill="#1971c2" stroke-width="2" rx="0" opacity="1"/>
+<text x="510" y="601" font-size="14" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">🔧 GARANCIA_SZERZŐDÉS Entitás</text>
+<text x="510" y="631" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">🔑 szerzodes_id      INT (PK)</text>
+<text x="510" y="644.2" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">   gyarto_id         INT (FK)          -- Gyártó/beszállító</text>
+<text x="510" y="657.4" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">   tipus             ENUM              -- norma/egyedi</text>
+<text x="510" y="670.6" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">   norma_tabla_url   VARCHAR           -- Ha norma rendszer</text>
+<text x="510" y="683.8" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">   portal_url        VARCHAR           -- Online claim felület</text>
+<text x="510" y="697" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">   email             VARCHAR           -- Claim email cím</text>
+<text x="510" y="710.2" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">   elszamolas_mod    ENUM              -- atutalas/jovairas/alkatresz</text>
+<text x="510" y="723.4" font-size="11" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">   aktiv             BOOLEAN</text>
+<rect x="100" y="780" width="440" height="160" stroke="#2f9e44" fill="#ebfbee" stroke-width="2" rx="0" opacity="1"/>
+<rect x="100" y="780" width="440" height="30" stroke="#2f9e44" fill="#2f9e44" stroke-width="2" rx="0" opacity="1"/>
+<text x="110" y="801" font-size="14" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">📋 GARANCIA_CLAIM Entitás</text>
+<text x="110" y="831" font-size="11" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">🔑 claim_id          INT (PK)</text>
+<text x="110" y="844.2" font-size="11" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">   munkalap_id       INT (FK)          -- Szerviz munkalap</text>
+<text x="110" y="857.4" font-size="11" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">   szerzodes_id      INT (FK)          -- Garancia szerződés</text>
+<text x="110" y="870.6" font-size="11" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">   hibakod           VARCHAR           -- Makita esetén norma kód</text>
+<text x="110" y="883.8" font-size="11" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">   munkadij          DECIMAL           -- Elszámolt munkadíj</text>
+<text x="110" y="897" font-size="11" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">   alkatresz_ertek   DECIMAL           -- Alkatrészek értéke</text>
+<text x="110" y="910.2" font-size="11" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">   statusz           ENUM              -- benyujtva/jovahagy/elutasit/fizetve</text>
+<text x="110" y="923.4" font-size="11" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">   benyujtas_datum   DATE</text>
+<text x="110" y="936.6" font-size="11" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">   jovairas_datum    DATE</text>
+<rect x="560" y="780" width="380" height="160" stroke="#e03131" fill="#fff5f5" stroke-width="2" rx="0" opacity="1"/>
+<rect x="560" y="780" width="380" height="30" stroke="#e03131" fill="#e03131" stroke-width="2" rx="0" opacity="1"/>
+<text x="570" y="801" font-size="14" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">📊 NORMA_TETEL Entitás (Makita)</text>
+<text x="570" y="831" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">🔑 norma_id          INT (PK)</text>
+<text x="570" y="844.2" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">   szerzodes_id      INT (FK)          -- Melyik gyártó</text>
+<text x="570" y="857.4" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">   hibakod           VARCHAR UNIQUE    -- M-001, M-002...</text>
+<text x="570" y="870.6" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">   leiras            VARCHAR</text>
+<text x="570" y="883.8" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">   munkadij          DECIMAL           -- Fix munkadíj</text>
+<text x="570" y="897" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">   max_ido_perc      INT               -- Max javítási idő</text>
+<text x="570" y="910.2" font-size="11" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">   aktiv             BOOLEAN</text>
+</svg>

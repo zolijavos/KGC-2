@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -20 780 970" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="10" y="-20" width="780" height="970" fill="#ffffff"/>
+<text x="500" y="52" font-size="32" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - Felhasználók és Jogosultságok</text>
+<rect x="50" y="100" width="300" height="350" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="200" y="135" font-size="20" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">FELHASZNÁLÓK</text>
+<text x="70" y="167" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">Hozzáférés: Törzsadatok → Felhasználók</text>
+<text x="70" y="204" font-size="14" fill="#0d47a1" text-anchor="start" class="excalidraw-text" opacity="1">Funkciók:</text>
+<text x="70" y="227" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Felhasználók listázása</text>
+<text x="70" y="241.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Keresés név alapján</text>
+<text x="70" y="255.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Jogosultságok kezelése</text>
+<text x="70" y="270.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Hozzáférési szintek beállítása</text>
+<text x="70" y="284.6" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Új felhasználó hozzáadása</text>
+<text x="70" y="344" font-size="14" fill="#0d47a1" text-anchor="start" class="excalidraw-text" opacity="1">Adatok:</text>
+<text x="70" y="367" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Felhasználó ID</text>
+<text x="70" y="381.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Név</text>
+<text x="70" y="395.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Kód (bejelentkezéshez)</text>
+<text x="70" y="410.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Szerepkör</text>
+<rect x="400" y="100" width="350" height="350" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="570" y="135" font-size="20" fill="#4a148c" text-anchor="middle" class="excalidraw-text" opacity="1">JOGOSULTSÁGOK</text>
+<text x="420" y="167" font-size="12" fill="#757575" text-anchor="start" class="excalidraw-text" opacity="1">&quot;Nagyon át kell majd gondolni,</text>
+<text x="420" y="181.4" font-size="12" fill="#757575" text-anchor="start" class="excalidraw-text" opacity="1">hogy kinek milyen hozzáférés legyen&quot;</text>
+<text x="420" y="224" font-size="14" fill="#4a148c" text-anchor="start" class="excalidraw-text" opacity="1">Területek (példa):</text>
+<text x="420" y="247" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Számlázás</text>
+<text x="420" y="261.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Bevételezés</text>
+<text x="420" y="275.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Szerviz kezelés</text>
+<text x="420" y="290.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Bérlés</text>
+<text x="420" y="304.6" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Készletmozgás</text>
+<text x="420" y="319" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Pénzügyi funkciók</text>
+<text x="420" y="333.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Törzsadatok módosítás</text>
+<text x="420" y="347.79999999999995" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Lekérdezések</text>
+<text x="420" y="362.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• &quot;Céges használat&quot; levétel</text>
+<text x="420" y="376.6" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">• Riportok exportálása</text>
+<rect x="50" y="480" width="350" height="150" stroke="#d84315" fill="#fbe9e7" stroke-width="2" rx="0" opacity="1"/>
+<text x="225" y="513" font-size="18" fill="#bf360c" text-anchor="middle" class="excalidraw-text" opacity="1">ISMERT PROBLÉMÁK</text>
+<text x="70" y="542" font-size="12" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">• &quot;Céges használatra&quot; tétel levétele</text>
+<text x="70" y="556.4" font-size="12" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">  → Nincs egyértelmű nyomkövetés</text>
+<text x="70" y="570.8" font-size="12" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">• Jogosultság tisztázatlansága</text>
+<text x="70" y="585.2" font-size="12" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">  → Ki mit csinálhat?</text>
+<text x="70" y="599.6" font-size="12" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">• Sok beállítási lehetőség</text>
+<text x="70" y="614" font-size="12" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">  → Átfogó tervezés szükséges</text>
+<rect x="450" y="480" width="300" height="150" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
+<text x="600" y="511" font-size="16" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">VONALKÓD NYOMTATÁS</text>
+<text x="470" y="542" font-size="12" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">Eszköz: Zebra nyomtató</text>
+<text x="470" y="556.4" font-size="12" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="470" y="570.8" font-size="12" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">Hozzáférés: Törzsadatok → Vonalkód</text>
+<text x="470" y="585.2" font-size="12" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="470" y="599.6" font-size="12" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">• Cikkszám beírása</text>
+<text x="470" y="614" font-size="12" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">• Darabszám megadása</text>
+<text x="470" y="628.4" font-size="12" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">• Nyomtatás</text>
+<rect x="50" y="660" width="700" height="120" stroke="#0288d1" fill="#e1f5fe" stroke-width="2" rx="0" opacity="1"/>
+<text x="400" y="693" font-size="18" fill="#01579b" text-anchor="middle" class="excalidraw-text" opacity="1">FEJLESZTÉSI JAVASLAT</text>
+<text x="70" y="722" font-size="12" fill="#01579b" text-anchor="start" class="excalidraw-text" opacity="1">Személyi igazolvány / Lakcímkártya vonalkód beolvasása mobil olvasóval</text>
+<text x="70" y="736.4" font-size="12" fill="#01579b" text-anchor="start" class="excalidraw-text" opacity="1">→ Automatikus ügyfél felvétel (csak email + telefon kézi bevitel)</text>
+<text x="70" y="750.8" font-size="12" fill="#01579b" text-anchor="start" class="excalidraw-text" opacity="1">→ &quot;Hihetetlenül gyorsítaná a folyamatot&quot;</text>
+<text x="70" y="765.2" font-size="12" fill="#01579b" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="70" y="779.6" font-size="12" fill="#01579b" text-anchor="start" class="excalidraw-text" opacity="1">KÉRDÉS: GDPR megfelelőség? - További vizsgálat szükséges!</text>
+<rect x="50" y="810" width="700" height="100" stroke="#5d4037" fill="#efebe9" stroke-width="2" rx="0" opacity="1"/>
+<text x="400" y="843" font-size="18" fill="#3e2723" text-anchor="middle" class="excalidraw-text" opacity="1">LEKÉRDEZÉSEK</text>
+<text x="70" y="872" font-size="12" fill="#3e2723" text-anchor="start" class="excalidraw-text" opacity="1">&quot;Mindent le lehet kérdezni - egy cikkre az egész folyamatot, ki mit csinált, minden.</text>
+<text x="70" y="886.4" font-size="12" fill="#3e2723" text-anchor="start" class="excalidraw-text" opacity="1">Így szoktunk nyomozgatni, amikor gyűjtögetjük a dolgokat.&quot;</text>
+<path d="M 350 275 L 400 275" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<text x="375" y="267" font-size="12" fill="#757575" text-anchor="middle" class="excalidraw-text" opacity="1">kezel</text>
+</svg>

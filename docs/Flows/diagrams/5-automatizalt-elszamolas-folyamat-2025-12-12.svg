@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -20 1030 980" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="10" y="-20" width="1030" height="980" fill="#ffffff"/>
+<text x="725" y="48" font-size="28" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - Automatizált Elszámolás Folyamat v3.0</text>
+<text x="650" y="69" font-size="14" fill="#666666" text-anchor="middle" class="excalidraw-text" opacity="1">2025-12-12 | P5 Pontozásos párosítás</text>
+<ellipse cx="460" cy="125" rx="60" ry="25" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" opacity="1"/>
+<text x="410" y="129" font-size="14" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">P5.1 Import</text>
+<path d="M 460 150 L 460 180" stroke="#333333" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="350" y="190" width="220" height="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="460" y="212" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Bank kivonat / Futár</text>
+<text x="460" y="226.4" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">elszámolás beolvasása</text>
+<text x="460" y="240.8" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">(CSV/API)</text>
+<path d="M 460 260 L 460 290" stroke="#333333" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="350" y="300" width="220" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="460" y="322" font-size="12" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">P5.2 BANK_TRANZAKCIÓ</text>
+<text x="460" y="336.4" font-size="12" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">rekord létrehozása</text>
+<path d="M 460 360 L 460 390" stroke="#333333" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="350" y="400" width="220" height="80" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="3" rx="8" opacity="1"/>
+<text x="460" y="422" font-size="12" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">P5.3 Pontozás</text>
+<text x="460" y="436.4" font-size="12" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">(osszeg + kozlemeny +</text>
+<text x="460" y="450.8" font-size="12" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">partner + datum)</text>
+<path d="M 460 480 L 460 510" stroke="#333333" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="460" y="562" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">Score</text>
+<text x="460" y="576.4" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">értékelés</text>
+<path d="M 550 545 L 650 545" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="570" y="539" font-size="14" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">≥90</text>
+<rect x="660" y="510" width="180" height="70" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="750" y="537" font-size="12" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">P5.4a AUTO</text>
+<text x="750" y="551.4" font-size="12" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">Párosítás végrehajtás</text>
+<path d="M 550 570 L 650 630" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="570" y="604" font-size="14" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">70-89</text>
+<rect x="660" y="620" width="180" height="70" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="750" y="647" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">P5.4b JAVASLAT</text>
+<text x="750" y="661.4" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">Kezelő megerősít</text>
+<path d="M 370 565 L 270 565" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="290" y="559" font-size="14" fill="#d32f2f" text-anchor="start" class="excalidraw-text" opacity="1">&lt;70</text>
+<rect x="100" y="530" width="170" height="70" stroke="#d32f2f" fill="#ffebee" stroke-width="2" rx="8" opacity="1"/>
+<text x="185" y="557" font-size="12" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">P5.4c KÉZI</text>
+<text x="185" y="571.4" font-size="12" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">Kézi párosítás kell</text>
+<path d="M 750 580 L 750 740" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 750 690 L 750 740" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 185 600 L 185 740 L 635 740" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="620" y="750" width="260" height="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="750" y="777" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">P5.5 SZÁMLA.fizetve = TRUE</text>
+<text x="750" y="791.4" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">+ PÁROSÍTÁS_LOG bejegyzés</text>
+<path d="M 750 820 L 750 860" stroke="#333333" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<ellipse cx="750" cy="895" rx="60" ry="25" stroke="#d32f2f" fill="#ffebee" stroke-width="2" opacity="1"/>
+<text x="725" y="899" font-size="14" fill="#d32f2f" text-anchor="start" class="excalidraw-text" opacity="1">Vége</text>
+<rect x="50" y="100" width="250" height="200" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="8" opacity="1"/>
+<text x="60" y="122" font-size="14" fill="#7b1fa2" text-anchor="start" class="excalidraw-text" opacity="1">Pontozási Algoritmus 🆕</text>
+<path d="M 50 135 L 300 135" stroke="#7b1fa2" fill="none" stroke-width="1" opacity="1"/>
+<text x="60" y="156" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">osszeg_match     +40 pont</text>
+<text x="60" y="169.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">(pontos egyezés)</text>
+<text x="60" y="182.4" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="60" y="195.6" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">kozlemeny_match  +35 pont</text>
+<text x="60" y="208.8" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">(számlaszám a közl.-ben)</text>
+<text x="60" y="222" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="60" y="235.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">partner_match    +15 pont</text>
+<text x="60" y="248.39999999999998" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">(név hasonlóság)</text>
+<text x="60" y="261.6" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="60" y="274.8" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">datum_match      +10 pont</text>
+<text x="60" y="288" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">(±7 napon belül)</text>
+<rect x="50" y="320" width="250" height="150" stroke="#616161" fill="#fafafa" stroke-width="1" rx="8" opacity="1"/>
+<text x="60" y="344" font-size="14" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">Score Értelmezés</text>
+<text x="60" y="371" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">90-100: Automatikus ✓</text>
+<text x="60" y="384.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">70-89:  Javaslat (kézi meger.)</text>
+<text x="60" y="397.4" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">50-69:  Eltérés jelzés ⚠</text>
+<text x="60" y="410.6" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">0-49:   Párosítatlan ✗</text>
+<text x="60" y="423.8" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="60" y="437" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">Kézi: Mindig PÁROSÍTÁS_LOG</text>
+<rect x="660" y="100" width="250" height="150" stroke="#1976d2" fill="#e3f2fd" stroke-width="1" rx="8" opacity="1"/>
+<text x="670" y="122" font-size="14" fill="#1976d2" text-anchor="start" class="excalidraw-text" opacity="1">Támogatott Források</text>
+<text x="670" y="151" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">BANK:</text>
+<text x="670" y="164.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">  OTP, K&amp;H, Erste (CSV)</text>
+<text x="670" y="177.4" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="670" y="190.6" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">FUTÁR:</text>
+<text x="670" y="203.8" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">  GLS, DPD, MPL (CSV/API)</text>
+<text x="670" y="217" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="670" y="230.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">POS:</text>
+<text x="670" y="243.39999999999998" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">  MyPos (API)</text>
+</svg>

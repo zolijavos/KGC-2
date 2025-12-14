@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -20 930 1060" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="10" y="-20" width="930" height="1060" fill="#ffffff"/>
+<text x="600" y="52" font-size="32" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP v2.0 - Szerviz ERD (Multi-tenant)</text>
+<rect x="50" y="100" width="200" height="160" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="150" y="128" font-size="18" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">PARTNER</text>
+<path d="M 60 140 L 240 140" stroke="#1976d2" fill="none" stroke-width="1" opacity="1"/>
+<text x="60" y="162" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">PK partner_id</text>
+<text x="60" y="176.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   tenant_id 🏢</text>
+<text x="60" y="190.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   nev</text>
+<text x="60" y="205.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   adoszam</text>
+<text x="60" y="219.6" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   cim</text>
+<text x="60" y="234" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   telefon</text>
+<text x="60" y="248.39999999999998" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   email</text>
+<rect x="350" y="100" width="220" height="220" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
+<text x="460" y="128" font-size="18" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">MUNKALAP</text>
+<path d="M 360 140 L 560 140" stroke="#2e7d32" fill="none" stroke-width="1" opacity="1"/>
+<text x="360" y="162" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">PK munkalap_szam</text>
+<text x="360" y="176.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK ugyfél_id</text>
+<text x="360" y="190.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK felvevo_id</text>
+<text x="360" y="205.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   gep_azonosito</text>
+<text x="360" y="219.6" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   geptipus</text>
+<text x="360" y="234" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   felvetel_datum</text>
+<text x="360" y="248.39999999999998" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   problema_leiras</text>
+<text x="360" y="262.79999999999995" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   statusz</text>
+<text x="360" y="277.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   vonalkod</text>
+<rect x="650" y="100" width="200" height="180" stroke="#e65100" fill="#fff3e0" stroke-width="2" rx="0" opacity="1"/>
+<text x="750" y="126" font-size="16" fill="#bf360c" text-anchor="middle" class="excalidraw-text" opacity="1">MUNKALAP_TETEL</text>
+<path d="M 660 140 L 840 140" stroke="#e65100" fill="none" stroke-width="1" opacity="1"/>
+<text x="660" y="162" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">PK tetel_id</text>
+<text x="660" y="176.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK munkalap_id</text>
+<text x="660" y="190.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK cikkszam</text>
+<text x="660" y="205.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   mennyiseg</text>
+<text x="660" y="219.6" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   egysegar</text>
+<text x="660" y="234" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   megjegyzes</text>
+<rect x="650" y="340" width="200" height="160" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="750" y="368" font-size="18" fill="#4a148c" text-anchor="middle" class="excalidraw-text" opacity="1">CIKK</text>
+<path d="M 660 380 L 840 380" stroke="#7b1fa2" fill="none" stroke-width="1" opacity="1"/>
+<text x="660" y="402" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">PK cikkszam</text>
+<text x="660" y="416.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   megnevezes</text>
+<text x="660" y="430.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   egysegar</text>
+<text x="660" y="445.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   keszlet</text>
+<text x="660" y="459.6" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   vonalkod</text>
+<rect x="50" y="340" width="200" height="140" stroke="#0288d1" fill="#e1f5fe" stroke-width="2" rx="0" opacity="1"/>
+<text x="150" y="368" font-size="18" fill="#01579b" text-anchor="middle" class="excalidraw-text" opacity="1">FELHASZNALO</text>
+<path d="M 60 380 L 240 380" stroke="#0288d1" fill="none" stroke-width="1" opacity="1"/>
+<text x="60" y="402" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">PK felhasznalo_id</text>
+<text x="60" y="416.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   nev</text>
+<text x="60" y="430.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   kod</text>
+<text x="60" y="445.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   szerepkor</text>
+<rect x="350" y="380" width="220" height="200" stroke="#f57c00" fill="#fff8e1" stroke-width="2" rx="0" opacity="1"/>
+<text x="460" y="408" font-size="18" fill="#e65100" text-anchor="middle" class="excalidraw-text" opacity="1">ARAJANALT</text>
+<path d="M 360 420 L 560 420" stroke="#f57c00" fill="none" stroke-width="1" opacity="1"/>
+<text x="360" y="442" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">PK arajanalt_szam</text>
+<text x="360" y="456.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK munkalap_id</text>
+<text x="360" y="470.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK vevo_id</text>
+<text x="360" y="485.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   hivatkozasi_szam</text>
+<text x="360" y="499.6" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   osszeg</text>
+<text x="360" y="514" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   statusz</text>
+<text x="360" y="528.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   oradij</text>
+<rect x="50" y="540" width="200" height="140" stroke="#5d4037" fill="#efebe9" stroke-width="2" rx="0" opacity="1"/>
+<text x="150" y="566" font-size="16" fill="#3e2723" text-anchor="middle" class="excalidraw-text" opacity="1">BELSO_UGYFÉL</text>
+<path d="M 60 580 L 240 580" stroke="#5d4037" fill="none" stroke-width="1" opacity="1"/>
+<text x="60" y="602" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">PK kod</text>
+<text x="60" y="616.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK fo_partner_id</text>
+<text x="60" y="630.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   telephely</text>
+<text x="60" y="645.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   megjegyzes</text>
+<path d="M 250 180 L 350 180" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<text x="300" y="172" font-size="12" fill="#424242" text-anchor="middle" class="excalidraw-text" opacity="1">1 : N</text>
+<text x="300" y="196" font-size="11" fill="#757575" text-anchor="middle" class="excalidraw-text" opacity="1">megrendel</text>
+<path d="M 570 200 L 650 200" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<text x="610" y="192" font-size="12" fill="#424242" text-anchor="middle" class="excalidraw-text" opacity="1">1 : N</text>
+<text x="610" y="216" font-size="11" fill="#757575" text-anchor="middle" class="excalidraw-text" opacity="1">tartalmaz</text>
+<path d="M 750 280 L 750 340" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<text x="780" y="312" font-size="12" fill="#424242" text-anchor="middle" class="excalidraw-text" opacity="1">N : 1</text>
+<path d="M 250 410 L 300 410 L 300 210 L 350 210" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<text x="280" y="362" font-size="12" fill="#424242" text-anchor="middle" class="excalidraw-text" opacity="1">1 : N</text>
+<text x="285" y="381" font-size="11" fill="#757575" text-anchor="middle" class="excalidraw-text" opacity="1">felveszi</text>
+<path d="M 460 320 L 460 380" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<text x="490" y="352" font-size="12" fill="#424242" text-anchor="middle" class="excalidraw-text" opacity="1">1 : N</text>
+<text x="505" y="366" font-size="11" fill="#757575" text-anchor="middle" class="excalidraw-text" opacity="1">generál</text>
+<path d="M 150 260 L 150 340" stroke="#424242" fill="none" stroke-width="1" opacity="1"/>
+<path d="M 150 480 L 150 540" stroke="#424242" fill="none" stroke-width="1" opacity="1"/>
+<text x="180" y="512" font-size="12" fill="#424242" text-anchor="middle" class="excalidraw-text" opacity="1">N : 1</text>
+<text x="200" y="531" font-size="11" fill="#757575" text-anchor="middle" class="excalidraw-text" opacity="1">tartozik hozzá</text>
+<rect x="650" y="540" width="220" height="140" stroke="#d84315" fill="#fbe9e7" stroke-width="1" rx="0" opacity="1"/>
+<text x="660" y="561" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">Megjegyzések:</text>
+<text x="660" y="574.2" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="660" y="587.4" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">- BELSO_UGYFÉL: nagy céges</text>
+<text x="660" y="600.6" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">  telephelyek követésére</text>
+<text x="660" y="613.8" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">- Árajánlat: nagy céges</text>
+<text x="660" y="627" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">  folyamathoz tartozik</text>
+<text x="660" y="640.2" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">- Státusz: fontos a számlázáshoz</text>
+<rect x="350" y="620" width="220" height="100" stroke="#795548" fill="#efebe9" stroke-width="1" rx="0" opacity="1"/>
+<text x="360" y="641" font-size="11" fill="#4e342e" text-anchor="start" class="excalidraw-text" opacity="1">Munkalap státuszok:</text>
+<text x="360" y="654.2" font-size="11" fill="#4e342e" text-anchor="start" class="excalidraw-text" opacity="1">- felvéve</text>
+<text x="360" y="667.4" font-size="11" fill="#4e342e" text-anchor="start" class="excalidraw-text" opacity="1">- árajánlat</text>
+<text x="360" y="680.6" font-size="11" fill="#4e342e" text-anchor="start" class="excalidraw-text" opacity="1">- javítás_alatt</text>
+<text x="360" y="693.8" font-size="11" fill="#4e342e" text-anchor="start" class="excalidraw-text" opacity="1">- számlázható</text>
+<rect x="350" y="740" width="250" height="200" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
+<text x="475" y="764" font-size="14" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">🛡️ GARANCIA_SZERZŐDÉS</text>
+<text x="360" y="801" font-size="11" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">PK garancia_id</text>
+<text x="360" y="814.2" font-size="11" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">FK gyarto_id</text>
+<text x="360" y="827.4" font-size="11" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">   gyarto_nev (Makita, stb.)</text>
+<text x="360" y="840.6" font-size="11" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">   garancia_honap</text>
+<text x="360" y="853.8" font-size="11" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">   szerv_tipus (norma/egyedi)</text>
+<text x="360" y="867" font-size="11" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">   norma_tabla_url</text>
+<text x="360" y="880.2" font-size="11" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">   elszamolas_mod</text>
+<text x="360" y="893.4" font-size="11" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">   aktiv</text>
+<rect x="50" y="740" width="250" height="200" stroke="#0288d1" fill="#e1f5fe" stroke-width="2" rx="0" opacity="1"/>
+<text x="175" y="764" font-size="14" fill="#01579b" text-anchor="middle" class="excalidraw-text" opacity="1">📋 GARANCIA_CLAIM</text>
+<text x="60" y="801" font-size="11" fill="#01579b" text-anchor="start" class="excalidraw-text" opacity="1">PK claim_id</text>
+<text x="60" y="814.2" font-size="11" fill="#01579b" text-anchor="start" class="excalidraw-text" opacity="1">FK munkalap_id</text>
+<text x="60" y="827.4" font-size="11" fill="#01579b" text-anchor="start" class="excalidraw-text" opacity="1">FK garancia_id</text>
+<text x="60" y="840.6" font-size="11" fill="#01579b" text-anchor="start" class="excalidraw-text" opacity="1">   bejelentes_datum</text>
+<text x="60" y="853.8" font-size="11" fill="#01579b" text-anchor="start" class="excalidraw-text" opacity="1">   hiba_leiras</text>
+<text x="60" y="867" font-size="11" fill="#01579b" text-anchor="start" class="excalidraw-text" opacity="1">   statusz (bejelentve/jovahagyva)</text>
+<text x="60" y="880.2" font-size="11" fill="#01579b" text-anchor="start" class="excalidraw-text" opacity="1">   norma_perc</text>
+<text x="60" y="893.4" font-size="11" fill="#01579b" text-anchor="start" class="excalidraw-text" opacity="1">   dijazas_osszeg</text>
+<text x="60" y="906.6" font-size="11" fill="#01579b" text-anchor="start" class="excalidraw-text" opacity="1">   fizetve</text>
+<rect x="650" y="740" width="250" height="200" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="775" y="764" font-size="14" fill="#4a148c" text-anchor="middle" class="excalidraw-text" opacity="1">⏱️ NORMA_TÉTEL</text>
+<text x="660" y="801" font-size="11" fill="#4a148c" text-anchor="start" class="excalidraw-text" opacity="1">PK norma_id</text>
+<text x="660" y="814.2" font-size="11" fill="#4a148c" text-anchor="start" class="excalidraw-text" opacity="1">FK garancia_id</text>
+<text x="660" y="827.4" font-size="11" fill="#4a148c" text-anchor="start" class="excalidraw-text" opacity="1">   hibakod</text>
+<text x="660" y="840.6" font-size="11" fill="#4a148c" text-anchor="start" class="excalidraw-text" opacity="1">   hiba_nev</text>
+<text x="660" y="853.8" font-size="11" fill="#4a148c" text-anchor="start" class="excalidraw-text" opacity="1">   norma_perc</text>
+<text x="660" y="867" font-size="11" fill="#4a148c" text-anchor="start" class="excalidraw-text" opacity="1">   anyag_tartalmazott</text>
+<text x="660" y="880.2" font-size="11" fill="#4a148c" text-anchor="start" class="excalidraw-text" opacity="1">   megjegyzes</text>
+<rect x="50" y="960" width="850" height="40" stroke="#2e7d32" fill="#c8e6c9" stroke-width="1" rx="0" opacity="1"/>
+<text x="475" y="982" font-size="12" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">🆕 8. RÉSZ: Garanciális javítás entitások - Makita norma rendszer és egyedi elbírálás</text>
+</svg>

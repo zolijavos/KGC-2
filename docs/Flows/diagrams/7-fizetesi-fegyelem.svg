@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -20 1380 840" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="10" y="-20" width="1380" height="840" fill="#ffffff"/>
+<text x="550" y="48" font-size="28" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Fizetési Fegyelem Döntési Fa</text>
+<ellipse cx="550" cy="105" rx="70" ry="25" stroke="#2f9e44" fill="#b2f2bb" stroke-width="2" opacity="1"/>
+<text x="550" y="104" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Számla kiállítás</text>
+<text x="550" y="118.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">indítása</text>
+<path d="M 550 130 L 550 160" stroke="#1e1e1e" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="450" y="170" width="200" height="50" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" rx="0" opacity="1"/>
+<text x="550" y="192" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Ügyfél adatok</text>
+<text x="550" y="206.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">lekérdezése</text>
+<path d="M 550 220 L 550 250" stroke="#1e1e1e" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<polygon points="550,260 630,310 550,360 470,310" stroke="#e03131" fill="#ffe3e3" stroke-width="2" opacity="1"/>
+<text x="550" y="304" font-size="14" fill="#e03131" text-anchor="middle" class="excalidraw-text" opacity="1">Van LEJÁRT</text>
+<text x="550" y="320.8" font-size="14" fill="#e03131" text-anchor="middle" class="excalidraw-text" opacity="1">tartozása?</text>
+<rect x="100" y="280" width="250" height="80" stroke="#e03131" fill="#ffe3e3" stroke-width="3" rx="0" opacity="1"/>
+<text x="225" y="307" font-size="12" fill="#e03131" text-anchor="middle" class="excalidraw-text" opacity="1">🚫 BLOKKOLÁS!</text>
+<text x="225" y="321.4" font-size="12" fill="#e03131" text-anchor="middle" class="excalidraw-text" opacity="1">&quot;Ügyfélnek {összeg} Ft</text>
+<text x="225" y="335.8" font-size="12" fill="#e03131" text-anchor="middle" class="excalidraw-text" opacity="1">lejárt tartozása van!&quot;</text>
+<text x="225" y="350.2" font-size="12" fill="#e03131" text-anchor="middle" class="excalidraw-text" opacity="1">⚠️ Számla NEM állítható ki</text>
+<path d="M 470 310 L 355 310" stroke="#e03131" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="410" y="297" font-size="12" fill="#e03131" text-anchor="middle" class="excalidraw-text" opacity="1">IGEN</text>
+<polygon points="210,400 290,440 210,480 130,440" stroke="#f08c00" fill="#fff9db" stroke-width="2" opacity="1"/>
+<text x="210" y="434" font-size="14" fill="#f08c00" text-anchor="middle" class="excalidraw-text" opacity="1">Vezetői</text>
+<text x="210" y="450.8" font-size="14" fill="#f08c00" text-anchor="middle" class="excalidraw-text" opacity="1">feloldás?</text>
+<path d="M 225 360 L 225 395" stroke="#1e1e1e" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<ellipse cx="110" cy="545" rx="60" ry="25" stroke="#e03131" fill="#ffe3e3" stroke-width="2" opacity="1"/>
+<text x="110" y="543" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">❌ Művelet</text>
+<text x="110" y="556.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">megtagadva</text>
+<path d="M 130 440 L 110 515" stroke="#e03131" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="95" y="487" font-size="12" fill="#e03131" text-anchor="middle" class="excalidraw-text" opacity="1">NEM</text>
+<rect x="240" y="510" width="200" height="60" stroke="#f08c00" fill="#fff9db" stroke-width="2" rx="0" opacity="1"/>
+<text x="340" y="531" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">⚠️ Feloldás naplózása</text>
+<text x="340" y="544.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Ki: {vezető}</text>
+<text x="340" y="557.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Miért: {indoklás}</text>
+<path d="M 290 440 L 340 505" stroke="#2f9e44" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="320" y="467" font-size="12" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">IGEN</text>
+<polygon points="780,260 860,310 780,360 700,310" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" opacity="1"/>
+<text x="780" y="304" font-size="14" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">Cég nevére</text>
+<text x="780" y="320.8" font-size="14" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">számlázás?</text>
+<path d="M 630 310 L 695 310" stroke="#2f9e44" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="665" y="297" font-size="12" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">NEM</text>
+<rect x="900" y="280" width="200" height="60" stroke="#9c36b5" fill="#f8f0fc" stroke-width="2" rx="0" opacity="1"/>
+<text x="1000" y="302" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🔍 NAV Adószám</text>
+<text x="1000" y="316.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">ellenőrzés</text>
+<text x="1000" y="330.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Online API)</text>
+<path d="M 860 310 L 895 310" stroke="#1971c2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="885" y="297" font-size="12" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">IGEN</text>
+<polygon points="1000,380 1080,420 1000,460 920,420" stroke="#9c36b5" fill="#f8f0fc" stroke-width="2" opacity="1"/>
+<text x="1000" y="416" font-size="14" fill="#9c36b5" text-anchor="middle" class="excalidraw-text" opacity="1">Cég</text>
+<text x="1000" y="432.8" font-size="14" fill="#9c36b5" text-anchor="middle" class="excalidraw-text" opacity="1">működik?</text>
+<path d="M 1000 340 L 1000 375" stroke="#1e1e1e" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="1120" y="390" width="180" height="60" stroke="#e03131" fill="#ffe3e3" stroke-width="2" rx="0" opacity="1"/>
+<text x="1210" y="411" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">⚠️ FIGYELMEZTETÉS</text>
+<text x="1210" y="424.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">&quot;Cég nem működik!&quot;</text>
+<text x="1210" y="437.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Magánszemélyre állítás?</text>
+<path d="M 1080 420 L 1115 420" stroke="#e03131" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="1105" y="407" font-size="12" fill="#e03131" text-anchor="middle" class="excalidraw-text" opacity="1">NEM</text>
+<rect x="550" y="600" width="200" height="60" stroke="#2f9e44" fill="#d3f9d8" stroke-width="2" rx="0" opacity="1"/>
+<text x="650" y="622" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">✅ Számlázás</text>
+<text x="650" y="636.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">engedélyezve</text>
+<text x="650" y="650.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">→ Normál folytatás</text>
+<path d="M 780 360 L 650 595" stroke="#2f9e44" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="730" y="387" font-size="12" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">NEM (magán)</text>
+<path d="M 1000 460 L 650 615" stroke="#2f9e44" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="890" y="522" font-size="12" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">IGEN</text>
+<path d="M 440 540 L 545 615" stroke="#2f9e44" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<ellipse cx="650" cy="725" rx="60" ry="25" stroke="#2f9e44" fill="#b2f2bb" stroke-width="2" opacity="1"/>
+<text x="650" y="723" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Számla</text>
+<text x="650" y="736.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">kiállítás</text>
+<path d="M 650 660 L 650 695" stroke="#2f9e44" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="50" y="620" width="200" height="160" stroke="#868e96" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="150" y="644" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Jelmagyarázat</text>
+<text x="65" y="666" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">🔴 Blokkolás (lejárt tartozás)</text>
+<text x="65" y="679.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">🟠 Figyelmeztetés</text>
+<text x="65" y="692.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">🟢 Engedélyezve</text>
+<text x="65" y="705.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">🟣 NAV ellenőrzés</text>
+<text x="65" y="718.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">🔵 Döntési pont</text>
+<text x="65" y="732" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="65" y="745.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">⚠️ Minden feloldás</text>
+<text x="65" y="758.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    NAPLÓZÁSRA kerül!</text>
+<rect x="880" y="520" width="280" height="200" stroke="#1971c2" fill="#e7f5ff" stroke-width="1" rx="0" opacity="1"/>
+<text x="1020" y="549" font-size="14" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">📋 SZABÁLYOK</text>
+<text x="895" y="571" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">1. Lejárt tartozás = BLOKK</text>
+<text x="895" y="584.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   (csak utalásos ügyfeleknél)</text>
+<text x="895" y="597.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="895" y="610.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">2. Készpénzes vevőnél nincs blokk</text>
+<text x="895" y="623.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   (nincs mit behajtani)</text>
+<text x="895" y="637" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="895" y="650.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">3. NAV ellenőrzés kötelező</text>
+<text x="895" y="663.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   - Működő → OK</text>
+<text x="895" y="676.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   - Nem működő → figyelmeztetés</text>
+<text x="895" y="689.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="895" y="703" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">4. Vezetői feloldás:</text>
+<text x="895" y="716.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   - Ki oldotta fel</text>
+<text x="895" y="729.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   - Miért (indoklás kötelező)</text>
+<text x="895" y="742.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   - Mikor (audit log)</text>
+</svg>

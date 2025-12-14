@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 -20 940 1170" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="20" y="-20" width="940" height="1170" fill="#ffffff"/>
+<text x="600" y="38" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP v2.0 - Bérgép Készlet Kezelés 📶</text>
+<text x="600" y="59.599999999999994" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">3. rész: Bérgép felvétel (PWA Offline támogatott)</text>
+<ellipse cx="400" cy="125" rx="60" ry="25" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="400" y="129" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Kezdés</text>
+<rect x="300" y="190" width="200" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="400" y="219" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Bérgép fő megnyitása</text>
+<path d="M 400 150 L 400 190" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="300" y="290" width="200" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="400" y="319" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Új bérgép létrehozás</text>
+<path d="M 400 250 L 400 290" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="300" y="390" width="200" height="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="400" y="412" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Kód megadása</text>
+<text x="400" y="426.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(pl. ST200)</text>
+<text x="400" y="440.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">→ gépre kerül!</text>
+<path d="M 400 350 L 400 390" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="300" y="500" width="200" height="90" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="400" y="526" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Adatok megadása:</text>
+<text x="400" y="539.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Megnevezés</text>
+<text x="400" y="552.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Vásárlási ár</text>
+<text x="400" y="565.6" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Gyári szám</text>
+<path d="M 400 460 L 400 500" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="300" y="630" width="200" height="80" stroke="#d32f2f" fill="#ffebee" stroke-width="2" rx="0" opacity="1"/>
+<text x="400" y="657" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KÖTELEZŐ pipák:</text>
+<text x="400" y="671.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">☑ Törzsadat</text>
+<text x="400" y="685.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">☑ Bérlet</text>
+<path d="M 400 590 L 400 630" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="300" y="750" width="200" height="60" stroke="#388e3c" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
+<text x="400" y="779" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Rögzítés</text>
+<path d="M 400 710 L 400 750" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<polygon points="400,850 500,900 400,950 300,900" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<text x="400" y="891" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Meglévő cikk</text>
+<text x="400" y="904.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">átcsoportosítás?</text>
+<path d="M 400 810 L 400 850" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="580" y="870" width="180" height="60" stroke="#d32f2f" fill="#ffebee" stroke-width="2" rx="0" opacity="1"/>
+<text x="670" y="891" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">MÍNUSZ (-)</text>
+<text x="670" y="904.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Eredeti cikkszám</text>
+<path d="M 500 900 L 580 900" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="540" y="885" font-size="10" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">IGEN</text>
+<rect x="580" y="970" width="180" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="670" y="991" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">PLUSZ (+)</text>
+<text x="670" y="1004.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Bérgép kód</text>
+<path d="M 670 930 L 670 970" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="780" y="910" width="140" height="50" stroke="#616161" fill="#f5f5f5" stroke-width="1" rx="0" opacity="1"/>
+<text x="850" y="930" font-size="10" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">Jogcím:</text>
+<text x="850" y="942" font-size="10" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">&quot;Bérlésbe került&quot;</text>
+<ellipse cx="400" cy="1025" rx="60" ry="25" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="400" y="1022" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Bérgép</text>
+<text x="400" y="1036.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">kész</text>
+<path d="M 400 950 L 400 1000" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="427.5" y="970" font-size="10" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">NEM</text>
+<path d="M 580 1000 L 460 1025" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="60" y="300" width="180" height="180" stroke="#1976d2" fill="#e3f2fd" stroke-width="1" rx="0" opacity="1"/>
+<text x="150" y="327" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">ÁLLAPOTOK</text>
+<text x="80" y="361" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">🟢 Elérhető</text>
+<text x="80" y="374.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   → bérlésre kész</text>
+<text x="80" y="387.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="80" y="400.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">⚪ Kiadva</text>
+<text x="80" y="413.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   → ügyfélnél</text>
+<text x="80" y="427" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="80" y="440.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">🔵 Szerviz</text>
+<text x="80" y="453.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   → javítás alatt</text>
+<rect x="60" y="520" width="180" height="200" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="1" rx="0" opacity="1"/>
+<text x="150" y="547" font-size="12" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">KIMUTATÁSOK</text>
+<text x="75" y="576" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Minden gépről:</text>
+<text x="75" y="589.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Kinél volt</text>
+<text x="75" y="602.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Hol volt</text>
+<text x="75" y="615.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Ki vette vissza</text>
+<text x="75" y="628.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Vásárlási ár</text>
+<text x="75" y="642" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Gyári szám</text>
+<text x="75" y="655.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Bevétel összeg</text>
+<text x="75" y="668.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Szerviz költségek</text>
+<rect x="60" y="760" width="180" height="120" stroke="#f57c00" fill="#fff3e0" stroke-width="1" rx="0" opacity="1"/>
+<text x="150" y="787" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">⚠️ KAUCIÓ</text>
+<text x="75" y="815" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• NEM kötelező fix</text>
+<text x="75" y="827" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Törzsvendég: 0 Ft</text>
+<text x="75" y="839" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Megbízhatatlan: több</text>
+<text x="75" y="851" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Bérléskor dől el</text>
+<text x="450" y="1091" font-size="11" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - Bérgép Kezelés v1.0</text>
+<text x="450" y="1104.2" font-size="11" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">3. rész</text>
+</svg>

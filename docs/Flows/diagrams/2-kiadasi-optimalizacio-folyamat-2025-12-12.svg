@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -20 930 990" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="10" y="-20" width="930" height="990" fill="#ffffff"/>
+<text x="650" y="48" font-size="28" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - Kiadási Optimalizáció Folyamat v3.0</text>
+<text x="575" y="69" font-size="14" fill="#666666" text-anchor="middle" class="excalidraw-text" opacity="1">2025-12-12 | R.1 + R.2 Algoritmus</text>
+<ellipse cx="410" cy="125" rx="60" ry="25" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" opacity="1"/>
+<text x="375" y="129" font-size="14" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">Kezdés</text>
+<path d="M 410 150 L 410 190" stroke="#333333" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="300" y="200" width="220" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="410" y="227" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">R.1: KÉSZLET_HELY</text>
+<text x="410" y="241.4" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">lekérdezés prioritás szerint</text>
+<path d="M 410 260 L 410 300" stroke="#333333" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="410" y="347" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">Van elég</text>
+<text x="410" y="361.4" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">készlet?</text>
+<path d="M 320 350 L 220 350" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="250" y="342" font-size="12" fill="#d32f2f" text-anchor="start" class="excalidraw-text" opacity="1">NEM</text>
+<rect x="100" y="320" width="120" height="60" stroke="#d32f2f" fill="#ffebee" stroke-width="2" rx="8" opacity="1"/>
+<text x="160" y="346" font-size="11" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">Hibaüzenet:</text>
+<text x="160" y="359.2" font-size="11" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">Nincs készlet!</text>
+<path d="M 410 390 L 410 430" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="420" y="412" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">IGEN</text>
+<rect x="300" y="440" width="220" height="60" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="8" opacity="1"/>
+<text x="410" y="467" font-size="12" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Javaslat lista</text>
+<text x="410" y="481.4" font-size="12" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">megjelenítése</text>
+<path d="M 410 500 L 410 540" stroke="#333333" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="410" y="587" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">R.2: Kezelő</text>
+<text x="410" y="601.4" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">elfogadja?</text>
+<path d="M 500 590 L 580 590" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="520" y="582" font-size="12" fill="#d32f2f" text-anchor="start" class="excalidraw-text" opacity="1">NEM</text>
+<rect x="590" y="550" width="180" height="80" stroke="#d32f2f" fill="#ffebee" stroke-width="2" rx="8" opacity="1"/>
+<text x="680" y="575" font-size="10" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">Felülbírálás:</text>
+<text x="680" y="587" font-size="10" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">- Más tárhely választás</text>
+<text x="680" y="599" font-size="10" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">- Indoklás kötelező!</text>
+<text x="680" y="611" font-size="10" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">- Audit log</text>
+<path d="M 410 630 L 410 670" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="420" y="652" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">IGEN</text>
+<path d="M 680 630 L 680 720 L 410 720" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="300" y="680" width="220" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="410" y="707" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KÉSZLET_HELY</text>
+<text x="410" y="721.4" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">mennyiség frissítés</text>
+<path d="M 410 740 L 410 770" stroke="#333333" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="300" y="780" width="220" height="60" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="410" y="807" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">KÉSZLET_MOZGÁS</text>
+<text x="410" y="821.4" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">bejegyzés (audit)</text>
+<path d="M 410 840 L 410 870" stroke="#333333" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<ellipse cx="410" cy="905" rx="60" ry="25" stroke="#d32f2f" fill="#ffebee" stroke-width="2" opacity="1"/>
+<text x="385" y="909" font-size="14" fill="#d32f2f" text-anchor="start" class="excalidraw-text" opacity="1">Vége</text>
+<rect x="620" y="100" width="250" height="180" stroke="#616161" fill="#fafafa" stroke-width="1" rx="8" opacity="1"/>
+<text x="630" y="124" font-size="14" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">Felülbírálás Indoklások</text>
+<text x="630" y="151" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">SERULT - Sérült termék</text>
+<text x="630" y="164.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">LELTARELTERES - Leltár eltérés</text>
+<text x="630" y="177.4" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">UGYFEL_KERES - Ügyfél kérése</text>
+<text x="630" y="190.6" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">HOZZAFERHETO - Könnyebb</text>
+<text x="630" y="203.8" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">                hozzáférés</text>
+<text x="630" y="217" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">EGYEB - Szabad szöveges</text>
+<rect x="620" y="300" width="250" height="180" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="630" y="324" font-size="14" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">R.1 SQL Lekérdezés 🆕</text>
+<text x="630" y="351" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">SELECT tarhely_kod,</text>
+<text x="630" y="364.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">       mennyiseg,</text>
+<text x="630" y="377.4" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">       kiadasi_prioritas</text>
+<text x="630" y="390.6" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">FROM KESZLET_HELY</text>
+<text x="630" y="403.8" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">WHERE cikk_id = ?</text>
+<text x="630" y="417" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">  AND aktiv = TRUE</text>
+<text x="630" y="430.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">ORDER BY kiadasi_prioritas</text>
+<rect x="50" y="450" width="200" height="150" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="8" opacity="1"/>
+<text x="60" y="474" font-size="14" fill="#7b1fa2" text-anchor="start" class="excalidraw-text" opacity="1">Prioritás Jelentése</text>
+<text x="60" y="501" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">1 = Pult (leggyorsabb)</text>
+<text x="60" y="514.2" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">2 = Eladótér</text>
+<text x="60" y="527.4" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">3 = Raktár eleje</text>
+<text x="60" y="540.6" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">4 = Raktár hátulja</text>
+<text x="60" y="553.8" font-size="11" fill="#333333" text-anchor="start" class="excalidraw-text" opacity="1">5 = Távoli raktár</text>
+</svg>

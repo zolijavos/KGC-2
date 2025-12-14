@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 -20 1020 1215" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="60" y="-20" width="1020" height="1215" fill="#ffffff"/>
+<text x="700" y="38" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - ERD v2.0: Értékesítés Modul</text>
+<text x="700" y="59.599999999999994" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">2. rész: Cikk és Bevételezés (Multi-tenant)</text>
+<rect x="100" y="100" width="280" height="380" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<rect x="100" y="100" width="280" height="40" stroke="#1976d2" fill="#1976d2" stroke-width="2" rx="0" opacity="1"/>
+<text x="240" y="126" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">CIKK</text>
+<text x="115" y="167" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  cikk_id (INT)</text>
+<text x="115" y="181.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    tenant_id (UUID) 🏢</text>
+<text x="115" y="195.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">─────────────────────</text>
+<text x="115" y="210.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    cikkszam (VARCHAR) UNIQUE</text>
+<text x="115" y="224.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    megnevezes (VARCHAR)</text>
+<text x="115" y="239" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  cikkcsoport_id (INT)</text>
+<text x="115" y="253.39999999999998" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  beszallito_id (INT)</text>
+<text x="115" y="267.79999999999995" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  arres_kategoria_id 💰</text>
+<text x="115" y="282.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    tarhely (VARCHAR)</text>
+<text x="115" y="296.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    vonalkod (VARCHAR)</text>
+<text x="115" y="311" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    afa_tipus (ENUM)</text>
+<text x="115" y="325.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    beszerzesi_ar (DECIMAL)</text>
+<text x="115" y="339.79999999999995" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    eladasi_ar (DECIMAL)</text>
+<text x="115" y="354.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    keszlet (INT)</text>
+<text x="115" y="368.59999999999997" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    eladas_engedelyezve (BOOL)</text>
+<text x="115" y="383" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    alkatresz (BOOL)</text>
+<text x="115" y="397.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    aktiv (BOOL)</text>
+<text x="115" y="411.79999999999995" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    letrehozva (DATETIME)</text>
+<text x="115" y="426.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    offline_sync (BOOL) 📶</text>
+<text x="115" y="440.59999999999997" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  rogzito_id (INT)</text>
+<rect x="480" y="100" width="240" height="180" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<rect x="480" y="100" width="240" height="40" stroke="#388e3c" fill="#388e3c" stroke-width="2" rx="0" opacity="1"/>
+<text x="600" y="126" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">CIKKCSOPORT</text>
+<text x="495" y="167" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  cikkcsoport_id (INT)</text>
+<text x="495" y="181.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">─────────────────────</text>
+<text x="495" y="195.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    nev (VARCHAR)</text>
+<text x="495" y="210.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    kod (VARCHAR)</text>
+<text x="495" y="224.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    aktiv (BOOL)</text>
+<rect x="480" y="320" width="240" height="180" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<rect x="480" y="320" width="240" height="40" stroke="#7b1fa2" fill="#7b1fa2" stroke-width="2" rx="0" opacity="1"/>
+<text x="600" y="346" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">BESZÁLLÍTÓ</text>
+<text x="495" y="387" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  beszallito_id (INT)</text>
+<text x="495" y="401.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">─────────────────────</text>
+<text x="495" y="415.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    nev (VARCHAR)</text>
+<text x="495" y="430.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    kod (VARCHAR)</text>
+<text x="495" y="444.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    cim (VARCHAR)</text>
+<text x="495" y="459" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    aktiv (BOOL)</text>
+<rect x="100" y="540" width="280" height="280" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="0" opacity="1"/>
+<rect x="100" y="540" width="280" height="40" stroke="#f57c00" fill="#f57c00" stroke-width="2" rx="0" opacity="1"/>
+<text x="240" y="566" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">BEVÉTELEZÉS</text>
+<text x="115" y="607" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  bevetelez_id (INT)</text>
+<text x="115" y="621.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">─────────────────────</text>
+<text x="115" y="635.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    bizonylat_szam (VARCHAR)</text>
+<text x="115" y="650.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    szamla_szam (VARCHAR)</text>
+<text x="115" y="664.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    datum (DATE)</text>
+<text x="115" y="679" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    fizetes_mod (ENUM)</text>
+<text x="115" y="693.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      - keszpenz</text>
+<text x="115" y="707.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      - atutalas</text>
+<text x="115" y="722.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    penznem (ENUM: HUF/EUR)</text>
+<text x="115" y="736.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    brutto_osszeg (DECIMAL)</text>
+<text x="115" y="751" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    netto_osszeg (DECIMAL)</text>
+<text x="115" y="765.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    fuvarkoltseg (DECIMAL)</text>
+<text x="115" y="779.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  rogzito_id (INT)</text>
+<text x="115" y="794.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    rogzites_datum (DATETIME)</text>
+<rect x="480" y="560" width="240" height="200" stroke="#f57c00" fill="#ffe0b2" stroke-width="2" rx="0" opacity="1"/>
+<rect x="480" y="560" width="240" height="40" stroke="#f57c00" fill="#e65100" stroke-width="2" rx="0" opacity="1"/>
+<text x="600" y="584" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">BEVÉTELEZÉS_TÉTEL</text>
+<text x="495" y="627" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  tetel_id (INT)</text>
+<text x="495" y="641.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">─────────────────────</text>
+<text x="495" y="655.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  bevetelez_id (INT)</text>
+<text x="495" y="670.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  cikk_id (INT)</text>
+<text x="495" y="684.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    mennyiseg (INT)</text>
+<text x="495" y="699" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    egysegar (DECIMAL)</text>
+<text x="495" y="713.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    osszeg (DECIMAL)</text>
+<rect x="800" y="100" width="240" height="220" stroke="#616161" fill="#e0e0e0" stroke-width="2" rx="0" opacity="1"/>
+<rect x="800" y="100" width="240" height="40" stroke="#616161" fill="#616161" stroke-width="2" rx="0" opacity="1"/>
+<text x="920" y="124" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">KÉSZLET_MOZGÁS</text>
+<text x="815" y="167" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  mozgas_id (INT)</text>
+<text x="815" y="181.4" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">─────────────────────</text>
+<text x="815" y="195.8" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  cikk_id (INT)</text>
+<text x="815" y="210.2" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    tipus (ENUM: +/-)</text>
+<text x="815" y="224.6" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    mennyiseg (INT)</text>
+<text x="815" y="239" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    megjegyzes (VARCHAR)</text>
+<text x="815" y="253.39999999999998" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    datum (DATETIME)</text>
+<text x="815" y="267.79999999999995" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  rogzito_id (INT)</text>
+<path d="M 380 180 L 480 180" stroke="#388e3c" fill="none" stroke-width="2" opacity="1"/>
+<text x="430" y="166" font-size="11" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">N ─ 1</text>
+<path d="M 380 350 L 480 410" stroke="#7b1fa2" fill="none" stroke-width="2" opacity="1"/>
+<text x="430" y="391" font-size="11" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">N ─ 1</text>
+<path d="M 380 680 L 480 680" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="430" y="666" font-size="11" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">1 ─ N</text>
+<path d="M 600 560 L 600 500 L 380 500" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="450" y="521" font-size="11" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">N ─ 1</text>
+<path d="M 380 250 L 800 250" stroke="#616161" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="590" y="236" font-size="11" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">1 ─ N</text>
+<rect x="800" y="380" width="240" height="200" stroke="#616161" fill="#fafafa" stroke-width="1" rx="0" opacity="1"/>
+<text x="920" y="407" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">JELMAGYARÁZAT</text>
+<text x="820" y="441" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK = Elsődleges kulcs</text>
+<text x="820" y="466" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK = Idegen kulcs</text>
+<text x="820" y="491" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">1 ─ N = Egy-a-többhöz</text>
+<text x="820" y="516" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">N ─ 1 = Több-az-egyhez</text>
+<text x="820" y="541" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">ENUM = Felsorolás típus</text>
+<rect x="800" y="620" width="240" height="200" stroke="#388e3c" fill="#e8f5e9" stroke-width="1" rx="0" opacity="1"/>
+<text x="920" y="641" font-size="11" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">Cikkcsoportok példák:</text>
+<text x="815" y="671" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Alkatrész (általános)</text>
+<text x="815" y="684.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Bérgép</text>
+<text x="815" y="697.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Bérszerszám</text>
+<text x="815" y="710.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Díjak</text>
+<text x="815" y="723.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• FGS</text>
+<text x="815" y="737" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Makita</text>
+<text x="815" y="750.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Lukas</text>
+<text x="815" y="763.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Mérőműszer</text>
+<text x="815" y="776.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Egyéb</text>
+<text x="500" y="871" font-size="11" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - ERD v1.1</text>
+<text x="500" y="884.2" font-size="11" fill="#616161" text-anchor="middle" class="excalidraw-text" opacity="1">2. rész: Értékesítés Modul + 8. rész bővítés</text>
+<rect x="100" y="900" width="280" height="180" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
+<rect x="100" y="900" width="280" height="35" stroke="#2e7d32" fill="#2e7d32" stroke-width="2" rx="0" opacity="1"/>
+<text x="240" y="926" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">💰 ELŐLEG</text>
+<text x="115" y="957" font-size="12" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">PK  eloleg_id (INT)</text>
+<text x="115" y="971.4" font-size="12" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">────────────────────</text>
+<text x="115" y="985.8" font-size="12" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">FK  partner_id (INT)</text>
+<text x="115" y="1000.2" font-size="12" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">FK  megrendeles_id (INT)</text>
+<text x="115" y="1014.6" font-size="12" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">    osszeg (DECIMAL)</text>
+<text x="115" y="1029" font-size="12" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">    befizetve (DATETIME)</text>
+<text x="115" y="1043.4" font-size="12" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">    szamla_szam (VARCHAR)</text>
+<text x="115" y="1057.8" font-size="12" fill="#1b5e20" text-anchor="start" class="excalidraw-text" opacity="1">    statusz (ENUM)</text>
+<rect x="450" y="900" width="280" height="200" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="0" opacity="1"/>
+<rect x="450" y="900" width="280" height="35" stroke="#f57c00" fill="#e65100" stroke-width="2" rx="0" opacity="1"/>
+<text x="590" y="926" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">📄 DÍJBEKÉRŐ</text>
+<text x="465" y="957" font-size="12" fill="#e65100" text-anchor="start" class="excalidraw-text" opacity="1">PK  dijbekero_id (INT)</text>
+<text x="465" y="971.4" font-size="12" fill="#e65100" text-anchor="start" class="excalidraw-text" opacity="1">────────────────────</text>
+<text x="465" y="985.8" font-size="12" fill="#e65100" text-anchor="start" class="excalidraw-text" opacity="1">FK  partner_id (INT)</text>
+<text x="465" y="1000.2" font-size="12" fill="#e65100" text-anchor="start" class="excalidraw-text" opacity="1">FK  szamla_id (INT)</text>
+<text x="465" y="1014.6" font-size="12" fill="#e65100" text-anchor="start" class="excalidraw-text" opacity="1">    osszeg (DECIMAL)</text>
+<text x="465" y="1029" font-size="12" fill="#e65100" text-anchor="start" class="excalidraw-text" opacity="1">    hatarido (DATE)</text>
+<text x="465" y="1043.4" font-size="12" fill="#e65100" text-anchor="start" class="excalidraw-text" opacity="1">    kuldve (DATETIME)</text>
+<text x="465" y="1057.8" font-size="12" fill="#e65100" text-anchor="start" class="excalidraw-text" opacity="1">    fizetve (DATETIME)</text>
+<text x="465" y="1072.2" font-size="12" fill="#e65100" text-anchor="start" class="excalidraw-text" opacity="1">    statusz (ENUM)</text>
+<rect x="100" y="1120" width="630" height="35" stroke="#2e7d32" fill="#c8e6c9" stroke-width="1" rx="0" opacity="1"/>
+<text x="415" y="1142" font-size="12" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">🆕 8. RÉSZ: Pénzügyi entitások - Előleg és díjbekérő kezelés a részletfizetéshez</text>
+</svg>

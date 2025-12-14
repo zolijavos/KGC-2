@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 -20 1100 980" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+<polygon points="0 0, 10 3, 0 6" fill="#1e1e1e"/>
+</marker>
+</defs>
+<rect x="20" y="-20" width="1100" height="980" fill="#ffffff"/>
+<text x="650" y="42" font-size="22" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Garancialis Javitas Folyamat v3.0</text>
+<text x="650" y="68.4" font-size="22" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">2025-12-11 - ADR-013 bevizsgalasi dij</text>
+<ellipse cx="600" cy="130" rx="60" ry="30" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="600" y="132" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Gep</text>
+<text x="600" y="148.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">bevetel</text>
+<path d="M 600 160 L 600 200" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<polygon points="600,210 670,260 600,310 530,260" stroke="#c62828" fill="#ffebee" stroke-width="2" opacity="1"/>
+<text x="600" y="259" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">intake_type?</text>
+<path d="M 530 260 L 450 260" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="485" y="250" font-size="10" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">warranty</text>
+<rect x="280" y="225" width="160" height="70" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="360" y="246" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Garancialis</text>
+<text x="360" y="259.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">bevizsgalasi_dij = 0</text>
+<text x="360" y="272.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(ADR-013 default)</text>
+<path d="M 670 260 L 750 260" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="715" y="250" font-size="10" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">repair</text>
+<rect x="760" y="225" width="160" height="70" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="840" y="246" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Fizetos javitas</text>
+<text x="840" y="259.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">bevizsgalasi_dij</text>
+<text x="840" y="272.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">szamitas</text>
+<path d="M 360 295 L 360 345" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="280" y="355" width="160" height="80" stroke="#00796b" fill="#e0f2f1" stroke-width="2" rx="8" opacity="1"/>
+<text x="360" y="376" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">SZERVIZ_TARTOZEK</text>
+<text x="360" y="389.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">checklist kitoltes</text>
+<text x="360" y="402.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(tok,tolto,akku)</text>
+<path d="M 360 435 L 360 485" stroke="#00796b" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<polygon points="360,495 430,545 360,595 290,545" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" opacity="1"/>
+<text x="360" y="542" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Gyarto</text>
+<text x="360" y="556.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">tipus?</text>
+<path d="M 290 545 L 210 545" stroke="#c62828" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="240" y="535" font-size="10" fill="#c62828" text-anchor="middle" class="excalidraw-text" opacity="1">Norma</text>
+<rect x="60" y="510" width="140" height="70" stroke="#c62828" fill="#ffebee" stroke-width="2" rx="8" opacity="1"/>
+<text x="130" y="531" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Makita/DeWalt</text>
+<text x="130" y="544.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">NORMA_TETEL</text>
+<text x="130" y="557.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Fix munkadij</text>
+<path d="M 430 545 L 510 545" stroke="#9c27b0" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="470" y="535" font-size="10" fill="#9c27b0" text-anchor="middle" class="excalidraw-text" opacity="1">Egyedi</text>
+<rect x="520" y="510" width="160" height="70" stroke="#9c27b0" fill="#f3e5f5" stroke-width="2" rx="8" opacity="1"/>
+<text x="600" y="531" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Bosch/Stihl</text>
+<text x="600" y="544.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Egyedi elbiralás</text>
+<text x="600" y="557.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Arajanalt keszites</text>
+<rect x="280" y="640" width="160" height="70" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="8" opacity="1"/>
+<text x="360" y="666" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">MUNKALAP_CSATOLMANY</text>
+<text x="360" y="679.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Foto dokumentacio</text>
+<path d="M 360 595 L 360 640" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="280" y="750" width="160" height="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="360" y="776" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">GARANCIA_CLAIM</text>
+<text x="360" y="789.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">letrehozas</text>
+<text x="360" y="802.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Gyartonak kuldes</text>
+<path d="M 360 710 L 360 750" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<ellipse cx="360" cy="890" rx="60" ry="30" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="360" y="890" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Claim</text>
+<text x="360" y="904.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">benyujtva</text>
+<path d="M 360 820 L 360 860" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="760" y="355" width="320" height="200" stroke="#c62828" fill="#ffebee" stroke-width="2" rx="0" opacity="1"/>
+<text x="920" y="384" font-size="14" fill="#c62828" text-anchor="middle" class="excalidraw-text" opacity="1">ADR-013 SZABALYOK</text>
+<text x="775" y="416" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">BEVIZSGALASI DIJ:</text>
+<text x="775" y="429.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="775" y="442.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">1. intake_type = &apos;warranty&apos; eseten:</text>
+<text x="775" y="455.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   bevizsgalasi_dij = 0 Ft (DEFAULT)</text>
+<text x="775" y="468.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="775" y="482" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">2. Ha megis &gt; 0:</text>
+<text x="775" y="495.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   internal_notes KOTELEZO!</text>
+<text x="775" y="508.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   (indoklas a kiveteles dijhoz)</text>
+<text x="775" y="521.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="775" y="534.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">3. Validacio: UI figyelmeztetes</text>
+<text x="775" y="548" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">   ha warranty + dij &gt; 0 de nincs notes</text>
+<rect x="760" y="600" width="320" height="160" stroke="#616161" fill="#fafafa" stroke-width="1" rx="0" opacity="1"/>
+<text x="920" y="629" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">v3.0 VALTOZASOK</text>
+<text x="775" y="661" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">UJ MEZOK:</text>
+<text x="775" y="674.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">- intake_type (warranty/repair/quote)</text>
+<text x="775" y="687.4" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">- bevizsgalasi_dij (default 0 warranty-nel)</text>
+<text x="775" y="700.6" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">- internal_notes (indoklas ha dij &gt; 0)</text>
+<text x="775" y="713.8" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="775" y="727" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">UJ ENTITASOK:</text>
+<text x="775" y="740.2" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">- SZERVIZ_TARTOZEK, MUNKALAP_CSATOLMANY</text>
+</svg>

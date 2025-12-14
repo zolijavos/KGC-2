@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KGC ERP - Workflow Dokumentáció</title>
+    <style>
+        :root {
+            --primary: #1976d2;
+            --primary-dark: #0d47a1;
+            --secondary: #7b1fa2;
+            --success: #2e7d32;
+            --warning: #f57c00;
+            --danger: #c62828;
+            --bg-light: #f5f5f5;
+            --bg-white: #ffffff;
+            --text-dark: #212121;
+            --text-light: #757575;
+            --border: #e0e0e0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            background: rgba(255,255,255,0.15);
+            padding: 1rem 2rem;
+            border-radius: 8px;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        main {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .section {
+            background: var(--bg-white);
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+
+        .section-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .section-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        .section-1 .section-icon { background: var(--primary); }
+        .section-2 .section-icon { background: var(--success); }
+        .section-3 .section-icon { background: var(--warning); }
+        .section-4 .section-icon { background: var(--danger); }
+        .section-5 .section-icon { background: var(--secondary); }
+        .section-6 .section-icon { background: #455a64; }
+
+        .section-title h2 {
+            font-size: 1.5rem;
+            color: var(--text-dark);
+        }
+
+        .section-title p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        .section-content {
+            padding: 1.5rem;
+        }
+
+        .diagram-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .diagram-card {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .diagram-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .diagram-preview {
+            height: 150px;
+            background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: var(--primary);
+        }
+
+        .diagram-info {
+            padding: 1rem;
+        }
+
+        .diagram-info h3 {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+        }
+
+        .diagram-info p {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            margin-bottom: 1rem;
+        }
+
+        .diagram-link {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: background 0.2s;
+        }
+
+        .diagram-link:hover {
+            background: var(--primary-dark);
+        }
+
+        .doc-link {
+            display: inline-block;
+            background: var(--bg-light);
+            color: var(--text-dark);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            margin-left: 0.5rem;
+            border: 1px solid var(--border);
+        }
+
+        .doc-link:hover {
+            background: var(--border);
+        }
+
+        .topics-list {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .topics-list li {
+            background: var(--bg-light);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: var(--text-light);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-light);
+            background: var(--bg-white);
+            border-top: 1px solid var(--border);
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            .stats {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .diagram-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KGC ERP</h1>
+        <p>Workflow Dokumentáció - Folyamatábrák és Rendszerleírás</p>
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-number">6</div>
+                <div class="stat-label">Modul</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">16</div>
+                <div class="stat-label">Diagram</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">6</div>
+                <div class="stat-label">Dokumentum</div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Ügyfél Felvétel és Bérlés -->
+        <div class="section section-1">
+            <div class="section-header">
+                <div class="section-icon">1</div>
+                <div class="section-title">
+                    <h2>Ügyfél Felvétel és Bérlés</h2>
+                    <p>Partner kezelés, szerződéskötés, bérgép kiadás folyamatok</p>
+                </div>
+            </div>
+            <div class="section-content">
+                <ul class="topics-list">
+                    <li>Partner felvétel</li>
+                    <li>Bérlési szerződés</li>
+                    <li>Gép kiadás</li>
+                    <li>Számlázás</li>
+                    <li>Kaució kezelés</li>
+                </ul>
+                <div class="diagram-grid">
+                    <div class="diagram-card">
+                        <div class="diagram-preview">📊</div>
+                        <div class="diagram-info">
+                            <h3>Ügyfél Felvétel Folyamat</h3>
+                            <p>Teljes bérlési folyamat az ügyfél érkezésétől a gép kiadásig</p>
+                            <a href="diagrams/1-ugyfelfelvitel-folyamat.excalidraw" class="diagram-link">Megnyitás</a>
+                        </div>
+                    </div>
+                    <div class="diagram-card">
+                        <div class="diagram-preview">🔀</div>
+                        <div class="diagram-info">
+                            <h3>Döntési Fa</h3>
+                            <p>Új/meglévő ügyfél, kaució típusok, fizetési módok</p>
+                            <a href="diagrams/1-ugyfelfelvitel-dontesi-fa.excalidraw" class="diagram-link">Megnyitás</a>
+                        </div>
+                    </div>
+                    <div class="diagram-card">
+                        <div class="diagram-preview">🔄</div>
+                        <div class="diagram-info">
+                            <h3>Adatfolyam Diagram (DFD)</h3>
+                            <p>Adatok áramlása a rendszerben</p>
+                            <a href="diagrams/1-ugyfelfelvitel-dfd.excalidraw" class="diagram-link">Megnyitás</a>
+                        </div>
+                    </div>
+                    <div class="diagram-card">
+                        <div class="diagram-preview">🗃️</div>
+                        <div class="diagram-info">
+                            <h3>Entitás Kapcsolatok (ERD)</h3>
+                            <p>Partner, Szerződés, Bérlés, Számla kapcsolatok</p>
+                            <a href="diagrams/1-ugyfelfelvitel-erd.excalidraw" class="diagram-link">Megnyitás</a>
+                        </div>
+                    </div>
+                    <div class="diagram-card">
+                        <div class="diagram-preview">🖥️</div>
+                        <div class="diagram-info">
+                            <h3>Rendszer Diagram</h3>
+                            <p>Modulok és integrációk áttekintése</p>
+                            <a href="diagrams/1-ugyfelfelvitel-rendszer.excalidraw" class="diagram-link">Megnyitás</a>
+                        </div>
+                    </div>
+                </div>
+                <p style="margin-top: 1rem;">
+                    <a href="1.resz.md" class="doc-link">📄 Teljes dokumentáció</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- 2. Értékesítés -->
+        <div class="section section-2">
+            <div class="section-header">
+                <div class="section-icon">2</div>
+                <div class="section-title">
+                    <h2>Értékesítés</h2>
+                    <p>Cikk felvétel, bevételezés, készletkezelés, eladás</p>
+                </div>
+            </div>
+            <div class="section-content">
+                <ul class="topics-list">
+                    <li>Cikk felvétel</li>
+                    <li>Bevételezés</li>
+                    <li>Készlet átcsoportosítás</li>
+                    <li>Vonalkód</li>
+                    <li>ÁFA kezelés</li>
+                </ul>
+                <div class="diagram-grid">
+                    <div class="diagram-card">
+                        <div class="diagram-preview">📊</div>
+                        <div class="diagram-info">
+                            <h3>Értékesítés Folyamat</h3>
+                            <p>Cikk felvételtől az eladásig</p>
+                            <a href="diagrams/2-ertekesites-folyamat.excalidraw" class="diagram-link">Megnyitás</a>
+                        </div>
+                    </div>
+                    <div class="diagram-card">
+                        <div class="diagram-preview">🗃️</div>
+                        <div class="diagram-info">
+                            <h3>Entitás Kapcsolatok (ERD)</h3>
+                            <p>Cikk, Bevételezés, Készlet entitások</p>
+                            <a href="diagrams/2-ertekesites-erd.excalidraw" class="diagram-link">Megnyitás</a>
+                        </div>
+                    </div>
+                    <div class="diagram-card">
+                        <div class="diagram-preview">📦</div>
+                        <div class="diagram-info">
+                            <h3>Készletmozgás</h3>
+                            <p>Bevételezés, átcsoportosítás, eladás hatása</p>
+                            <a href="diagrams/2-ertekesites-keszlet.excalidraw" class="diagram-link">Megnyitás</a>
+                        </div>
+                    </div>
+                </div>
+                <p style="margin-top: 1rem;">
+                    <a href="2.resz.md" class="doc-link">📄 Teljes dokumentáció</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- 3. Bérgép Készlet -->
+        <div class="section section-3">
+            <div class="section-header">
+                <div class="section-icon">3</div>
+                <div class="section-title">
+                    <h2>Bérgép Készlet</h2>
+                    <p>Bérgép nyilvántartás, állapotok, kaució kezelés</p>
+                </div>
+            </div>
+            <div class="section-content">
+                <ul class="topics-list">
+                    <li>Bérgép felvétel</li>
+                    <li>Cikk→Bérgép átcsoportosítás</li>
+                    <li>Állapotok</li>
+                    <li>Kaució</li>
+                </ul>
+                <div class="diagram-grid">
+                    <div class="diagram-card">
+                        <div class="diagram-preview">🔧</div>
+                        <div class="diagram-info">
+                            <h3>Bérgép Kezelés Folyamat</h3>
+                            <p>Bérgép életciklus és állapotok</p>
+                            <a href="diagrams/3-bergep-folyamat.excalidraw" class="diagram-link">Megnyitás</a>
+                        </div>
+                    </div>
+                </div>
+                <p style="margin-top: 1rem;">
+                    <a href="3.resz.md" class="doc-link">📄 Teljes dokumentáció</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- 4. Szerviz -->
+        <div class="section section-4">
+            <div class="section-header">
+                <div class="section-icon">4</div>
+                <div class="section-title">
+                    <h2>Szerviz</h2>
+                    <p>Munkalap kezelés, árajánlat, nagy céges számlázás</p>
+                </div>
+            </div>
+            <div class="section-content">
+                <ul class="topics-list">
+                    <li>Gép felvétel</li>
+                    <li>Munkalap</li>
+                    <li>Árajánlat</li>
+                    <li>Nullás kifuttatás</li>
+                    <li>Státuszok</li>
+                </ul>
+                <div class="diagram-grid">
+                    <div class="diagram-card">
+                        <div class="diagram-preview">🔧</div>
+                        <div class="diagram-info">
+                            <h3>Szerviz Folyamat</h3>
+                            <p>Normál és nagy céges szerviz folyamatok</p>
+                            <a href="diagrams/4-szerviz-folyamat.excalidraw" class="diagram-link">Megnyitás</a>
+                        </div>
+                    </div>
+                    <div class="diagram-card">
+                        <div class="diagram-preview">🗃️</div>
+                        <div class="diagram-info">
+                            <h3>Entitás Kapcsolatok (ERD)</h3>
+                            <p>Munkalap, Árajánlat, Tétel entitások</p>
+                            <a href="diagrams/4-szerviz-erd.excalidraw" class="diagram-link">Megnyitás</a>
+                        </div>
+                    </div>
+                    <div class="diagram-card">
+                        <div class="diagram-preview">📋</div>
+                        <div class="diagram-info">
+                            <h3>Munkalap Életciklus</h3>
+                            <p>Státuszok és átmenetek</p>
+                            <a href="diagrams/4-szerviz-munkalap.excalidraw" class="diagram-link">Megnyitás</a>
+                        </div>
+                    </div>
+                </div>
+                <p style="margin-top: 1rem;">
+                    <a href="4.resz.md" class="doc-link">📄 Teljes dokumentáció</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- 5. Pénzügy -->
+        <div class="section section-5">
+            <div class="section-header">
+                <div class="section-icon">5</div>
+                <div class="section-title">
+                    <h2>Pénzügy</h2>
+                    <p>Befizetések, archiválás, ÁFA, leltár</p>
+                </div>
+            </div>
+            <div class="section-content">
+                <ul class="topics-list">
+                    <li>Teljesítések</li>
+                    <li>Számla archiválás</li>
+                    <li>Havi zárás</li>
+                    <li>NAV feladás</li>
+                    <li>Leltár</li>
+                </ul>
+                <div class="diagram-grid">
+                    <div class="diagram-card">
+                        <div class="diagram-preview">💰</div>
+                        <div class="diagram-info">
+                            <h3>Pénzügyi Folyamatok</h3>
+                            <p>Napi, havi és éves pénzügyi műveletek</p>
+                            <a href="diagrams/5-penzugy-folyamat.excalidraw" class="diagram-link">Megnyitás</a>
+                        </div>
+                    </div>
+                    <div class="diagram-card">
+                        <div class="diagram-preview">📁</div>
+                        <div class="diagram-info">
+                            <h3>Archiválás Struktúra</h3>
+                            <p>Szerver mappa szerkezet és dokumentum tárolás</p>
+                            <a href="diagrams/5-penzugy-archivalas.excalidraw" class="diagram-link">Megnyitás</a>
+                        </div>
+                    </div>
+                </div>
+                <p style="margin-top: 1rem;">
+                    <a href="5.resz.md" class="doc-link">📄 Teljes dokumentáció</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- 6. Egyéb -->
+        <div class="section section-6">
+            <div class="section-header">
+                <div class="section-icon">6</div>
+                <div class="section-title">
+                    <h2>Egyéb Funkciók</h2>
+                    <p>Megrendelések, vonalkód, felhasználók, jogosultságok</p>
+                </div>
+            </div>
+            <div class="section-content">
+                <ul class="topics-list">
+                    <li>Megrendelés</li>
+                    <li>Vonalkód nyomtatás</li>
+                    <li>Felhasználók</li>
+                    <li>Jogosultságok</li>
+                    <li>Lekérdezések</li>
+                </ul>
+                <div class="diagram-grid">
+                    <div class="diagram-card">
+                        <div class="diagram-preview">📝</div>
+                        <div class="diagram-info">
+                            <h3>Megrendelés Folyamat</h3>
+                            <p>Rendelés felvétel és beérkezés kezelése</p>
+                            <a href="diagrams/6-egyeb-rendeles.excalidraw" class="diagram-link">Megnyitás</a>
+                        </div>
+                    </div>
+                    <div class="diagram-card">
+                        <div class="diagram-preview">👥</div>
+                        <div class="diagram-info">
+                            <h3>Felhasználók és Jogosultságok</h3>
+                            <p>Hozzáférés kezelés és vonalkód nyomtatás</p>
+                            <a href="diagrams/6-egyeb-felhasznalo.excalidraw" class="diagram-link">Megnyitás</a>
+                        </div>
+                    </div>
+                </div>
+                <p style="margin-top: 1rem;">
+                    <a href="6.resz.md" class="doc-link">📄 Teljes dokumentáció</a>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>KGC ERP Workflow Dokumentáció</p>
+        <p>Készült: 2025 | Diagramok: <a href="https://excalidraw.com" target="_blank">Excalidraw</a> formátum</p>
+        <p style="margin-top: 0.5rem; font-size: 0.85rem;">
+            A diagramok megnyitásához használja az Excalidraw alkalmazást vagy a
+            <a href="https://excalidraw.com" target="_blank">excalidraw.com</a> weboldalt.
+        </p>
+    </footer>
+</body>
+</html>
