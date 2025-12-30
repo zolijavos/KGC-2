@@ -1,0 +1,20 @@
+{
+  "name": "Professional",
+  "colors": {
+    "component": {
+      "fill": "#e3f2fd",
+      "stroke": "#1976d2"
+    },
+    "database": {
+      "fill": "#e8f5e9",
+      "stroke": "#388e3c"
+    },
+    "service": {
+      "fill": "#fff3e0",
+      "stroke": "#f57c00"
+    },
+    "border": "#1976d2",
+    "text": "#1e1e1e",
+    "arrow": "#1976d2"
+  }
+}

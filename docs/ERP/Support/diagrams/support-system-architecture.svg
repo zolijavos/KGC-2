@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -20 1480 1160" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="0" y="-20" width="1480" height="1160" fill="#ffffff"/>
+<rect x="40" y="20" width="1400" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="950" y="70" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Support Modul Rendszer Architektúra (Kokó AI)</text>
+<text x="60" y="138" font-size="18" fill="#1976d2" text-anchor="start" class="excalidraw-text" opacity="1">FRONTEND LAYER</text>
+<rect x="140" y="180" width="200" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="305" y="234" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Chatwoot Widget</text>
+<text x="305" y="250.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Weboldal)</text>
+<rect x="400" y="180" width="200" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="550" y="234" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Email Inbound</text>
+<rect x="660" y="180" width="200" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="815" y="234" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Discord Server</text>
+<path d="M 240 260 L 240 320" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 500 260 L 500 320" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 760 260 L 760 320" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<text x="60" y="318" font-size="18" fill="#1976d2" text-anchor="start" class="excalidraw-text" opacity="1">CHATWOOT CORE (Rails)</text>
+<rect x="140" y="360" width="720" height="100" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="800" y="424" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Chatwoot Core (Port: 3000)</text>
+<text x="800" y="440.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Inbox kezelés  • Conversation routing  • Webhook dispatcher</text>
+<text x="800" y="457.6" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Contact management  • Message storage  • Agent assignment</text>
+<path d="M 500 460 L 500 500" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<text x="480" y="482" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Webhook (message_created)</text>
+<text x="60" y="538" font-size="18" fill="#1976d2" text-anchor="start" class="excalidraw-text" opacity="1">AI MIDDLEWARE LAYER (Python)</text>
+<rect x="80" y="580" width="180" height="120" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="245" y="652" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">ai-chatbot</text>
+<text x="245" y="666.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Port: 5001</text>
+<text x="245" y="680.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
+<text x="245" y="695.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Webhook fogadás</text>
+<text x="245" y="709.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Routing</text>
+<text x="245" y="724" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Email notify</text>
+<rect x="300" y="580" width="180" height="120" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="465" y="652" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">context-manager</text>
+<text x="465" y="666.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Port: 5004</text>
+<text x="465" y="680.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
+<text x="465" y="695.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Cache Mgmt</text>
+<text x="465" y="709.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• KB Loader</text>
+<text x="465" y="724" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Memory</text>
+<rect x="520" y="580" width="180" height="120" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="685" y="652" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">gemini-proxy</text>
+<text x="685" y="666.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Port: 5000</text>
+<text x="685" y="680.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
+<text x="685" y="695.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Gemini API</text>
+<text x="685" y="709.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Rate limit</text>
+<text x="685" y="724" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Fallback</text>
+<rect x="740" y="580" width="180" height="120" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="905" y="652" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">calendar-service</text>
+<text x="905" y="666.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Port: 5002</text>
+<text x="905" y="680.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
+<text x="905" y="695.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Google Cal</text>
+<text x="905" y="709.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Booking</text>
+<text x="905" y="724" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Slots</text>
+<rect x="960" y="580" width="180" height="120" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="1125" y="652" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">discord-bridge</text>
+<text x="1125" y="666.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Port: 8080</text>
+<text x="1125" y="680.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
+<text x="1125" y="695.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Discord Bot</text>
+<text x="1125" y="709.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Ticket system</text>
+<text x="1125" y="724" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Sync</text>
+<rect x="1180" y="580" width="160" height="120" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1320" y="652" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Redis</text>
+<text x="1320" y="666.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Port: 6379</text>
+<text x="1320" y="680.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
+<text x="1320" y="695.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Sessions</text>
+<text x="1320" y="709.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Stats</text>
+<text x="1320" y="724" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Memory</text>
+<path d="M 260 640 L 300 640" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 480 640 L 1180 640" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<text x="60" y="758" font-size="18" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">DATA LAYER</text>
+<rect x="140" y="800" width="220" height="100" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="340" y="862" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">PostgreSQL</text>
+<text x="340" y="876.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Port: 5432</text>
+<text x="340" y="890.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
+<text x="340" y="905.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Chatwoot DB</text>
+<text x="340" y="919.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Users</text>
+<text x="340" y="934" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Messages</text>
+<rect x="420" y="800" width="280" height="100" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="680" y="862" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Knowledge Base</text>
+<text x="680" y="876.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">/knowledge-bases/</text>
+<text x="680" y="890.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
+<text x="680" y="905.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• _global/</text>
+<text x="680" y="919.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• project-specific/</text>
+<rect x="760" y="800" width="260" height="100" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1000" y="862" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Memory Store</text>
+<text x="1000" y="876.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">/memory/</text>
+<text x="1000" y="890.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
+<text x="1000" y="905.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Preferences</text>
+<text x="1000" y="919.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• History</text>
+<text x="1000" y="934" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Decisions</text>
+<path d="M 390 700 L 390 800" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<text x="60" y="978" font-size="18" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">EXTERNAL SERVICES</text>
+<rect x="140" y="1020" width="240" height="80" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="350" y="1072" font-size="12" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">Google Gemini 2.0 Flash</text>
+<text x="350" y="1086.4" font-size="12" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">(AI válaszgenerálás)</text>
+<rect x="440" y="1020" width="240" height="80" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="650" y="1072" font-size="12" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">Google Calendar API</text>
+<text x="650" y="1086.4" font-size="12" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">(Időpontfoglalás)</text>
+<rect x="740" y="1020" width="240" height="80" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="950" y="1072" font-size="12" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">OpenAI Whisper API</text>
+<text x="950" y="1086.4" font-size="12" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">(Hangüzenet → szöveg)</text>
+<path d="M 610 700 L 610 1020 L 260 1020" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<path d="M 830 700 L 830 1020 L 560 1020" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<path d="M 170 700 L 170 1020 L 860 1020" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+</svg>

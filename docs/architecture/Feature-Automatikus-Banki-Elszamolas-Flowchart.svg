@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 -20 1290 1120" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="20" y="-20" width="1290" height="1120" fill="#ffffff"/>
+<text x="600" y="44" font-size="24" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">P5 - Automatikus Banki/Futár Elszámolás (Pontozási Algoritmus)</text>
+<ellipse cx="610" cy="110" rx="70" ry="30" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="610" y="114" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">START</text>
+<text x="610" y="130.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Cron: Óránként)</text>
+<rect x="520" y="180" width="180" height="80" stroke="#f57c00" fill="#fff3e0" stroke-width="3" rx="8" opacity="1"/>
+<text x="610" y="204" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P5.1 Adatfogadás</text>
+<text x="610" y="218.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">━━━━━━━━━━━━━━</text>
+<text x="610" y="232.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Bank API / CSV Import</text>
+<text x="610" y="247.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">→ BANK_TRANZAKCIÓ</text>
+<path d="M 610 150 L 610 170" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="520" y="300" width="180" height="100" stroke="#f57c00" fill="#fff3e0" stroke-width="3" rx="8" opacity="1"/>
+<text x="610" y="323" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P5.2 Párosítás</text>
+<text x="610" y="336.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">━━━━━━━━━━━━━━</text>
+<text x="610" y="349.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Pontozási Algoritmus:</text>
+<text x="610" y="362.6" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Közlemény (+50)</text>
+<text x="610" y="375.8" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Összeg (+30)</text>
+<text x="610" y="389" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Név (+15)</text>
+<text x="610" y="402.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Dátum (+5)</text>
+<path d="M 610 270 L 610 290" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<polygon points="610,440 680,495 610,550 540,495" stroke="#fbc02d" fill="#fff9c4" stroke-width="2" opacity="1"/>
+<text x="610" y="482" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Pontszám?</text>
+<text x="610" y="496.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">━━━━━━━━</text>
+<text x="610" y="510.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">90+ / 70-89</text>
+<text x="610" y="525.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">/ &lt;70</text>
+<path d="M 610 410 L 610 430" stroke="#fbc02d" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="800" y="460" width="180" height="70" stroke="#388e3c" fill="#c8e6c9" stroke-width="3" rx="8" opacity="1"/>
+<text x="890" y="482" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">✅ Automatikus Párosítás</text>
+<text x="890" y="494" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">━━━━━━━━━━━━━━</text>
+<text x="890" y="506" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">statusz = &apos;Párosított&apos;</text>
+<text x="890" y="518" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">szamla.statusz = &apos;Fizetve&apos;</text>
+<path d="M 690 495 L 790 495" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<text x="745" y="482" font-size="12" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">≥90 pont</text>
+<rect x="300" y="610" width="180" height="70" stroke="#f57c00" fill="#fff3e0" stroke-width="3" rx="8" opacity="1"/>
+<text x="390" y="633" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">⚠️ Eltérés</text>
+<text x="390" y="646.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">━━━━━━━━━━━━━━</text>
+<text x="390" y="659.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">statusz = &apos;Eltérés&apos;</text>
+<text x="390" y="672.6" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">→ Pénzügyes review</text>
+<path d="M 540 530 L 390 600" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<text x="480" y="567" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">70-89 pont</text>
+<rect x="740" y="610" width="180" height="70" stroke="#d32f2f" fill="#ffcdd2" stroke-width="3" rx="8" opacity="1"/>
+<text x="830" y="633" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">❌ Párosítatlan</text>
+<text x="830" y="646.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">━━━━━━━━━━━━━━</text>
+<text x="830" y="659.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">statusz = &apos;Párosítatlan&apos;</text>
+<text x="830" y="672.6" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">→ Manuális rögzítés</text>
+<path d="M 680 530 L 830 600" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="795" y="567" font-size="12" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">&lt;70 pont</text>
+<rect x="520" y="750" width="180" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="610" y="772" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P5.4 Manuális Rögzítés</text>
+<text x="610" y="784" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">━━━━━━━━━━━━━━</text>
+<text x="610" y="796" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Approve (Eltérés)</text>
+<text x="610" y="808" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Link számla (Párosítatlan)</text>
+<text x="610" y="820" font-size="10" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">• Költség könyvelés</text>
+<path d="M 390 690 L 390 740 L 610 740" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<path d="M 830 690 L 830 740 L 610 740" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="520" y="880" width="180" height="80" stroke="#388e3c" fill="#c8e6c9" stroke-width="3" rx="8" opacity="1"/>
+<text x="610" y="903" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P5.5 Lezárás</text>
+<text x="610" y="916.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">━━━━━━━━━━━━━━</text>
+<text x="610" y="929.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">SZÁMLA.statusz = &apos;Fizetve&apos;</text>
+<text x="610" y="942.6" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Audit Log</text>
+<text x="610" y="955.8" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Email ügyfélnek</text>
+<path d="M 890 540 L 890 900 L 610 900" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 610 840 L 610 870" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<ellipse cx="610" cy="1030" rx="70" ry="30" stroke="#1976d2" fill="#c8e6c9" stroke-width="2" opacity="1"/>
+<text x="610" y="1030" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">END</text>
+<text x="610" y="1045.6" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Párosítva &amp; Lezárva)</text>
+<path d="M 610 970 L 610 990" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<rect x="60" y="100" width="380" height="320" stroke="#666666" fill="#f5f5f5" stroke-width="2" rx="8" opacity="1"/>
+<text x="180" y="126" font-size="16" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">Jelmagyarázat:</text>
+<text x="80" y="157" font-size="12" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">🟠 P5.1-P5.2 - Új adatfogadás és párosítási motor</text>
+<text x="80" y="182" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">🟢 ≥90 pont - Automatikus párosítás (zöld)</text>
+<text x="80" y="207" font-size="12" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">🟡 70-89 pont - Eltérés, review szükséges (sárga)</text>
+<text x="80" y="232" font-size="12" fill="#d32f2f" text-anchor="start" class="excalidraw-text" opacity="1">🔴 &lt;70 pont - Párosítatlan, manuális (piros)</text>
+<text x="80" y="261" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">Pontozási Kritériumok:</text>
+<text x="80" y="274.2" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">━━━━━━━━━━━━━━━━━━━━</text>
+<text x="80" y="287.4" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">• Közlemény → számlaszám (+50 pont)</text>
+<text x="80" y="300.6" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">  Regex: INV-\d{4}-\d{6}</text>
+<text x="80" y="313.8" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">• Összeg egyezés (+30 pont)</text>
+<text x="80" y="327" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">  Tolerancia: ±1 Ft</text>
+<text x="80" y="340.2" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">• Partner név fuzzy match (+0-15 pont)</text>
+<text x="80" y="353.4" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">  Levenshtein distance, 60% hasonlóság</text>
+<text x="80" y="366.6" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">• Dátum ±3 napon belül (+0-5 pont)</text>
+<text x="80" y="379.8" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">━━━━━━━━━━━━━━━━━━━━</text>
+<text x="80" y="393" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">Összesen: 0-100 pont</text>
+<rect x="1050" y="100" width="220" height="180" stroke="#1976d2" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="1100" y="124" font-size="14" fill="#1976d2" text-anchor="start" class="excalidraw-text" opacity="1">P5.3 Dashboard:</text>
+<text x="1070" y="156" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">┌─────────────────┐</text>
+<text x="1070" y="169.2" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">│ ✅ Párosított:  │</text>
+<text x="1070" y="182.4" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">│    23 tranzakció│</text>
+<text x="1070" y="195.6" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">├─────────────────┤</text>
+<text x="1070" y="208.8" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">│ ⚠️ Eltérés:     │</text>
+<text x="1070" y="222" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">│    3 vizsgálat  │</text>
+<text x="1070" y="235.2" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">├─────────────────┤</text>
+<text x="1070" y="248.39999999999998" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">│ ❌ Párosítatlan:│</text>
+<text x="1070" y="261.6" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">│    1 manuális   │</text>
+<text x="1070" y="274.8" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">└─────────────────┘</text>
+</svg>

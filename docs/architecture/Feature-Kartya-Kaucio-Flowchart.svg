@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 -20 1000 1510" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-20" y="-20" width="1000" height="1510" fill="#ffffff"/>
+<ellipse cx="460" cy="50" rx="60" ry="30" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="460" y="55" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">START</text>
+<path d="M 460 90 L 460 130" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="340" y="140" width="240" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="460" y="173" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Bérlés indítás</text>
+<text x="460" y="194.6" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Kaució szükséges</text>
+<path d="M 460 230 L 460 270" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<polygon points="460,280 600,350 460,420 320,350" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<text x="460" y="341" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Bérlés időtartam?</text>
+<text x="460" y="360.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Stratégia választás)</text>
+<path d="M 180 350 L 50 350" stroke="#2e7d32" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="130" y="346" font-size="16" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">≤7 nap</text>
+<rect x="20" y="310" width="150" height="80" stroke="#2e7d32" fill="#c8e6c9" stroke-width="3" rx="8" opacity="1"/>
+<text x="95" y="343" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">HOLD</text>
+<text x="95" y="364.6" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">stratégia</text>
+<path d="M 460 430 L 460 490" stroke="#f57f17" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="515" y="466" font-size="16" fill="#f57f17" text-anchor="middle" class="excalidraw-text" opacity="1">7-30 nap</text>
+<rect x="360" y="500" width="200" height="80" stroke="#f57f17" fill="#fff9c4" stroke-width="3" rx="8" opacity="1"/>
+<text x="460" y="533" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">CHARGE</text>
+<text x="460" y="554.6" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">stratégia</text>
+<path d="M 720 350 L 850 350" stroke="#c62828" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="790" y="346" font-size="16" fill="#c62828" text-anchor="middle" class="excalidraw-text" opacity="1">&gt;30 nap</text>
+<rect x="760" y="310" width="180" height="80" stroke="#c62828" fill="#ffcdd2" stroke-width="3" rx="8" opacity="1"/>
+<text x="850" y="341" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KÉSZPÉNZ</text>
+<text x="850" y="360.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KÖTELEZŐ</text>
+<path d="M 95 400 L 95 680 L 360 680" stroke="#2e7d32" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="20" y="690" width="200" height="80" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="120" y="723" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">POS API:</text>
+<text x="120" y="744.6" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">createHold()</text>
+<path d="M 460 590 L 460 680" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="360" y="690" width="200" height="80" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="460" y="723" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">POS API:</text>
+<text x="460" y="744.6" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">charge()</text>
+<path d="M 850 400 L 850 780 L 460 780" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 120 780 L 120 880 L 360 880" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 460 780 L 460 880" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="360" y="890" width="200" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="460" y="923" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Bérlés mentése</text>
+<text x="460" y="944.6" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(aktív)</text>
+<path d="M 460 980 L 460 1040" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="360" y="1050" width="200" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="460" y="1083" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">...</text>
+<text x="460" y="1104.6" font-size="18" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Bérlés visszavétel</text>
+<path d="M 460 1140 L 460 1180" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<polygon points="460,1190 560,1250 460,1310 360,1250" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<text x="460" y="1241" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Kártya hold</text>
+<text x="460" y="1260.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">vagy charge?</text>
+<path d="M 200 1250 L 50 1250" stroke="#2e7d32" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="125" y="1246" font-size="16" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">HOLD</text>
+<rect x="20" y="1210" width="170" height="80" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" rx="8" opacity="1"/>
+<text x="105" y="1241" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">POS API:</text>
+<text x="105" y="1260.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">releaseHold()</text>
+<path d="M 680 1250 L 830 1250" stroke="#f57f17" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="755" y="1246" font-size="16" fill="#f57f17" text-anchor="middle" class="excalidraw-text" opacity="1">CHARGE</text>
+<rect x="740" y="1210" width="180" height="80" stroke="#f57f17" fill="#fff9c4" stroke-width="2" rx="8" opacity="1"/>
+<text x="830" y="1241" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">POS API:</text>
+<text x="830" y="1260.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">refund()</text>
+<path d="M 105 1300 L 105 1380 L 360 1380" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 830 1300 L 830 1380 L 460 1380" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<ellipse cx="460" cy="1420" rx="60" ry="30" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="460" y="1425" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">END</text>
+</svg>

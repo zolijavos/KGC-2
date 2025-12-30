@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 -20 1190 1000" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="20" y="-20" width="1190" height="1000" fill="#ffffff"/>
+<text x="590" y="48" font-size="28" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC-Support Adatfolyam Diagram (DFD)</text>
+<rect x="60" y="120" width="180" height="100" stroke="#e65100" fill="#fff3e0" stroke-width="3" rx="0" opacity="1"/>
+<text x="150" y="177" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Ügyfél</text>
+<ellipse cx="440" cy="170" rx="100" ry="70" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" opacity="1"/>
+<text x="440" y="161" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P1</text>
+<text x="440" y="180.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Chatbot</text>
+<text x="440" y="199.4" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Feldolgozás</text>
+<ellipse cx="740" cy="170" rx="100" ry="70" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" opacity="1"/>
+<text x="740" y="161" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P2</text>
+<text x="740" y="180.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Context Manager</text>
+<text x="740" y="199.4" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">+ AI Query</text>
+<ellipse cx="1060" cy="170" rx="100" ry="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="1060" y="161" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P3</text>
+<text x="1060" y="180.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP</text>
+<text x="1060" y="199.4" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">API Gateway</text>
+<rect x="960" y="320" width="200" height="100" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="1060" y="361" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">D1</text>
+<text x="1060" y="380.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC Database</text>
+<text x="1060" y="399.4" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(PostgreSQL)</text>
+<rect x="340" y="320" width="200" height="100" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="440" y="361" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">D2</text>
+<text x="440" y="380.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Support Memory</text>
+<text x="440" y="399.4" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Redis + Files)</text>
+<ellipse cx="740" cy="590" rx="100" ry="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="740" y="581" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P4</text>
+<text x="740" y="600.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Webhook</text>
+<text x="740" y="619.4" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Handler</text>
+<ellipse cx="440" cy="590" rx="100" ry="70" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" opacity="1"/>
+<text x="440" y="581" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P5</text>
+<text x="440" y="600.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Értesítés</text>
+<text x="440" y="619.4" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Küldés</text>
+<path d="M 240 170 L 340 170" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<text x="290" y="154" font-size="14" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">1. Kérdés</text>
+<path d="M 540 170 L 640 170" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="590" y="154" font-size="14" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">2. AI Query</text>
+<path d="M 840 170 L 960 170" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<text x="900" y="147" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">3. API Pull</text>
+<text x="900" y="161.4" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">(GET /api/...)</text>
+<path d="M 1060 240 L 1060 320" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<text x="1070" y="272" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">4. Read:</text>
+<text x="1070" y="286.4" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">Ügyfél,</text>
+<text x="1070" y="300.8" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">Munkalap,</text>
+<text x="1070" y="315.2" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">Rendelés</text>
+<path d="M 640 230 L 480 320" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="590" y="267" font-size="12" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">5. Save:</text>
+<text x="590" y="281.4" font-size="12" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Chat</text>
+<text x="590" y="295.8" font-size="12" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">History</text>
+<path d="M 340 190 L 240 190" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<text x="290" y="214" font-size="14" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">6. Válasz</text>
+<path d="M 960 370 L 760 540" stroke="#f57c00" fill="none" stroke-width="3" marker-end="url(#ah-orange)" opacity="1"/>
+<text x="830" y="437" font-size="12" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">7. Webhook</text>
+<text x="830" y="451.4" font-size="12" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">   Push:</text>
+<text x="830" y="465.8" font-size="12" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">   order.arrived,</text>
+<text x="830" y="480.2" font-size="12" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">   repair.done</text>
+<path d="M 640 590 L 540 590" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<text x="590" y="572" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">8. Format</text>
+<text x="590" y="586.4" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">   Notification</text>
+<path d="M 340 570 L 160 200" stroke="#388e3c" fill="none" stroke-width="3" marker-end="url(#ah-green)" opacity="1"/>
+<text x="180" y="367" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">9. Értesítés:</text>
+<text x="180" y="381.4" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">   SMS/Email/</text>
+<text x="180" y="395.8" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">   Chat Widget</text>
+<text x="180" y="410.2" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">   &quot;Áru beérkezett&quot;</text>
+<text x="60" y="740" font-size="20" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Jelmagyarázat:</text>
+<text x="60" y="774" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">○ Ellipszis (Px): Folyamat (Process)</text>
+<text x="60" y="790.8" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">□ Téglalap (Dx): Adattár (Data Store)</text>
+<text x="60" y="807.6" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">□ Téglalap (vastag keret): Külső Entitás (External Entity)</text>
+<text x="60" y="824.4" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="60" y="841.2" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Kék: KGC ERP adatfolyamok</text>
+<text x="60" y="858" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Lila: Support AI adatfolyamok</text>
+<text x="60" y="874.8" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Narancs: Webhook push esemény</text>
+<text x="60" y="891.6" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Zöld: Válasz/Értesítés az ügyfélnek</text>
+<text x="700" y="740" font-size="20" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Use Case Példák:</text>
+<text x="700" y="774" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Lekérdezés (1-6): &quot;Hol tart a szerviz munkám?&quot;</text>
+<text x="700" y="790.8" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">→ Chatbot lekérdezi KGC API-ból a munkalap státuszt</text>
+<text x="700" y="807.6" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="700" y="824.4" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Push Értesítés (7-9): Rendelés beérkezik</text>
+<text x="700" y="841.2" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">→ KGC ERP webhook-ot küld Support-nak</text>
+<text x="700" y="858" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">→ Support automatikusan értesíti az ügyfelet</text>
+</svg>

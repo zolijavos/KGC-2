@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 60 880 960" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="60" y="60" width="880" height="960" fill="#ffffff"/>
+<rect x="100" y="100" width="800" height="180" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="520" y="135" font-size="20" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP CORE</text>
+<rect x="130" y="160" width="160" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="210" y="203" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Bérlés</text>
+<text x="210" y="222.2" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Modul</text>
+<rect x="310" y="160" width="160" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="390" y="203" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Értékesítés</text>
+<text x="390" y="222.2" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Modul</text>
+<rect x="490" y="160" width="160" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="570" y="203" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Szerviz</text>
+<text x="570" y="222.2" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Modul</text>
+<rect x="670" y="160" width="160" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="750" y="203" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Ügyfélkez.</text>
+<text x="750" y="222.2" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Modul</text>
+<rect x="100" y="340" width="800" height="160" stroke="#2e7d32" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="505" y="375" font-size="20" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">Integration Layer (Plugin Manager)</text>
+<text x="150" y="409" font-size="14" fill="#2e7d32" text-anchor="start" class="excalidraw-text" opacity="1">• Plugin Discovery          • Runtime Enable/Disable</text>
+<text x="150" y="425.8" font-size="14" fill="#2e7d32" text-anchor="start" class="excalidraw-text" opacity="1">• API Gateway Routing     • Webhook Registry</text>
+<text x="150" y="442.6" font-size="14" fill="#2e7d32" text-anchor="start" class="excalidraw-text" opacity="1">• Data Sync Manager      • Feature Flag Management</text>
+<path d="M 500 280 L 500 340" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="350" y="540" width="300" height="50" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="568" font-size="16" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">CRM_MODULE_ENABLED</text>
+<path d="M 500 500 L 500 640" stroke="#2e7d32" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="100" y="640" width="800" height="200" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="675" font-size="20" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">CRM MODULE PLUGIN (Twenty CRM)</text>
+<rect x="130" y="710" width="160" height="90" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="210" y="758" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">GraphQL</text>
+<text x="210" y="777.2" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Adapter</text>
+<rect x="310" y="710" width="160" height="90" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="390" y="758" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Contact/Lead</text>
+<text x="390" y="777.2" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Management</text>
+<rect x="490" y="710" width="160" height="90" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="570" y="758" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Service</text>
+<text x="570" y="777.2" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">History</text>
+<rect x="670" y="710" width="160" height="90" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="750" y="758" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Marketing</text>
+<text x="750" y="777.2" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Automation</text>
+<rect x="300" y="900" width="400" height="80" stroke="#d32f2f" fill="#ffebee" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="947" font-size="20" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">Email: Gmail SMTP</text>
+<path d="M 500 840 L 500 900" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+</svg>

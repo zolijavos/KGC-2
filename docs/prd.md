@@ -1,3 +1,25 @@
+---
+stepsCompleted: [1]
+inputDocuments:
+  - docs/prd.md
+  - docs/ERP/Inventory/INVENTORY-INTEGRATION-ARCHITECTURE.md
+  - docs/architecture/ADR-014-modular-architektura-vegleges.md
+  - docs/architecture/ADR-013-fit-gap-dontesek.md
+  - docs/Flows/FIT-GAP-ANALYSIS.md
+  - docs/analysis/konkurencia-elemzes-gepberles-erp-2025-12-15.md
+  - docs/analysis/ERPNext-vs-KGC-FitGap-2025-12-19.md
+documentCounts:
+  briefs: 0
+  research: 2
+  brainstorming: 0
+  projectDocs: 5
+workflowType: 'prd'
+lastStep: 0
+project_name: 'KGC-2'
+user_name: 'Javo!'
+date: '2025-12-29'
+---
+
 # KGC-2 - Termék Követelmény Dokumentum (PRD)
 
 **Szerző:** Javo!
@@ -739,3 +761,4 @@ A KGC ERP egy resilient, offline-first bérleti és szerviz menedzsment rendszer
 |-------|--------|----------|
 | 2025-12-02 | 1.0 | Kezdeti PRD |
 | 2025-12-03 | 1.1 | 8. rész bővítések: Holding, Részletfizetés, Garancia, Foglalás |
+| 2025-12-29 | 1.2 | Workflow inicializálás: frontmatter hozzáadva, Beszerzés modul készítése kezdődik |

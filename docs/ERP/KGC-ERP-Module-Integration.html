@@ -1,0 +1,2812 @@
+<!DOCTYPE html>
+<html lang="hu" x-data="appData()" :class="{ 'dark': darkMode }">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KGC ERP - Modul Integrációk</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script>tailwind.config = { darkMode: 'class' }</script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .dark { background-color: rgb(17 24 39); color: rgb(243 244 246); }
+        .sticky-sidebar { position: sticky; top: 1.5rem; max-height: calc(100vh - 3rem); overflow-y: auto; }
+        .diagram-container { background: white; border: 2px solid #e5e7eb; border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+        .dark .diagram-container { background: rgb(31 41 55); border-color: rgb(55 65 81); }
+        .diagram-wrapper { background: #f9fafb; border-radius: 0.5rem; padding: 1rem; overflow: auto; }
+        .dark .diagram-wrapper { background: #2d3748; }
+        .diagram-wrapper svg { display: block; margin: 0 auto; max-width: 100%; height: auto; }
+        .dark .diagram-wrapper svg { filter: invert(0.9) hue-rotate(180deg); }
+        .explanation-box { background: linear-gradient(to right, #eff6ff, #dbeafe); border-left: 4px solid #3b82f6; padding: 1rem; border-radius: 8px; }
+        .dark .explanation-box { background: linear-gradient(to right, rgb(30 58 138), rgb(29 78 216)); }
+        .details-box { background: #f0fdf4; border-left: 4px solid #22c55e; padding: 1rem; border-radius: 8px; margin-top: 0.5rem; }
+        .dark .details-box { background: rgb(20 83 45); }
+        .module-badge { display: inline-block; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; }
+        .module-support { background: #e1bee7; color: #4a148c; }
+        .module-crm { background: #b2dfdb; color: #004d40; }
+        .module-hr { background: #ffccbc; color: #bf360c; }
+        .dark .module-support { background: #6a1b9a; color: #f3e5f5; }
+        .dark .module-crm { background: #00695c; color: #e0f2f1; }
+        .dark .module-hr { background: #e64a19; color: #fbe9e7; }
+        @media print { .no-print { display: none !important; } }
+    </style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-purple-600 via-blue-600 to-teal-600 text-white shadow-lg no-print">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex flex-col lg:flex-row justify-between items-center">
+                <div class="text-center lg:text-left mb-4 lg:mb-0">
+                    <h1 class="text-3xl font-bold">KGC ERP - Modul Integrációk</h1>
+                    <p class="mt-1">Plugin Architektúra | API-First | Ki-bekapcsolható Modulok</p>
+                    <div class="flex flex-wrap gap-2 mt-2 justify-center lg:justify-start">
+                        <span class="module-badge module-support">🤖 Support</span>
+                        <span class="module-badge module-crm">📊 CRM</span>
+                        <span class="module-badge module-hr">👥 HR</span>
+                    </div>
+                </div>
+                <div class="flex space-x-3">
+                    <button @click="darkMode = !darkMode" class="p-3 bg-white/20 rounded-lg hover:bg-white/30" title="Sötét/Világos mód">
+                        <span x-text="darkMode ? '☀️' : '🌙'"></span>
+                    </button>
+                    <button @click="window.print()" class="px-4 py-2 bg-white/20 rounded-lg hover:bg-white/30">🖨️ Nyomtatás</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-8">
+        <div class="grid grid-cols-12 gap-6">
+            <!-- Sidebar Navigation -->
+            <aside class="col-span-12 lg:col-span-3 no-print">
+                <div class="sticky-sidebar bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg">
+                    <h2 class="text-lg font-bold mb-4">📋 Modulok</h2>
+
+                    <!-- Support Module -->
+                    <div class="mb-6">
+                        <h3 class="text-sm font-semibold text-purple-600 dark:text-purple-400 mb-2">🤖 Support Modul</h3>
+                        <div class="space-y-1">
+                            <button @click="activeTab = 'support-overview'" :class="activeTab === 'support-overview' ? 'bg-purple-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                Áttekintés
+                            </button>
+                            <button @click="activeTab = 'support-architecture'" :class="activeTab === 'support-architecture' ? 'bg-purple-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                Plugin Architektúra
+                            </button>
+                            <button @click="activeTab = 'support-dataflow'" :class="activeTab === 'support-dataflow' ? 'bg-purple-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                Adatfolyam (DFD)
+                            </button>
+                            <button @click="activeTab = 'support-docs'" :class="activeTab === 'support-docs' ? 'bg-purple-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                Dokumentáció
+                            </button>
+                            <button @click="activeTab = 'support-full-doc'" :class="activeTab === 'support-full-doc' ? 'bg-purple-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                📄 Teljes Spec (PDF)
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- CRM Module -->
+                    <div class="mb-6">
+                        <h3 class="text-sm font-semibold text-teal-600 dark:text-teal-400 mb-2">📊 CRM Modul</h3>
+                        <div class="space-y-1">
+                            <button @click="activeTab = 'crm-overview'" :class="activeTab === 'crm-overview' ? 'bg-teal-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                Áttekintés
+                            </button>
+                            <button @click="activeTab = 'crm-architecture'" :class="activeTab === 'crm-architecture' ? 'bg-teal-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                Plugin Architektúra
+                            </button>
+                            <button @click="activeTab = 'crm-dataflow'" :class="activeTab === 'crm-dataflow' ? 'bg-teal-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                Adatfolyam (DFD)
+                            </button>
+                            <button @click="activeTab = 'crm-docs'" :class="activeTab === 'crm-docs' ? 'bg-teal-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                Dokumentáció
+                            </button>
+                            <button @click="activeTab = 'crm-full-doc'" :class="activeTab === 'crm-full-doc' ? 'bg-teal-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                📄 Teljes Spec (PDF)
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- HR Module -->
+                    <div class="mb-6">
+                        <h3 class="text-sm font-semibold text-orange-600 dark:text-orange-400 mb-2">👥 HR Modul</h3>
+                        <div class="space-y-1">
+                            <button @click="activeTab = 'hr-overview'" :class="activeTab === 'hr-overview' ? 'bg-orange-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                Áttekintés
+                            </button>
+                            <button @click="activeTab = 'hr-architecture'" :class="activeTab === 'hr-architecture' ? 'bg-orange-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                Plugin Architektúra
+                            </button>
+                            <button @click="activeTab = 'hr-dataflow'" :class="activeTab === 'hr-dataflow' ? 'bg-orange-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                Adatfolyam (DFD)
+                            </button>
+                            <button @click="activeTab = 'hr-docs'" :class="activeTab === 'hr-docs' ? 'bg-orange-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                Dokumentáció
+                            </button>
+                            <button @click="activeTab = 'hr-full-doc'" :class="activeTab === 'hr-full-doc' ? 'bg-orange-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                📄 Teljes Spec (PDF)
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Comprehensive System Diagrams -->
+                    <div class="mb-6">
+                        <h3 class="text-sm font-semibold text-blue-600 dark:text-blue-400 mb-2">🏗️ Teljes Rendszer</h3>
+                        <div class="space-y-1">
+                            <button @click="activeTab = 'system-architecture'" :class="activeTab === 'system-architecture' ? 'bg-blue-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                Rendszer Architektúra
+                            </button>
+                            <button @click="activeTab = 'system-dataflow'" :class="activeTab === 'system-dataflow' ? 'bg-blue-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'" class="w-full text-left px-3 py-2 rounded-lg text-xs transition-colors">
+                                Teljes Adatfolyam (DFD)
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 p-3 bg-blue-50 dark:bg-blue-900/30 rounded-lg text-xs">
+                        <p class="font-semibold mb-1">💡 Plugin Filozófia</p>
+                        <p class="text-gray-600 dark:text-gray-400">Minden modul önállóan működik, runtime ki-bekapcsolható, és nem függ a többitől.</p>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Content Area -->
+            <main class="col-span-12 lg:col-span-9">
+
+                <!-- ============================================= -->
+                <!-- SUPPORT MODULE - OVERVIEW -->
+                <!-- ============================================= -->
+                <div x-show="activeTab === 'support-overview'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h2 class="text-2xl font-bold flex items-center gap-2">
+                                    <span class="module-badge module-support">🤖 Support</span>
+                                    Kokó AI Ügyfélszolgálat
+                                </h2>
+                                <p class="text-gray-600 dark:text-gray-400 mt-2">Intelligens, 24/7 elérhető chatbot támogatás Gemini AI-val</p>
+                            </div>
+                            <span class="px-3 py-1 bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-100 rounded-full text-sm font-semibold">Aktív</span>
+                        </div>
+                    </div>
+
+                    <!-- Key Features -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-white dark:bg-gray-800 rounded-lg p-5 shadow">
+                            <h3 class="font-semibold mb-3 flex items-center gap-2">
+                                <span class="text-2xl">🤖</span>
+                                AI Válaszadás
+                            </h3>
+                            <ul class="text-sm space-y-2 text-gray-600 dark:text-gray-400">
+                                <li>✓ Gemini 2.0 Flash Exp motor</li>
+                                <li>✓ Context Caching (75% költségmegtakarítás)</li>
+                                <li>✓ Confidence score minden válaszhoz</li>
+                                <li>✓ Többnyelvű támogatás (HU/EN)</li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-white dark:bg-gray-800 rounded-lg p-5 shadow">
+                            <h3 class="font-semibold mb-3 flex items-center gap-2">
+                                <span class="text-2xl">🔌</span>
+                                Plugin Architektúra
+                            </h3>
+                            <ul class="text-sm space-y-2 text-gray-600 dark:text-gray-400">
+                                <li>✓ Runtime enable/disable</li>
+                                <li>✓ Feature flag: <code class="bg-gray-100 dark:bg-gray-700 px-1 rounded">SUPPORT_MODULE_ENABLED</code></li>
+                                <li>✓ KGC ERP független működés</li>
+                                <li>✓ Graceful degradation (hiba esetén)</li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-white dark:bg-gray-800 rounded-lg p-5 shadow">
+                            <h3 class="font-semibold mb-3 flex items-center gap-2">
+                                <span class="text-2xl">🔗</span>
+                                KGC Integráció
+                            </h3>
+                            <ul class="text-sm space-y-2 text-gray-600 dark:text-gray-400">
+                                <li>✓ 6 API endpoint (readonly)</li>
+                                <li>✓ 5 webhook esemény (push)</li>
+                                <li>✓ Bérlés, Szerviz, Rendelés lekérdezés</li>
+                                <li>✓ Automatikus értesítések</li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-white dark:bg-gray-800 rounded-lg p-5 shadow">
+                            <h3 class="font-semibold mb-3 flex items-center gap-2">
+                                <span class="text-2xl">📅</span>
+                                Időpontfoglalás
+                            </h3>
+                            <ul class="text-sm space-y-2 text-gray-600 dark:text-gray-400">
+                                <li>✓ Google Calendar integráció</li>
+                                <li>✓ Szabad időpontok lekérdezése</li>
+                                <li>✓ Szerviz foglalás chatbotból</li>
+                                <li>✓ Email visszaigazolás</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Integration Points -->
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-bold mb-4">🔗 Integrációs Pontok a KGC ERP-ben</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="border border-blue-200 dark:border-blue-800 rounded-lg p-4">
+                                <h4 class="font-semibold text-blue-600 dark:text-blue-400 mb-2">📦 Bérlés Modul</h4>
+                                <ul class="text-sm space-y-1">
+                                    <li>• Bérlés státusz lekérdezés</li>
+                                    <li>• Késés értesítés</li>
+                                    <li>• Visszavétel elégedettségi felmérés</li>
+                                </ul>
+                            </div>
+
+                            <div class="border border-purple-200 dark:border-purple-800 rounded-lg p-4">
+                                <h4 class="font-semibold text-purple-600 dark:text-purple-400 mb-2">🔧 Szerviz Modul</h4>
+                                <ul class="text-sm space-y-1">
+                                    <li>• Munkalap státusz követés</li>
+                                    <li>• Árajánlat kész értesítés</li>
+                                    <li>• Javítás kész értesítés</li>
+                                    <li>• Időpontfoglalás</li>
+                                </ul>
+                            </div>
+
+                            <div class="border border-green-200 dark:border-green-800 rounded-lg p-4">
+                                <h4 class="font-semibold text-green-600 dark:text-green-400 mb-2">🛒 Értékesítés</h4>
+                                <ul class="text-sm space-y-1">
+                                    <li>• Rendelés státusz</li>
+                                    <li>• Áru beérkezés értesítés</li>
+                                    <li>• Készlet lekérdezés</li>
+                                </ul>
+                            </div>
+
+                            <div class="border border-orange-200 dark:border-orange-800 rounded-lg p-4">
+                                <h4 class="font-semibold text-orange-600 dark:text-orange-400 mb-2">👤 Ügyfélkezelés</h4>
+                                <ul class="text-sm space-y-1">
+                                    <li>• Telefonszám alapú azonosítás</li>
+                                    <li>• Duplikáció ellenőrzés</li>
+                                    <li>• GDPR cascade delete</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tech Stack -->
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-bold mb-4">🛠️ Technológiai Stack</h3>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                            <div class="text-center">
+                                <div class="bg-purple-100 dark:bg-purple-900/30 rounded-lg p-3 mb-2">
+                                    <span class="text-2xl">🤖</span>
+                                </div>
+                                <p class="font-semibold text-sm">Gemini 2.0</p>
+                                <p class="text-xs text-gray-600 dark:text-gray-400">AI Motor</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-blue-100 dark:bg-blue-900/30 rounded-lg p-3 mb-2">
+                                    <span class="text-2xl">💬</span>
+                                </div>
+                                <p class="font-semibold text-sm">Chatwoot</p>
+                                <p class="text-xs text-gray-600 dark:text-gray-400">Chat Platform</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-green-100 dark:bg-green-900/30 rounded-lg p-3 mb-2">
+                                    <span class="text-2xl">🐍</span>
+                                </div>
+                                <p class="font-semibold text-sm">Python</p>
+                                <p class="text-xs text-gray-600 dark:text-gray-400">Backend</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-red-100 dark:bg-red-900/30 rounded-lg p-3 mb-2">
+                                    <span class="text-2xl">📦</span>
+                                </div>
+                                <p class="font-semibold text-sm">Docker</p>
+                                <p class="text-xs text-gray-600 dark:text-gray-400">Deployment</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cost Estimate -->
+                    <div class="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-lg p-6 border-l-4 border-green-500">
+                        <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+                            <span>💰</span>
+                            Költségbecslés
+                        </h3>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div>
+                                <p class="text-3xl font-bold text-green-600 dark:text-green-400">$40-110</p>
+                                <p class="text-sm text-gray-600 dark:text-gray-400">Havi üzemeltetés / franchise</p>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-bold text-blue-600 dark:text-blue-400">~7 nap</p>
+                                <p class="text-sm text-gray-600 dark:text-gray-400">Fejlesztési idő (integráció)</p>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-bold text-purple-600 dark:text-purple-400">75%</p>
+                                <p class="text-sm text-gray-600 dark:text-gray-400">Megtakarítás (context cache)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============================================= -->
+                <!-- SUPPORT MODULE - ARCHITECTURE DIAGRAM -->
+                <!-- ============================================= -->
+                <div x-show="activeTab === 'support-architecture'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h2 class="text-2xl font-bold">🏗️ Plugin Architektúra Diagram</h2>
+                        <p class="text-gray-600 dark:text-gray-400 mt-2">KGC ERP CORE + Support Module Plugin felépítése</p>
+                    </div>
+
+                    <div class="diagram-container">
+                        <div class="explanation-box mb-4">
+                            <p class="text-sm"><strong>📊 Diagram Típus:</strong> Rendszer Architektúra</p>
+                            <p class="text-sm mt-1"><strong>🎯 Cél:</strong> Bemutatni a plugin-alapú architektúrát, ahol a Support modul runtime enable/disable támogatással működik.</p>
+                        </div>
+
+                        <div class="diagram-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="20 -20 1120 1080" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="20" y="-20" width="1120" height="1080" fill="#ffffff"/>
+<text x="590" y="48" font-size="28" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC-Support Plugin Architektúra</text>
+<rect x="60" y="100" width="1040" height="420" stroke="#1976d2" fill="#e3f2fd" stroke-width="3" rx="0" opacity="1"/>
+<text x="580" y="134" font-size="24" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP CORE</text>
+<rect x="100" y="180" width="180" height="100" stroke="#1976d2" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="190" y="237" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Bérlés</text>
+<rect x="320" y="180" width="180" height="100" stroke="#1976d2" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="410" y="237" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Értékesítés</text>
+<rect x="540" y="180" width="180" height="100" stroke="#1976d2" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="630" y="237" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Szerviz</text>
+<rect x="760" y="180" width="180" height="100" stroke="#1976d2" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="850" y="237" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Pénzügy</text>
+<rect x="100" y="320" width="840" height="120" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="120" y="346" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Integration Layer</text>
+<text x="120" y="365.2" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="120" y="384.4" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Plugin Discovery</text>
+<text x="120" y="403.6" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Runtime Enable/Disable</text>
+<text x="120" y="422.8" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• API Gateway &amp; Webhook Registry</text>
+<rect x="520" y="340" width="200" height="80" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="0" opacity="1"/>
+<text x="620" y="369" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Feature Flag:</text>
+<text x="620" y="385.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">SUPPORT_MODULE</text>
+<text x="620" y="402.6" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">_ENABLED</text>
+<rect x="60" y="580" width="1040" height="300" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="3" rx="0" opacity="1"/>
+<text x="580" y="614" font-size="24" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">SUPPORT MODULE PLUGIN (Opcionális)</text>
+<rect x="100" y="660" width="220" height="180" stroke="#7b1fa2" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="120" y="696" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Chatwoot</text>
+<text x="120" y="715.2" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Integration</text>
+<text x="120" y="734.4" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="120" y="753.6" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Widget</text>
+<text x="120" y="772.8" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Email Inbox</text>
+<text x="120" y="792" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Discord Bridge</text>
+<text x="120" y="811.2" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Contact Mgmt</text>
+<rect x="360" y="660" width="220" height="180" stroke="#7b1fa2" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="380" y="696" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Context Manager</text>
+<text x="380" y="715.2" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">+ Gemini AI</text>
+<text x="380" y="734.4" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="380" y="753.6" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Knowledge Base</text>
+<text x="380" y="772.8" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Context Cache</text>
+<text x="380" y="792" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Long-term Memory</text>
+<text x="380" y="811.2" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• KGC API Client</text>
+<rect x="620" y="660" width="220" height="180" stroke="#7b1fa2" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<text x="640" y="696" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Calendar Service</text>
+<text x="640" y="715.2" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="640" y="734.4" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Google Calendar</text>
+<text x="640" y="753.6" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Időpont Foglalás</text>
+<text x="640" y="772.8" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">• Szerviz</text>
+<text x="640" y="792" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">  Appointment</text>
+<text x="640" y="811.2" font-size="16" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">  Booking</text>
+<rect x="880" y="720" width="180" height="80" stroke="#388e3c" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
+<text x="970" y="749" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Plugin Status:</text>
+<text x="970" y="765.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">ENABLED /</text>
+<text x="970" y="782.6" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">DISABLED</text>
+<path d="M 190 280 L 190 320" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 410 280 L 410 320" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 630 280 L 630 320" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 520 440 L 520 580" stroke="#388e3c" fill="none" stroke-width="3" marker-end="url(#ah-green)" opacity="1"/>
+<text x="520" y="520" font-size="20" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">(Opcionális)</text>
+<text x="100" y="558" font-size="18" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">↑ Webhooks (Push)</text>
+<text x="960" y="558" font-size="18" fill="#388e3c" text-anchor="end" class="excalidraw-text" opacity="1">↓ API Pull (Queries)</text>
+<rect x="60" y="920" width="500" height="100" stroke="#424242" fill="#fafafa" stroke-width="1" rx="0" opacity="1"/>
+<text x="80" y="944" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Jelmagyarázat:</text>
+<text x="80" y="960.8" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">─── Szilárd vonal: KGC ERP belső kapcsolat</text>
+<text x="80" y="977.6" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">- - - Szaggatott: Opcionális Support modul integráció</text>
+<text x="80" y="994.4" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">      Zöld háttér: Integration Layer (plugin manager)</text>
+</svg></div>
+
+                        <div class="details-box mt-4" x-data="{ open: false }">
+                            <button @click="open = !open" class="w-full text-left font-semibold flex justify-between items-center">
+                                <span>📝 Architektúra Részletek</span>
+                                <span x-text="open ? '▼' : '▶'"></span>
+                            </button>
+                            <div x-show="open" x-collapse class="mt-3 text-sm space-y-2">
+                                <p><strong>KGC ERP CORE:</strong></p>
+                                <ul class="list-disc list-inside pl-4 space-y-1">
+                                    <li>5 alap modul: Bérlés, Értékesítés, Szerviz, Ügyfélkezelés, Dolgozókezelés</li>
+                                    <li>Teljesen független működés (Support modul nélkül is)</li>
+                                </ul>
+
+                                <p><strong>Integration Layer:</strong></p>
+                                <ul class="list-disc list-inside pl-4 space-y-1">
+                                    <li>Plugin Discovery: Felismeri az elérhető plugin-okat</li>
+                                    <li>Runtime Enable/Disable: Feature flag alapú kapcsolás</li>
+                                    <li>API Gateway & Webhook Registry: Routing és event management</li>
+                                </ul>
+
+                                <p><strong>Support Module Plugin (Opcionális):</strong></p>
+                                <ul class="list-disc list-inside pl-4 space-y-1">
+                                    <li><strong>Chatwoot Integration:</strong> Widget, Email, Discord</li>
+                                    <li><strong>Context Manager + Gemini AI:</strong> Tudásbázis, Cache, Memory, KGC API Client</li>
+                                    <li><strong>Calendar Service:</strong> Google Calendar, Időpont foglalás</li>
+                                </ul>
+
+                                <p><strong>Feature Flag:</strong></p>
+                                <ul class="list-disc list-inside pl-4 space-y-1">
+                                    <li><code class="bg-gray-100 dark:bg-gray-700 px-2 py-0.5 rounded">SUPPORT_MODULE_ENABLED=true/false</code></li>
+                                    <li>Admin UI-ból runtime kapcsolható</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============================================= -->
+                <!-- SUPPORT MODULE - DATAFLOW DIAGRAM -->
+                <!-- ============================================= -->
+                <div x-show="activeTab === 'support-dataflow'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h2 class="text-2xl font-bold">📊 Adatfolyam Diagram (DFD)</h2>
+                        <p class="text-gray-600 dark:text-gray-400 mt-2">KGC ↔ Support adat áramlás és integráció</p>
+                    </div>
+
+                    <div class="diagram-container">
+                        <div class="explanation-box mb-4">
+                            <p class="text-sm"><strong>📊 Diagram Típus:</strong> Data Flow Diagram (DFD)</p>
+                            <p class="text-sm mt-1"><strong>🎯 Cél:</strong> Bemutatni a konkrét adatáramlást a KGC ERP és Support modul között (API Pull + Webhook Push).</p>
+                        </div>
+
+                        <div class="diagram-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="20 -20 1190 1000" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah2" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue2" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green2" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange2" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="20" y="-20" width="1190" height="1000" fill="#ffffff"/>
+<text x="590" y="48" font-size="28" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC-Support Adatfolyam Diagram (DFD)</text>
+<rect x="60" y="120" width="180" height="100" stroke="#e65100" fill="#fff3e0" stroke-width="3" rx="0" opacity="1"/>
+<text x="150" y="177" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Ügyfél</text>
+<ellipse cx="440" cy="170" rx="100" ry="70" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" opacity="1"/>
+<text x="440" y="161" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P1</text>
+<text x="440" y="180.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Chatbot</text>
+<text x="440" y="199.4" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Feldolgozás</text>
+<ellipse cx="740" cy="170" rx="100" ry="70" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" opacity="1"/>
+<text x="740" y="161" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P2</text>
+<text x="740" y="180.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Context Manager</text>
+<text x="740" y="199.4" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">+ AI Query</text>
+<ellipse cx="1060" cy="170" rx="100" ry="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="1060" y="161" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P3</text>
+<text x="1060" y="180.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP</text>
+<text x="1060" y="199.4" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">API Gateway</text>
+<rect x="960" y="320" width="200" height="100" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="1060" y="361" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">D1</text>
+<text x="1060" y="380.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC Database</text>
+<text x="1060" y="399.4" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(PostgreSQL)</text>
+<rect x="340" y="320" width="200" height="100" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="440" y="361" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">D2</text>
+<text x="440" y="380.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Support Memory</text>
+<text x="440" y="399.4" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Redis + Files)</text>
+<ellipse cx="740" cy="590" rx="100" ry="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="740" y="581" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P4</text>
+<text x="740" y="600.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Webhook</text>
+<text x="740" y="619.4" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Handler</text>
+<ellipse cx="440" cy="590" rx="100" ry="70" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" opacity="1"/>
+<text x="440" y="581" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P5</text>
+<text x="440" y="600.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Értesítés</text>
+<text x="440" y="619.4" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Küldés</text>
+<path d="M 240 170 L 340 170" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue2)" opacity="1"/>
+<text x="290" y="154" font-size="14" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">1. Kérdés</text>
+<path d="M 540 170 L 640 170" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah2)" opacity="1"/>
+<text x="590" y="154" font-size="14" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">2. AI Query</text>
+<path d="M 840 170 L 960 170" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue2)" opacity="1"/>
+<text x="900" y="147" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">3. API Pull</text>
+<text x="900" y="161.4" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">(GET /api/...)</text>
+<path d="M 1060 240 L 1060 320" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green2)" opacity="1"/>
+<text x="1070" y="272" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">4. Read:</text>
+<text x="1070" y="286.4" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">Ügyfél,</text>
+<text x="1070" y="300.8" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">Munkalap,</text>
+<text x="1070" y="315.2" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">Rendelés</text>
+<path d="M 640 230 L 480 320" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah2)" opacity="1"/>
+<text x="590" y="267" font-size="12" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">5. Save:</text>
+<text x="590" y="281.4" font-size="12" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Chat</text>
+<text x="590" y="295.8" font-size="12" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">History</text>
+<path d="M 340 190 L 240 190" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green2)" opacity="1"/>
+<text x="290" y="214" font-size="14" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">6. Válasz</text>
+<path d="M 960 370 L 760 540" stroke="#f57c00" fill="none" stroke-width="3" marker-end="url(#ah-orange2)" opacity="1"/>
+<text x="830" y="437" font-size="12" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">7. Webhook</text>
+<text x="830" y="451.4" font-size="12" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">   Push:</text>
+<text x="830" y="465.8" font-size="12" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">   order.arrived,</text>
+<text x="830" y="480.2" font-size="12" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">   repair.done</text>
+<path d="M 640 590 L 540 590" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange2)" opacity="1"/>
+<text x="590" y="572" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">8. Format</text>
+<text x="590" y="586.4" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">   Notification</text>
+<path d="M 340 570 L 160 200" stroke="#388e3c" fill="none" stroke-width="3" marker-end="url(#ah-green2)" opacity="1"/>
+<text x="180" y="367" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">9. Értesítés:</text>
+<text x="180" y="381.4" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">   SMS/Email/</text>
+<text x="180" y="395.8" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">   Chat Widget</text>
+<text x="180" y="410.2" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">   &quot;Áru beérkezett&quot;</text>
+<text x="60" y="740" font-size="20" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Jelmagyarázat:</text>
+<text x="60" y="774" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">○ Ellipszis (Px): Folyamat (Process)</text>
+<text x="60" y="790.8" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">□ Téglalap (Dx): Adattár (Data Store)</text>
+<text x="60" y="807.6" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">□ Téglalap (vastag keret): Külső Entitás (External Entity)</text>
+<text x="60" y="824.4" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="60" y="841.2" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Kék: KGC ERP adatfolyamok</text>
+<text x="60" y="858" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Lila: Support AI adatfolyamok</text>
+<text x="60" y="874.8" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Narancs: Webhook push esemény</text>
+<text x="60" y="891.6" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Zöld: Válasz/Értesítés az ügyfélnek</text>
+<text x="700" y="740" font-size="20" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Use Case Példák:</text>
+<text x="700" y="774" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Lekérdezés (1-6): &quot;Hol tart a szerviz munkám?&quot;</text>
+<text x="700" y="790.8" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">→ Chatbot lekérdezi KGC API-ból a munkalap státuszt</text>
+<text x="700" y="807.6" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="700" y="824.4" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Push Értesítés (7-9): Rendelés beérkezik</text>
+<text x="700" y="841.2" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">→ KGC ERP webhook-ot küld Support-nak</text>
+<text x="700" y="858" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">→ Support automatikusan értesíti az ügyfelet</text>
+</svg></div>
+
+                        <div class="details-box mt-4" x-data="{ open: false }">
+                            <button @click="open = !open" class="w-full text-left font-semibold flex justify-between items-center">
+                                <span>📝 Adatfolyam Részletek</span>
+                                <span x-text="open ? '▼' : '▶'"></span>
+                            </button>
+                            <div x-show="open" x-collapse class="mt-3 text-sm space-y-3">
+                                <div>
+                                    <p class="font-semibold text-blue-600 dark:text-blue-400">🔵 Lekérdezés Folyamat (Pull - 1-6 lépés):</p>
+                                    <ol class="list-decimal list-inside pl-4 space-y-1 mt-1">
+                                        <li>Ügyfél kérdést tesz fel a chatbot-nak (pl. "Hol tart a szerviz munkám?")</li>
+                                        <li>Chatbot feldolgozás (P1): Nyelvfelismerés, intent detection</li>
+                                        <li>Context Manager + AI Query (P2): Gemini API hívás + context</li>
+                                        <li>KGC ERP API Gateway (P3): API endpoint routing</li>
+                                        <li>KGC Database (D1) olvasás: Munkalap, Ügyfél, Rendelés adatok</li>
+                                        <li>Válasz visszaút az ügyfélhez</li>
+                                    </ol>
+                                </div>
+
+                                <div>
+                                    <p class="font-semibold text-orange-600 dark:text-orange-400">🟠 Push Értesítés Folyamat (Webhook - 7-9 lépés):</p>
+                                    <ol class="list-decimal list-inside pl-4 space-y-1 mt-1" start="7">
+                                        <li>KGC DB változás (pl. rendelés beérkezett) → Webhook trigger</li>
+                                        <li>Webhook Handler (P4) fogadja és formázza az értesítést</li>
+                                        <li>Értesítés Küldés (P5): SMS/Email/Chat widget</li>
+                                    </ol>
+                                </div>
+
+                                <div>
+                                    <p class="font-semibold text-purple-600 dark:text-purple-400">🟣 Adattárolás:</p>
+                                    <ul class="list-disc list-inside pl-4 space-y-1 mt-1">
+                                        <li><strong>D1 (KGC Database):</strong> PostgreSQL - ERP törzsadatok</li>
+                                        <li><strong>D2 (Support Memory):</strong> Redis + Files - Chat history, ügyfél preferenciák</li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <p class="font-semibold text-green-600 dark:text-green-400">🟢 Use Case Példák:</p>
+                                    <ul class="list-disc list-inside pl-4 space-y-1 mt-1">
+                                        <li><strong>Szerviz státusz:</strong> "M-2025-0123 munkám hol tart?" → Chatbot lekérdezi, válaszol: "Diagnosztika fázisban, becsült készség: 12/30"</li>
+                                        <li><strong>Rendelés beérkezett:</strong> KGC ERP webhook → Support értesít: "Makita fúró beérkezett, átvehető!"</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============================================= -->
+                <!-- SUPPORT MODULE - DOCUMENTATION -->
+                <!-- ============================================= -->
+                <div x-show="activeTab === 'support-docs'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h2 class="text-2xl font-bold">📚 Support Modul Dokumentáció</h2>
+                        <p class="text-gray-600 dark:text-gray-400 mt-2">Integrációs architektúra, API specifikáció, deployment útmutatók</p>
+                    </div>
+
+                    <!-- Main Documentation Link -->
+                    <div class="bg-gradient-to-r from-purple-50 to-indigo-50 dark:from-purple-900/20 dark:to-indigo-900/20 rounded-lg p-6 border-l-4 border-purple-500">
+                        <h3 class="text-xl font-bold mb-3">📄 Fő Dokumentum</h3>
+                        <p class="font-semibold text-purple-600 dark:text-purple-400 mb-1">KGC-Support Integrációs Architektúra (69 oldal)</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mt-2 mb-3">Teljes technikai specifikáció: Plugin architektúra, API-k, Webhooks, Deployment, Biztonság, Tesztelés</p>
+                        <p class="text-xs text-gray-500 dark:text-gray-400">📁 Fájl: docs/ERP/Support/KGC-SUPPORT-INTEGRATION-ARCHITECTURE.md</p>
+                    </div>
+
+                    <!-- Documentation Sections -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-white dark:bg-gray-800 rounded-lg p-5 shadow">
+                            <h3 class="font-semibold mb-3">🔌 Architektúrális Elvek</h3>
+                            <ul class="text-sm space-y-2 text-gray-600 dark:text-gray-400">
+                                <li>• Plugin Architektúra</li>
+                                <li>• API-First integráció (RESTful)</li>
+                                <li>• Event-Driven Notifications (Webhooks)</li>
+                                <li>• Feature Flags (runtime switching)</li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-white dark:bg-gray-800 rounded-lg p-5 shadow">
+                            <h3 class="font-semibold mb-3">🛡️ Biztonság</h3>
+                            <ul class="text-sm space-y-2 text-gray-600 dark:text-gray-400">
+                                <li>• API Key autentikáció</li>
+                                <li>• Webhook HMAC signature</li>
+                                <li>• GDPR cascade delete</li>
+                                <li>• Minimális adatcsere elv</li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-white dark:bg-gray-800 rounded-lg p-5 shadow">
+                            <h3 class="font-semibold mb-3">🚀 Deployment</h3>
+                            <ul class="text-sm space-y-2 text-gray-600 dark:text-gray-400">
+                                <li>• Docker Compose (külön stack-ek)</li>
+                                <li>• On-Premise franchise telepítés</li>
+                                <li>• Plugin Lifecycle management</li>
+                                <li>• Health Check monitoring</li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-white dark:bg-gray-800 rounded-lg p-5 shadow">
+                            <h3 class="font-semibold mb-3">🧪 Tesztelés</h3>
+                            <ul class="text-sm space-y-2 text-gray-600 dark:text-gray-400">
+                                <li>• Unit tesztek (webhook, API)</li>
+                                <li>• Integráció tesztek</li>
+                                <li>• E2E forgatókönyvek</li>
+                                <li>• Graceful degradation tesztek</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- API Endpoints -->
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-bold mb-4">🌐 API Végpontok (6 db)</h3>
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-sm">
+                                <thead class="bg-gray-100 dark:bg-gray-700">
+                                    <tr>
+                                        <th class="text-left p-2">Endpoint</th>
+                                        <th class="text-left p-2">Method</th>
+                                        <th class="text-left p-2">Leírás</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-gray-200 dark:divide-gray-700">
+                                    <tr>
+                                        <td class="p-2"><code class="bg-gray-100 dark:bg-gray-700 px-1 rounded text-xs">/api/customers/by-phone/{phone}</code></td>
+                                        <td class="p-2"><span class="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-0.5 rounded text-xs">GET</span></td>
+                                        <td class="p-2">Ügyfél info telefonszám alapján</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="p-2"><code class="bg-gray-100 dark:bg-gray-700 px-1 rounded text-xs">/api/rentals/{rental_id}/status</code></td>
+                                        <td class="p-2"><span class="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-0.5 rounded text-xs">GET</span></td>
+                                        <td class="p-2">Bérlés aktuális státusza</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="p-2"><code class="bg-gray-100 dark:bg-gray-700 px-1 rounded text-xs">/api/service/worklogs/{worklog_id}/status</code></td>
+                                        <td class="p-2"><span class="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-0.5 rounded text-xs">GET</span></td>
+                                        <td class="p-2">Munkalap státusz + becsült készség</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="p-2"><code class="bg-gray-100 dark:bg-gray-700 px-1 rounded text-xs">/api/orders/{order_id}/status</code></td>
+                                        <td class="p-2"><span class="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-0.5 rounded text-xs">GET</span></td>
+                                        <td class="p-2">Rendelés státusz</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="p-2"><code class="bg-gray-100 dark:bg-gray-700 px-1 rounded text-xs">/api/inventory/check</code></td>
+                                        <td class="p-2"><span class="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-0.5 rounded text-xs">GET</span></td>
+                                        <td class="p-2">Készlet elérhetőség raktáranként</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="p-2"><code class="bg-gray-100 dark:bg-gray-700 px-1 rounded text-xs">/api/service/appointments</code></td>
+                                        <td class="p-2"><span class="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-0.5 rounded text-xs">POST</span></td>
+                                        <td class="p-2">Időpont foglalás (opcionális)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Webhooks -->
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-bold mb-4">📡 Webhook Események (5 db)</h3>
+                        <div class="space-y-3">
+                            <div class="flex items-start gap-3 p-3 bg-purple-50 dark:bg-purple-900/20 rounded-lg">
+                                <span class="text-2xl">📦</span>
+                                <div>
+                                    <p class="font-semibold">rental.started / rental.ended</p>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400">Bérlés indítás/visszavétel események</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
+                                <span class="text-2xl">🔧</span>
+                                <div>
+                                    <p class="font-semibold">service.quote_ready / service.repair_done</p>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400">Szerviz árajánlat/javítás kész</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 p-3 bg-green-50 dark:bg-green-900/20 rounded-lg">
+                                <span class="text-2xl">📬</span>
+                                <div>
+                                    <p class="font-semibold">order.arrived</p>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400">Rendelés beérkezés értesítés</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Implementation Timeline -->
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-bold mb-4">📅 Implementációs Ütemterv (4 fázis)</h3>
+                        <div class="space-y-3">
+                            <div class="flex gap-3">
+                                <div class="flex-shrink-0 w-20 text-center">
+                                    <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-semibold">1 hét</span>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Fázis 1: Alapok</p>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400">Feature flag, 3 alap API, webhook skeleton, Docker setup</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-3">
+                                <div class="flex-shrink-0 w-20 text-center">
+                                    <span class="inline-block bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-3 py-1 rounded-full text-sm font-semibold">1 hét</span>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Fázis 2: Webhook Integráció</p>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400">5 webhook implementáció, event handler-ek, autentikáció</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-3">
+                                <div class="flex-shrink-0 w-20 text-center">
+                                    <span class="inline-block bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-3 py-1 rounded-full text-sm font-semibold">1 hét</span>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Fázis 3: Tudásbázis & Finomhangolás</p>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400">KGC knowledge base, chatbot persona, Admin UI, monitoring</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-3">
+                                <div class="flex-shrink-0 w-20 text-center">
+                                    <span class="inline-block bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200 px-3 py-1 rounded-full text-sm font-semibold">1 hét</span>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Fázis 4: Tesztelés & Élesítés</p>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400">Integráció tesztek, E2E, performance, pilot telepítés</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============================================= -->
+                <!-- SUPPORT MODULE - FULL DOCUMENTATION (PDF) -->
+                <!-- ============================================= -->
+                <div x-show="activeTab === 'support-full-doc'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <h2 class="text-2xl font-bold">📄 Teljes Integrációs Specifikáció</h2>
+                                <p class="text-gray-600 dark:text-gray-400 mt-2">KGC-Support Rendszer Integrációs Architektúra - 69 oldal (v1.0)</p>
+                            </div>
+                            <button onclick="window.print()" class="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 flex items-center gap-2 no-print">
+                                📥 Letöltés PDF-ként
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Full Documentation Content -->
+                    <div id="full-documentation" class="bg-white dark:bg-gray-800 rounded-lg p-8 shadow prose dark:prose-invert max-w-none">
+                        <style>
+                            @media print {
+                                body * { visibility: hidden; }
+                                #full-documentation, #full-documentation * { visibility: visible; }
+                                #full-documentation { position: absolute; left: 0; top: 0; width: 100%; }
+                                .no-print { display: none !important; }
+                            }
+                            .prose h1 { font-size: 2em; font-weight: bold; margin-top: 1.5em; margin-bottom: 0.5em; }
+                            .prose h2 { font-size: 1.75em; font-weight: bold; margin-top: 1.25em; margin-bottom: 0.5em; border-bottom: 2px solid #e5e7eb; padding-bottom: 0.25em; }
+                            .dark .prose h2 { border-bottom-color: #4b5563; }
+                            .prose h3 { font-size: 1.5em; font-weight: 600; margin-top: 1em; margin-bottom: 0.5em; }
+                            .prose h4 { font-size: 1.25em; font-weight: 600; margin-top: 0.75em; margin-bottom: 0.5em; }
+                            .prose code { background: #f3f4f6; padding: 0.125rem 0.25rem; border-radius: 0.25rem; font-size: 0.9em; }
+                            .dark .prose code { background: #374151; }
+                            .prose pre { background: #f9fafb; color: #1f2937; padding: 1rem; border-radius: 0.5rem; overflow-x: auto; border: 1px solid #e5e7eb; }
+                            .dark .prose pre { background: #1f2937; color: #f3f4f6; border-color: #374151; }
+                            .prose table { width: 100%; border-collapse: collapse; margin: 1em 0; }
+                            .prose th { background: #f3f4f6; padding: 0.5rem; text-align: left; border: 1px solid #e5e7eb; font-weight: 600; }
+                            .prose td { padding: 0.5rem; border: 1px solid #e5e7eb; }
+                            .dark .prose th { background: #374151; border-color: #4b5563; }
+                            .dark .prose td { border-color: #4b5563; }
+                            .prose ul, .prose ol { margin-left: 1.5em; margin-top: 0.5em; margin-bottom: 0.5em; }
+                            .prose li { margin-bottom: 0.25em; }
+                            .prose blockquote { border-left: 4px solid #7b1fa2; padding-left: 1em; margin: 1em 0; font-style: italic; }
+                        </style>
+
+                        <h1>KGC-Support Rendszer Integrációs Architektúra</h1>
+
+                        <p><strong>Szerző:</strong> Winston (Architect ügynök)<br>
+                        <strong>Dátum:</strong> 2025-12-28<br>
+                        <strong>Verzió:</strong> 1.0<br>
+                        <strong>Státusz:</strong> Tervezet</p>
+
+                        <hr>
+
+                        <h2>Executive Summary</h2>
+
+                        <p>Ez a dokumentum definiálja a <strong>Kokó AI Support rendszer</strong> integrálását a <strong>KGC ERP v2</strong> rendszerbe <strong>önálló, ki-bekapcsolható modulként</strong>. Az integráció célja, hogy a Support modul:</p>
+
+                        <ol>
+                            <li><strong>Opcionális legyen</strong> - A KGC ERP működjön Support modul nélkül is</li>
+                            <li><strong>Pluginként</strong> viselkedjen - Runtime enable/disable támogatás</li>
+                            <li><strong>Lazán csatolódjon</strong> - API-alapú integráció, minimális függőség</li>
+                            <li><strong>Adatokat megosson</strong> - Releváns ERP adatok elérése a Support rendszer számára</li>
+                            <li><strong>Értéket adjon</strong> - 24/7 ügyfélszolgálat, szerviz státusz lekérdezés, időpontfoglalás</li>
+                        </ol>
+
+                        <hr>
+
+                        <h2>1. Architektúrális Elvek</h2>
+
+                        <h3>1.1 Plugin Architektúra</h3>
+
+                        <pre><code>┌─────────────────────────────────────────────────────────────────────┐
+│                         KGC ERP CORE                                 │
+│                   (Független a Support-tól)                          │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│   ┌───────────┐  ┌───────────┐  ┌───────────┐  ┌───────────┐       │
+│   │  Bérlés   │  │ Értékesítés│  │  Szerviz  │  │  Pénzügy  │       │
+│   │  Modul    │  │   Modul    │  │   Modul   │  │   Modul   │       │
+│   └───────────┘  └───────────┘  └───────────┘  └───────────┘       │
+│                                                                      │
+│   ┌───────────────────────────────────────────────────────────┐     │
+│   │          Integration Layer (Plugin Manager)               │     │
+│   │                                                            │     │
+│   │  • Plugin Discovery                                        │     │
+│   │  • Runtime Enable/Disable                                 │     │
+│   │  • API Gateway Routing                                    │     │
+│   │  • Webhook Registry                                       │     │
+│   └───────────────────────────────────────────────────────────┘     │
+│                           │                                          │
+└───────────────────────────┼──────────────────────────────────────────┘
+                            │
+                            ▼ (Optional)
+┌─────────────────────────────────────────────────────────────────────┐
+│                     SUPPORT MODULE PLUGIN                            │
+│                      (Kokó AI System)                                │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│   ┌────────────────┐  ┌────────────────┐  ┌────────────────┐       │
+│   │  Chatwoot      │  │ Context Manager│  │ Calendar       │       │
+│   │  Integration   │  │ + Gemini AI    │  │ Service        │       │
+│   └────────────────┘  └────────────────┘  └────────────────┘       │
+│                                                                      │
+│   Support modul státusz: ENABLED / DISABLED                         │
+│                                                                      │
+└─────────────────────────────────────────────────────────────────────┘</code></pre>
+
+                        <h3>1.2 Integráció Módszerei</h3>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Mód</th>
+                                    <th>Leírás</th>
+                                    <th>Használat</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>API-First</strong></td>
+                                    <td>RESTful API végpontok a KGC ERP-ben</td>
+                                    <td>Support lekérdezések (szerviz státusz, ügyfél info)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Webhook Push</strong></td>
+                                    <td>KGC ERP eseményeket küld a Support-nak</td>
+                                    <td>Munkalap változás, beérkezés értesítés</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Shared Data Store</strong></td>
+                                    <td>Közös Redis/DB view néhány entitáshoz</td>
+                                    <td>Valós idejű cache (opcionális)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Feature Flags</strong></td>
+                                    <td>Runtime ki/be kapcsolás</td>
+                                    <td><code>SUPPORT_MODULE_ENABLED=true/false</code></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <hr>
+
+                        <h2>2. Integrációs Pontok a KGC ERP Folyamataiban</h2>
+
+                        <h3>2.1 Bérlés Modul</h3>
+
+                        <p><strong>Integrációs Pont:</strong> Bérlés státusz lekérdezés, késés értesítés</p>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>KGC ERP Funkció</th>
+                                    <th>Support Integráció</th>
+                                    <th>API Endpoint</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Bérlés indítása</td>
+                                    <td>Automatikus üdvözlő üzenet (opcionális)</td>
+                                    <td><code>POST /api/support/notifications/rental-started</code></td>
+                                </tr>
+                                <tr>
+                                    <td>Késés bekövetkezése</td>
+                                    <td>Chatbot tud válaszolni késés státuszról</td>
+                                    <td><code>GET /api/rentals/{rental_id}/status</code></td>
+                                </tr>
+                                <tr>
+                                    <td>Visszavétel</td>
+                                    <td>Elégedettségi kérdőív trigger (opcionális)</td>
+                                    <td><code>POST /api/support/notifications/rental-ended</code></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h3>2.2 Szerviz Modul</h3>
+
+                        <p><strong>Integrációs Pont:</strong> Munkalap státusz követés, időpontfoglalás</p>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>KGC ERP Funkció</th>
+                                    <th>Support Integráció</th>
+                                    <th>API Endpoint</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Munkalap felvétel</td>
+                                    <td>Chatbot keres + előjegyez időpontot</td>
+                                    <td><code>POST /api/service/appointments</code></td>
+                                </tr>
+                                <tr>
+                                    <td>Diagnosztika kész</td>
+                                    <td>Automatikus értesítés: "Árajánlat kész"</td>
+                                    <td><code>POST /api/support/notifications/quote-ready</code></td>
+                                </tr>
+                                <tr>
+                                    <td>Javítás kész</td>
+                                    <td>Automatikus értesítés: "Gép átvehető"</td>
+                                    <td><code>POST /api/support/notifications/repair-done</code></td>
+                                </tr>
+                                <tr>
+                                    <td>Státusz lekérdezés</td>
+                                    <td>Chatbot válaszol: "Munkalap M-123 diagnosztikában"</td>
+                                    <td><code>GET /api/service/worklogs/{worklog_id}/status</code></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h3>2.3 Értékesítés/Megrendelés Modul</h3>
+
+                        <p><strong>Integrációs Pont:</strong> Rendelés státusz, áru beérkezés</p>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>KGC ERP Funkció</th>
+                                    <th>Support Integráció</th>
+                                    <th>API Endpoint</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Megrendelés felvétel</td>
+                                    <td>Chatbot tájékoztat várható időről</td>
+                                    <td><code>GET /api/orders/{order_id}/estimated-arrival</code></td>
+                                </tr>
+                                <tr>
+                                    <td>Áru beérkezik</td>
+                                    <td>Automatikus értesítés SMS/Email/Chat</td>
+                                    <td><code>POST /api/support/notifications/order-arrived</code></td>
+                                </tr>
+                                <tr>
+                                    <td>Készlet lekérdezés</td>
+                                    <td>"Van-e raktáron X termék?"</td>
+                                    <td><code>GET /api/inventory/check?sku={sku}&location={location}</code></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h3>2.4 Ügyfélkezelés</h3>
+
+                        <p><strong>Integrációs Pont:</strong> Ügyfél autentikáció, kontakt info</p>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>KGC ERP Funkció</th>
+                                    <th>Support Integráció</th>
+                                    <th>API Endpoint</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Partner keresés</td>
+                                    <td>Chatbot azonosít telefonszám alapján</td>
+                                    <td><code>GET /api/customers/by-phone/{phone}</code></td>
+                                </tr>
+                                <tr>
+                                    <td>Duplikáció ellenőrzés</td>
+                                    <td>Support javasol merge-t ha duplumot talál</td>
+                                    <td><code>GET /api/customers/duplicates?name={name}&phone={phone}</code></td>
+                                </tr>
+                                <tr>
+                                    <td>GDPR törlés</td>
+                                    <td>Support memória is törlődik</td>
+                                    <td><code>DELETE /api/customers/{customer_id}</code> (cascade)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <hr>
+
+                        <h2>3. Plugin Menedzsment</h2>
+
+                        <h3>3.1 Konfiguráció (Feature Flag)</h3>
+
+                        <p><strong>Környezeti változók (KGC ERP):</strong></p>
+
+                        <pre><code># .env fájl
+SUPPORT_MODULE_ENABLED=true              # Plugin aktív/inaktív
+SUPPORT_API_URL=http://localhost:5001    # Kokó ai-chatbot URL
+SUPPORT_CONTEXT_URL=http://localhost:5004 # Kokó context-manager URL
+SUPPORT_API_KEY=secret_key_here          # API autentikáció
+SUPPORT_WEBHOOK_SECRET=webhook_secret    # Webhook validáció</code></pre>
+
+                        <h3>3.2 Plugin Lifecycle</h3>
+
+                        <pre><code>┌─────────────────────────────────────────────────────────────┐
+│                  PLUGIN LIFECYCLE                            │
+└─────────────────────────────────────────────────────────────┘
+
+1. DISCOVERY
+   ├─ KGC ERP bootoláskor ellenőrzi: SUPPORT_MODULE_ENABLED
+   ├─ Ha true → próbál kapcsolódni SUPPORT_API_URL/health
+   └─ Ha sikeres → Plugin status: ACTIVE
+
+2. RUNTIME ENABLE
+   ├─ Admin UI: "Support modul bekapcsolása"
+   ├─ Frissíti .env fájlt vagy DB config-ot
+   ├─ Újraolvassa konfigurációt (no restart needed)
+   └─ Webhook subscription: KGC → Support
+
+3. RUNTIME DISABLE
+   ├─ Admin UI: "Support modul kikapcsolása"
+   ├─ SUPPORT_MODULE_ENABLED = false
+   ├─ Leállítja webhook küldéseket
+   └─ Support API hívások kimaradnak (graceful degradation)
+
+4. HEALTH CHECK
+   ├─ Periodikus: GET /api/support/health (minden 5 perc)
+   ├─ Ha DOWN → Admin warning, de KGC ERP működik tovább
+   └─ Ha UP → Plugin status: HEALTHY</code></pre>
+
+                        <hr>
+
+                        <h2>4. API Specifikáció</h2>
+
+                        <h3>4.1 Support → KGC ERP (Pull API)</h3>
+
+                        <p>Chatbot lekérdezésekhez readonly API-k:</p>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Endpoint</th>
+                                    <th>Method</th>
+                                    <th>Leírás</th>
+                                    <th>Auth</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>/api/customers/by-phone/{phone}</code></td>
+                                    <td>GET</td>
+                                    <td>Ügyfél info telefonszám alapján</td>
+                                    <td>API Key</td>
+                                </tr>
+                                <tr>
+                                    <td><code>/api/rentals/{rental_id}/status</code></td>
+                                    <td>GET</td>
+                                    <td>Bérlés aktuális státusza</td>
+                                    <td>API Key</td>
+                                </tr>
+                                <tr>
+                                    <td><code>/api/service/worklogs/{worklog_id}/status</code></td>
+                                    <td>GET</td>
+                                    <td>Munkalap státusz + becsült készség</td>
+                                    <td>API Key</td>
+                                </tr>
+                                <tr>
+                                    <td><code>/api/orders/{order_id}/status</code></td>
+                                    <td>GET</td>
+                                    <td>Rendelés státusz</td>
+                                    <td>API Key</td>
+                                </tr>
+                                <tr>
+                                    <td><code>/api/inventory/check</code></td>
+                                    <td>GET</td>
+                                    <td>Készlet elérhetőség raktáranként</td>
+                                    <td>API Key</td>
+                                </tr>
+                                <tr>
+                                    <td><code>/api/service/appointments</code></td>
+                                    <td>POST</td>
+                                    <td>Időpont foglalás (ha engedélyezett)</td>
+                                    <td>API Key</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h3>4.2 KGC ERP → Support (Push Webhook)</h3>
+
+                        <p>Support modul feliratkozik KGC ERP eseményekre:</p>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Event</th>
+                                    <th>Webhook URL</th>
+                                    <th>Payload</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>rental.started</code></td>
+                                    <td><code>/webhook/kgc/rental-started</code></td>
+                                    <td><code>{rental_id, customer, machine}</code></td>
+                                </tr>
+                                <tr>
+                                    <td><code>rental.ended</code></td>
+                                    <td><code>/webhook/kgc/rental-ended</code></td>
+                                    <td><code>{rental_id, customer, satisfaction_survey}</code></td>
+                                </tr>
+                                <tr>
+                                    <td><code>service.quote_ready</code></td>
+                                    <td><code>/webhook/kgc/quote-ready</code></td>
+                                    <td><code>{worklog_id, customer, quote_amount}</code></td>
+                                </tr>
+                                <tr>
+                                    <td><code>service.repair_done</code></td>
+                                    <td><code>/webhook/kgc/repair-done</code></td>
+                                    <td><code>{worklog_id, customer, pickup_info}</code></td>
+                                </tr>
+                                <tr>
+                                    <td><code>order.arrived</code></td>
+                                    <td><code>/webhook/kgc/order-arrived</code></td>
+                                    <td><code>{order_id, customer, items[]}</code></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <hr>
+
+                        <h2>5. Deployment Architektúra</h2>
+
+                        <h3>5.1 Docker Compose Integráció</h3>
+
+                        <p><strong>Opció A: Külön stack-ek (Recommended)</strong></p>
+
+                        <pre><code># KGC ERP - docker-compose.yml
+version: '3.8'
+services:
+  kgc-api:
+    image: kgc-erp-api:latest
+    environment:
+      - SUPPORT_MODULE_ENABLED=true
+      - SUPPORT_API_URL=http://support-chatbot:5001
+      - SUPPORT_API_KEY=${SUPPORT_API_KEY}
+    networks:
+      - kgc-network
+      - support-integration  # Közös hálózat
+
+# Support - docker-compose.support.yml
+version: '3.8'
+services:
+  support-chatbot:
+    image: koko-ai-chatbot:latest
+    environment:
+      - KGC_API_URL=http://kgc-api:3000
+      - KGC_API_KEY=${KGC_API_KEY}
+    networks:
+      - support-network
+      - support-integration  # Közös hálózat</code></pre>
+
+                        <hr>
+
+                        <h2>6. Biztonsági Megfontolások</h2>
+
+                        <h3>6.1 API Autentikáció</h3>
+
+                        <p><strong>API Key generálás:</strong></p>
+                        <ul>
+                            <li>Admin UI: "Support integráció" menü → "API Key generálás"</li>
+                            <li>Key scope: <code>support:read</code> (csak readonly műveletek)</li>
+                            <li>Rotation: 90 naponta, vagy revoke gomb</li>
+                        </ul>
+
+                        <h3>6.2 Adatvédelem (GDPR)</h3>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Adat Típus</th>
+                                    <th>Átadás?</th>
+                                    <th>Indoklás</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Ügyfél név, telefon</td>
+                                    <td>✅ Igen</td>
+                                    <td>Azonosításhoz szükséges</td>
+                                </tr>
+                                <tr>
+                                    <td>Email</td>
+                                    <td>✅ Igen</td>
+                                    <td>Értesítéshez szükséges</td>
+                                </tr>
+                                <tr>
+                                    <td>Bérlési/szerviz státusz</td>
+                                    <td>✅ Igen</td>
+                                    <td>Chatbot válaszhoz szükséges</td>
+                                </tr>
+                                <tr>
+                                    <td>NAV adószám</td>
+                                    <td>❌ Nem</td>
+                                    <td>Érzékeny, nem kell a chatbot-nak</td>
+                                </tr>
+                                <tr>
+                                    <td>Személyi igazolvány szám</td>
+                                    <td>❌ Nem</td>
+                                    <td>Érzékeny, nem kell</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <hr>
+
+                        <h2>7. Költségbecslés</h2>
+
+                        <h3>7.1 Support Modul Üzemeltetési Költségek</h3>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Komponens</th>
+                                    <th>Havi Költség</th>
+                                    <th>Megjegyzés</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Gemini API</strong></td>
+                                    <td>$15-30</td>
+                                    <td>~10,000 chatbot interakció/hó (context cache 75% kedvezmény)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Chatwoot</strong></td>
+                                    <td>$0 (self-hosted)</td>
+                                    <td>Docker alapú, saját szerver</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>OpenAI Whisper</strong></td>
+                                    <td>$5-10</td>
+                                    <td>Hangüzenet transzkripció (alacsony volumen)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>SMS értesítések</strong></td>
+                                    <td>$20-50</td>
+                                    <td>~500 SMS/hó (opcionális)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p><strong>Összesen:</strong> ~$40-110/hó <strong>franchise partner-enként</strong></p>
+
+                        <h3>7.2 Fejlesztési Költségbecslés</h3>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Feladat</th>
+                                    <th>Effort</th>
+                                    <th>Felelős</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>KGC ERP API endpoint-ok</td>
+                                    <td>2 nap</td>
+                                    <td>Backend dev</td>
+                                </tr>
+                                <tr>
+                                    <td>KGC ERP webhook integráció</td>
+                                    <td>1 nap</td>
+                                    <td>Backend dev</td>
+                                </tr>
+                                <tr>
+                                    <td>Admin UI - Plugin Manager</td>
+                                    <td>1 nap</td>
+                                    <td>Frontend dev</td>
+                                </tr>
+                                <tr>
+                                    <td>Support webhook handler-ek</td>
+                                    <td>1 nap</td>
+                                    <td>Support dev</td>
+                                </tr>
+                                <tr>
+                                    <td>Integráció tesztek</td>
+                                    <td>1 nap</td>
+                                    <td>QA + Dev</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p><strong>Összesen:</strong> ~7 fejlesztői nap (~$3,500-7,000 one-time)</p>
+
+                        <hr>
+
+                        <h2>8. Implementációs Ütemterv</h2>
+
+                        <h3>Fázis 1: Alapok (1 hét)</h3>
+                        <ul>
+                            <li>KGC ERP: Feature flag infrastruktúra</li>
+                            <li>KGC ERP: 3 alap API (customers, rentals, service)</li>
+                            <li>Support: Webhook handler skeleton</li>
+                            <li>Docker compose frissítés (külön stack-ek)</li>
+                        </ul>
+
+                        <h3>Fázis 2: Webhook Integráció (1 hét)</h3>
+                        <ul>
+                            <li>KGC ERP: 5 webhook implementáció</li>
+                            <li>Support: KGC event handler-ek</li>
+                            <li>API/Webhook autentikáció</li>
+                            <li>Teszt környezet setup</li>
+                        </ul>
+
+                        <h3>Fázis 3: Tudásbázis és Finomhangolás (1 hét)</h3>
+                        <ul>
+                            <li>Support: KGC-specifikus knowledge base</li>
+                            <li>Chatbot persona finomhangolás (KGC brand voice)</li>
+                            <li>Admin UI: Plugin Manager</li>
+                            <li>Health check + monitoring</li>
+                        </ul>
+
+                        <h3>Fázis 4: Tesztelés és Élesítés (1 hét)</h3>
+                        <ul>
+                            <li>Integráció tesztek</li>
+                            <li>E2E tesztek valós adatokkal</li>
+                            <li>Performance tesztek</li>
+                            <li>Dokumentáció (admin + user guide)</li>
+                            <li>Pilot telepítés 1 franchise partner-nél</li>
+                        </ul>
+
+                        <hr>
+
+                        <h2>9. Következtetések</h2>
+
+                        <h3>Kulcs Döntések</h3>
+
+                        <ol>
+                            <li><strong>Plugin Architektúra</strong> ✅ - Support modul teljesen opcionális, runtime enable/disable</li>
+                            <li><strong>API-First Integráció</strong> ✅ - Loose coupling, KGC ERP független marad</li>
+                            <li><strong>Event-Driven Notifications</strong> ✅ - Push webhook-ok real-time értesítésekhez</li>
+                            <li><strong>Graceful Degradation</strong> ✅ - Support hiba nem blokkolja a KGC ERP-t</li>
+                            <li><strong>GDPR Cascade</strong> ✅ - Ügyfél törlés automatikusan propagálódik</li>
+                        </ol>
+
+                        <h3>Értéknövelés a KGC ERP-hez</h3>
+
+                        <ul>
+                            <li><strong>Ügyfél élmény:</strong> 24/7 chatbot támogatás, automatikus értesítések</li>
+                            <li><strong>Hatékonyság:</strong> Adminok időt takarítanak meg (státusz lekérdezések, időpontfoglalás)</li>
+                            <li><strong>Bevétel:</strong> White Label lehetőség - Support modul külön árképzéssel értékesíthető</li>
+                            <li><strong>Franchise vonzerő:</strong> Modern, AI-alapú ügyfélszolgálat vonzza a partnereket</li>
+                        </ul>
+
+                        <hr>
+
+                        <p style="text-align: center; margin-top: 3em; color: #6b7280;">
+                            <strong>Dokumentum Verzió:</strong> 1.0<br>
+                            <strong>Utolsó Frissítés:</strong> 2025-12-28<br>
+                            <strong>Következő Review:</strong> 2025-01-15
+                        </p>
+                    </div>
+                </div>
+
+                <!-- ============================================= -->
+                <!-- CRM MODULE - OVERVIEW -->
+                <!-- ============================================= -->
+                <div x-show="activeTab === 'crm-overview'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h2 class="text-2xl font-bold">📊 CRM Modul - Áttekintés</h2>
+                        <p class="text-gray-600 dark:text-gray-400 mt-2">Twenty CRM integráció a KGC ERP rendszerbe</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-semibold mb-4">🎯 Stratégiai Célok</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="explanation-box">
+                                <h4 class="font-semibold mb-2">1. Plugin Architektúra</h4>
+                                <p class="text-sm">Opcionális modul, runtime enable/disable támogatással</p>
+                            </div>
+                            <div class="explanation-box">
+                                <h4 class="font-semibold mb-2">2. Twenty CRM Platform</h4>
+                                <p class="text-sm">Self-hosted, nyílt forráskódú CRM (GraphQL alapú)</p>
+                            </div>
+                            <div class="details-box">
+                                <h4 class="font-semibold mb-2">3. Szolgáltatás Előzmények</h4>
+                                <p class="text-sm">Bérlések, szervizek, értékesítés szinkronizálása</p>
+                            </div>
+                            <div class="details-box">
+                                <h4 class="font-semibold mb-2">4. Marketing Automatizáció</h4>
+                                <p class="text-sm">Email kampányok Gmail SMTP-vel</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-semibold mb-4">🏗️ Technikai Stack</h3>
+                        <table class="w-full">
+                            <thead>
+                                <tr class="bg-gray-100 dark:bg-gray-700">
+                                    <th class="px-4 py-2 text-left">Komponens</th>
+                                    <th class="px-4 py-2 text-left">Technológia</th>
+                                    <th class="px-4 py-2 text-left">Verzió/Platform</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200 dark:divide-gray-700">
+                                <tr>
+                                    <td class="px-4 py-2"><strong>CRM Platform</strong></td>
+                                    <td class="px-4 py-2">Twenty CRM</td>
+                                    <td class="px-4 py-2">Open-source, Self-hosted</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2"><strong>API Layer</strong></td>
+                                    <td class="px-4 py-2">GraphQL Adapter</td>
+                                    <td class="px-4 py-2">Node.js service</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2"><strong>Database</strong></td>
+                                    <td class="px-4 py-2">PostgreSQL</td>
+                                    <td class="px-4 py-2">v14+</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2"><strong>Marketing</strong></td>
+                                    <td class="px-4 py-2">Gmail SMTP</td>
+                                    <td class="px-4 py-2">smtp.gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2"><strong>Deployment</strong></td>
+                                    <td class="px-4 py-2">Docker Compose</td>
+                                    <td class="px-4 py-2">docker-compose.crm.yml</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-semibold mb-4">💰 Költségbecslés</h3>
+                        <table class="w-full">
+                            <thead>
+                                <tr class="bg-gray-100 dark:bg-gray-700">
+                                    <th class="px-4 py-2 text-left">Komponens</th>
+                                    <th class="px-4 py-2 text-left">Havi Költség</th>
+                                    <th class="px-4 py-2 text-left">Megjegyzés</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200 dark:divide-gray-700">
+                                <tr>
+                                    <td class="px-4 py-2">Twenty CRM</td>
+                                    <td class="px-4 py-2">$0</td>
+                                    <td class="px-4 py-2">Self-hosted, open-source</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2">PostgreSQL DB</td>
+                                    <td class="px-4 py-2">$0</td>
+                                    <td class="px-4 py-2">Megosztott KGC szerverrel</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2">Gmail SMTP</td>
+                                    <td class="px-4 py-2">$0</td>
+                                    <td class="px-4 py-2">Ingyenes (500 email/nap)</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2">Szerver</td>
+                                    <td class="px-4 py-2">+$0-30</td>
+                                    <td class="px-4 py-2">Ha extra kapacitás kell</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2">Backup</td>
+                                    <td class="px-4 py-2">$5-10</td>
+                                    <td class="px-4 py-2">CRM DB backup</td>
+                                </tr>
+                                <tr class="bg-teal-50 dark:bg-teal-900">
+                                    <td class="px-4 py-2"><strong>ÖSSZESEN</strong></td>
+                                    <td class="px-4 py-2"><strong>$5-40/hó</strong></td>
+                                    <td class="px-4 py-2"><strong>franchise partner-enként</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- ============================================= -->
+                <!-- CRM MODULE - ARCHITECTURE DIAGRAM -->
+                <!-- ============================================= -->
+                <div x-show="activeTab === 'crm-architecture'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h2 class="text-2xl font-bold">🏗️ CRM Plugin Architektúra Diagram</h2>
+                        <p class="text-gray-600 dark:text-gray-400 mt-2">KGC ERP CORE + CRM Module Plugin (Twenty) felépítése</p>
+                    </div>
+
+                    <div class="diagram-container">
+                        <div class="explanation-box mb-4">
+                            <p class="text-sm"><strong>📊 Diagram Típus:</strong> Rendszer Architektúra</p>
+                            <p class="text-sm mt-1"><strong>🎯 Cél:</strong> Plugin-alapú CRM integráció, GraphQL Adapter réteggel és Gmail SMTP email marketinggel.</p>
+                        </div>
+
+                        <div class="diagram-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="60 60 880 960" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="60" y="60" width="880" height="960" fill="#ffffff"/>
+<rect x="100" y="100" width="800" height="180" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="520" y="135" font-size="20" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP CORE</text>
+<rect x="130" y="160" width="160" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="210" y="203" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Bérlés</text>
+<text x="210" y="222.2" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Modul</text>
+<rect x="310" y="160" width="160" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="390" y="203" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Értékesítés</text>
+<text x="390" y="222.2" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Modul</text>
+<rect x="490" y="160" width="160" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="570" y="203" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Szerviz</text>
+<text x="570" y="222.2" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Modul</text>
+<rect x="670" y="160" width="160" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="750" y="203" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Ügyfélkez.</text>
+<text x="750" y="222.2" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Modul</text>
+<rect x="100" y="340" width="800" height="160" stroke="#2e7d32" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="505" y="375" font-size="20" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">Integration Layer (Plugin Manager)</text>
+<text x="150" y="409" font-size="14" fill="#2e7d32" text-anchor="start" class="excalidraw-text" opacity="1">• Plugin Discovery          • Runtime Enable/Disable</text>
+<text x="150" y="425.8" font-size="14" fill="#2e7d32" text-anchor="start" class="excalidraw-text" opacity="1">• API Gateway Routing     • Webhook Registry</text>
+<text x="150" y="442.6" font-size="14" fill="#2e7d32" text-anchor="start" class="excalidraw-text" opacity="1">• Data Sync Manager      • Feature Flag Management</text>
+<path d="M 500 280 L 500 340" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="350" y="540" width="300" height="50" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="568" font-size="16" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">CRM_MODULE_ENABLED</text>
+<path d="M 500 500 L 500 640" stroke="#2e7d32" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="100" y="640" width="800" height="200" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="675" font-size="20" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">CRM MODULE PLUGIN (Twenty CRM)</text>
+<rect x="130" y="710" width="160" height="90" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="210" y="758" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">GraphQL</text>
+<text x="210" y="777.2" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Adapter</text>
+<rect x="310" y="710" width="160" height="90" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="390" y="758" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Contact/Lead</text>
+<text x="390" y="777.2" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Management</text>
+<rect x="490" y="710" width="160" height="90" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="570" y="758" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Service</text>
+<text x="570" y="777.2" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">History</text>
+<rect x="670" y="710" width="160" height="90" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="750" y="758" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Marketing</text>
+<text x="750" y="777.2" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Automation</text>
+<rect x="300" y="900" width="400" height="80" stroke="#d32f2f" fill="#ffebee" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="947" font-size="20" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">Email: Gmail SMTP</text>
+<path d="M 500 840 L 500 900" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+</svg></div>
+
+                        <div class="details-box mt-4">
+                            <h4 class="font-semibold mb-2">📖 Komponensek Magyarázata</h4>
+                            <ul class="text-sm space-y-1">
+                                <li><strong>KGC ERP CORE:</strong> 5 fő modul (Bérlés, Értékesítés, Szerviz, Ügyfélkezelés, Dolgozókezelés) - CRM-től független működés</li>
+                                <li><strong>Integration Layer:</strong> Plugin manager, webhook registry, feature flag kezelés</li>
+                                <li><strong>CRM_MODULE_ENABLED:</strong> Runtime on/off kapcsoló - opcionális modul</li>
+                                <li><strong>Twenty CRM:</strong> GraphQL alapú CRM platform 4 komponenssel</li>
+                                <li><strong>GraphQL Adapter:</strong> REST (KGC) → GraphQL (Twenty) fordítás</li>
+                                <li><strong>Gmail SMTP:</strong> Email marketing ingyenes SMTP-n keresztül</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============================================= -->
+                <!-- CRM MODULE - DATAFLOW DIAGRAM -->
+                <!-- ============================================= -->
+                <div x-show="activeTab === 'crm-dataflow'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h2 class="text-2xl font-bold">📊 CRM Adatfolyam (DFD) Diagram</h2>
+                        <p class="text-gray-600 dark:text-gray-400 mt-2">Data Flow: KGC → GraphQL Adapter → Twenty CRM → Gmail SMTP</p>
+                    </div>
+
+                    <div class="diagram-container">
+                        <div class="explanation-box mb-4">
+                            <p class="text-sm"><strong>📊 Diagram Típus:</strong> Data Flow Diagram (DFD)</p>
+                            <p class="text-sm mt-1"><strong>🎯 Cél:</strong> Webhook-alapú eseményvezérelt adatáramlás bemutatása a KGC modulokból a CRM-be.</p>
+                        </div>
+
+                        <div class="diagram-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="60 10 1240 1030" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="60" y="10" width="1240" height="1030" fill="#ffffff"/>
+<text x="550" y="78" font-size="28" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">CRM Adatfolyam (Data Flow Diagram)</text>
+<ellipse cx="190" cy="200" rx="90" ry="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="190" y="203" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC</text>
+<text x="190" y="222.2" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Ügyfélkez.</text>
+<ellipse cx="190" cy="350" rx="90" ry="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="190" y="353" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC</text>
+<text x="190" y="372.2" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Bérlés</text>
+<ellipse cx="190" cy="500" rx="90" ry="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="190" y="503" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC</text>
+<text x="190" y="522.2" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Szerviz</text>
+<ellipse cx="190" cy="650" rx="90" ry="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="190" y="653" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC</text>
+<text x="190" y="672.2" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Értékesítés</text>
+<rect x="400" y="350" width="220" height="120" stroke="#2e7d32" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="510" y="391" font-size="16" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">GraphQL Adapter</text>
+<text x="510" y="410.2" font-size="16" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
+<text x="510" y="429.4" font-size="16" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">• REST → GraphQL</text>
+<text x="510" y="448.6" font-size="16" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">• Data Transform</text>
+<path d="M 280 200 L 400 380" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<text x="350" y="262" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Webhook:</text>
+<text x="350" y="276.4" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">customer.created</text>
+<text x="350" y="290.8" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">customer.updated</text>
+<path d="M 280 350 L 400 390" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<text x="340" y="362" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Webhook:</text>
+<text x="340" y="376.4" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">rental.completed</text>
+<path d="M 280 500 L 400 460" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<text x="340" y="477" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Webhook:</text>
+<text x="340" y="491.4" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">service.completed</text>
+<path d="M 280 650 L 400 470" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<text x="340" y="542" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Webhook:</text>
+<text x="340" y="556.4" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">sale.completed</text>
+<rect x="740" y="350" width="240" height="120" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="860" y="381" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Twenty CRM DB</text>
+<text x="860" y="400.2" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
+<text x="860" y="419.4" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">• Contacts</text>
+<text x="860" y="438.6" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">• Rental History</text>
+<text x="860" y="457.8" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">• Service History</text>
+<text x="860" y="477" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">• Sales History</text>
+<path d="M 620 410 L 740 410" stroke="#2e7d32" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="680" y="392" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">GraphQL</text>
+<text x="680" y="406.4" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">Mutation:</text>
+<text x="680" y="420.8" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">create/update</text>
+<rect x="740" y="550" width="240" height="100" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="0" opacity="1"/>
+<text x="860" y="586" font-size="16" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">Marketing</text>
+<text x="860" y="605.2" font-size="16" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">Automation</text>
+<text x="860" y="624.4" font-size="16" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
+<text x="860" y="643.6" font-size="16" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">• Contact Tagging</text>
+<text x="860" y="662.8" font-size="16" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">• Campaign Trigger</text>
+<path d="M 860 470 L 860 550" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="915" y="512" font-size="12" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Event:</text>
+<text x="915" y="526.4" font-size="12" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">contact.updated</text>
+<ellipse cx="1170" cy="600" rx="90" ry="50" stroke="#d32f2f" fill="#ffebee" stroke-width="2" opacity="1"/>
+<text x="1170" y="603" font-size="16" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">Gmail</text>
+<text x="1170" y="622.2" font-size="16" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">SMTP</text>
+<path d="M 980 600 L 1080 600" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<text x="1030" y="582" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">REST API:</text>
+<text x="1030" y="596.4" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">add_contact</text>
+<text x="1030" y="610.8" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">trigger_campaign</text>
+<text x="100" y="788" font-size="18" fill="#000000" text-anchor="start" class="excalidraw-text" opacity="1">Jelmagyarázat:</text>
+<ellipse cx="140" cy="835" rx="40" ry="25" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="190" y="839" font-size="14" fill="#000000" text-anchor="start" class="excalidraw-text" opacity="1">= External Entity (KGC modul)</text>
+<rect x="100" y="880" width="80" height="50" stroke="#2e7d32" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="190" y="909" font-size="14" fill="#000000" text-anchor="start" class="excalidraw-text" opacity="1">= Process (feldolgozás)</text>
+<rect x="100" y="950" width="80" height="50" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="190" y="979" font-size="14" fill="#000000" text-anchor="start" class="excalidraw-text" opacity="1">= Data Store (adattár)</text>
+</svg></div>
+
+                        <div class="details-box mt-4">
+                            <h4 class="font-semibold mb-2">📖 Adatfolyamok Magyarázata</h4>
+                            <ul class="text-sm space-y-1">
+                                <li><strong>customer.created/updated:</strong> Új ügyfél vagy módosítás → CRM Contact létrehozás/frissítés</li>
+                                <li><strong>rental.completed:</strong> Bérlés lezárva → Bérlési történet bejegyzés CRM-ben</li>
+                                <li><strong>service.completed:</strong> Szerviz munkálap kész → Szerviz történet bejegyzés CRM-ben</li>
+                                <li><strong>sale.completed:</strong> Értékesítés lezárva → Eladási történet bejegyzés CRM-ben</li>
+                                <li><strong>contact.updated:</strong> CRM-ben kontakt változás → Marketing automation trigger (tagging, campaign)</li>
+                                <li><strong>Gmail SMTP:</strong> Email küldés, template-alapú kampányok, nodemailer</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============================================= -->
+                <!-- CRM MODULE - DOCUMENTATION SUMMARY -->
+                <!-- ============================================= -->
+                <div x-show="activeTab === 'crm-docs'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h2 class="text-2xl font-bold">📚 CRM Dokumentáció Összefoglaló</h2>
+                        <p class="text-gray-600 dark:text-gray-400 mt-2">Gyors referencia: KGC-CRM integráció kulcspontok</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-semibold mb-4">🔗 Integrációs Pontok</h3>
+                        <table class="w-full">
+                            <thead>
+                                <tr class="bg-gray-100 dark:bg-gray-700">
+                                    <th class="px-4 py-2 text-left">KGC Modul</th>
+                                    <th class="px-4 py-2 text-left">CRM Integráció</th>
+                                    <th class="px-4 py-2 text-left">Webhook</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200 dark:divide-gray-700">
+                                <tr>
+                                    <td class="px-4 py-2">Ügyfélkezelés</td>
+                                    <td class="px-4 py-2">Contact/Lead létrehozás</td>
+                                    <td class="px-4 py-2"><code>customer.created</code></td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2">Bérlés</td>
+                                    <td class="px-4 py-2">Rental History sync</td>
+                                    <td class="px-4 py-2"><code>rental.completed</code></td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2">Szerviz</td>
+                                    <td class="px-4 py-2">Service History sync</td>
+                                    <td class="px-4 py-2"><code>service.completed</code></td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2">Értékesítés</td>
+                                    <td class="px-4 py-2">Sales History sync</td>
+                                    <td class="px-4 py-2"><code>sale.completed</code></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-semibold mb-4">🚀 Telepítési Lépések</h3>
+                        <div class="space-y-3">
+                            <div class="explanation-box">
+                                <h4 class="font-semibold mb-1">1. Docker Compose Setup</h4>
+                                <pre class="text-xs bg-gray-100 dark:bg-gray-900 p-2 rounded mt-1"><code>docker-compose -f docker-compose.crm.yml up -d</code></pre>
+                            </div>
+                            <div class="explanation-box">
+                                <h4 class="font-semibold mb-1">2. Twenty CRM Konfiguráció</h4>
+                                <pre class="text-xs bg-gray-100 dark:bg-gray-900 p-2 rounded mt-1"><code>PG_DATABASE_URL=postgresql://twenty:password@crm-db:5432/twenty
+FRONT_BASE_URL=http://localhost:3000</code></pre>
+                            </div>
+                            <div class="details-box">
+                                <h4 class="font-semibold mb-1">3. GraphQL Adapter Deploy</h4>
+                                <pre class="text-xs bg-gray-100 dark:bg-gray-900 p-2 rounded mt-1"><code>KGC_API_URL=http://kgc-api:3000
+CRM_GRAPHQL_ENDPOINT=http://twenty-crm:3000/graphql</code></pre>
+                            </div>
+                            <div class="details-box">
+                                <h4 class="font-semibold mb-1">4. Gmail SMTP Konfigurálás</h4>
+                                <pre class="text-xs bg-gray-100 dark:bg-gray-900 p-2 rounded mt-1"><code>GMAIL_USER=kgc-crm@gmail.com
+GMAIL_APP_PASSWORD=your_app_password_here</code></pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-semibold mb-4">⚠️ Kritikus Megfontolások</h3>
+                        <div class="space-y-2">
+                            <div class="bg-yellow-50 dark:bg-yellow-900 border-l-4 border-yellow-500 p-3 rounded">
+                                <p class="text-sm"><strong>GDPR:</strong> Cascade delete támogatás kötelező - ügyfél törléskor CRM adatok is törlődnek</p>
+                            </div>
+                            <div class="bg-blue-50 dark:bg-blue-900 border-l-4 border-blue-500 p-3 rounded">
+                                <p class="text-sm"><strong>KGC Master:</strong> Partner adatok mindig KGC-ben jönnek létre, CRM read-only view</p>
+                            </div>
+                            <div class="bg-green-50 dark:bg-green-900 border-l-4 border-green-500 p-3 rounded">
+                                <p class="text-sm"><strong>Graceful Degradation:</strong> CRM leállás nem blokkolja a KGC működését</p>
+                            </div>
+                            <div class="bg-purple-50 dark:bg-purple-900 border-l-4 border-purple-500 p-3 rounded">
+                                <p class="text-sm"><strong>Feature Flag:</strong> <code>CRM_MODULE_ENABLED=true/false</code> runtime kapcsolás</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============================================= -->
+                <!-- CRM MODULE - FULL DOCUMENTATION -->
+                <!-- ============================================= -->
+                <div x-show="activeTab === 'crm-full-doc'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <h2 class="text-2xl font-bold">📄 Teljes CRM Integrációs Specifikáció</h2>
+                                <p class="text-gray-600 dark:text-gray-400 mt-2">KGC-CRM Rendszer Integrációs Architektúra - 70+ oldal (v1.0)</p>
+                            </div>
+                            <button onclick="window.print()" class="px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 flex items-center gap-2 no-print">
+                                📥 Letöltés PDF-ként
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Full Documentation Content -->
+                    <div id="crm-full-documentation" class="bg-white dark:bg-gray-800 rounded-lg p-8 shadow prose dark:prose-invert max-w-none">
+                        <style>
+                            @media print {
+                                body * { visibility: hidden; }
+                                #crm-full-documentation, #crm-full-documentation * { visibility: visible; }
+                                #crm-full-documentation { position: absolute; left: 0; top: 0; width: 100%; }
+                                .no-print { display: none !important; }
+                            }
+                        </style>
+
+                        <h1>KGC-CRM Rendszer Integrációs Architektúra</h1>
+
+                        <p><strong>Szerző:</strong> Winston (Architect ügynök)<br>
+                        <strong>Dátum:</strong> 2025-12-28<br>
+                        <strong>Verzió:</strong> 1.0<br>
+                        <strong>Státusz:</strong> Tervezet</p>
+
+                        <hr>
+
+                        <p><em>Ez a dokumentum részletesen bemutatja a Twenty CRM integráció architektúráját a KGC ERP rendszerbe. A teljes specifikáció megtalálható: <code>/docs/ERP/CRM/KGC-CRM-INTEGRATION-ARCHITECTURE.md</code></em></p>
+
+                        <h2>Executive Summary</h2>
+
+                        <p>A KGC ERP rendszer CRM modulja egy <strong>opcionális, plugin-alapú integráció</strong>, amely a Twenty CRM open-source platformot használja ügyfélkapcsolat-kezelésre és marketing automatizációra.</p>
+
+                        <h3>Kulcs Követelmények</h3>
+
+                        <ol>
+                            <li><strong>Opcionális legyen</strong> - A KGC ERP működjön CRM modul nélkül is</li>
+                            <li><strong>Pluginként</strong> viselkedjen - Runtime enable/disable támogatás</li>
+                            <li><strong>Lazán csatolódjon</strong> - API-alapú integráció, minimális függőség</li>
+                            <li><strong>Szolgáltatás előzményeket szinkronizáljon</strong> - Bérlések, szervizek, értékesítés CRM-be</li>
+                            <li><strong>Marketing automatizációt támogasson</strong> - Email kampányok, ügyfél szegmentáció</li>
+                            <li><strong>KGC legyen a master</strong> - Partner adatok KGC-ben jönnek létre, CRM read-only view</li>
+                        </ol>
+
+                        <h2>1. Modul Áttekintés</h2>
+
+                        <h3>1.1 Twenty CRM Platform</h3>
+
+                        <p><strong>Twenty CRM</strong> egy modern, nyílt forráskódú CRM rendszer GraphQL API-val.</p>
+
+                        <ul>
+                            <li><strong>Repository:</strong> <a href="https://github.com/twentyhq/twenty" target="_blank">github.com/twentyhq/twenty</a></li>
+                            <li><strong>License:</strong> AGPL-3.0 (self-hosted, teljes testreszabás)</li>
+                            <li><strong>Technológia:</strong> Node.js, PostgreSQL, GraphQL</li>
+                            <li><strong>Deployment:</strong> Docker Compose</li>
+                        </ul>
+
+                        <h3>1.2 GraphQL Adapter Architektúra</h3>
+
+                        <p>A KGC REST API és a Twenty GraphQL API közötti fordítóréteg:</p>
+
+                        <pre><code>KGC REST API (webhooks)
+    ↓
+GraphQL Adapter (Node.js service)
+    ↓
+Twenty CRM (GraphQL mutations)</code></pre>
+
+                        <h3>1.3 Marketing Automatizáció</h3>
+
+                        <p><strong>Gmail SMTP konfiguráció</strong> email kampányokhoz:</p>
+
+                        <ul>
+                            <li>Contact szinkronizálás KGC → Mailchimp</li>
+                            <li>Automatikus tagging (új ügyfél, aktív bérlő, VIP, stb.)</li>
+                            <li>Campaign trigger (bérlés lezárva → elégedettségi kérdőív)</li>
+                        </ul>
+
+                        <h2>2. Integrációs Pontok</h2>
+
+                        <h3>2.1 Ügyfélkezelés Modul</h3>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>KGC Esemény</th>
+                                    <th>CRM Művelet</th>
+                                    <th>GraphQL Mutation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>customer.created</td>
+                                    <td>CRM Contact létrehozás</td>
+                                    <td><code>createKGCContact</code></td>
+                                </tr>
+                                <tr>
+                                    <td>customer.updated</td>
+                                    <td>CRM Contact frissítés</td>
+                                    <td><code>updateKGCContact</code></td>
+                                </tr>
+                                <tr>
+                                    <td>customer.deleted</td>
+                                    <td>CRM Contact törlés (GDPR)</td>
+                                    <td><code>deleteKGCContact</code></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h3>2.2 Bérlés Modul</h3>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>KGC Esemény</th>
+                                    <th>CRM Művelet</th>
+                                    <th>GraphQL Mutation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>rental.completed</td>
+                                    <td>Rental History bejegyzés</td>
+                                    <td><code>createRentalRecord</code></td>
+                                </tr>
+                                <tr>
+                                    <td>rental.cancelled</td>
+                                    <td>Rental Record update</td>
+                                    <td><code>updateRentalRecord</code></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h3>2.3 Szerviz Modul</h3>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>KGC Esemény</th>
+                                    <th>CRM Művelet</th>
+                                    <th>GraphQL Mutation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>service.completed</td>
+                                    <td>Service History bejegyzés</td>
+                                    <td><code>createServiceRecord</code></td>
+                                </tr>
+                                <tr>
+                                    <td>service.quote_sent</td>
+                                    <td>Service Record note</td>
+                                    <td><code>addServiceNote</code></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h3>2.4 Értékesítés Modul</h3>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>KGC Esemény</th>
+                                    <th>CRM Művelet</th>
+                                    <th>GraphQL Mutation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>sale.completed</td>
+                                    <td>Sales History bejegyzés</td>
+                                    <td><code>createSalesRecord</code></td>
+                                </tr>
+                                <tr>
+                                    <td>sale.invoice_paid</td>
+                                    <td>Sales Record update</td>
+                                    <td><code>updateSalesRecord</code></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h2>3. Deployment & Konfiguráció</h2>
+
+                        <h3>3.1 Docker Compose Konfiguráció</h3>
+
+                        <pre><code># docker-compose.crm.yml
+version: '3.8'
+services:
+  twenty-crm:
+    image: twentyhq/twenty:latest
+    environment:
+      - PG_DATABASE_URL=postgresql://twenty:password@crm-db:5432/twenty
+      - FRONT_BASE_URL=http://localhost:3000
+      - SERVER_URL=http://localhost:3000
+    ports:
+      - "3000:3000"
+    networks:
+      - crm-network
+      - crm-integration
+    depends_on:
+      - crm-db
+
+  crm-graphql-adapter:
+    image: kgc-crm-adapter:latest
+    environment:
+      - KGC_API_URL=http://kgc-api:3000
+      - CRM_GRAPHQL_ENDPOINT=http://twenty-crm:3000/graphql
+      - CRM_API_KEY=${CRM_API_KEY}
+      - MAILCHIMP_API_KEY=${MAILCHIMP_API_KEY}
+    networks:
+      - crm-integration
+
+  crm-db:
+    image: postgres:14-alpine
+    environment:
+      - POSTGRES_DB=twenty
+      - POSTGRES_USER=twenty
+      - POSTGRES_PASSWORD=password
+    volumes:
+      - crm-db-data:/var/lib/postgresql/data
+    networks:
+      - crm-network
+
+networks:
+  crm-network:
+    internal: true
+  crm-integration:
+    external: true
+
+volumes:
+  crm-db-data:</code></pre>
+
+                        <h3>3.2 Feature Flag Konfiguráció</h3>
+
+                        <pre><code># .env fájl
+CRM_MODULE_ENABLED=true
+
+# KGC API környezeti változó
+export CRM_MODULE_ENABLED=true</code></pre>
+
+                        <h3>3.3 Mailchimp Setup</h3>
+
+                        <pre><code># Mailchimp API konfigurálás
+MAILCHIMP_API_KEY=your_api_key_here
+MAILCHIMP_LIST_ID=your_audience_id
+MAILCHIMP_SERVER_PREFIX=us1  # pl. us1, us2, stb.</code></pre>
+
+                        <h2>4. Biztonsági Megfontolások</h2>
+
+                        <h3>4.1 GDPR Compliance</h3>
+
+                        <ul>
+                            <li><strong>Cascade Delete:</strong> KGC ügyfél törlésekor CRM adatok is törlődnek</li>
+                            <li><strong>Data Minimization:</strong> Csak szükséges adatok szinkronizálása</li>
+                            <li><strong>Encryption:</strong> HTTPS/TLS minden API híváshoz</li>
+                            <li><strong>Access Control:</strong> GraphQL API key authentication</li>
+                        </ul>
+
+                        <h3>4.2 API Biztonság</h3>
+
+                        <ul>
+                            <li><strong>Webhook Signature Validation:</strong> HMAC-SHA256 aláírás ellenőrzése</li>
+                            <li><strong>Rate Limiting:</strong> 100 kérés/perc/partner</li>
+                            <li><strong>IP Whitelist:</strong> Csak KGC szerverek IP címei</li>
+                        </ul>
+
+                        <h2>5. Költségbecslés</h2>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Komponens</th>
+                                    <th>Havi Költség</th>
+                                    <th>Megjegyzés</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Twenty CRM</strong></td>
+                                    <td>$0 (self-hosted)</td>
+                                    <td>Open-source, Docker alapú</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>PostgreSQL Database</strong></td>
+                                    <td>$0 (self-hosted)</td>
+                                    <td>KGC szerverrel megosztva</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Gmail SMTP</strong></td>
+                                    <td>$20-40</td>
+                                    <td>Essentials plan (~500 contacts)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>GraphQL Adapter</strong></td>
+                                    <td>$0 (self-developed)</td>
+                                    <td>Node.js service</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Szerver költség</strong></td>
+                                    <td>+$0-30</td>
+                                    <td>Ha KGC infrastruktúrán</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Backup & Storage</strong></td>
+                                    <td>$5-10</td>
+                                    <td>CRM DB backup</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>ÖSSZESEN</strong></td>
+                                    <td><strong>~$25-80/hó</strong></td>
+                                    <td><strong>franchise partner-enként</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h2>6. Implementációs Időzítés</h2>
+
+                        <h3>Fázis 1: Alapinfrastruktúra (1-2 hét)</h3>
+                        <ul>
+                            <li>Twenty CRM Docker telepítés</li>
+                            <li>PostgreSQL DB setup</li>
+                            <li>GraphQL Adapter skeleton</li>
+                        </ul>
+
+                        <h3>Fázis 2: Customer Sync (1 hét)</h3>
+                        <ul>
+                            <li>customer.created/updated webhook handler</li>
+                            <li>GraphQL Contact mutation implementáció</li>
+                            <li>Unit és integációs tesztek</li>
+                        </ul>
+
+                        <h3>Fázis 3: Service History Sync (2 hét)</h3>
+                        <ul>
+                            <li>rental.completed webhook</li>
+                            <li>service.completed webhook</li>
+                            <li>sale.completed webhook</li>
+                            <li>GraphQL Record mutation-ok</li>
+                        </ul>
+
+                        <h3>Fázis 4: Marketing Automatizáció (1 hét)</h3>
+                        <ul>
+                            <li>Mailchimp API integráció</li>
+                            <li>Contact tagging logic</li>
+                            <li>Campaign trigger implementáció</li>
+                        </ul>
+
+                        <h3>Fázis 5: Tesztelés & Dokumentáció (1 hét)</h3>
+                        <ul>
+                            <li>E2E tesztek</li>
+                            <li>Load testing</li>
+                            <li>Felhasználói dokumentáció</li>
+                        </ul>
+
+                        <h3>Fázis 6: Éles Indítás (1 hét)</h3>
+                        <ul>
+                            <li>Pilot deployment (1-2 franchise)</li>
+                            <li>Monitoring & alerting setup</li>
+                            <li>Rollout terv finalizálása</li>
+                        </ul>
+
+                        <p><strong>Teljes időigény:</strong> 7-9 hét</p>
+
+                        <hr>
+
+                        <p style="text-align: center; margin-top: 3em; color: #6b7280;">
+                            <strong>Dokumentum Verzió:</strong> 1.0<br>
+                            <strong>Utolsó Frissítés:</strong> 2025-12-28<br>
+                            <strong>Következő Review:</strong> 2025-01-15
+                        </p>
+                    </div>
+                </div>
+
+                <!-- ============================================= -->
+                <!-- HR MODULE - OVERVIEW -->
+                <!-- ============================================= -->
+                <div x-show="activeTab === 'hr-overview'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h2 class="text-2xl font-bold">👥 HR Modul - Áttekintés</h2>
+                        <p class="text-gray-600 dark:text-gray-400 mt-2">Horilla HRMS integráció a KGC ERP rendszerbe</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-semibold mb-4">🎯 Stratégiai Célok</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="explanation-box">
+                                <h4 class="font-semibold mb-2">1. Plugin Architektúra</h4>
+                                <p class="text-sm">Opcionális modul, runtime enable/disable támogatással</p>
+                            </div>
+                            <div class="explanation-box">
+                                <h4 class="font-semibold mb-2">2. Horilla HRMS Platform</h4>
+                                <p class="text-sm">Self-hosted, Django-alapú HR rendszer</p>
+                            </div>
+                            <div class="details-box">
+                                <h4 class="font-semibold mb-2">3. Jelenlét Nyilvántartás</h4>
+                                <p class="text-sm">Attendance tracking integrált munkaidő kezeléssel</p>
+                            </div>
+                            <div class="details-box">
+                                <h4 class="font-semibold mb-2">4. Szabadság Kezelés</h4>
+                                <p class="text-sm">Leave management approval workflow-val</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-semibold mb-4">🏗️ Technikai Stack</h3>
+                        <table class="w-full">
+                            <thead>
+                                <tr class="bg-gray-100 dark:bg-gray-700">
+                                    <th class="px-4 py-2 text-left">Komponens</th>
+                                    <th class="px-4 py-2 text-left">Technológia</th>
+                                    <th class="px-4 py-2 text-left">Verzió/Platform</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200 dark:divide-gray-700">
+                                <tr>
+                                    <td class="px-4 py-2"><strong>HR Platform</strong></td>
+                                    <td class="px-4 py-2">Horilla HRMS</td>
+                                    <td class="px-4 py-2">Open-source (LGPL-2.1)</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2"><strong>API Layer</strong></td>
+                                    <td class="px-4 py-2">Django REST Adapter</td>
+                                    <td class="px-4 py-2">Python middleware</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2"><strong>Database</strong></td>
+                                    <td class="px-4 py-2">PostgreSQL</td>
+                                    <td class="px-4 py-2">v14+</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2"><strong>Integration</strong></td>
+                                    <td class="px-4 py-2">Webhooks + REST API</td>
+                                    <td class="px-4 py-2">Event-driven sync</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-semibold mb-4">💰 Költségbecslés</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div class="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg">
+                                <p class="text-sm font-semibold text-green-700 dark:text-green-300">💚 Költség / Franchise</p>
+                                <p class="text-2xl font-bold mt-2">$5-30/hó</p>
+                                <p class="text-xs text-gray-600 dark:text-gray-400 mt-1">Legolcsóbb modul</p>
+                            </div>
+                            <div class="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg">
+                                <p class="text-sm font-semibold text-blue-700 dark:text-blue-300">⚙️ Infrastruktúra</p>
+                                <p class="text-lg font-bold mt-2">$5-15/hó</p>
+                                <p class="text-xs text-gray-600 dark:text-gray-400 mt-1">Horilla + DB + Adapter</p>
+                            </div>
+                            <div class="bg-purple-50 dark:bg-purple-900/20 p-4 rounded-lg">
+                                <p class="text-sm font-semibold text-purple-700 dark:text-purple-300">📊 Külső Szolgáltatások</p>
+                                <p class="text-lg font-bold mt-2">$0/hó</p>
+                                <p class="text-xs text-gray-600 dark:text-gray-400 mt-1">Nincs külső integráció</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============================================= -->
+                <!-- HR MODULE - ARCHITECTURE -->
+                <!-- ============================================= -->
+                <div x-show="activeTab === 'hr-architecture'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h2 class="text-2xl font-bold">🏗️ HR Plugin Architektúra</h2>
+                        <p class="text-gray-600 dark:text-gray-400 mt-2">A Horilla HRMS modul plugin-alapú integrációja</p>
+                    </div>
+
+                    <div class="diagram-container">
+                        <h3 class="text-lg font-semibold mb-4">Plugin Architektúra Diagram</h3>
+                        <div class="diagram-wrapper">
+                            <img src="HR/hr-plugin-architecture.svg" alt="HR Plugin Architecture" style="max-width: 100%; height: auto;">
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-semibold mb-4">🔍 Architekturális Komponensek</h3>
+                        <div class="space-y-4">
+                            <div class="explanation-box">
+                                <h4 class="font-semibold mb-2">🔷 KGC ERP CORE</h4>
+                                <p class="text-sm">5 fő modul generál employee eseményeket (create, update, delete webhooks), különösen a Dolgozókezelés modul.</p>
+                            </div>
+                            <div class="explanation-box">
+                                <h4 class="font-semibold mb-2">🔶 INTEGRATION LAYER</h4>
+                                <ul class="text-sm list-disc ml-4">
+                                    <li><strong>Plugin Manager:</strong> Webhook routing és Feature Flag (HR_MODULE_ENABLED)</li>
+                                    <li><strong>Django REST Adapter:</strong> Webhook → REST API transzláció</li>
+                                </ul>
+                            </div>
+                            <div class="explanation-box">
+                                <h4 class="font-semibold mb-2">🔷 HR MODULE PLUGIN</h4>
+                                <ul class="text-sm list-disc ml-4">
+                                    <li><strong>Attendance Tracking:</strong> Check-in/out, munkaidő számítás</li>
+                                    <li><strong>Leave Management:</strong> Szabadság kérelmek jóváhagyással</li>
+                                    <li><strong>Employee Profiles:</strong> Törzsadatok (név, email, role)</li>
+                                    <li><strong>HR Helpdesk:</strong> Belső ticketing (külön a Support-tól)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============================================= -->
+                <!-- HR MODULE - DATAFLOW -->
+                <!-- ============================================= -->
+                <div x-show="activeTab === 'hr-dataflow'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h2 class="text-2xl font-bold">📊 HR Adatfolyam (DFD Level 1)</h2>
+                        <p class="text-gray-600 dark:text-gray-400 mt-2">Horilla HRMS modul adatfolyamainak vizualizációja</p>
+                    </div>
+
+                    <div class="diagram-container">
+                        <h3 class="text-lg font-semibold mb-4">Data Flow Diagram (Level 1)</h3>
+                        <div class="diagram-wrapper">
+                            <img src="HR/hr-dataflow.svg" alt="HR Data Flow Diagram" style="max-width: 100%; height: auto;">
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-semibold mb-4">🔄 Adatfolyam Magyarázat</h3>
+                        <div class="space-y-4">
+                            <div class="explanation-box">
+                                <h4 class="font-semibold mb-2">📥 Employee Events (E1 → 1.0)</h4>
+                                <p class="text-sm">KGC modulok webhook-okat küldenek employee eseményekről a Django REST Adapter-nek.</p>
+                            </div>
+                            <div class="explanation-box">
+                                <h4 class="font-semibold mb-2">⚙️ API Calls (1.0 → 2.0-5.0)</h4>
+                                <p class="text-sm">Adapter REST API hívásokat indít a 4 HR funkcióhoz (Attendance, Leave, Employee, Helpdesk).</p>
+                            </div>
+                            <div class="details-box">
+                                <h4 class="font-semibold mb-2">💾 Data Storage (2.0-5.0 ↔ D2)</h4>
+                                <p class="text-sm">HR folyamatok kétirányú kommunikációban vannak a Horilla PostgreSQL adatbázissal.</p>
+                            </div>
+                            <div class="details-box">
+                                <h4 class="font-semibold mb-2">👥 User Queries (E2 ↔ 2.0-5.0)</h4>
+                                <p class="text-sm">HR felhasználók (managers, employees) lekérdezéseket küldenek és választ kapnak.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============================================= -->
+                <!-- HR MODULE - DOCUMENTATION -->
+                <!-- ============================================= -->
+                <div x-show="activeTab === 'hr-docs'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h2 class="text-2xl font-bold">📚 HR Modul Dokumentáció</h2>
+                        <p class="text-gray-600 dark:text-gray-400 mt-2">Összefoglaló és gyors referencia</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-semibold mb-4">🔑 Kulcsfontosságú Integrációs Pontok</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="explanation-box">
+                                <h4 class="font-semibold mb-2">1. Employee Webhooks</h4>
+                                <ul class="text-sm list-disc ml-4">
+                                    <li>employee.created</li>
+                                    <li>employee.updated</li>
+                                    <li>employee.deleted</li>
+                                </ul>
+                            </div>
+                            <div class="explanation-box">
+                                <h4 class="font-semibold mb-2">2. Django REST Endpoints</h4>
+                                <ul class="text-sm list-disc ml-4">
+                                    <li>/api/employee/</li>
+                                    <li>/api/attendance/</li>
+                                    <li>/api/leave/</li>
+                                </ul>
+                            </div>
+                            <div class="details-box">
+                                <h4 class="font-semibold mb-2">3. Feature Flag</h4>
+                                <p class="text-sm"><code>HR_MODULE_ENABLED=true</code> - Runtime enable/disable</p>
+                            </div>
+                            <div class="details-box">
+                                <h4 class="font-semibold mb-2">4. KGC Master Pattern</h4>
+                                <p class="text-sm">Employee törzsadatok mindig KGC-ben jönnek létre</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-semibold mb-4">🚀 Deployment Lépések</h3>
+                        <ol class="list-decimal ml-6 space-y-2">
+                            <li><strong>Horilla HRMS Setup:</strong> Docker Compose deployment (PostgreSQL + Django)</li>
+                            <li><strong>Django REST Adapter:</strong> Python middleware telepítés és konfiguráció</li>
+                            <li><strong>KGC Plugin Manager:</strong> HR modul regisztráció és webhook routing</li>
+                            <li><strong>Feature Flag:</strong> HR_MODULE_ENABLED beállítás franchise szinten</li>
+                            <li><strong>Data Sync:</strong> Kezdeti employee törzs szinkronizálás</li>
+                            <li><strong>Testing:</strong> Attendance, Leave, Helpdesk funkciók tesztelése</li>
+                        </ol>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h3 class="text-xl font-semibold mb-4">⚠️ Kritikus Szempontok</h3>
+                        <div class="bg-yellow-50 dark:bg-yellow-900/20 p-4 rounded-lg">
+                            <ul class="list-disc ml-4 space-y-2">
+                                <li><strong>KGC Standalone:</strong> KGC működjön HR modul nélkül is</li>
+                                <li><strong>Separate Helpdesks:</strong> Support Chatwoot ≠ HR Horilla Ticketing</li>
+                                <li><strong>Data Privacy:</strong> GDPR compliance, cascade delete</li>
+                                <li><strong>Only Törzsadatok:</strong> NINCS fizetés, adószám, bankszámla Horilla-ban</li>
+                                <li><strong>Graceful Degradation:</strong> HR hiba nem blokkolja KGC-t</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============================================= -->
+                <!-- HR MODULE - FULL DOCUMENTATION -->
+                <!-- ============================================= -->
+                <div x-show="activeTab === 'hr-full-doc'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow">
+                        <h2 class="text-2xl font-bold">📄 HR Modul - Teljes Specifikáció</h2>
+                        <p class="text-gray-600 dark:text-gray-400 mt-2">Nyomtatható verzió PDF export céljából</p>
+                        <p class="text-sm text-gray-500 mt-2">💡 Tipp: Használd a "🖨️ Nyomtatás" gombot a fejlécben, majd "Mentés PDF-ként" a teljes dokumentum exportálásához.</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow prose dark:prose-invert max-w-none" style="page-break-inside: avoid;">
+                        <h1>KGC HR MODUL INTEGRÁCIÓS ARCHITEKTÚRA</h1>
+
+                        <h2>Executive Summary</h2>
+                        <p>A KGC ERP rendszer HR modulja egy <strong>opcionális, plugin-alapú integráció</strong>, amely a <strong>Horilla HRMS</strong> nyílt forráskódú platformot használja munkavállaló adminisztrációra, jelenlét nyilvántartásra és szabadság kezelésre.</p>
+
+                        <h3>Kulcs Követelmények</h3>
+                        <ol>
+                            <li><strong>Opcionális legyen</strong> - A KGC ERP működjön HR modul nélkül is</li>
+                            <li><strong>Pluginként</strong> viselkedjen - Runtime enable/disable támogatás</li>
+                            <li><strong>Lazán csatolódjon</strong> - API-alapú integráció, minimális függőség</li>
+                            <li><strong>Jelenlét nyilvántartást támogasson</strong> - Attendance tracking Horilla-ban</li>
+                            <li><strong>Szabadság kezelést biztosítson</strong> - Leave management és approval workflow</li>
+                            <li><strong>Employee törzsadatokat kezeljen</strong> - Alapvető munkavállaló info + role</li>
+                            <li><strong>KGC legyen a master</strong> - Employee adatok KGC-ben jönnek létre</li>
+                        </ol>
+
+                        <h2>Horilla HRMS Platform</h2>
+                        <p><strong>Technológia:</strong> Python + Django + PostgreSQL + Bootstrap<br>
+                        <strong>Licenc:</strong> LGPL-2.1 (nyílt forráskódú, kereskedelmi használatra alkalmas)<br>
+                        <strong>API:</strong> Django REST Framework (natív REST API)</p>
+
+                        <h3>Használt Funkciók</h3>
+                        <ul>
+                            <li><strong>Attendance Management:</strong> Check-in/check-out, hours worked calculation</li>
+                            <li><strong>Leave Management:</strong> Vacation/sick leave requests with approval workflow</li>
+                            <li><strong>Employee Management:</strong> Basic employee profiles (name, email, phone, role, department)</li>
+                            <li><strong>Helpdesk:</strong> Internal ticketing (separate from Support Chatwoot)</li>
+                        </ul>
+
+                        <h3>NEM Használt Funkciók</h3>
+                        <ul>
+                            <li>❌ Recruitment</li>
+                            <li>❌ Full Payroll Processing (csak törzsadatok)</li>
+                            <li>❌ Performance Management</li>
+                            <li>❌ Asset Management</li>
+                        </ul>
+
+                        <h2>Integrációs Architektúra</h2>
+
+                        <h3>Django REST Adapter</h3>
+                        <p>Python middleware service, amely KGC webhook eseményeket Django REST API hívásokká fordít.</p>
+
+                        <p><strong>Webhook események:</strong></p>
+                        <ul>
+                            <li><code>employee.created</code> → POST /api/employee/</li>
+                            <li><code>employee.updated</code> → PUT /api/employee/{id}/</li>
+                            <li><code>employee.deleted</code> → DELETE /api/employee/{id}/</li>
+                        </ul>
+
+                        <h3>Helpdesk Stratégia</h3>
+                        <p><strong>Két külön rendszer:</strong></p>
+                        <ul>
+                            <li><strong>Support Chatwoot:</strong> Külső ügyfél ticketek (Support modul)</li>
+                            <li><strong>HR Horilla Ticketing:</strong> Belső munkatársi kérések (HR modul)</li>
+                        </ul>
+                        <p><strong>Indok:</strong> Különböző use case-ek, külön adat privacy igények.</p>
+
+                        <h2>Docker Compose</h2>
+                        <pre><code>version: '3.8'
+services:
+  horilla-hrms:
+    image: horilla/horilla:latest
+    environment:
+      - DATABASE_URL=postgresql://horilla:password@hr-db:5432/horilla
+      - HR_MODULE_ENABLED=true
+    ports:
+      - "8000:8000"
+    networks:
+      - hr-network
+    depends_on:
+      - hr-db
+
+  hr-rest-adapter:
+    build: ./hr-rest-adapter
+    environment:
+      - KGC_WEBHOOK_SECRET=${KGC_WEBHOOK_SECRET}
+      - HORILLA_API_URL=http://horilla-hrms:8000
+    networks:
+      - hr-network
+      - hr-integration
+
+  hr-db:
+    image: postgres:14
+    environment:
+      - POSTGRES_DB=horilla
+      - POSTGRES_USER=horilla
+      - POSTGRES_PASSWORD=password
+    volumes:
+      - hr-data:/var/lib/postgresql/data
+    networks:
+      - hr-network</code></pre>
+
+                        <h2>Költségbecslés</h2>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <thead>
+                                <tr style="background: #f3f4f6;">
+                                    <th style="padding: 8px; text-align: left; border: 1px solid #e5e7eb;">Kategória</th>
+                                    <th style="padding: 8px; text-align: left; border: 1px solid #e5e7eb;">Komponens</th>
+                                    <th style="padding: 8px; text-align: left; border: 1px solid #e5e7eb;">Költség/hó</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="padding: 8px; border: 1px solid #e5e7eb;">Infrastruktúra</td>
+                                    <td style="padding: 8px; border: 1px solid #e5e7eb;">Horilla Container</td>
+                                    <td style="padding: 8px; border: 1px solid #e5e7eb;">$3-8</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px; border: 1px solid #e5e7eb;">Infrastruktúra</td>
+                                    <td style="padding: 8px; border: 1px solid #e5e7eb;">PostgreSQL DB</td>
+                                    <td style="padding: 8px; border: 1px solid #e5e7eb;">$2-7</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px; border: 1px solid #e5e7eb;">Külső Szolgáltatás</td>
+                                    <td style="padding: 8px; border: 1px solid #e5e7eb;">Nincs</td>
+                                    <td style="padding: 8px; border: 1px solid #e5e7eb;">$0</td>
+                                </tr>
+                                <tr style="font-weight: bold; background: #e8f5e9;">
+                                    <td style="padding: 8px; border: 1px solid #e5e7eb;" colspan="2">ÖSSZESEN / Franchise</td>
+                                    <td style="padding: 8px; border: 1px solid #e5e7eb;">$5-30</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p><strong>💚 Legolcsóbb modul</strong> - Nincs külső szolgáltatás (Support: Gemini API, CRM: Gmail SMTP ingyenes)</p>
+
+                        <h2>Implementációs Timeline</h2>
+                        <ol>
+                            <li><strong>Hét 1-2:</strong> Horilla setup + Docker Compose</li>
+                            <li><strong>Hét 3:</strong> Django REST Adapter fejlesztés</li>
+                            <li><strong>Hét 4:</strong> Employee sync implementáció</li>
+                            <li><strong>Hét 5:</strong> Attendance + Leave funkciók</li>
+                            <li><strong>Hét 6:</strong> HR Helpdesk integráció</li>
+                            <li><strong>Hét 7:</strong> Tesztelés és dokumentáció</li>
+                        </ol>
+                        <p><strong>Teljes idő:</strong> 6-7 hét</p>
+
+                        <hr>
+
+                        <p style="text-align: center; margin-top: 3em; color: #6b7280;">
+                            <strong>Dokumentum Verzió:</strong> 1.0<br>
+                            <strong>Utolsó Frissítés:</strong> 2025-12-28<br>
+                            <strong>Következő Review:</strong> 2025-01-15
+                        </p>
+                    </div>
+                </div>
+
+                <!-- System Architecture Section -->
+                <div x-show="activeTab === 'system-architecture'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                        <h2 class="text-2xl font-bold">🏗️ KGC ERP Teljes Rendszer Architektúra</h2>
+                        <p class="text-gray-600 dark:text-gray-400 mt-2">
+                            Átfogó nézet a KGC ERP Core-ról, az Integration Layer-ről és mindhárom plugin modulról (Support, CRM, HR)
+                        </p>
+                    </div>
+
+                    <div class="explanation-box">
+                        <h3 class="font-semibold mb-2">📐 Architektúra Áttekintés</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li><strong>KGC ERP CORE:</strong> 5 alap modul (Bérlés, Értékesítés, Szerviz, Ügyfélkezelés, Dolgozókezelés) + PostgreSQL adatbázis</li>
+                            <li><strong>Integration Layer:</strong> Plugin Manager (Registry, Lifecycle, Event Bus), Webhook Router, Feature Flags</li>
+                            <li><strong>Support Plugin:</strong> Chatwoot platform + Gemini AI + dedikált PostgreSQL DB</li>
+                            <li><strong>CRM Plugin:</strong> Twenty CRM platform + Gmail SMTP + dedikált PostgreSQL DB</li>
+                            <li><strong>HR Plugin:</strong> Horilla HRMS platform + dedikált PostgreSQL DB</li>
+                            <li><strong>Külső Szolgáltatások:</strong> Google Gemini API (AI válaszok generálásához)</li>
+                        </ul>
+                    </div>
+
+                    <div class="diagram-container">
+                        <h3 class="text-lg font-semibold mb-3">Rendszer Architektúra Diagram</h3>
+                        <div class="diagram-wrapper">
+                            <embed src="kgc-erp-system-architecture.svg" type="image/svg+xml" class="w-full h-auto" />
+                        </div>
+                    </div>
+
+                    <div class="details-box">
+                        <h3 class="font-semibold mb-2">🔗 Kapcsolódási Pontok</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm mt-3">
+                            <div>
+                                <h4 class="font-semibold mb-1">Support Plugin ⟷ KGC Core</h4>
+                                <ul class="list-disc list-inside text-gray-600 dark:text-gray-400">
+                                    <li>Ügyfél- és bérlési adatok lekérése</li>
+                                    <li>Ticket státuszok szinkronizálása</li>
+                                    <li>Automatikus értesítések</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">CRM Plugin ⟷ KGC Core</h4>
+                                <ul class="list-disc list-inside text-gray-600 dark:text-gray-400">
+                                    <li>Contact szinkronizáció</li>
+                                    <li>Deal tracking (bérlés → deal)</li>
+                                    <li>Email kampányok (Gmail SMTP)</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">HR Plugin ⟷ KGC Core</h4>
+                                <ul class="list-disc list-inside text-gray-600 dark:text-gray-400">
+                                    <li>Employee szinkronizáció</li>
+                                    <li>Jelenlét és szabadságok</li>
+                                    <li>HR Helpdesk</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Support ⟷ Gemini API</h4>
+                                <ul class="list-disc list-inside text-gray-600 dark:text-gray-400">
+                                    <li>AI-generált válaszok</li>
+                                    <li>Context-aware javaslatok</li>
+                                    <li>Automatikus válasz draft-ok</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- System Data Flow Section -->
+                <div x-show="activeTab === 'system-dataflow'" class="space-y-6" x-cloak>
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                        <h2 class="text-2xl font-bold">🔄 KGC ERP Teljes Adatfolyam (DFD Level 1)</h2>
+                        <p class="text-gray-600 dark:text-gray-400 mt-2">
+                            Data Flow Diagram (DFD) amely bemutatja az adatok mozgását a rendszer különböző komponensei között
+                        </p>
+                    </div>
+
+                    <div class="explanation-box">
+                        <h3 class="font-semibold mb-2">📊 DFD Elemek Magyarázata</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li><strong>🔵 Folyamatok (Processes):</strong> 1.0 Integration Layer, 2.0 Support Plugin, 3.0 CRM Plugin, 4.0 HR Plugin</li>
+                            <li><strong>📦 Adattárak (Data Stores):</strong> D1 (KGC Core DB), D2 (Chatwoot DB), D3 (Twenty DB), D4 (Horilla DB)</li>
+                            <li><strong>🟢 Külső Entitások:</strong> E1 (KGC ERP Modules), E2 (Users), E3 (Gemini API)</li>
+                            <li><strong>➡️ Adatfolyamok:</strong> Kék = Core rendszer, Lila = Plugin-specifikus, Zöld = DB I/O, Narancs = User interakció, Piros = Külső API</li>
+                        </ul>
+                    </div>
+
+                    <div class="diagram-container">
+                        <h3 class="text-lg font-semibold mb-3">Teljes Adatfolyam Diagram</h3>
+                        <div class="diagram-wrapper">
+                            <embed src="kgc-erp-dataflow.svg" type="image/svg+xml" class="w-full h-auto" />
+                        </div>
+                    </div>
+
+                    <div class="details-box">
+                        <h3 class="font-semibold mb-2">🔄 Főbb Adatfolyamok</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm mt-3">
+                            <div>
+                                <h4 class="font-semibold mb-1">📤 KGC Modules → Integration Layer</h4>
+                                <ul class="list-disc list-inside text-gray-600 dark:text-gray-400">
+                                    <li>Plugin kérések (enable/disable)</li>
+                                    <li>Webhook események (új bérlés, ügyfél módosítás)</li>
+                                    <li>Feature flag lekérdezések</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">📥 Integration Layer → Plugins</h4>
+                                <ul class="list-disc list-inside text-gray-600 dark:text-gray-400">
+                                    <li>Webhook események továbbítása</li>
+                                    <li>Plugin lifecycle parancsok</li>
+                                    <li>Adatszinkronizációs triggerek</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">👥 Users → Plugins</h4>
+                                <ul class="list-disc list-inside text-gray-600 dark:text-gray-400">
+                                    <li>Ticket létrehozás (Support)</li>
+                                    <li>Contact/Deal kezelés (CRM)</li>
+                                    <li>HR kérések (jelenlét, szabadság)</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">🔴 Support → Gemini API</h4>
+                                <ul class="list-disc list-inside text-gray-600 dark:text-gray-400">
+                                    <li>AI válasz generálás kérések</li>
+                                    <li>Context és conversation history</li>
+                                    <li>Generált válaszok fogadása</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/30 dark:to-indigo-900/30 p-4 rounded-lg mt-4">
+                        <h3 class="font-semibold mb-2">💾 Adatbázis Stratégia</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">
+                            Minden plugin saját dedikált PostgreSQL adatbázissal rendelkezik, ami biztosítja:
+                        </p>
+                        <ul class="list-disc list-inside text-sm text-gray-600 dark:text-gray-400 mt-2">
+                            <li>Független működés és skálázhatóság</li>
+                            <li>Adatizoláció és biztonság</li>
+                            <li>Könnyű backup és restore plugin-szinten</li>
+                            <li>Nincs single point of failure</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-12 no-print">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-sm">🤖 Generated with <a href="https://claude.com/claude-code" class="underline" target="_blank">Claude Code</a> | Winston - Architect Agent</p>
+            <p class="text-xs opacity-70 mt-1">KGC ERP - Plugin Architektúra | 2025-12-28</p>
+        </div>
+    </footer>
+
+    <!-- Alpine.js Data -->
+    <script>
+        function appData() {
+            return {
+                darkMode: localStorage.getItem('darkMode') === 'true',
+                activeTab: 'support-overview',
+                expanded: {},
+
+                init() {
+                    // Watch dark mode changes
+                    this.$watch('darkMode', value => {
+                        localStorage.setItem('darkMode', value);
+                    });
+                }
+            }
+        }
+    </script>
+
+    <!-- x-cloak styling -->
+    <style>
+        [x-cloak] { display: none !important; }
+    </style>
+</body>
+</html>

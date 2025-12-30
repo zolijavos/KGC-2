@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 -20 1160 1720" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-20" y="-20" width="1160" height="1720" fill="#ffffff"/>
+<rect x="20" y="20" width="320" height="1400" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="0.3"/>
+<text x="180" y="60" font-size="20" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">BÉRLÉS MODUL</text>
+<rect x="360" y="20" width="320" height="1400" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="0.3"/>
+<text x="520" y="60" font-size="20" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">SZERVIZ MODUL</text>
+<rect x="700" y="20" width="340" height="1400" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="0.3"/>
+<text x="870" y="60" font-size="20" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">PÉNZÜGY MODUL</text>
+<ellipse cx="160" cy="130" rx="60" ry="30" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="160" y="136" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">START</text>
+<rect x="80" y="200" width="160" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="160" y="236" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">2.2 Gép átvétele</text>
+<text x="160" y="255.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">és vizsgálat</text>
+<path d="M 160 170 L 160 190" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<polygon points="160,320 230,370 160,420 90,370" stroke="#fbc02d" fill="#fff9c4" stroke-width="2" opacity="1"/>
+<text x="160" y="366" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">2.2b DÖNTÉS:</text>
+<text x="160" y="385.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Sérült?</text>
+<path d="M 160 290 L 160 310" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<ellipse cx="310" cy="370" rx="50" ry="30" stroke="#1976d2" fill="#c8e6c9" stroke-width="2" opacity="1"/>
+<text x="310" y="371" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">END</text>
+<text x="310" y="387.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Normál)</text>
+<path d="M 240 370 L 250 370" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<text x="258" y="369" font-size="14" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">NEM</text>
+<text x="40" y="478" font-size="18" fill="#d32f2f" text-anchor="start" class="excalidraw-text" opacity="1">P6: KÁRESEMÉNY KEZELÉS</text>
+<rect x="80" y="500" width="160" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="160" y="529" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P6.1 Kaució</text>
+<text x="160" y="545.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">blokkolás</text>
+<text x="160" y="562.6" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(VISSZATARTVA)</text>
+<path d="M 160 430 L 160 490" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="187.5" y="464" font-size="14" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">IGEN</text>
+<rect x="80" y="620" width="160" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="160" y="654" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P6.2 Összeg</text>
+<text x="160" y="670.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">rögzítése</text>
+<path d="M 160 590 L 160 610" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="80" y="740" width="160" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="160" y="771" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P6.3 Munkalap</text>
+<text x="160" y="787.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">létrehozása</text>
+<text x="160" y="804.6" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">→ Szerviz</text>
+<path d="M 160 710 L 160 730" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="400" y="740" width="160" height="80" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="480" y="774" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">S1 Munkalap</text>
+<text x="480" y="790.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">beérkezés</text>
+<path d="M 250 780 L 390 780" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<rect x="400" y="860" width="160" height="80" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="480" y="891" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">S2 Diagnosztika</text>
+<text x="480" y="907.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">és árajánlat</text>
+<text x="480" y="924.6" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">készítés</text>
+<path d="M 480 830 L 480 850" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<rect x="400" y="980" width="160" height="80" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="480" y="1011" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">S3 Jóváhagyás</text>
+<text x="480" y="1027.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Automata</text>
+<text x="480" y="1044.6" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">kaució terhére)</text>
+<path d="M 480 950 L 480 970" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<rect x="400" y="1100" width="160" height="80" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<text x="480" y="1134" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">S4 Javítás</text>
+<text x="480" y="1150.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">elvégzése</text>
+<path d="M 480 1070 L 480 1090" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<text x="720" y="1078" font-size="18" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">P7: PÉNZÜGY ELSZÁMOLÁS</text>
+<rect x="740" y="1100" width="180" height="80" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="830" y="1134" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P7.1 Munkalap és</text>
+<text x="830" y="1150.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">kaució áttekintése</text>
+<path d="M 570 1140 L 730 1140" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<rect x="740" y="1220" width="180" height="80" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="830" y="1254" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P7.2 Számla</text>
+<text x="830" y="1270.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">kiállítása</text>
+<path d="M 830 1190 L 830 1210" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<polygon points="830,1340 900,1390 830,1440 760,1390" stroke="#fbc02d" fill="#fff9c4" stroke-width="2" opacity="1"/>
+<text x="830" y="1381" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P7.3 DÖNTÉS:</text>
+<text x="830" y="1397.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Költség &lt;</text>
+<text x="830" y="1414.6" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Kaució?</text>
+<path d="M 830 1310 L 830 1330" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<rect x="720" y="1480" width="180" height="80" stroke="#388e3c" fill="#c8e6c9" stroke-width="2" rx="8" opacity="1"/>
+<text x="810" y="1511" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P7.4a/5a</text>
+<text x="810" y="1527.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Visszatérítés</text>
+<text x="810" y="1544.6" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">VISSZAADVA</text>
+<path d="M 830 1450 L 830 1470" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<text x="860" y="1469" font-size="14" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">IGEN</text>
+<rect x="920" y="1360" width="180" height="80" stroke="#d32f2f" fill="#ffcdd2" stroke-width="2" rx="8" opacity="1"/>
+<text x="1010" y="1384" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P7.4b/5b Tartozás</text>
+<text x="1010" y="1398.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Ügyfél felé számla</text>
+<text x="1010" y="1412.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">RÉSZLEGESEN_</text>
+<text x="1010" y="1427.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">ELSZÁMOLVA</text>
+<path d="M 910 1390 L 910 1390" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="920" y="1384" font-size="14" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">NEM</text>
+<ellipse cx="920" cy="1630" rx="60" ry="30" stroke="#f57c00" fill="#c8e6c9" stroke-width="2" opacity="1"/>
+<text x="920" y="1631" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">END</text>
+<text x="920" y="1647.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Elszámolva)</text>
+<path d="M 810 1570 L 880 1600" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 1010 1450 L 1010 1590 L 920 1590" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+</svg>
