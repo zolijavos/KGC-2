@@ -15,9 +15,10 @@
 </marker>
 </defs>
 <rect x="60" y="-20" width="1180" height="1000" fill="#ffffff"/>
-<text x="750" y="40" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - Entitás-Kapcsolat Diagram (ERD)</text>
+<text x="750" y="40" font-size="20" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP - Entitás-Kapcsolat Diagram (ERD)</text>
 <text x="750" y="64" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Ügyfél Felvétel és Bérlés Folyamat</text>
-<rect x="100" y="120" width="280" height="280" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="750" y="85" font-size="14" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">🔄 FRISSÍTVE - v2.0 (2025-12-31) - 7 mezőváltozás</text>
+<rect x="100" y="120" width="280" height="330" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
 <rect x="100" y="120" width="280" height="40" stroke="#1976d2" fill="#1976d2" stroke-width="2" rx="0" opacity="1"/>
 <text x="240" y="146" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">PARTNER</text>
 <text x="115" y="188" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  partner_id (INT)</text>
@@ -26,14 +27,17 @@
 <text x="115" y="234.8" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    nev (VARCHAR)</text>
 <text x="115" y="250.4" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    cim (VARCHAR)</text>
 <text x="115" y="266" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    igazolvanyszam (VARCHAR)</text>
-<text x="115" y="281.6" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    taj_szam (VARCHAR)</text>
-<text x="115" y="297.2" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    telefon (VARCHAR)</text>
-<text x="115" y="312.8" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    email (VARCHAR)</text>
-<text x="115" y="328.4" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    e_szamla (BOOLEAN)</text>
-<text x="115" y="344" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">FK  rogzito_id (INT)</text>
-<text x="115" y="359.6" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    rogzites_datum (DATETIME)</text>
-<text x="115" y="375.2" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    tipus (ENUM: magan/ceg)</text>
-<rect x="500" y="120" width="280" height="220" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="115" y="281.6" font-size="13" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">    🆕 mothers_name (VARCHAR)</text>
+<text x="115" y="297.2" font-size="13" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">    🆕 birth_place (VARCHAR)</text>
+<text x="115" y="312.8" font-size="13" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">    🆕 birth_date (DATE)</text>
+<text x="115" y="328.4" font-size="13" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">    🆕 temporary_address (VARCHAR)</text>
+<text x="115" y="344" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    telefon (VARCHAR)</text>
+<text x="115" y="359.6" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    email (VARCHAR)</text>
+<text x="115" y="375.2" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    e_szamla (BOOLEAN)</text>
+<text x="115" y="390.8" font-size="13" fill="#1976d2" text-anchor="start" class="excalidraw-text" opacity="1">FK  rogzito_id (INT) 👤 Ki vette fel</text>
+<text x="115" y="406.4" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    rogzites_datum (DATETIME)</text>
+<text x="115" y="422" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    tipus (ENUM: magan/ceg)</text>
+<rect x="500" y="120" width="280" height="236" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
 <rect x="500" y="120" width="280" height="40" stroke="#7b1fa2" fill="#7b1fa2" stroke-width="2" rx="0" opacity="1"/>
 <text x="640" y="146" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">CÉG</text>
 <text x="515" y="188" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">PK  ceg_id (INT)</text>
@@ -45,6 +49,7 @@
 <text x="515" y="281.6" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    cim (VARCHAR)</text>
 <text x="515" y="297.2" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    mukodo (BOOLEAN)</text>
 <text x="515" y="312.8" font-size="13" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">    nav_ellenorzott (DATETIME)</text>
+<text x="515" y="328.4" font-size="13" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">    🆕 vat_zone (ENUM: HU/EU/NON_EU)</text>
 <rect x="100" y="460" width="280" height="320" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
 <rect x="100" y="460" width="280" height="40" stroke="#388e3c" fill="#388e3c" stroke-width="2" rx="0" opacity="1"/>
 <text x="240" y="486" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">BÉRLÉS</text>

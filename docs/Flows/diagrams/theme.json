@@ -1,0 +1,13 @@
+{
+  "name": "Professional Blue",
+  "colors": {
+    "primary_fill": "#e3f2fd",
+    "accent": "#1976d2",
+    "decision": "#fff3e0",
+    "text": "#1e1e1e",
+    "arrow": "#1976d2",
+    "start_end": "#e3f2fd"
+  },
+  "created": "2025-12-30",
+  "author": "Javo!"
+}
