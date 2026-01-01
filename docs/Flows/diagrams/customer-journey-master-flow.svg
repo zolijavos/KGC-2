@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="480 60 440 1940" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-purple" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#7b1fa2"/>
+</marker>
+<marker id="ah-red" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#c62828"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="480" y="60" width="440" height="1940" fill="#ffffff"/>
+<ellipse cx="700.0" cy="110.0" rx="60.0" ry="30.0" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<rect x="500" y="200" width="400" height="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="300" width="400" height="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="400" width="400" height="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<polygon points="700.0,520 860,580.0 700.0,640 540,580.0" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<rect x="500" y="680" width="400" height="70" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="780" width="400" height="70" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="900" width="400" height="70" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="1000" width="400" height="70" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="1100" width="400" height="70" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="1220" width="400" height="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="1320" width="400" height="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="1420" width="400" height="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<polygon points="700.0,1540 860,1600.0 700.0,1660 540,1600.0" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<rect x="500" y="1700" width="400" height="70" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="1800" width="400" height="70" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<ellipse cx="700.0" cy="1950.0" rx="60.0" ry="30.0" stroke="#c62828" fill="#ffcdd2" stroke-width="2" opacity="1"/>
+<path d="M 700 140 L 700 200" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 700 270 L 700 300" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 700 370 L 700 400" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 700 470 L 700 520" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<path d="M 700 640 L 700 680" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah-purple)" opacity="1"/>
+<path d="M 700 750 L 700 780" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah-purple)" opacity="1"/>
+<path d="M 700 850 L 700 900" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 700 970 L 700 1000" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 700 1070 L 700 1100" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 700 1170 L 700 1220" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 700 1290 L 700 1320" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 700 1390 L 700 1420" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 700 1490 L 700 1540" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<path d="M 700 1660 L 700 1700" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 700 1770 L 700 1800" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 700 1870 L 700 1920" stroke="#c62828" fill="none" stroke-width="2" marker-end="url(#ah-red)" opacity="1"/>
+<text x="700.0" y="112.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">ÜGYFÉL KEZDETE</text>
+<text x="700.0" y="230.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🔎 Online kutatás</text>
+<text x="700.0" y="244.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Google, Facebook hirdetések</text>
+<text x="700.0" y="330.20000000000005" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🌐 Weboldal böngészés</text>
+<text x="700.0" y="344.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Árak, modellek, elérhetőség</text>
+<text x="700.0" y="430.20000000000005" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🤖 Koko AI chatbot</text>
+<text x="700.0" y="444.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Azonnali válaszok (ADR-016)</text>
+<text x="700.0" y="575.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">FOGLALÁS MÓDJA?</text>
+<text x="700.0" y="589.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Online / Kiosk</text>
+<text x="700.0" y="710.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">💳 Fizetési mód választás</text>
+<text x="700.0" y="724.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Készpénz / MyPos kártya (ADR-005)</text>
+<text x="700.0" y="810.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">📧 Email megerősítés</text>
+<text x="700.0" y="824.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Gmail thread import (ADR-018)</text>
+<text x="700.0" y="930.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">📄 Dokumentum ellenőrzés</text>
+<text x="700.0" y="944.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Személyi, jogosítvány, lakcím</text>
+<text x="700.0" y="1030.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">📸 360° fotó készítés</text>
+<text x="700.0" y="1044.6000000000001" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">AI sérülésdetektálás (ADR-020)</text>
+<text x="700.0" y="1130.1999999999998" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🔑 Autó átvétele</text>
+<text x="700.0" y="1144.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">QR/Vonalkód scan (ADR-022)</text>
+<text x="700.0" y="1250.1999999999998" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">⏱️ Bérlési időszak</text>
+<text x="700.0" y="1264.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">MyPos kezelt, időközi kommunikáció</text>
+<text x="700.0" y="1350.1999999999998" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🧳 Tartozékok használat</text>
+<text x="700.0" y="1364.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Gyerekülés, GPS (ADR-006)</text>
+<text x="700.0" y="1450.1999999999998" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">⚡ Korai visszahozás</text>
+<text x="700.0" y="1464.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Időarányos visszatérítés</text>
+<text x="700.0" y="1595.1999999999998" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KÁR ÉSZLELHETŐ?</text>
+<text x="700.0" y="1609.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Igen / Nem</text>
+<text x="700.0" y="1730.1999999999998" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">💰 Elszámolás</text>
+<text x="700.0" y="1744.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">P5 párosítás, MyPos visszatérítés</text>
+<text x="700.0" y="1830.1999999999998" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">⭐ Értékelés</text>
+<text x="700.0" y="1844.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Chatwoot/Twenty CRM, SMS/Email</text>
+<text x="700.0" y="1952.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">ÜGYFÉL VÉGE</text>
+</svg>

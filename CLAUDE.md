@@ -8,89 +8,137 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - **Nyelv**: Magyar - minden kommunikáció és dokumentum magyarul készüljön
 - **Módszer**: Mindig a megfelelő BMAD workflow-t indítsd el a `/bmad:bmm:workflows:*` parancsokkal
-- **Ügynökök**: A feladatnak megfelelő BMAD ügynököt használd (PM, Architect, SM, DEV, stb.)
+- **Code review MINDIG adversarial**: minimum 3-10 konkrét problémát kell találnia
+
+## Projekt Státusz
+
+**Aktuális fázis**: PRD és Architektúra tervezés (Fázis 2-3)
+**Megjegyzés**: Jelenleg nincs alkalmazás forráskód - ez egy tervezési/dokumentációs projekt. A tényleges implementáció a BMAD Fázis 4-ben kezdődik.
 
 ## Projekt Áttekintés
 
-Ez egy **BMad Method v6** projekt munkaterület egy KGC (ERP/Értékesítés-kezelő) rendszer fejlesztéséhez. A BMad Method egy AI-vezérelt agilis fejlesztési módszertan specializált ügynökökkel és workflow-kkal.
+**KGC ERP v3.0** - Kisgépcentrum ERP/Értékesítés-kezelő rendszer franchise hálózat támogatással és white label értékesítési modellel.
 
-## BMad Method Architektúra
+| Jellemző | Érték |
+|----------|-------|
+| **Domain** | Kiskereskedelem / Bérleti rendszer / Szerviz menedzsment |
+| **Komplexitás** | Magas (multi-tenant, offline-first PWA, NAV integráció) |
+| **Track** | BMad Method Level 2-3 |
+| **Stack** | NestJS + PostgreSQL + PWA (tervezett) |
 
-### Modul Struktúra
+### Üzleti Domének
+
+- **Bérlés**: Bérgép kiadás, kaució kezelés (MyPos), hosszú távú szerződések
+- **Eladás**: Termék értékesítés, NAV Online számlázás (Számlázz.hu API)
+- **Szerviz**: Munkalap kezelés, garanciális javítás (Makita norma)
+- **Árajánlat**: Árkalkuláció, konverzió követés (ÚJ v3.0)
+- **Pénzügy**: Havi zárás, ÁFA, cégszerződéses elszámolás
+
+### Integrációs Stratégia (5 Rendszer)
+
+Hibrid architektúra: iframe + API + forráskód módosítás
+
+1. **Twenty CRM** (fork) - Ügyfélkapcsolat kezelés
+2. **Chatwoot** (fork) - Ügyfélszolgálat, support ticket
+3. **Horilla HR** (fork) - Humánerőforrás menedzsment
+4. **Custom Chat** (egyedi) - Belső kommunikáció
+5. **KGC Finance + Számlázz.hu** - Pénzügy, NAV Online számla
+
+Részletek: `docs/architecture/README.md`
+
+## Projekt Struktúra
 
 ```
-.bmad/
-├── core/           # Keretrendszer alap - BMad Master ügynök, core feladatok, erőforrások
-├── bmm/            # BMad Method Modul - Fő fejlesztési orchestráció
-│   ├── agents/     # PM, Analyst, Architect, SM, DEV, TEA, UX-Designer, Tech-Writer
-│   └── workflows/  # 34 workflow 4 fázisban
-├── bmb/            # BMad Builder - Egyedi ügynökök/workflow-k létrehozása
-├── cis/            # Creative Intelligence Suite - Ötletelés, design thinking
-└── _cfg/           # Konfigurációs manifestek
+_bmad/                    # BMAD keretrendszer
+├── core/                 # Keretrendszer alap, config.yaml
+├── bmm/                  # BMad Method Modul (PM, Architect, DEV, TEA, SM)
+│   ├── agents/           # 12 specializált ügynök
+│   ├── workflows/        # 34 workflow 4 fázisban
+│   └── teams/            # Előre konfigurált ügynök csoportok
+├── bmb/                  # BMad Builder - Egyedi ügynök/workflow létrehozás
+└── cis/                  # Creative Intelligence Suite
+
+docs/
+├── prd.md                # Fő PRD dokumentum
+├── architecture/         # 15+ ADR, integrációs stratégia
+│   └── diagrams/         # Technikai diagramok
+└── Flows/                # Interaktív diagram rendszer
+    ├── diagrams/         # 46 SVG diagram
+    ├── scripts/          # Generátor scriptek (Node.js)
+    └── KGC-ERP-Portable-*.html  # Self-contained HTML
 ```
 
-### Fő Ügynökök
+## BMAD Workflow-k
 
-- **Analyst** - Workflow inicializálás, projekt elemzés
-- **PM** - PRD készítés, követelmények kezelése
-- **Architect** - Rendszer architektúra, technikai döntések
-- **SM (Scrum Master)** - Sprint tervezés, story kezelés
-- **DEV** - Kód implementáció, kód review
-- **TEA** - Teszt mérnök
-- **UX-Designer** - UI/UX tervezési dokumentumok
+### Leggyakoribb Workflow-k
 
-### Fejlesztési Fázisok
+```bash
+# Státusz és inicializálás
+/bmad:bmm:workflows:workflow-init     # Projekt inicializálás
+/bmad:bmm:workflows:workflow-status   # Aktuális fázis ellenőrzése
+/bmad:bmm:workflows:sprint-status     # Sprint státusz
 
-1. **Fázis 1 (Elemzés)** - Opcionális: ötletelés, kutatás, termék brief
-2. **Fázis 2 (Tervezés)** - Kötelező: PRD vagy tech-spec
-3. **Fázis 3 (Megoldás)** - Architektúra (BMad Method/Enterprise track esetén)
-4. **Fázis 4 (Implementáció)** - Story-ról story-ra fejlesztés
+# Tervezés
+/bmad:bmm:workflows:prd               # PRD készítés (PM)
+/bmad:bmm:workflows:architecture      # Architektúra tervezés (Architect)
 
-### Három Tervezési Sáv
+# Implementáció (Fázis 4)
+/bmad:bmm:workflows:create-epics-stories  # Epic/Story generálás PRD-ből
+/bmad:bmm:workflows:create-story          # Következő story elkészítése
+/bmad:bmm:workflows:story-ready           # Story ready-for-dev
+/bmad:bmm:workflows:dev-story             # Story implementálás (DEV)
+/bmad:bmm:workflows:code-review           # Adversarial review (3-10 hiba!)
+/bmad:bmm:workflows:story-done            # Story lezárás
+```
 
-- **Quick Flow** - Hibajavítások, egyszerű funkciók (csak tech-spec, tipikusan 1-15 story)
-- **BMad Method** - Termékek, platformok (PRD + Architektúra, 10-50+ story)
-- **Enterprise Method** - Megfelelőség, multi-tenant (PRD + Architektúra + Security/DevOps/Test)
+### Story Életciklus
 
-## BMAD Workflow-k Használata
+`backlog → drafted → ready-for-dev → in-progress → review → done`
 
-### Workflow-k Indítása Slash Parancsokkal
+## Gyakori Parancsok
 
-A workflow-k `/bmad:bmm:workflows:*` slash parancsokként érhetők el. Legfontosabb workflow-k:
+### Diagram Generálás
 
-- `/bmad:bmm:workflows:workflow-init` - Projekt inicializálás és tervezési sáv kiválasztása
-- `/bmad:bmm:workflows:workflow-status` - Aktuális fázis és következő lépések ellenőrzése
-- `/bmad:bmm:workflows:prd` - PRD (Termék Követelmény Dokumentum) készítés
-- `/bmad:bmm:workflows:architecture` - Rendszer architektúra tervezés
-- `/bmad:bmm:workflows:sprint-planning` - Sprint követés inicializálása
-- `/bmad:bmm:workflows:create-story` - Következő story elkészítése az epicekből
-- `/bmad:bmm:workflows:dev-story` - Story implementálása
-- `/bmad:bmm:workflows:code-review` - Elkészült story review-ja
+```bash
+cd docs/Flows/scripts
+node generate-portable-html.js    # Portable HTML (46 SVG beágyazva)
+node generate-html.js             # Interaktív HTML
+node convert-to-svg.js            # Excalidraw → SVG
+```
 
-### Workflow Használati Szabályok
+**Kimenet**: `docs/Flows/KGC-ERP-Portable-YYYY-MM-DD.html`
 
-- **Friss kontextus** minden workflow-hoz a hallucinációk elkerülése érdekében
-- A workflow-k automatikusan frissítik a `bmm-workflow-status.yaml` és `sprint-status.yaml` fájlokat
-- Story életciklus: `backlog → drafted → ready → in-progress → review → done`
+## Fontos ADR-ek
 
-## Projekt Dokumentáció Helye
+Architektúra döntéseket érintő változtatás előtt olvasd el a releváns ADR-t!
 
-- `.bmad/bmm/docs/` - BMad Method dokumentáció és útmutatók
-- `docs/` - Projekt-specifikus dokumentum kimeneti mappa
-- `docs/Flows/` - Üzleti folyamat dokumentáció (magyar)
-- `docs/ERP/` - ERP rendszer referencia dokumentáció
+| ADR | Téma |
+|-----|------|
+| ADR-001 | Franchise multi-tenancy |
+| ADR-002 | Deployment és offline stratégia (PWA, papír backup) |
+| ADR-003 | White label értékesítési stratégia |
+| ADR-009/014 | Moduláris architektúra döntés |
+| ADR-015 | CRM/Support integráció (Twenty + Chatwoot) |
 
-## Ügynök Aktiválás
+Teljes lista: `docs/architecture/`
 
-Az ügynökök a `.bmad/[modul]/agents/` mappában lévő markdown fájlokból töltődnek be. Minden ügynök:
-1. Beolvassa a `{project-root}/{bmad_folder}/core/config.yaml` beállításokat
-2. Számozott menüt jelenít meg az elérhető workflow-kkal
-3. Parancsokat fogad: menü szám, `*rövidítés`, vagy természetes nyelv
+## BMAD Konfiguráció
 
-## Konfiguráció
+- **Fő config**: `_bmad/core/config.yaml`
+- **User**: `Javo!`
+- **Nyelv**: Hungarian
+- **Output**: `{project-root}/docs`
+- **Workflow státusz**: `bmm-workflow-status.yaml` (ha létezik)
+- **Sprint státusz**: `sprint-status.yaml` (ha létezik)
 
-Fő beállítások a `.bmad/core/config.yaml` fájlban:
-- `user_name`: "Javo!"
-- `communication_language`: Magyar
-- `document_output_language`: Magyar
-- `output_folder`: `{project-root}/docs`
+## Fejlesztési Irányelvek
+
+1. **BMAD kötelező** - Minden feladat workflow-n keresztül
+2. **Friss kontextus** - Minden workflow új agent spawn-nal
+3. **Magyar nyelv** - Dokumentumok és kommunikáció magyarul
+4. **ADR változásnál** - Új ADR készítése architektúra döntésekhez
+5. **Diagram frissítés** - Excalidraw → SVG → HTML újragenerálás
+
+## Licensz
+
+Belső projekt - KGC Kft.

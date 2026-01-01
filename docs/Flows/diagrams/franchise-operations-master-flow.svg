@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="480 60 440 940" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-purple" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#7b1fa2"/>
+</marker>
+<marker id="ah-red" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#c62828"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="480" y="60" width="440" height="940" fill="#ffffff"/>
+<ellipse cx="700.0" cy="110.0" rx="60.0" ry="30.0" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<rect x="500" y="200" width="400" height="70" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="300" width="400" height="70" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="400" width="400" height="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="500" width="400" height="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="600" width="400" height="70" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="700" width="400" height="70" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="800" width="400" height="70" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="8" opacity="1"/>
+<ellipse cx="700.0" cy="950.0" rx="60.0" ry="30.0" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" opacity="1"/>
+<path d="M 700 140 L 700 200" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 700 270 L 700 300" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 700 370 L 700 400" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 700 470 L 700 500" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 700 570 L 700 600" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<path d="M 700 670 L 700 700" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<path d="M 700 770 L 700 800" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah-purple)" opacity="1"/>
+<path d="M 700 870 L 700 920" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<text x="700.0" y="112.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">FRANCHISE START</text>
+<text x="700.0" y="230.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">📋 Franchise Onboarding</text>
+<text x="700.0" y="244.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Szerződés, API access, képzés</text>
+<text x="700.0" y="330.20000000000005" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🏢 Helyszín setup</text>
+<text x="700.0" y="344.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Raktár kód (K-P-D), QR nyomtató</text>
+<text x="700.0" y="430.20000000000005" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">📦 Készlet feltöltés</text>
+<text x="700.0" y="444.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Bevételezés, Átcsoportosítás</text>
+<text x="700.0" y="530.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🚗 Napi műveletek</text>
+<text x="700.0" y="544.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Bérlés ki/be, szerviz, értékesítés</text>
+<text x="700.0" y="630.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">📊 Heti jelentés</text>
+<text x="700.0" y="644.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KPI, Készlet státusz, Problémák</text>
+<text x="700.0" y="730.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">💰 Havi elszámolás</text>
+<text x="700.0" y="744.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Bevétel, Átcsop, Franchise fee</text>
+<text x="700.0" y="830.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">📈 Performance review</text>
+<text x="700.0" y="844.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Vezetői dashboard, Trendek</text>
+<text x="700.0" y="952.8000000000001" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">FOLYAMAT END</text>
+</svg>

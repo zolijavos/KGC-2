@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="140 80 940 880" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-purple" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#7b1fa2"/>
+</marker>
+<marker id="ah-red" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#c62828"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="140" y="80" width="940" height="880" fill="#ffffff"/>
+<rect x="600" y="480" width="200" height="100" stroke="#1976d2" fill="#e3f2fd" stroke-width="3" rx="12" opacity="1"/>
+<rect x="160" y="100" width="180" height="80" stroke="#c62828" fill="#ffcdd2" stroke-width="2" rx="8" opacity="1"/>
+<rect x="400" y="100" width="180" height="80" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<rect x="640" y="100" width="180" height="80" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<rect x="880" y="100" width="180" height="80" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="8" opacity="1"/>
+<rect x="160" y="860" width="180" height="80" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<rect x="400" y="860" width="180" height="80" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<rect x="640" y="860" width="180" height="80" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="8" opacity="1"/>
+<rect x="880" y="860" width="180" height="80" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="8" opacity="1"/>
+<path d="M 250 180 L 250 280 L 630 280 L 630 480" stroke="#c62828" fill="none" stroke-width="2" marker-end="url(#ah-red)" opacity="1"/>
+<path d="M 490 180 L 490 280 L 630 280 L 630 480" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 730 180 L 730 480" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 970 180 L 970 280 L 760 280 L 760 480" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah-purple)" opacity="1"/>
+<path d="M 250 860 L 250 760 L 630 760 L 630 580" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<path d="M 490 860 L 490 760 L 630 760 L 630 580" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<path d="M 730 860 L 730 580" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah-purple)" opacity="1"/>
+<path d="M 970 860 L 970 760 L 760 760 L 760 580" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah-purple)" opacity="1"/>
+<text x="700.0" y="524.4000000000001" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP v7</text>
+<text x="700.0" y="541.2" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Mag Platform</text>
+<text x="250.0" y="135.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🧾 NAV Online</text>
+<text x="250.0" y="149.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Számla API (ADR-004)</text>
+<text x="490.0" y="135.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">💼 Twenty CRM</text>
+<text x="490.0" y="149.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Sales Pipeline (ADR-011)</text>
+<text x="730.0" y="135.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">💬 Chatwoot</text>
+<text x="730.0" y="149.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Support Tickets (ADR-012)</text>
+<text x="970.0" y="135.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🤖 Koko AI Chatbot</text>
+<text x="970.0" y="149.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Webhook (ADR-016)</text>
+<text x="250.0" y="895.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">💳 MyPos Terminal</text>
+<text x="250.0" y="909.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Fizetés API (ADR-005)</text>
+<text x="490.0" y="895.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🏦 P5 Bank</text>
+<text x="490.0" y="909.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">CSV Export/Import</text>
+<text x="730.0" y="895.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">📧 Gmail API</text>
+<text x="730.0" y="909.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Thread Import (ADR-018)</text>
+<text x="970.0" y="895.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🤖 Gemini AI</text>
+<text x="970.0" y="909.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">OCR + Analitika (ADR-019)</text>
+</svg>

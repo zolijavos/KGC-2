@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="80 60 1140 740" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-purple" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#7b1fa2"/>
+</marker>
+<marker id="ah-red" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#c62828"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="80" y="60" width="1140" height="740" fill="#ffffff"/>
+<ellipse cx="700.0" cy="110.0" rx="60.0" ry="30.0" stroke="#c62828" fill="#ffcdd2" stroke-width="2" opacity="1"/>
+<polygon points="700.0,180 860,240.0 700.0,300 540,240.0" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<rect x="100" y="360" width="300" height="70" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="360" width="300" height="70" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="8" opacity="1"/>
+<rect x="900" y="360" width="300" height="70" stroke="#c62828" fill="#ffcdd2" stroke-width="2" rx="8" opacity="1"/>
+<rect x="100" y="480" width="300" height="70" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="480" width="300" height="70" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<rect x="900" y="480" width="300" height="70" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<rect x="500" y="600" width="300" height="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<ellipse cx="700.0" cy="750.0" rx="60.0" ry="30.0" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" opacity="1"/>
+<path d="M 700 140 L 700 180" stroke="#c62828" fill="none" stroke-width="2" marker-end="url(#ah-red)" opacity="1"/>
+<path d="M 600 300 L 460 300 L 460 360 L 320 360" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<path d="M 700 300 L 700 330 L 650 330 L 650 360" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah-purple)" opacity="1"/>
+<path d="M 800 300 L 940 300 L 940 360 L 1080 360" stroke="#c62828" fill="none" stroke-width="2" marker-end="url(#ah-red)" opacity="1"/>
+<path d="M 250 430 L 250 480" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<path d="M 650 430 L 650 480" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah-purple)" opacity="1"/>
+<path d="M 1050 430 L 1050 480" stroke="#c62828" fill="none" stroke-width="2" marker-end="url(#ah-red)" opacity="1"/>
+<path d="M 250 550 L 250 635 L 500 635" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 650 550 L 650 600" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 1050 550 L 1050 635 L 800 635" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 700 670 L 700 720" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<text x="700.0" y="112.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">ERROR DETECTED</text>
+<text x="700.0" y="235.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">HIBA TÍPUSA?</text>
+<text x="700.0" y="249.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Fizetés/Hálózat/Adat</text>
+<text x="250.0" y="390.20000000000005" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">💳 Fizetési hiba (MyPos timeout)</text>
+<text x="250.0" y="404.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">→ Retry 3x, Manual fallback</text>
+<text x="650.0" y="390.20000000000005" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">📡 Hálózati hiba (API timeout)</text>
+<text x="650.0" y="404.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">→ Offline mode, Queue sync</text>
+<text x="1050.0" y="390.20000000000005" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🗄️ Adatbázis hiba (conflict)</text>
+<text x="1050.0" y="404.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">→ Rollback, User notification</text>
+<text x="250.0" y="510.20000000000005" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🔄 Retry mechanizmus</text>
+<text x="250.0" y="524.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Exponential backoff (1s, 2s, 4s)</text>
+<text x="650.0" y="510.20000000000005" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">📴 Offline mód aktiválás</text>
+<text x="650.0" y="524.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">IndexedDB cache, Auto sync</text>
+<text x="1050.0" y="510.20000000000005" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">⚠️ Conflict resolution</text>
+<text x="1050.0" y="524.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Last-write-wins + user prompt</text>
+<text x="650.0" y="630.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">📋 Logging & Monitoring</text>
+<text x="650.0" y="644.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Sentry alert, Admin dashboard</text>
+<text x="700.0" y="752.8000000000001" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">RECOVERY OK</text>
+</svg>

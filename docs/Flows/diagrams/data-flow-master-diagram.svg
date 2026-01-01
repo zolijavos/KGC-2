@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="80 200 1000 500" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-purple" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#7b1fa2"/>
+</marker>
+<marker id="ah-red" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#c62828"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="80" y="200" width="1000" height="500" fill="#ffffff"/>
+<rect x="100" y="400" width="180" height="100" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<rect x="360" y="400" width="180" height="100" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="8" opacity="1"/>
+<rect x="620" y="220" width="180" height="100" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="8" opacity="1"/>
+<rect x="620" y="400" width="180" height="100" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<rect x="620" y="580" width="180" height="100" stroke="#c62828" fill="#ffcdd2" stroke-width="2" rx="8" opacity="1"/>
+<rect x="880" y="580" width="180" height="100" stroke="#c62828" fill="#ffcdd2" stroke-width="2" rx="8" opacity="1"/>
+<path d="M 280 450 L 360 450" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 540 420 L 580 420 L 580 300 L 620 300" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah-purple)" opacity="1"/>
+<path d="M 540 450 L 620 450" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<path d="M 540 480 L 580 480 L 580 600 L 620 600" stroke="#c62828" fill="none" stroke-width="2" marker-end="url(#ah-red)" opacity="1"/>
+<path d="M 800 630 L 880 630" stroke="#c62828" fill="none" stroke-width="2" marker-end="url(#ah-red)" opacity="1"/>
+<text x="190.0" y="444.4" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🖥️ Frontend</text>
+<text x="190.0" y="461.2" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">React + PWA</text>
+<text x="450.0" y="444.4" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🔌 API Layer</text>
+<text x="450.0" y="461.2" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Node.js + Express</text>
+<text x="710.0" y="264.4" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">🗄️ Database</text>
+<text x="710.0" y="281.2" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">PostgreSQL</text>
+<text x="710.0" y="444.4" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">⚡ Cache</text>
+<text x="710.0" y="461.2" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Redis</text>
+<text x="710.0" y="624.4000000000001" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">📨 Message Queue</text>
+<text x="710.0" y="641.2" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">BullMQ</text>
+<text x="970.0" y="624.4000000000001" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">⚙️ Background Workers</text>
+<text x="970.0" y="641.2" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Email, OCR, AI</text>
+</svg>

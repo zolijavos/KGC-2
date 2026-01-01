@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -20 880 1580" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="0" y="-20" width="880" height="1580" fill="#ffffff"/>
+<rect x="40" y="20" width="800" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="440" y="59" font-size="24" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Support Modul - AI Válaszgenerálás Gemini-vel</text>
+<ellipse cx="440" cy="160" rx="60" ry="40" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" opacity="1"/>
+<text x="440" y="165" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Start</text>
+<rect x="300" y="240" width="280" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="440" y="264" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">context-manager fogadja</text>
+<text x="440" y="280.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">request-et ai-chatbot-tól</text>
+<path d="M 440 200 L 440 240" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="300" y="340" width="280" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="440" y="364" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Betölti Knowledge Base-t</text>
+<text x="440" y="380.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(/knowledge-bases/*.md)</text>
+<path d="M 440 300 L 440 340" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="300" y="440" width="280" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="440" y="458" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Betölti ügyfél memóriát</text>
+<text x="440" y="473.6" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(/memory/{customer_id}.json)</text>
+<text x="440" y="489.2" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">preferences, history</text>
+<path d="M 440 400 L 440 440" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<polygon points="440,540 540,600 440,660 340,600" stroke="#f57c00" fill="#fff3e0" stroke-width="2" opacity="1"/>
+<text x="440" y="591" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Redis cache</text>
+<text x="440" y="610.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">találat?</text>
+<path d="M 440 500 L 440 540" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="620" y="560" width="220" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="730" y="578" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Létrehoz új Gemini</text>
+<text x="730" y="593.6" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">cache-t KB-ből</text>
+<text x="730" y="609.2" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(TTL: 1 óra)</text>
+<text x="730" y="624.8" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">75% költségmegtakarítás</text>
+<path d="M 540 600 L 620 600" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<text x="580" y="601" font-size="16" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">Miss</text>
+<rect x="300" y="700" width="280" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="440" y="717" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Összeállítja prompt-ot:</text>
+<text x="440" y="731.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">- KB context (cached)</text>
+<text x="440" y="745.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">- Ügyfél memória</text>
+<text x="440" y="760.2" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">- User üzenet</text>
+<text x="440" y="774.6" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">- System instructions</text>
+<path d="M 440 660 L 440 700" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<text x="465" y="686" font-size="16" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">Hit</text>
+<path d="M 730 640 L 730 670 L 580 670 L 580 710" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="300" y="820" width="280" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="440" y="844" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">gemini-proxy (5000)</text>
+<text x="440" y="860.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">feldolgozza request-et</text>
+<path d="M 440 780 L 440 820" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="300" y="920" width="280" height="80" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="440" y="937" font-size="12" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">Google Gemini 2.0 Flash</text>
+<text x="440" y="951.4" font-size="12" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">API hívás</text>
+<text x="440" y="965.8" font-size="12" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">(context caching enabled)</text>
+<text x="440" y="980.2" font-size="12" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">Multi-language támogatás</text>
+<path d="M 440 880 L 440 920" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<rect x="300" y="1040" width="280" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="440" y="1066" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">gemini-proxy fogadja</text>
+<text x="440" y="1085.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">AI választ</text>
+<path d="M 440 1000 L 440 1040" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="300" y="1140" width="280" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="440" y="1166" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Parse és validate</text>
+<text x="440" y="1185.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">response (JSON)</text>
+<path d="M 440 1100 L 440 1140" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="300" y="1240" width="280" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="440" y="1264" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Menti memóriába új infókat</text>
+<text x="440" y="1280.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(GDPR compliant)</text>
+<path d="M 440 1200 L 440 1240" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<rect x="300" y="1340" width="280" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="8" opacity="1"/>
+<text x="440" y="1366" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Visszaküldi AI választ</text>
+<text x="440" y="1385.2" font-size="16" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">ai-chatbot-nak</text>
+<path d="M 440 1300 L 440 1340" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<ellipse cx="440" cy="1480" rx="60" ry="40" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" opacity="1"/>
+<text x="440" y="1485" font-size="20" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">End</text>
+<path d="M 440 1400 L 440 1440" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+</svg>

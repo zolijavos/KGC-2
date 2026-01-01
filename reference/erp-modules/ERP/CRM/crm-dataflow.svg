@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 10 1240 1030" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="60" y="10" width="1240" height="1030" fill="#ffffff"/>
+<text x="550" y="78" font-size="28" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">CRM Adatfolyam (Data Flow Diagram)</text>
+<ellipse cx="190" cy="200" rx="90" ry="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="190" y="203" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC</text>
+<text x="190" y="222.2" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Ügyfélkez.</text>
+<ellipse cx="190" cy="350" rx="90" ry="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="190" y="353" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC</text>
+<text x="190" y="372.2" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Bérlés</text>
+<ellipse cx="190" cy="500" rx="90" ry="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="190" y="503" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC</text>
+<text x="190" y="522.2" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Szerviz</text>
+<ellipse cx="190" cy="650" rx="90" ry="50" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="190" y="653" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC</text>
+<text x="190" y="672.2" font-size="16" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Értékesítés</text>
+<rect x="400" y="350" width="220" height="120" stroke="#2e7d32" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="510" y="391" font-size="16" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">GraphQL Adapter</text>
+<text x="510" y="410.2" font-size="16" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
+<text x="510" y="429.4" font-size="16" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">• REST → GraphQL</text>
+<text x="510" y="448.6" font-size="16" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">• Data Transform</text>
+<path d="M 280 200 L 400 380" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<text x="350" y="262" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Webhook:</text>
+<text x="350" y="276.4" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">customer.created</text>
+<text x="350" y="290.8" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">customer.updated</text>
+<path d="M 280 350 L 400 390" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<text x="340" y="362" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Webhook:</text>
+<text x="340" y="376.4" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">rental.completed</text>
+<path d="M 280 500 L 400 460" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<text x="340" y="477" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Webhook:</text>
+<text x="340" y="491.4" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">service.completed</text>
+<path d="M 280 650 L 400 470" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<text x="340" y="542" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Webhook:</text>
+<text x="340" y="556.4" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">sale.completed</text>
+<rect x="740" y="350" width="240" height="120" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="860" y="381" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Twenty CRM DB</text>
+<text x="860" y="400.2" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
+<text x="860" y="419.4" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">• Contacts</text>
+<text x="860" y="438.6" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">• Rental History</text>
+<text x="860" y="457.8" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">• Service History</text>
+<text x="860" y="477" font-size="16" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">• Sales History</text>
+<path d="M 620 410 L 740 410" stroke="#2e7d32" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="680" y="392" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">GraphQL</text>
+<text x="680" y="406.4" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">Mutation:</text>
+<text x="680" y="420.8" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">create/update</text>
+<rect x="740" y="550" width="240" height="100" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="0" opacity="1"/>
+<text x="860" y="586" font-size="16" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">Marketing</text>
+<text x="860" y="605.2" font-size="16" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">Automation</text>
+<text x="860" y="624.4" font-size="16" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
+<text x="860" y="643.6" font-size="16" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">• Contact Tagging</text>
+<text x="860" y="662.8" font-size="16" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">• Campaign Trigger</text>
+<path d="M 860 470 L 860 550" stroke="#7b1fa2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="915" y="512" font-size="12" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">Event:</text>
+<text x="915" y="526.4" font-size="12" fill="#7b1fa2" text-anchor="middle" class="excalidraw-text" opacity="1">contact.updated</text>
+<ellipse cx="1170" cy="600" rx="90" ry="50" stroke="#d32f2f" fill="#ffebee" stroke-width="2" opacity="1"/>
+<text x="1170" y="603" font-size="16" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">Gmail</text>
+<text x="1170" y="622.2" font-size="16" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">SMTP</text>
+<path d="M 980 600 L 1080 600" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<text x="1030" y="582" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">REST API:</text>
+<text x="1030" y="596.4" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">add_contact</text>
+<text x="1030" y="610.8" font-size="12" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">trigger_campaign</text>
+<text x="100" y="788" font-size="18" fill="#000000" text-anchor="start" class="excalidraw-text" opacity="1">Jelmagyarázat:</text>
+<ellipse cx="140" cy="835" rx="40" ry="25" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="190" y="839" font-size="14" fill="#000000" text-anchor="start" class="excalidraw-text" opacity="1">= External Entity (KGC modul)</text>
+<rect x="100" y="880" width="80" height="50" stroke="#2e7d32" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="190" y="909" font-size="14" fill="#000000" text-anchor="start" class="excalidraw-text" opacity="1">= Process (feldolgozás)</text>
+<rect x="100" y="950" width="80" height="50" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="190" y="979" font-size="14" fill="#000000" text-anchor="start" class="excalidraw-text" opacity="1">= Data Store (adattár)</text>
+</svg>
