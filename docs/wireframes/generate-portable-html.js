@@ -591,10 +591,11 @@ function generateHTML(allSvgs) {
                     </p>
                 </div>
                 <div class="flex space-x-3">
+                    <a href="KGC-ERP-v7-Final-2025-12-30.html" class="px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-lg transition-colors font-medium">📊 Diagramok</a>
                     <button @click="darkMode = !darkMode" class="p-3 bg-white/20 hover:bg-white/30 rounded-lg transition-colors" title="Sötét/Világos mód">
                         <span x-text="darkMode ? '☀️' : '🌙'"></span>
                     </button>
-                    <button @click="exportNotes()" class="px-4 py-2 bg-white/20 hover:bg-white/30 rounded-lg transition-colors">�� Megjegyzések Export</button>
+                    <button @click="exportNotes()" class="px-4 py-2 bg-white/20 hover:bg-white/30 rounded-lg transition-colors">📥 Megjegyzések Export</button>
                 </div>
             </div>
         </div>
