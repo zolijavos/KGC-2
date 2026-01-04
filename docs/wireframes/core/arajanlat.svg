@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 1520 980" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-40" y="-40" width="1520" height="980" fill="#EAECEF"/>
+<rect x="0" y="0" width="1440" height="900" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<rect x="0" y="0" width="1440" height="64" stroke="#1A2634" fill="#1A2634" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="42" font-size="24" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP</text>
+<text x="200" y="38" font-size="16" fill="#8A9AAD" text-anchor="start" class="excalidraw-text" opacity="1">/ Arajanlat / Uj arajanlat</text>
+<rect x="0" y="64" width="240" height="836" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="0" opacity="1"/>
+<rect x="0" y="296" width="240" height="40" stroke="#FDEEE6" fill="#FDEEE6" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="320" font-size="14" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Arajanlat</text>
+<text x="280" y="118" font-size="28" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Uj arajanlat keszitese</text>
+<rect x="280" y="140" width="700" height="720" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="12" opacity="1"/>
+<text x="300" y="178" font-size="18" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Partner adatai</text>
+<text x="300" y="208" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Partner keresese / hozzaadasa</text>
+<rect x="300" y="214" width="500" height="44" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<text x="316" y="240" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Nev, telefon vagy email...</text>
+<rect x="820" y="218" width="140" height="44" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="4" opacity="1"/>
+<rect x="820" y="214" width="140" height="44" stroke="#BF4400" fill="#FDEEE6" stroke-width="1" rx="4" opacity="1"/>
+<text x="890" y="239" font-size="13" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">+ Uj partner</text>
+<rect x="300" y="274" width="660" height="60" stroke="#2E7D32" fill="#E8F5E9" stroke-width="1" rx="4" opacity="1"/>
+<text x="320" y="302" font-size="14" fill="#2E7D32" text-anchor="start" class="excalidraw-text" opacity="1">Nagy Epito Kft.</text>
+<text x="320" y="319" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">+36 1 234 5678  |  info@nagyepito.hu  |  1234 Budapest</text>
+<text x="932" y="310" font-size="16" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">X</text>
+<path d="M 300 354 L 960 354" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="300" y="392" font-size="18" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Tetelek</text>
+<rect x="300" y="410" width="660" height="36" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<text x="316" y="432" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Megnevezes</text>
+<text x="555" y="432" font-size="12" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Menny.</text>
+<text x="690" y="432" font-size="12" fill="#4A5568" text-anchor="end" class="excalidraw-text" opacity="1">Egysegar</text>
+<text x="750" y="432" font-size="12" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Kedv.</text>
+<text x="890" y="432" font-size="12" fill="#4A5568" text-anchor="end" class="excalidraw-text" opacity="1">Osszesen</text>
+<rect x="300" y="446" width="660" height="50" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="316" y="469" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Makita HR2470 Furo</text>
+<text x="316" y="484" font-size="10" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Berles - 5 nap</text>
+<text x="555" y="476" font-size="13" fill="#1A1F26" text-anchor="middle" class="excalidraw-text" opacity="1">1</text>
+<text x="690" y="476" font-size="13" fill="#1A1F26" text-anchor="end" class="excalidraw-text" opacity="1">22 500 Ft</text>
+<text x="750" y="476" font-size="13" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">10%</text>
+<text x="890" y="476" font-size="13" fill="#1A1F26" text-anchor="end" class="excalidraw-text" opacity="1">20 250 Ft</text>
+<text x="930" y="477" font-size="14" fill="#C62828" text-anchor="middle" class="excalidraw-text" opacity="1">X</text>
+<rect x="300" y="496" width="660" height="50" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="0" opacity="1"/>
+<text x="316" y="519" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Bosch GWS 750 Flex</text>
+<text x="316" y="534" font-size="10" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Berles - 5 nap</text>
+<text x="555" y="526" font-size="13" fill="#1A1F26" text-anchor="middle" class="excalidraw-text" opacity="1">2</text>
+<text x="690" y="526" font-size="13" fill="#1A1F26" text-anchor="end" class="excalidraw-text" opacity="1">17 500 Ft</text>
+<text x="750" y="526" font-size="13" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">0%</text>
+<text x="890" y="526" font-size="13" fill="#1A1F26" text-anchor="end" class="excalidraw-text" opacity="1">35 000 Ft</text>
+<text x="930" y="527" font-size="14" fill="#C62828" text-anchor="middle" class="excalidraw-text" opacity="1">X</text>
+<rect x="300" y="570" width="660" height="44" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="4" opacity="1"/>
+<rect x="300" y="566" width="660" height="44" stroke="#BF4400" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<text x="630" y="592" font-size="14" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">+ Tetel hozzaadasa</text>
+<path d="M 300 630 L 960 630" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="300" y="668" font-size="18" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Megjegyzes</text>
+<rect x="300" y="684" width="660" height="80" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<text x="316" y="717" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Specialis feltetelek, megjegyzesek az ugyfelnek...</text>
+<text x="300" y="799" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Ervenyesseg (nap):</text>
+<rect x="300" y="806" width="100" height="40" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<text x="350" y="832" font-size="14" fill="#1A1F26" text-anchor="middle" class="excalidraw-text" opacity="1">7</text>
+<rect x="1000" y="140" width="380" height="720" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="12" opacity="1"/>
+<text x="1020" y="180" font-size="20" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Osszesites</text>
+<text x="1020" y="212" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Arajanlat szam:</text>
+<text x="1020" y="232" font-size="14" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">AJ-2026-00142</text>
+<text x="1020" y="266" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Datum:</text>
+<text x="1020" y="286" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">2026. januar 04.</text>
+<path d="M 1020 310 L 1360 310" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="1020" y="348" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Reszosszeg:</text>
+<text x="1360" y="348" font-size="14" fill="#1A1F26" text-anchor="end" class="excalidraw-text" opacity="1">57 500 Ft</text>
+<text x="1020" y="378" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Kedvezmeny:</text>
+<text x="1360" y="378" font-size="14" fill="#BF4400" text-anchor="end" class="excalidraw-text" opacity="1">-2 250 Ft</text>
+<text x="1020" y="408" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Netto:</text>
+<text x="1360" y="408" font-size="14" fill="#1A1F26" text-anchor="end" class="excalidraw-text" opacity="1">55 250 Ft</text>
+<text x="1020" y="438" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">AFA (27%):</text>
+<text x="1360" y="438" font-size="14" fill="#1A1F26" text-anchor="end" class="excalidraw-text" opacity="1">14 918 Ft</text>
+<rect x="1010" y="460" width="360" height="60" stroke="#BF4400" fill="#FDEEE6" stroke-width="2" rx="8" opacity="1"/>
+<text x="1030" y="496" font-size="18" fill="#8A3200" text-anchor="start" class="excalidraw-text" opacity="1">Vegosszeg:</text>
+<text x="1360" y="500" font-size="22" fill="#8A3200" text-anchor="end" class="excalidraw-text" opacity="1">70 168 Ft</text>
+<text x="1020" y="557" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Becsult kaucio (ha berles):</text>
+<text x="1360" y="557" font-size="13" fill="#BF4400" text-anchor="end" class="excalidraw-text" opacity="1">115 000 Ft</text>
+<path d="M 1020 590 L 1360 590" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<rect x="1020" y="614" width="340" height="44" stroke="#D0D4D9" fill="#D0D4D9" stroke-width="1" rx="8" opacity="1"/>
+<rect x="1020" y="610" width="340" height="44" stroke="#4A5568" fill="#ffffff" stroke-width="1" rx="8" opacity="1"/>
+<text x="1190" y="635" font-size="13" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Piszkozat mentese</text>
+<rect x="1020" y="668" width="340" height="44" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="8" opacity="1"/>
+<rect x="1020" y="664" width="340" height="44" stroke="#BF4400" fill="#FDEEE6" stroke-width="1" rx="8" opacity="1"/>
+<text x="1190" y="689" font-size="13" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Elonezet / PDF</text>
+<rect x="1020" y="722" width="160" height="44" stroke="#1B5E20" fill="#1B5E20" stroke-width="1" rx="8" opacity="1"/>
+<rect x="1020" y="718" width="160" height="44" stroke="#2E7D32" fill="#2E7D32" stroke-width="1" rx="8" opacity="1"/>
+<text x="1100" y="743" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Kuldes</text>
+<rect x="1200" y="722" width="160" height="44" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="8" opacity="1"/>
+<rect x="1200" y="718" width="160" height="44" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="8" opacity="1"/>
+<text x="1280" y="743" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Berlesre valtas</text>
+<rect x="1020" y="784" width="340" height="40" stroke="#D0D4D9" fill="#D0D4D9" stroke-width="1" rx="8" opacity="1"/>
+<rect x="1020" y="780" width="340" height="40" stroke="#C62828" fill="#ffffff" stroke-width="1" rx="8" opacity="1"/>
+<text x="1190" y="805" font-size="13" fill="#C62828" text-anchor="middle" class="excalidraw-text" opacity="1">Megsem</text>
+</svg>

@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 1480 1180" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-40" y="-40" width="1480" height="1180" fill="#EAECEF"/>
+<rect x="0" y="0" width="1400" height="1100" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<rect x="0" y="0" width="1400" height="64" stroke="#1A2634" fill="#1A2634" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="40" font-size="22" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP</text>
+<rect x="280" y="14" width="400" height="36" stroke="#2a3644" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="295" y="36" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Kereses...</text>
+<rect x="1000" y="14" width="120" height="36" stroke="#2a3644" fill="#2a3644" stroke-width="1" rx="4" opacity="1"/>
+<text x="1060" y="35" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">KGC Erd</text>
+<text x="1160" y="34" font-size="16" fill="#ff9800" text-anchor="middle" class="excalidraw-text" opacity="1">3</text>
+<text x="1250" y="32" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Boltvez.</text>
+<rect x="0" y="64" width="220" height="1036" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="91" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">NAVIGACIO</text>
+<text x="25" y="129" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Dashboard</text>
+<text x="25" y="169" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Berles</text>
+<rect x="10" y="185" width="200" height="40" stroke="#fff3e0" fill="#fff3e0" stroke-width="1" rx="6" opacity="1"/>
+<text x="25" y="209" font-size="14" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Jarmunyilvantartas</text>
+<text x="25" y="254" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Szerviz</text>
+<text x="25" y="294" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Keszlet</text>
+<text x="25" y="334" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Partnerek</text>
+<text x="25" y="374" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Penztar</text>
+<rect x="220" y="64" width="1180" height="1036" stroke="transparent" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<text x="250" y="101" font-size="16" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">AUTO</text>
+<text x="250" y="111" font-size="26" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">JARMUNYILVANTARTAS</text>
+<rect x="1170" y="132" width="160" height="8" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="4" opacity="1"/>
+<rect x="1170" y="84" width="160" height="48" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<rect x="1170" y="84" width="160" height="24" stroke="#d45500" fill="#d45500" stroke-width="1" rx="4" opacity="1"/>
+<text x="1250" y="113" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">+ UJ JARMU</text>
+<rect x="250" y="150" width="500" height="50" stroke="transparent" fill="transparent" stroke-width="1" rx="0" opacity="1"/>
+<rect x="250" y="150" width="200" height="44" stroke="#BF4400" fill="#F8F9FA" stroke-width="2" rx="6" opacity="1"/>
+<text x="350" y="176" font-size="14" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Bergep Jarmuvek</text>
+<rect x="415" y="158" width="28" height="24" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="12" opacity="1"/>
+<text x="429" y="175" font-size="12" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">6</text>
+<rect x="470" y="150" width="180" height="44" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="6" opacity="1"/>
+<text x="560" y="176" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Ceges Autok</text>
+<rect x="610" y="158" width="28" height="24" stroke="#718096" fill="#718096" stroke-width="1" rx="12" opacity="1"/>
+<text x="624" y="175" font-size="12" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">3</text>
+<rect x="880" y="154" width="250" height="36" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="895" y="176" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Kereses rendszam...</text>
+<rect x="250" y="215" width="1080" height="145" stroke="#ffcc80" fill="#fff3e0" stroke-width="2" rx="8" opacity="1"/>
+<text x="270" y="246" font-size="16" fill="#e65100" text-anchor="start" class="excalidraw-text" opacity="1">LEJARO DOKUMENTUMOK (3)</text>
+<rect x="1200" y="225" width="110" height="32" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="1210" y="246" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Mind</text>
+<rect x="270" y="260" width="1040" height="28" stroke="#ffcdd2" fill="#ffebee" stroke-width="1" rx="4" opacity="1"/>
+<rect x="280" y="264" width="20" height="20" stroke="#d32f2f" fill="#d32f2f" stroke-width="1" rx="10" opacity="1"/>
+<text x="310" y="278" font-size="13" fill="#c62828" text-anchor="start" class="excalidraw-text" opacity="1">ABC-123 Utanfuto      Muszaki: 2026-01-15 (11 nap!)</text>
+<rect x="270" y="295" width="1040" height="28" stroke="#fff9c4" fill="#fffde7" stroke-width="1" rx="4" opacity="1"/>
+<rect x="280" y="299" width="20" height="20" stroke="#f9a825" fill="#f9a825" stroke-width="1" rx="10" opacity="1"/>
+<text x="310" y="313" font-size="13" fill="#f57f17" text-anchor="start" class="excalidraw-text" opacity="1">XYZ-789 Kisteher      KGFB: 2026-02-01 (28 nap)</text>
+<rect x="270" y="330" width="1040" height="28" stroke="#fff9c4" fill="#fffde7" stroke-width="1" rx="4" opacity="1"/>
+<rect x="280" y="334" width="20" height="20" stroke="#f9a825" fill="#f9a825" stroke-width="1" rx="10" opacity="1"/>
+<text x="310" y="348" font-size="13" fill="#f57f17" text-anchor="start" class="excalidraw-text" opacity="1">DEF-456 Aggregator    Biztositas: 2026-02-05 (32 nap)</text>
+<text x="250" y="396" font-size="16" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">OSSZES JARMU</text>
+<rect x="250" y="410" width="1080" height="280" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="250" y="410" width="1080" height="40" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="8" opacity="1"/>
+<text x="270" y="433" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Rendszam</text>
+<text x="420" y="433" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Tipus</text>
+<text x="600" y="433" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Muszaki</text>
+<text x="780" y="433" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Biztositas</text>
+<text x="960" y="433" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Forgalmi</text>
+<text x="1140" y="433" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Statusz</text>
+<text x="270" y="479" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">ABC-123</text>
+<text x="420" y="479" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Utanfuto 750kg</text>
+<rect x="600" y="460" width="100" height="28" stroke="#d32f2f" fill="#ffebee" stroke-width="1" rx="4" opacity="1"/>
+<text x="650" y="479" font-size="12" fill="#c62828" text-anchor="middle" class="excalidraw-text" opacity="1">2026-01-15</text>
+<rect x="780" y="460" width="100" height="28" stroke="#4caf50" fill="#e8f5e9" stroke-width="1" rx="4" opacity="1"/>
+<text x="830" y="479" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">2026-08-01</text>
+<rect x="960" y="460" width="100" height="28" stroke="#4caf50" fill="#e8f5e9" stroke-width="1" rx="4" opacity="1"/>
+<text x="1010" y="479" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">2028-03-10</text>
+<text x="1140" y="478" font-size="13" fill="#4caf50" text-anchor="start" class="excalidraw-text" opacity="1">Aktiv</text>
+<path d="M 260 498 L 1320 498" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="270" y="529" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">XYZ-789</text>
+<text x="420" y="529" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Kisteher Ford</text>
+<rect x="600" y="510" width="100" height="28" stroke="#4caf50" fill="#e8f5e9" stroke-width="1" rx="4" opacity="1"/>
+<text x="650" y="529" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">2026-09-20</text>
+<rect x="780" y="510" width="100" height="28" stroke="#f9a825" fill="#fffde7" stroke-width="1" rx="4" opacity="1"/>
+<text x="830" y="529" font-size="12" fill="#f57f17" text-anchor="middle" class="excalidraw-text" opacity="1">2026-02-01</text>
+<rect x="960" y="510" width="100" height="28" stroke="#4caf50" fill="#e8f5e9" stroke-width="1" rx="4" opacity="1"/>
+<text x="1010" y="529" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">2027-05-15</text>
+<text x="1140" y="528" font-size="13" fill="#4caf50" text-anchor="start" class="excalidraw-text" opacity="1">Aktiv</text>
+<path d="M 260 548 L 1320 548" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="270" y="579" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">DEF-456</text>
+<text x="420" y="579" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Aggregator 5kW</text>
+<rect x="600" y="560" width="100" height="28" stroke="#4caf50" fill="#e8f5e9" stroke-width="1" rx="4" opacity="1"/>
+<text x="650" y="579" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">2026-11-05</text>
+<rect x="780" y="560" width="100" height="28" stroke="#f9a825" fill="#fffde7" stroke-width="1" rx="4" opacity="1"/>
+<text x="830" y="579" font-size="12" fill="#f57f17" text-anchor="middle" class="excalidraw-text" opacity="1">2026-02-05</text>
+<rect x="960" y="560" width="100" height="28" stroke="#4caf50" fill="#e8f5e9" stroke-width="1" rx="4" opacity="1"/>
+<text x="1010" y="579" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">2027-01-20</text>
+<text x="1140" y="578" font-size="13" fill="#4caf50" text-anchor="start" class="excalidraw-text" opacity="1">Aktiv</text>
+<path d="M 260 598 L 1320 598" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="270" y="629" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">GHI-012</text>
+<text x="420" y="629" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Plato utanfuto</text>
+<rect x="600" y="610" width="100" height="28" stroke="#4caf50" fill="#e8f5e9" stroke-width="1" rx="4" opacity="1"/>
+<text x="650" y="629" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">2026-12-01</text>
+<rect x="780" y="610" width="100" height="28" stroke="#4caf50" fill="#e8f5e9" stroke-width="1" rx="4" opacity="1"/>
+<text x="830" y="629" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">2026-06-15</text>
+<rect x="960" y="610" width="100" height="28" stroke="#4caf50" fill="#e8f5e9" stroke-width="1" rx="4" opacity="1"/>
+<text x="1010" y="629" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">2028-07-30</text>
+<text x="1140" y="628" font-size="13" fill="#4caf50" text-anchor="start" class="excalidraw-text" opacity="1">Aktiv</text>
+<text x="270" y="673" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">1-4 / 6 jarmu</text>
+<rect x="1180" y="655" width="36" height="28" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<text x="1198" y="674" font-size="12" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">&lt;</text>
+<rect x="1224" y="655" width="36" height="28" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="1242" y="674" font-size="12" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">&gt;</text>
+<text x="250" y="731" font-size="16" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">JARMU RESZLETEK</text>
+<rect x="250" y="745" width="1080" height="330" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="260" y="755" width="520" height="50" stroke="#e3f2fd" fill="#e3f2fd" stroke-width="1" rx="6" opacity="1"/>
+<text x="280" y="786" font-size="24" fill="#1565A8" text-anchor="start" class="excalidraw-text" opacity="1">ABC-123</text>
+<text x="420" y="784" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Utanfuto 750kg | Bergep</text>
+<text x="280" y="839" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Dokumentumok</text>
+<rect x="280" y="850" width="230" height="70" stroke="#ffcdd2" fill="#ffebee" stroke-width="1" rx="6" opacity="1"/>
+<text x="295" y="872" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Muszaki vizsga</text>
+<text x="295" y="898" font-size="18" fill="#c62828" text-anchor="start" class="excalidraw-text" opacity="1">2026-01-15</text>
+<text x="295" y="916" font-size="11" fill="#c62828" text-anchor="start" class="excalidraw-text" opacity="1">11 nap!</text>
+<rect x="530" y="850" width="230" height="70" stroke="#c8e6c9" fill="#e8f5e9" stroke-width="1" rx="6" opacity="1"/>
+<text x="545" y="872" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Biztositas (KGFB)</text>
+<text x="545" y="898" font-size="18" fill="#2e7d32" text-anchor="start" class="excalidraw-text" opacity="1">2026-08-01</text>
+<text x="545" y="916" font-size="11" fill="#2e7d32" text-anchor="start" class="excalidraw-text" opacity="1">209 nap</text>
+<rect x="780" y="850" width="230" height="70" stroke="#c8e6c9" fill="#e8f5e9" stroke-width="1" rx="6" opacity="1"/>
+<text x="795" y="872" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Forgalmi engedely</text>
+<text x="795" y="898" font-size="18" fill="#2e7d32" text-anchor="start" class="excalidraw-text" opacity="1">2028-03-10</text>
+<text x="795" y="916" font-size="11" fill="#2e7d32" text-anchor="start" class="excalidraw-text" opacity="1">795 nap</text>
+<text x="280" y="954" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Emlekeztetok</text>
+<rect x="280" y="965" width="280" height="40" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="6" opacity="1"/>
+<text x="295" y="991" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Email 30 nappal elotte</text>
+<rect x="500" y="975" width="44" height="22" stroke="#4caf50" fill="#4caf50" stroke-width="1" rx="11" opacity="1"/>
+<rect x="524" y="977" width="18" height="18" stroke="#ffffff" fill="#ffffff" stroke-width="1" rx="9" opacity="1"/>
+<rect x="580" y="965" width="280" height="40" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="6" opacity="1"/>
+<text x="595" y="991" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Email 60 nappal elotte</text>
+<rect x="800" y="975" width="44" height="22" stroke="#D0D4D9" fill="#D0D4D9" stroke-width="1" rx="11" opacity="1"/>
+<rect x="802" y="977" width="18" height="18" stroke="#ffffff" fill="#ffffff" stroke-width="1" rx="9" opacity="1"/>
+<rect x="1040" y="800" width="130" height="8" stroke="#0e4a7a" fill="#0e4a7a" stroke-width="1" rx="4" opacity="1"/>
+<rect x="1040" y="760" width="130" height="40" stroke="#1565A8" fill="#1565A8" stroke-width="1" rx="4" opacity="1"/>
+<rect x="1040" y="760" width="130" height="20" stroke="#1976b8" fill="#1976b8" stroke-width="1" rx="4" opacity="1"/>
+<text x="1105" y="785" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Szerkeszt</text>
+<rect x="1190" y="800" width="120" height="8" stroke="#6b1f1f" fill="#6b1f1f" stroke-width="1" rx="4" opacity="1"/>
+<rect x="1190" y="760" width="120" height="40" stroke="#9b2c2c" fill="#9b2c2c" stroke-width="1" rx="4" opacity="1"/>
+<rect x="1190" y="760" width="120" height="20" stroke="#b33333" fill="#b33333" stroke-width="1" rx="4" opacity="1"/>
+<text x="1250" y="785" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Torles</text>
+<text x="1040" y="862" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Jelmagyarazat:</text>
+<rect x="1040" y="875" width="16" height="16" stroke="#d32f2f" fill="#d32f2f" stroke-width="1" rx="8" opacity="1"/>
+<text x="1065" y="886" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">&lt; 30 nap</text>
+<rect x="1040" y="900" width="16" height="16" stroke="#f9a825" fill="#f9a825" stroke-width="1" rx="8" opacity="1"/>
+<text x="1065" y="911" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">30-60 nap</text>
+<rect x="1040" y="925" width="16" height="16" stroke="#4caf50" fill="#4caf50" stroke-width="1" rx="8" opacity="1"/>
+<text x="1065" y="936" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">&gt; 60 nap (OK)</text>
+</svg>

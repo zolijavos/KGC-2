@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -10 1420 760" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="10" y="-10" width="1420" height="760" fill="#ffffff"/>
+<text x="50" y="62" font-size="32" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP - Gomb Stilusok</text>
+<text x="50" y="101" font-size="16" fill="#4a5568" text-anchor="start" class="excalidraw-text" opacity="1">Szogletes design (border-radius: 4px) - visszafogott szinek</text>
+<path d="M 50 120 L 1390 120" stroke="#d0d4d9" fill="none" stroke-width="2" opacity="1"/>
+<text x="50" y="156" font-size="16" fill="#bf4400" text-anchor="start" class="excalidraw-text" opacity="1">PRIMARY BUTTONS</text>
+<rect x="50" y="180" width="160" height="48" stroke="#bf4400" fill="#bf4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="130" y="209" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">MENTES</text>
+<text x="130" y="254" font-size="14" fill="#4a5568" text-anchor="middle" class="excalidraw-text" opacity="1">Default</text>
+<rect x="230" y="180" width="160" height="48" stroke="#d45500" fill="#d45500" stroke-width="1" rx="4" opacity="1"/>
+<text x="310" y="209" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">MENTES</text>
+<text x="310" y="254" font-size="14" fill="#4a5568" text-anchor="middle" class="excalidraw-text" opacity="1">Hover</text>
+<rect x="410" y="180" width="160" height="48" stroke="#993700" fill="#993700" stroke-width="1" rx="4" opacity="1"/>
+<text x="490" y="209" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">MENTES</text>
+<text x="490" y="254" font-size="14" fill="#4a5568" text-anchor="middle" class="excalidraw-text" opacity="1">Pressed</text>
+<rect x="590" y="180" width="160" height="48" stroke="#d0d4d9" fill="#d0d4d9" stroke-width="1" rx="4" opacity="1"/>
+<text x="670" y="209" font-size="16" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">MENTES</text>
+<text x="670" y="254" font-size="14" fill="#4a5568" text-anchor="middle" class="excalidraw-text" opacity="1">Disabled</text>
+<text x="50" y="306" font-size="16" fill="#1565a8" text-anchor="start" class="excalidraw-text" opacity="1">SECONDARY BUTTONS</text>
+<rect x="50" y="330" width="160" height="48" stroke="#1565a8" fill="#1565a8" stroke-width="1" rx="4" opacity="1"/>
+<text x="130" y="359" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">MEGSE</text>
+<text x="130" y="404" font-size="14" fill="#4a5568" text-anchor="middle" class="excalidraw-text" opacity="1">Default</text>
+<rect x="230" y="330" width="160" height="48" stroke="#1976b8" fill="#1976b8" stroke-width="1" rx="4" opacity="1"/>
+<text x="310" y="359" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">MEGSE</text>
+<text x="310" y="404" font-size="14" fill="#4a5568" text-anchor="middle" class="excalidraw-text" opacity="1">Hover</text>
+<text x="50" y="456" font-size="16" fill="#4a5568" text-anchor="start" class="excalidraw-text" opacity="1">OUTLINE BUTTONS</text>
+<rect x="50" y="480" width="160" height="48" stroke="#bf4400" fill="transparent" stroke-width="2" rx="4" opacity="1"/>
+<text x="130" y="509" font-size="16" fill="#bf4400" text-anchor="middle" class="excalidraw-text" opacity="1">RESZLETEK</text>
+<text x="130" y="554" font-size="14" fill="#4a5568" text-anchor="middle" class="excalidraw-text" opacity="1">Outline Primary</text>
+<rect x="230" y="480" width="160" height="48" stroke="#1565a8" fill="transparent" stroke-width="2" rx="4" opacity="1"/>
+<text x="310" y="509" font-size="16" fill="#1565a8" text-anchor="middle" class="excalidraw-text" opacity="1">SZERKESZT</text>
+<text x="310" y="554" font-size="14" fill="#4a5568" text-anchor="middle" class="excalidraw-text" opacity="1">Outline Secondary</text>
+<rect x="410" y="480" width="160" height="48" stroke="#4a5568" fill="transparent" stroke-width="2" rx="4" opacity="1"/>
+<text x="490" y="509" font-size="16" fill="#4a5568" text-anchor="middle" class="excalidraw-text" opacity="1">VISSZA</text>
+<text x="490" y="554" font-size="14" fill="#4a5568" text-anchor="middle" class="excalidraw-text" opacity="1">Outline Neutral</text>
+<text x="50" y="606" font-size="16" fill="#4a5568" text-anchor="start" class="excalidraw-text" opacity="1">SEMANTIC BUTTONS</text>
+<rect x="50" y="630" width="160" height="48" stroke="#276749" fill="#276749" stroke-width="1" rx="4" opacity="1"/>
+<text x="130" y="659" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">JOVAHAGYVA</text>
+<text x="130" y="704" font-size="14" fill="#4a5568" text-anchor="middle" class="excalidraw-text" opacity="1">Success</text>
+<rect x="230" y="630" width="160" height="48" stroke="#b7791f" fill="#b7791f" stroke-width="1" rx="4" opacity="1"/>
+<text x="310" y="659" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">FIGYELEM</text>
+<text x="310" y="704" font-size="14" fill="#4a5568" text-anchor="middle" class="excalidraw-text" opacity="1">Warning</text>
+<rect x="410" y="630" width="160" height="48" stroke="#9b2c2c" fill="#9b2c2c" stroke-width="1" rx="4" opacity="1"/>
+<text x="490" y="659" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">TORLES</text>
+<text x="490" y="704" font-size="14" fill="#4a5568" text-anchor="middle" class="excalidraw-text" opacity="1">Danger</text>
+<rect x="590" y="630" width="160" height="48" stroke="#2b6cb0" fill="#2b6cb0" stroke-width="1" rx="4" opacity="1"/>
+<text x="670" y="659" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">INFO</text>
+<text x="670" y="704" font-size="14" fill="#4a5568" text-anchor="middle" class="excalidraw-text" opacity="1">Info</text>
+<text x="850" y="156" font-size="16" fill="#4a5568" text-anchor="start" class="excalidraw-text" opacity="1">BUTTON SIZES</text>
+<rect x="850" y="180" width="100" height="36" stroke="#bf4400" fill="#bf4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="900" y="204" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Small</text>
+<text x="900" y="237" font-size="12" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">36px height</text>
+<rect x="850" y="260" width="140" height="48" stroke="#bf4400" fill="#bf4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="920" y="289" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Medium</text>
+<text x="920" y="330" font-size="12" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">48px height (default)</text>
+<rect x="850" y="355" width="180" height="60" stroke="#bf4400" fill="#bf4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="940" y="391" font-size="18" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Large</text>
+<text x="940" y="437" font-size="12" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">60px height (touch)</text>
+<text x="850" y="486" font-size="16" fill="#4a5568" text-anchor="start" class="excalidraw-text" opacity="1">WITH ICONS (Lucide)</text>
+<rect x="850" y="510" width="180" height="48" stroke="#bf4400" fill="#bf4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="875" y="543" font-size="20" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">+</text>
+<text x="895" y="539" font-size="16" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">UJ BERLES</text>
+<rect x="1050" y="510" width="48" height="48" stroke="#1565a8" fill="#1565a8" stroke-width="1" rx="4" opacity="1"/>
+<text x="1074" y="544" font-size="24" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">...</text>
+<text x="850" y="582" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Icon + Text          Icon only</text>
+</svg>

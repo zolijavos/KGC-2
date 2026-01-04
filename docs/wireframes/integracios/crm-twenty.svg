@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 1520 980" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-40" y="-40" width="1520" height="980" fill="#EAECEF"/>
+<rect x="0" y="0" width="1440" height="900" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<rect x="0" y="0" width="1440" height="64" stroke="#1A2634" fill="#1A2634" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="40" font-size="22" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP</text>
+<text x="140" y="36" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">/ Integraciok / CRM</text>
+<rect x="500" y="16" width="180" height="32" stroke="#2e7d32" fill="#388e3c" stroke-width="1" rx="16" opacity="1"/>
+<text x="590" y="36" font-size="12" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Sync OK | 2 perce</text>
+<rect x="1240" y="18" width="180" height="36" stroke="transparent" fill="#0E4A7A" stroke-width="1" rx="4" opacity="1"/>
+<rect x="1240" y="14" width="180" height="36" stroke="#1565A8" fill="#1565A8" stroke-width="1" rx="4" opacity="1"/>
+<text x="1330" y="36" font-size="12" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Megnyitas uj ablakban</text>
+<rect x="1040" y="14" width="120" height="36" stroke="#0E4A7A" fill="#1565A8" stroke-width="1" rx="4" opacity="1"/>
+<text x="1100" y="37" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">KGC Erd</text>
+<rect x="0" y="64" width="1440" height="836" stroke="transparent" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<rect x="20" y="84" width="1050" height="796" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="20" y="84" width="1050" height="48" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="40" y="116" font-size="18" fill="#1565A8" text-anchor="start" class="excalidraw-text" opacity="1">Twenty CRM</text>
+<text x="180" y="112" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">crm.kgc.hu/contacts/12345</text>
+<rect x="980" y="98" width="80" height="28" stroke="transparent" fill="#D0D4D9" stroke-width="1" rx="4" opacity="1"/>
+<rect x="980" y="94" width="80" height="28" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="1020" y="111" font-size="11" fill="#1A1F26" text-anchor="middle" class="excalidraw-text" opacity="1">Frissites</text>
+<rect x="30" y="142" width="1030" height="728" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="0" opacity="1"/>
+<text x="550" y="504" font-size="24" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">[ Twenty CRM iframe ]</text>
+<rect x="30" y="142" width="60" height="728" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<rect x="40" y="160" width="40" height="40" stroke="#D0D4D9" fill="#1565A8" stroke-width="1" rx="4" opacity="1"/>
+<rect x="40" y="210" width="40" height="40" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<rect x="40" y="260" width="40" height="40" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<rect x="100" y="152" width="950" height="80" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="0" opacity="1"/>
+<ellipse cx="147.5" cy="192.5" rx="27.5" ry="27.5" stroke="#1565A8" fill="#EAECEF" stroke-width="2" opacity="1"/>
+<text x="150" y="198" font-size="16" fill="#1565A8" text-anchor="middle" class="excalidraw-text" opacity="1">KP</text>
+<text x="190" y="185" font-size="20" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Kovacs Peter</text>
+<text x="190" y="208" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">kovacs.peter@email.hu</text>
+<rect x="100" y="232" width="950" height="40" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="0" opacity="1"/>
+<text x="120" y="257" font-size="13" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Adatok</text>
+<path d="M 120 268 L 170 268" stroke="#BF4400" fill="none" stroke-width="3" opacity="1"/>
+<text x="220" y="257" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Tevekenyse...</text>
+<text x="340" y="257" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Jegyzetek</text>
+<rect x="120" y="290" width="400" height="24" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<rect x="120" y="324" width="300" height="24" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<rect x="120" y="358" width="350" height="24" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<rect x="1090" y="84" width="330" height="796" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="1110" y="118" font-size="18" fill="#1A2634" text-anchor="start" class="excalidraw-text" opacity="1">KGC Kontextus</text>
+<path d="M 1110 135 L 1400 135" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="1110" y="164" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Aktualis partner adatai</text>
+<rect x="1110" y="175" width="290" height="110" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="6" opacity="1"/>
+<text x="1125" y="206" font-size="16" fill="#1565A8" text-anchor="start" class="excalidraw-text" opacity="1">Kovacs Peter</text>
+<text x="1125" y="227" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Tel:</text>
+<text x="1185" y="227" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">+36 30 123 4567</text>
+<text x="1125" y="247" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Tipus:</text>
+<text x="1185" y="247" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Maganszemely</text>
+<rect x="1125" y="258" width="80" height="20" stroke="#4caf50" fill="#e8f5e9" stroke-width="1" rx="10" opacity="1"/>
+<text x="1165" y="273" font-size="11" fill="#4caf50" text-anchor="middle" class="excalidraw-text" opacity="1">Aktiv</text>
+<text x="1110" y="314" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Berlesi elozmenyiek (utolso 3)</text>
+<rect x="1110" y="325" width="290" height="55" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="1125" y="348" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Makita MAC610</text>
+<text x="1125" y="366" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">2026.01.02 - 01.04</text>
+<text x="1380" y="356" font-size="11" fill="#4caf50" text-anchor="end" class="excalidraw-text" opacity="1">Aktiv</text>
+<rect x="1110" y="385" width="290" height="55" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="1125" y="408" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Bosch GBH 2-26</text>
+<text x="1125" y="426" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">2025.12.20 - 12.22</text>
+<text x="1380" y="416" font-size="11" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">Lezart</text>
+<rect x="1110" y="445" width="290" height="55" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="1125" y="468" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Makita DTW285</text>
+<text x="1125" y="486" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">2025.11.15 - 11.17</text>
+<text x="1380" y="476" font-size="11" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">Lezart</text>
+<text x="1110" y="529" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Nyitott munkalapok</text>
+<rect x="1110" y="540" width="290" height="55" stroke="#BF4400" fill="#FFF5F0" stroke-width="1" rx="4" opacity="1"/>
+<text x="1125" y="563" font-size="13" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">ML-0142</text>
+<text x="1125" y="581" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Makita GA5030 - Csiszolo</text>
+<text x="1380" y="565" font-size="10" fill="#BF4400" text-anchor="end" class="excalidraw-text" opacity="1">Folyamatban</text>
+<text x="1255" y="622" font-size="12" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">1 nyitott munkalap</text>
+<text x="1110" y="664" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Gyors muveletek</text>
+<rect x="1110" y="684" width="140" height="44" stroke="transparent" fill="#8A3200" stroke-width="1" rx="6" opacity="1"/>
+<rect x="1110" y="680" width="140" height="44" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="6" opacity="1"/>
+<text x="1180" y="708" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Uj berles</text>
+<rect x="1260" y="684" width="140" height="44" stroke="transparent" fill="#D0D4D9" stroke-width="1" rx="6" opacity="1"/>
+<rect x="1260" y="680" width="140" height="44" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<text x="1330" y="708" font-size="13" fill="#1A1F26" text-anchor="middle" class="excalidraw-text" opacity="1">Munkalap</text>
+<rect x="1110" y="739" width="140" height="44" stroke="transparent" fill="#D0D4D9" stroke-width="1" rx="6" opacity="1"/>
+<rect x="1110" y="735" width="140" height="44" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<text x="1180" y="763" font-size="13" fill="#1A1F26" text-anchor="middle" class="excalidraw-text" opacity="1">Arajanlat</text>
+<rect x="1260" y="739" width="140" height="44" stroke="transparent" fill="#D0D4D9" stroke-width="1" rx="6" opacity="1"/>
+<rect x="1260" y="735" width="140" height="44" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<text x="1330" y="763" font-size="13" fill="#1A1F26" text-anchor="middle" class="excalidraw-text" opacity="1">Elozmeny</text>
+<path d="M 1110 800 L 1400 800" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="1255" y="826" font-size="11" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">Utolso szinkronizalas: 2026.01.04 14:32</text>
+<text x="1255" y="845" font-size="10" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">Twenty CRM v0.41 | KGC Adapter v1.2</text>
+</svg>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 1520 980" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-40" y="-40" width="1520" height="980" fill="#EAECEF"/>
+<rect x="0" y="0" width="1440" height="900" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<rect x="0" y="0" width="1440" height="64" stroke="#1A2634" fill="#1A2634" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="42" font-size="24" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP</text>
+<text x="200" y="38" font-size="16" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">/ Penztar</text>
+<text x="1420" y="36" font-size="14" fill="#ffffff" text-anchor="end" class="excalidraw-text" opacity="1">Kiss Peter</text>
+<rect x="0" y="64" width="240" height="836" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="0" opacity="1"/>
+<rect x="0" y="260" width="240" height="40" stroke="#BF4400" fill="#FFF4ED" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="284" font-size="14" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Penztar</text>
+<text x="280" y="118" font-size="28" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Penztar</text>
+<text x="280" y="138" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">2026. januar 04. szombat</text>
+<rect x="1180" y="88" width="200" height="44" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="8" opacity="1"/>
+<rect x="1180" y="84" width="200" height="44" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="8" opacity="1"/>
+<text x="1280" y="110" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Napi zaras</text>
+<rect x="280" y="160" width="1100" height="120" stroke="transparent" fill="transparent" stroke-width="1" rx="0" opacity="1"/>
+<rect x="280" y="160" width="250" height="100" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="12" opacity="1"/>
+<text x="300" y="193" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Nyito egyenleg</text>
+<text x="300" y="234" font-size="26" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">150 000 Ft</text>
+<rect x="560" y="160" width="250" height="100" stroke="#276749" fill="#E6F4EA" stroke-width="2" rx="12" opacity="1"/>
+<text x="580" y="193" font-size="13" fill="#276749" text-anchor="start" class="excalidraw-text" opacity="1">Mai bevetel</text>
+<text x="580" y="234" font-size="26" fill="#276749" text-anchor="start" class="excalidraw-text" opacity="1">+285 500 Ft</text>
+<rect x="840" y="160" width="250" height="100" stroke="#9B2C2C" fill="#FED7D7" stroke-width="2" rx="12" opacity="1"/>
+<text x="860" y="193" font-size="13" fill="#9B2C2C" text-anchor="start" class="excalidraw-text" opacity="1">Mai kiadas</text>
+<text x="860" y="234" font-size="26" fill="#9B2C2C" text-anchor="start" class="excalidraw-text" opacity="1">-45 000 Ft</text>
+<rect x="1120" y="160" width="260" height="100" stroke="#1565A8" fill="#E3F2FD" stroke-width="2" rx="12" opacity="1"/>
+<text x="1140" y="193" font-size="13" fill="#1565A8" text-anchor="start" class="excalidraw-text" opacity="1">Aktualis egyenleg</text>
+<text x="1140" y="234" font-size="26" fill="#1565A8" text-anchor="start" class="excalidraw-text" opacity="1">390 500 Ft</text>
+<rect x="280" y="290" width="1100" height="80" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="12" opacity="1"/>
+<rect x="300" y="314" width="160" height="44" stroke="#1B4D36" fill="#1B4D36" stroke-width="1" rx="8" opacity="1"/>
+<rect x="300" y="310" width="160" height="44" stroke="#276749" fill="#276749" stroke-width="1" rx="8" opacity="1"/>
+<text x="380" y="336" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">+ Bevetel</text>
+<rect x="480" y="314" width="160" height="44" stroke="#7A2020" fill="#7A2020" stroke-width="1" rx="8" opacity="1"/>
+<rect x="480" y="310" width="160" height="44" stroke="#9B2C2C" fill="#9B2C2C" stroke-width="1" rx="8" opacity="1"/>
+<text x="560" y="336" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">- Kiadas</text>
+<rect x="660" y="314" width="180" height="44" stroke="#0E4A7A" fill="#0E4A7A" stroke-width="1" rx="8" opacity="1"/>
+<rect x="660" y="310" width="180" height="44" stroke="#1565A8" fill="#E3F2FD" stroke-width="1" rx="8" opacity="1"/>
+<text x="750" y="335" font-size="13" fill="#1565A8" text-anchor="middle" class="excalidraw-text" opacity="1">Kaucio visszaad</text>
+<rect x="860" y="314" width="160" height="44" stroke="#0E4A7A" fill="#0E4A7A" stroke-width="1" rx="8" opacity="1"/>
+<rect x="860" y="310" width="160" height="44" stroke="#1565A8" fill="#E3F2FD" stroke-width="1" rx="8" opacity="1"/>
+<text x="940" y="335" font-size="13" fill="#1565A8" text-anchor="middle" class="excalidraw-text" opacity="1">Kartyas fizetes</text>
+<rect x="1040" y="310" width="160" height="44" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="1120" y="335" font-size="13" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Szamlazas</text>
+<rect x="1220" y="310" width="140" height="44" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="1290" y="335" font-size="13" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Export</text>
+<text x="280" y="418" font-size="18" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Mai tranzakciok</text>
+<rect x="280" y="440" width="1100" height="420" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="280" y="440" width="1100" height="44" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="8" opacity="1"/>
+<text x="300" y="467" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Ido</text>
+<text x="400" y="467" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Tipus</text>
+<text x="530" y="467" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Leiras</text>
+<text x="780" y="467" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Partner</text>
+<text x="930" y="467" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Fizet. mod</text>
+<text x="1160" y="467" font-size="13" fill="#4A5568" text-anchor="end" class="excalidraw-text" opacity="1">Osszeg</text>
+<text x="1310" y="467" font-size="13" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1"></text>
+<rect x="280" y="484" width="1100" height="56" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="0" opacity="1"/>
+<text x="300" y="518" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">14:35</text>
+<rect x="400" y="500" width="100" height="24" stroke="#276749" fill="#E6F4EA" stroke-width="1" rx="12" opacity="1"/>
+<text x="450" y="515" font-size="11" fill="#276749" text-anchor="middle" class="excalidraw-text" opacity="1">Berleti dij</text>
+<text x="530" y="517" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Makita HR2470 - 3 nap berles</text>
+<text x="780" y="517" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Kovacs Istvan</text>
+<text x="930" y="516" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Keszpenz</text>
+<text x="1180" y="518" font-size="14" fill="#276749" text-anchor="end" class="excalidraw-text" opacity="1">+13 500 Ft</text>
+<text x="1320" y="522" font-size="18" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">...</text>
+<rect x="280" y="540" width="1100" height="56" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<text x="300" y="574" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">14:20</text>
+<rect x="400" y="556" width="100" height="24" stroke="#1565A8" fill="#E3F2FD" stroke-width="1" rx="12" opacity="1"/>
+<text x="450" y="571" font-size="11" fill="#1565A8" text-anchor="middle" class="excalidraw-text" opacity="1">Kaucio</text>
+<text x="530" y="573" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Kaucio - Makita HR2470</text>
+<text x="780" y="573" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Kovacs Istvan</text>
+<text x="930" y="572" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Kartya</text>
+<text x="1180" y="574" font-size="14" fill="#276749" text-anchor="end" class="excalidraw-text" opacity="1">+45 000 Ft</text>
+<text x="1320" y="578" font-size="18" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">...</text>
+<rect x="280" y="596" width="1100" height="56" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="0" opacity="1"/>
+<text x="300" y="630" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">13:45</text>
+<rect x="400" y="612" width="100" height="24" stroke="#9B2C2C" fill="#FED7D7" stroke-width="1" rx="12" opacity="1"/>
+<text x="450" y="627" font-size="11" fill="#9B2C2C" text-anchor="middle" class="excalidraw-text" opacity="1">Kaucio vissza</text>
+<text x="530" y="629" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Visszavett gep - Bosch GWS 750</text>
+<text x="780" y="629" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Nagy Epito Kft.</text>
+<text x="930" y="628" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Keszpenz</text>
+<text x="1180" y="630" font-size="14" fill="#9B2C2C" text-anchor="end" class="excalidraw-text" opacity="1">-35 000 Ft</text>
+<text x="1320" y="634" font-size="18" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">...</text>
+<rect x="280" y="652" width="1100" height="56" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<text x="300" y="686" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">12:30</text>
+<rect x="400" y="668" width="100" height="24" stroke="#B7791F" fill="#FEFCBF" stroke-width="1" rx="12" opacity="1"/>
+<text x="450" y="683" font-size="11" fill="#B7791F" text-anchor="middle" class="excalidraw-text" opacity="1">Szerviz</text>
+<text x="530" y="685" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">ML-2026-0140 javitasi dij</text>
+<text x="780" y="685" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Toth Peter</text>
+<text x="930" y="684" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Keszpenz</text>
+<text x="1180" y="686" font-size="14" fill="#276749" text-anchor="end" class="excalidraw-text" opacity="1">+12 500 Ft</text>
+<text x="1320" y="690" font-size="18" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">...</text>
+</svg>

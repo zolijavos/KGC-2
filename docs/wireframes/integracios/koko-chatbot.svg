@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 1520 980" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-40" y="-40" width="1520" height="980" fill="#EAECEF"/>
+<rect x="0" y="0" width="1440" height="900" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<rect x="0" y="0" width="1440" height="64" stroke="#1A2634" fill="#1A2634" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="40" font-size="22" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP</text>
+<text x="140" y="38" font-size="20" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">/</text>
+<text x="155" y="36" font-size="18" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">Koko AI Asszisztens</text>
+<rect x="370" y="22" width="60" height="26" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="13" opacity="1"/>
+<rect x="370" y="18" width="60" height="26" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="13" opacity="1"/>
+<text x="400" y="36" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">AI</text>
+<rect x="1040" y="14" width="120" height="36" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="1100" y="35" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">KGC Erd</text>
+<text x="1200" y="34" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">3</text>
+<text x="1290" y="32" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Joska</text>
+<rect x="1380" y="14" width="44" height="36" stroke="#D0D4D9" fill="transparent" stroke-width="1" rx="4" opacity="1"/>
+<text x="1402" y="38" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">X</text>
+<rect x="20" y="84" width="880" height="720" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="8" opacity="1"/>
+<rect x="20" y="84" width="880" height="56" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<ellipse cx="58" cy="112" rx="18" ry="18" stroke="#BF4400" fill="#FFF5F0" stroke-width="2" opacity="1"/>
+<text x="58" y="118" font-size="16" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">K</text>
+<text x="90" y="112" font-size="16" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Koko AI Asszisztens</text>
+<text x="90" y="128" font-size="12" fill="#28A745" text-anchor="start" class="excalidraw-text" opacity="1">Online - Aktiv</text>
+<ellipse cx="244" cy="122" rx="4" ry="4" stroke="#28A745" fill="#28A745" stroke-width="1" opacity="1"/>
+<rect x="760" y="100" width="120" height="32" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="4" opacity="1"/>
+<rect x="760" y="96" width="120" height="32" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="820" y="114" font-size="12" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">+ Uj beszelgetes</text>
+<rect x="40" y="155" width="840" height="520" stroke="transparent" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<rect x="60" y="175" width="480" height="80" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="12" opacity="1"/>
+<ellipse cx="89" cy="204" rx="14" ry="14" stroke="#BF4400" fill="#FFF5F0" stroke-width="1" opacity="1"/>
+<text x="89" y="208" font-size="12" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">K</text>
+<text x="115" y="204" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Udvozlom! Koko vagyok, az On KGC ERP AI</text>
+<text x="115" y="220.8" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">asszisztense. Miben segithetek ma?</text>
+<text x="530" y="246" font-size="11" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">09:15</text>
+<rect x="400" y="275" width="460" height="60" stroke="#8A3200" fill="#BF4400" stroke-width="1" rx="12" opacity="1"/>
+<text x="420" y="304" font-size="14" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">Szeretnek informaciot kapni a Makita UT1305 geprol.</text>
+<text x="420" y="320.8" font-size="14" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">Van keszleten es mi az ara?</text>
+<text x="855" y="326" font-size="11" fill="#FFF5F0" text-anchor="end" class="excalidraw-text" opacity="1">09:16</text>
+<rect x="60" y="355" width="560" height="180" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="12" opacity="1"/>
+<ellipse cx="89" cy="384" rx="14" ry="14" stroke="#BF4400" fill="#FFF5F0" stroke-width="1" opacity="1"/>
+<text x="89" y="388" font-size="12" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">K</text>
+<text x="115" y="384" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Megtalaltam a Makita UT1305 keverogepet:</text>
+<text x="115" y="400.8" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="115" y="417.6" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Keszlet: 3 db (KGC Erd raktaron)</text>
+<text x="115" y="434.4" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Listaar: 89.900 Ft + AFA</text>
+<text x="115" y="451.2" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Berleti dij: 4.500 Ft/nap</text>
+<text x="115" y="468" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1"></text>
+<text x="115" y="484.8" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Jellemzok:</text>
+<text x="115" y="501.6" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">- 1300W motor, 0-580 ford/perc</text>
+<text x="115" y="518.4" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">- M14 menetes befogofej</text>
+<text x="115" y="535.2" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">- Garanciaideje: 2 ev</text>
+<text x="610" y="526" font-size="11" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">09:16</text>
+<rect x="60" y="555" width="120" height="40" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="12" opacity="1"/>
+<ellipse cx="86" cy="574" rx="6" ry="6" stroke="#4A5568" fill="#4A5568" stroke-width="1" opacity="1"/>
+<ellipse cx="106" cy="574" rx="6" ry="6" stroke="#718096" fill="#718096" stroke-width="1" opacity="1"/>
+<ellipse cx="126" cy="574" rx="6" ry="6" stroke="#D0D4D9" fill="#D0D4D9" stroke-width="1" opacity="1"/>
+<text x="145" y="582" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">...</text>
+<rect x="40" y="690" width="840" height="90" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="8" opacity="1"/>
+<rect x="60" y="705" width="700" height="44" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="22" opacity="1"/>
+<text x="85" y="732" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Kerdezes vagy kerdes irasa...</text>
+<rect x="780" y="709" width="80" height="44" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="22" opacity="1"/>
+<rect x="780" y="705" width="80" height="44" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="22" opacity="1"/>
+<text x="820" y="732" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Kuldes</text>
+<text x="60" y="769" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Enter a kuldeshez | Shift+Enter uj sorhoz | / parancsokhoz</text>
+<rect x="920" y="84" width="500" height="720" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="8" opacity="1"/>
+<text x="940" y="120" font-size="16" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Kapcsolodo dokumentumok</text>
+<rect x="940" y="136" width="460" height="52" stroke="#FFF5F0" fill="#FFF5F0" stroke-width="1" rx="6" opacity="1"/>
+<text x="967" y="160" font-size="10" fill="#DC3545" text-anchor="middle" class="excalidraw-text" opacity="1">PDF</text>
+<text x="990" y="159" font-size="14" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Makita UT1305 Muszaki adatlap</text>
+<text x="990" y="176" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Gyartoi dokumentacio</text>
+<rect x="940" y="196" width="460" height="52" stroke="#F8F9FA" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<text x="967" y="220" font-size="10" fill="#28A745" text-anchor="middle" class="excalidraw-text" opacity="1">XLS</text>
+<text x="990" y="219" font-size="14" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Keszletnyilvantartas - Keverogepek</text>
+<text x="990" y="236" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Frissitve: 2026.01.04</text>
+<rect x="940" y="256" width="460" height="52" stroke="#F8F9FA" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<text x="967" y="280" font-size="10" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">URL</text>
+<text x="990" y="279" font-size="14" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Makita.hu - Termekoldal</text>
+<text x="990" y="296" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Kulso link</text>
+<path d="M 940 330 L 1400 330" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="940" y="366" font-size="16" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Gyors valaszok</text>
+<rect x="940" y="382" width="220" height="36" stroke="#BF4400" fill="transparent" stroke-width="1" rx="18" opacity="1"/>
+<text x="1050" y="405" font-size="13" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Keszletinformacio</text>
+<rect x="1170" y="382" width="220" height="36" stroke="#BF4400" fill="transparent" stroke-width="1" rx="18" opacity="1"/>
+<text x="1280" y="405" font-size="13" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Berlesi feltetelek</text>
+<rect x="940" y="426" width="220" height="36" stroke="#BF4400" fill="transparent" stroke-width="1" rx="18" opacity="1"/>
+<text x="1050" y="449" font-size="13" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Nyitvatartas</text>
+<rect x="1170" y="426" width="220" height="36" stroke="#BF4400" fill="transparent" stroke-width="1" rx="18" opacity="1"/>
+<text x="1280" y="449" font-size="13" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Szerviz informacio</text>
+<rect x="940" y="474" width="220" height="36" stroke="#1E7B34" fill="#1E7B34" stroke-width="1" rx="18" opacity="1"/>
+<rect x="940" y="470" width="220" height="36" stroke="#28A745" fill="#28A745" stroke-width="1" rx="18" opacity="1"/>
+<text x="1050" y="493" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Arajanlat keszitese</text>
+<rect x="1170" y="474" width="220" height="36" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="18" opacity="1"/>
+<rect x="1170" y="470" width="220" height="36" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="18" opacity="1"/>
+<text x="1280" y="493" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Problema bejelentes</text>
+<path d="M 940 530 L 1400 530" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="940" y="566" font-size="16" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">AI Confidence Score</text>
+<rect x="940" y="582" width="460" height="100" stroke="#E8F5E9" fill="#E8F5E9" stroke-width="1" rx="8" opacity="1"/>
+<text x="970" y="640" font-size="40" fill="#28A745" text-anchor="start" class="excalidraw-text" opacity="1">94%</text>
+<text x="1060" y="619" font-size="14" fill="#28A745" text-anchor="start" class="excalidraw-text" opacity="1">Magas megbizhatosag</text>
+<rect x="1060" y="632" width="320" height="12" stroke="#C8E6C9" fill="#C8E6C9" stroke-width="1" rx="6" opacity="1"/>
+<rect x="1060" y="632" width="300" height="12" stroke="#28A745" fill="#28A745" stroke-width="1" rx="6" opacity="1"/>
+<text x="1060" y="667" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Forras: Keszlet DB, Makita katalogus</text>
+<path d="M 940 705 L 1400 705" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="940" y="734" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Valasz ertekeles</text>
+<rect x="940" y="748" width="100" height="36" stroke="#28A745" fill="transparent" stroke-width="1" rx="6" opacity="1"/>
+<text x="990" y="770" font-size="12" fill="#28A745" text-anchor="middle" class="excalidraw-text" opacity="1">Hasznos</text>
+<rect x="1055" y="748" width="120" height="36" stroke="#DC3545" fill="transparent" stroke-width="1" rx="6" opacity="1"/>
+<text x="1115" y="770" font-size="12" fill="#DC3545" text-anchor="middle" class="excalidraw-text" opacity="1">Nem hasznos</text>
+<rect x="1190" y="748" width="100" height="36" stroke="#BF4400" fill="transparent" stroke-width="1" rx="6" opacity="1"/>
+<text x="1240" y="770" font-size="12" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Jelentes</text>
+<rect x="20" y="820" width="1400" height="60" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="8" opacity="1"/>
+<text x="40" y="851" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Korabbi beszelgetesek:</text>
+<rect x="200" y="830" width="200" height="40" stroke="#BF4400" fill="#FFF5F0" stroke-width="1" rx="6" opacity="1"/>
+<text x="220" y="855" font-size="12" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Makita UT1305 lekerdezes</text>
+<rect x="415" y="830" width="200" height="40" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<text x="435" y="855" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Berles foltetelei - tegnap</text>
+<rect x="630" y="830" width="200" height="40" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<text x="650" y="855" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Szerviz idopontok - jan 2</text>
+<rect x="845" y="830" width="200" height="40" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<text x="865" y="855" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Partner kereses - dec 28</text>
+<rect x="1060" y="830" width="100" height="40" stroke="#D0D4D9" fill="transparent" stroke-width="1" rx="6" opacity="1"/>
+<text x="1110" y="855" font-size="12" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Tovabb...</text>
+<rect x="1175" y="830" width="120" height="40" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<text x="1235" y="855" font-size="12" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Kereses...</text>
+<rect x="1310" y="834" width="90" height="40" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="6" opacity="1"/>
+<rect x="1310" y="830" width="90" height="40" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="6" opacity="1"/>
+<text x="1355" y="855" font-size="12" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Export</text>
+</svg>

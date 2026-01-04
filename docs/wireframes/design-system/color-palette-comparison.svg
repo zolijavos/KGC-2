@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -10 1460 760" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="10" y="-10" width="1460" height="760" fill="#ffffff"/>
+<text x="50" y="62" font-size="32" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP Design System - Szinpaletta Osszehasonlitas</text>
+<text x="50" y="103" font-size="18" fill="#4a5568" text-anchor="start" class="excalidraw-text" opacity="1">Jelenlegi weboldal vs Uj ERP szinek</text>
+<path d="M 50 120 L 1390 120" stroke="#d0d4d9" fill="none" stroke-width="2" opacity="1"/>
+<text x="50" y="160" font-size="20" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">JELENLEGI (elenk)</text>
+<text x="750" y="160" font-size="20" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">UJ (visszafogott)</text>
+<rect x="50" y="180" width="120" height="80" stroke="#e65100" fill="#e65100" stroke-width="2" rx="0" opacity="1"/>
+<text x="55" y="284" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Primary</text>
+<text x="55" y="300.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#E65100</text>
+<rect x="190" y="180" width="120" height="80" stroke="#1976d2" fill="#1976d2" stroke-width="2" rx="0" opacity="1"/>
+<text x="195" y="284" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Secondary</text>
+<text x="195" y="300.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#1976D2</text>
+<rect x="330" y="180" width="120" height="80" stroke="#2e7d32" fill="#2e7d32" stroke-width="2" rx="0" opacity="1"/>
+<text x="335" y="284" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Success</text>
+<text x="335" y="300.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#2E7D32</text>
+<rect x="470" y="180" width="120" height="80" stroke="#f9a825" fill="#f9a825" stroke-width="2" rx="0" opacity="1"/>
+<text x="475" y="284" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Warning</text>
+<text x="475" y="300.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#F9A825</text>
+<rect x="610" y="180" width="120" height="80" stroke="#c62828" fill="#c62828" stroke-width="2" rx="0" opacity="1"/>
+<text x="615" y="284" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Danger</text>
+<text x="615" y="300.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#C62828</text>
+<rect x="750" y="180" width="120" height="80" stroke="#bf4400" fill="#bf4400" stroke-width="2" rx="0" opacity="1"/>
+<text x="755" y="284" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Primary</text>
+<text x="755" y="300.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#BF4400</text>
+<rect x="890" y="180" width="120" height="80" stroke="#1565a8" fill="#1565a8" stroke-width="2" rx="0" opacity="1"/>
+<text x="895" y="284" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Secondary</text>
+<text x="895" y="300.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#1565A8</text>
+<rect x="1030" y="180" width="120" height="80" stroke="#276749" fill="#276749" stroke-width="2" rx="0" opacity="1"/>
+<text x="1035" y="284" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Success</text>
+<text x="1035" y="300.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#276749</text>
+<rect x="1170" y="180" width="120" height="80" stroke="#b7791f" fill="#b7791f" stroke-width="2" rx="0" opacity="1"/>
+<text x="1175" y="284" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Warning</text>
+<text x="1175" y="300.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#B7791F</text>
+<rect x="1310" y="180" width="120" height="80" stroke="#9b2c2c" fill="#9b2c2c" stroke-width="2" rx="0" opacity="1"/>
+<text x="1315" y="284" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Danger</text>
+<text x="1315" y="300.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#9B2C2C</text>
+<text x="50" y="358" font-size="18" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Neutrals / Hatterek</text>
+<rect x="50" y="380" width="150" height="80" stroke="#d0d4d9" fill="#eaecef" stroke-width="2" rx="0" opacity="1"/>
+<text x="55" y="484" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Background</text>
+<text x="55" y="500.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#EAECEF</text>
+<rect x="220" y="380" width="150" height="80" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="2" rx="0" opacity="1"/>
+<text x="225" y="484" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Surface</text>
+<text x="225" y="500.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#F8F9FA</text>
+<rect x="390" y="380" width="150" height="80" stroke="#d0d4d9" fill="#d0d4d9" stroke-width="2" rx="0" opacity="1"/>
+<text x="395" y="484" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Border</text>
+<text x="395" y="500.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#D0D4D9</text>
+<rect x="560" y="380" width="150" height="80" stroke="#1a1f26" fill="#1a1f26" stroke-width="2" rx="0" opacity="1"/>
+<text x="565" y="484" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Text Primary</text>
+<text x="565" y="500.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#1A1F26</text>
+<rect x="730" y="380" width="150" height="80" stroke="#4a5568" fill="#4a5568" stroke-width="2" rx="0" opacity="1"/>
+<text x="735" y="484" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Text Secondary</text>
+<text x="735" y="500.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#4A5568</text>
+<text x="50" y="558" font-size="18" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Dark Mode Szinek</text>
+<rect x="50" y="580" width="150" height="80" stroke="#30363d" fill="#0d1117" stroke-width="2" rx="0" opacity="1"/>
+<text x="55" y="684" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Dark BG</text>
+<text x="55" y="700.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#0D1117</text>
+<rect x="220" y="580" width="150" height="80" stroke="#30363d" fill="#161b22" stroke-width="2" rx="0" opacity="1"/>
+<text x="225" y="684" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Dark Surface</text>
+<text x="225" y="700.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#161B22</text>
+<rect x="390" y="580" width="150" height="80" stroke="#30363d" fill="#1c2128" stroke-width="2" rx="0" opacity="1"/>
+<text x="395" y="684" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Dark Elevated</text>
+<text x="395" y="700.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#1C2128</text>
+<rect x="560" y="580" width="150" height="80" stroke="#30363d" fill="#30363d" stroke-width="2" rx="0" opacity="1"/>
+<text x="565" y="684" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Dark Border</text>
+<text x="565" y="700.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#30363D</text>
+<rect x="730" y="580" width="150" height="80" stroke="#30363d" fill="#e6edf3" stroke-width="2" rx="0" opacity="1"/>
+<text x="735" y="684" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Dark Text</text>
+<text x="735" y="700.8" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">#E6EDF3</text>
+</svg>

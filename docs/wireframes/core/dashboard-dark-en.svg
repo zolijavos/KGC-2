@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 1480 980" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-40" y="-40" width="1480" height="980" fill="#0D1117"/>
+<rect x="0" y="0" width="1400" height="900" stroke="#30363D" fill="#0D1117" stroke-width="1" rx="0" opacity="1"/>
+<rect x="0" y="0" width="1400" height="64" stroke="#21262D" fill="#21262D" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="40" font-size="22" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP</text>
+<rect x="280" y="14" width="400" height="36" stroke="#30363D" fill="#161B22" stroke-width="1" rx="4" opacity="1"/>
+<text x="295" y="36" font-size="14" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Search...</text>
+<rect x="1000" y="14" width="120" height="36" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="1060" y="35" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">KGC Erd</text>
+<text x="1160" y="34" font-size="16" fill="#E6EDF3" text-anchor="middle" class="excalidraw-text" opacity="1">(3)</text>
+<text x="1250" y="32" font-size="14" fill="#E6EDF3" text-anchor="middle" class="excalidraw-text" opacity="1">John</text>
+<text x="1350" y="30" font-size="12" fill="#B7791F" text-anchor="middle" class="excalidraw-text" opacity="1">4:32</text>
+<rect x="0" y="64" width="220" height="836" stroke="#30363D" fill="#161B22" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="91" font-size="11" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">NAVIGATION</text>
+<rect x="10" y="105" width="200" height="40" stroke="#3D2814" fill="#3D2814" stroke-width="1" rx="6" opacity="1"/>
+<text x="25" y="129" font-size="14" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Dashboard</text>
+<text x="25" y="174" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Rentals</text>
+<text x="25" y="214" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Service</text>
+<text x="25" y="254" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Inventory</text>
+<text x="25" y="294" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Customers</text>
+<text x="25" y="334" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Register</text>
+<text x="25" y="374" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Quotes</text>
+<path d="M 20 410 L 200 410" stroke="#30363D" fill="none" stroke-width="1" opacity="1"/>
+<text x="25" y="444" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Admin</text>
+<text x="25" y="484" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Reports</text>
+<rect x="220" y="64" width="1180" height="836" stroke="transparent" fill="#0D1117" stroke-width="1" rx="0" opacity="1"/>
+<text x="250" y="111" font-size="26" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Dashboard</text>
+<text x="250" y="131" font-size="13" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Welcome, John! | Saturday, January 4, 2026</text>
+<rect x="250" y="155" width="260" height="110" stroke="#30363D" fill="#161B22" stroke-width="1" rx="8" opacity="1"/>
+<text x="270" y="183" font-size="13" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Active Rentals</text>
+<text x="270" y="231" font-size="36" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">24</text>
+<text x="270" y="252" font-size="12" fill="#3FB950" text-anchor="start" class="excalidraw-text" opacity="1">+ 3 today</text>
+<rect x="530" y="155" width="260" height="110" stroke="#30363D" fill="#161B22" stroke-width="1" rx="8" opacity="1"/>
+<text x="550" y="183" font-size="13" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Today&apos;s Revenue</text>
+<text x="550" y="227" font-size="32" fill="#3FB950" text-anchor="start" class="excalidraw-text" opacity="1">245,600 Ft</text>
+<text x="550" y="252" font-size="12" fill="#3FB950" text-anchor="start" class="excalidraw-text" opacity="1">+12% vs yesterday</text>
+<rect x="810" y="155" width="260" height="110" stroke="#30363D" fill="#161B22" stroke-width="1" rx="8" opacity="1"/>
+<text x="830" y="183" font-size="13" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Open Work Orders</text>
+<text x="830" y="231" font-size="36" fill="#D29922" text-anchor="start" class="excalidraw-text" opacity="1">8</text>
+<text x="830" y="252" font-size="12" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">2 done today</text>
+<rect x="1090" y="155" width="260" height="110" stroke="#30363D" fill="#161B22" stroke-width="1" rx="8" opacity="1"/>
+<text x="1110" y="183" font-size="13" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Expiring Rentals</text>
+<text x="1110" y="231" font-size="36" fill="#F85149" text-anchor="start" class="excalidraw-text" opacity="1">5</text>
+<text x="1110" y="252" font-size="12" fill="#F85149" text-anchor="start" class="excalidraw-text" opacity="1">Due today!</text>
+<text x="250" y="306" font-size="16" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Quick Actions</text>
+<rect x="250" y="324" width="150" height="44" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="4" opacity="1"/>
+<rect x="250" y="320" width="150" height="44" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="325" y="346" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">+ New Rental</text>
+<rect x="420" y="320" width="150" height="44" stroke="#30363D" fill="#21262D" stroke-width="1" rx="4" opacity="1"/>
+<text x="495" y="346" font-size="14" fill="#E6EDF3" text-anchor="middle" class="excalidraw-text" opacity="1">+ Work Order</text>
+<rect x="590" y="320" width="150" height="44" stroke="#30363D" fill="#21262D" stroke-width="1" rx="4" opacity="1"/>
+<text x="665" y="346" font-size="14" fill="#E6EDF3" text-anchor="middle" class="excalidraw-text" opacity="1">+ Customer</text>
+<rect x="760" y="324" width="150" height="44" stroke="#1A4731" fill="#1A4731" stroke-width="1" rx="4" opacity="1"/>
+<rect x="760" y="320" width="150" height="44" stroke="#276749" fill="#276749" stroke-width="1" rx="4" opacity="1"/>
+<text x="835" y="346" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Register</text>
+<rect x="250" y="390" width="540" height="340" stroke="#30363D" fill="#161B22" stroke-width="1" rx="8" opacity="1"/>
+<text x="270" y="421" font-size="16" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Today&apos;s Returns</text>
+<rect x="265" y="440" width="510" height="32" stroke="#21262D" fill="#21262D" stroke-width="1" rx="4" opacity="1"/>
+<text x="275" y="460" font-size="12" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Time</text>
+<text x="345" y="460" font-size="12" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Customer</text>
+<text x="500" y="460" font-size="12" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Equipment</text>
+<text x="680" y="460" font-size="12" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Status</text>
+<text x="275" y="504" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">09:00</text>
+<text x="345" y="504" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Peter Kovacs</text>
+<text x="500" y="504" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Makita MAC610</text>
+<text x="680" y="503" font-size="13" fill="#D29922" text-anchor="start" class="excalidraw-text" opacity="1">Expected</text>
+<text x="275" y="539" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">11:00</text>
+<text x="345" y="539" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">John Nagy</text>
+<text x="500" y="539" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Bosch GBH 2-26</text>
+<text x="680" y="538" font-size="13" fill="#D29922" text-anchor="start" class="excalidraw-text" opacity="1">Expected</text>
+<text x="275" y="574" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">14:00</text>
+<text x="345" y="574" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Stephen Szabo</text>
+<text x="500" y="574" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Makita DTW285</text>
+<text x="680" y="573" font-size="13" fill="#F85149" text-anchor="start" class="excalidraw-text" opacity="1">Late!</text>
+<rect x="810" y="390" width="540" height="340" stroke="#30363D" fill="#161B22" stroke-width="1" rx="8" opacity="1"/>
+<text x="830" y="421" font-size="16" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Notifications</text>
+<rect x="825" y="445" width="510" height="60" stroke="#3D2E14" fill="#3D2E14" stroke-width="1" rx="6" opacity="1"/>
+<text x="840" y="475" font-size="20" fill="#D29922" text-anchor="start" class="excalidraw-text" opacity="1">!</text>
+<text x="875" y="469" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">3 rentals expire today</text>
+<text x="875" y="490" font-size="12" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Kovacs, Nagy, Szabo - returns expected</text>
+<rect x="825" y="515" width="510" height="60" stroke="#1A3D28" fill="#1A3D28" stroke-width="1" rx="6" opacity="1"/>
+<text x="840" y="541" font-size="16" fill="#3FB950" text-anchor="start" class="excalidraw-text" opacity="1">OK</text>
+<text x="875" y="539" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">2 work orders ready for pickup</text>
+<text x="875" y="560" font-size="12" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">WO-0138, WO-0139 - notify customer</text>
+<rect x="825" y="585" width="510" height="60" stroke="#3D1D1D" fill="#3D1D1D" stroke-width="1" rx="6" opacity="1"/>
+<text x="840" y="615" font-size="20" fill="#F85149" text-anchor="start" class="excalidraw-text" opacity="1">!!</text>
+<text x="875" y="609" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Low stock warning</text>
+<text x="875" y="630" font-size="12" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Makita carbon brush stock: 2 pcs (min: 5)</text>
+<ellipse cx="1366" cy="28" rx="6" ry="6" stroke="#3FB950" fill="#3FB950" stroke-width="1" opacity="1"/>
+</svg>

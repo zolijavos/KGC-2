@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 1520 980" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-40" y="-40" width="1520" height="980" fill="#EAECEF"/>
+<rect x="0" y="0" width="1440" height="900" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<rect x="470" y="200" width="500" height="500" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="16" opacity="1"/>
+<rect x="640" y="240" width="160" height="60" stroke="#1A2634" fill="#1A2634" stroke-width="1" rx="8" opacity="1"/>
+<text x="720" y="278" font-size="20" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP</text>
+<text x="720" y="354" font-size="24" fill="#1A1F26" text-anchor="middle" class="excalidraw-text" opacity="1">Bejelentkezes</text>
+<text x="510" y="393" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Uzlet kivalasztasa</text>
+<rect x="510" y="400" width="420" height="48" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="530" y="428" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">KGC Budapest - Nagytetenyi ut</text>
+<text x="900" y="428" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">v</text>
+<text x="510" y="483" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Felhasznalonev</text>
+<rect x="510" y="490" width="420" height="48" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="530" y="518" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Felhasznalonev...</text>
+<text x="510" y="568" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Jelszo</text>
+<rect x="510" y="575" width="420" height="48" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="530" y="603" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">********</text>
+<rect x="510" y="649" width="420" height="52" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="8" opacity="1"/>
+<rect x="510" y="645" width="420" height="52" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="8" opacity="1"/>
+<text x="720" y="677" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Bejelentkezes</text>
+<path d="M 730 0 L 730 900" stroke="#D0D4D9" fill="none" stroke-width="2" opacity="1"/>
+<rect x="740" y="0" width="700" height="900" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<rect x="740" y="0" width="700" height="900" stroke="transparent" fill="#1A2634" stroke-width="1" rx="0" opacity="0.6"/>
+<rect x="840" y="250" width="500" height="400" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="16" opacity="1"/>
+<rect x="1060" y="290" width="60" height="60" stroke="#1A2634" fill="#1A2634" stroke-width="2" rx="8" opacity="1"/>
+<text x="1090" y="329" font-size="24" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">L</text>
+<text x="1090" y="378" font-size="18" fill="#1A1F26" text-anchor="middle" class="excalidraw-text" opacity="1">Munkamenet zarolva</text>
+<text x="1090" y="404" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Kiss Peter</text>
+<text x="880" y="443" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Adja meg a 4 jegyu PIN kodjat:</text>
+<rect x="920" y="460" width="60" height="70" stroke="#BF4400" fill="#F8F9FA" stroke-width="2" rx="8" opacity="1"/>
+<text x="950" y="508" font-size="28" fill="#1A1F26" text-anchor="middle" class="excalidraw-text" opacity="1">*</text>
+<rect x="1000" y="460" width="60" height="70" stroke="#BF4400" fill="#F8F9FA" stroke-width="2" rx="8" opacity="1"/>
+<text x="1030" y="508" font-size="28" fill="#1A1F26" text-anchor="middle" class="excalidraw-text" opacity="1">*</text>
+<rect x="1080" y="460" width="60" height="70" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="1160" y="460" width="60" height="70" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="920" y="559" width="300" height="48" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="8" opacity="1"/>
+<rect x="920" y="555" width="300" height="48" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="8" opacity="1"/>
+<text x="1070" y="583" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Feloldas</text>
+<text x="1090" y="633" font-size="13" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Masik felhasznalo valtasa</text>
+<text x="50" y="66" font-size="16" fill="#1A2634" text-anchor="start" class="excalidraw-text" opacity="1">Bejelentkezesi kepernyo</text>
+<text x="780" y="66" font-size="16" fill="#1A2634" text-anchor="start" class="excalidraw-text" opacity="1">PIN zarolasi kepernyo (5 perc inaktivitas utan)</text>
+</svg>

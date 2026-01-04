@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 1530 980" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-40" y="-40" width="1530" height="980" fill="#EAECEF"/>
+<rect x="0" y="0" width="1440" height="900" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<rect x="0" y="0" width="1440" height="64" stroke="#1A2634" fill="#1A2634" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="40" font-size="22" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP</text>
+<text x="130" y="36" font-size="14" fill="#90caf9" text-anchor="start" class="excalidraw-text" opacity="1">/ Admin / Koko AI Beallitasok</text>
+<rect x="395" y="18" width="60" height="26" stroke="#4caf50" fill="#4caf50" stroke-width="1" rx="4" opacity="1"/>
+<text x="425" y="36" font-size="12" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">AI</text>
+<rect x="1100" y="14" width="120" height="36" stroke="#1565A8" fill="#1565A8" stroke-width="1" rx="4" opacity="1"/>
+<text x="1160" y="35" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">KGC Erd</text>
+<text x="1260" y="34" font-size="16" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">5</text>
+<text x="1350" y="32" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Admin</text>
+<rect x="0" y="64" width="220" height="836" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="91" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">KOKO AI ADMIN</text>
+<rect x="10" y="105" width="200" height="40" stroke="#fff3e0" fill="#fff3e0" stroke-width="1" rx="4" opacity="1"/>
+<text x="25" y="129" font-size="14" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Jovahagyasok</text>
+<rect x="170" y="112" width="30" height="22" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="185" y="128" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">5</text>
+<text x="25" y="174" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Tudasbazis</text>
+<text x="25" y="214" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Statisztikak</text>
+<text x="25" y="254" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Beallitasok</text>
+<path d="M 20 290 L 200 290" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="25" y="322" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">&lt;- Vissza a Dashboard-ra</text>
+<rect x="220" y="64" width="1220" height="836" stroke="transparent" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<text x="250" y="111" font-size="26" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Jovahagyasi Sor</text>
+<text x="250" y="131" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">AI valaszok ellenorzese es jovahagyasa publikalas elott</text>
+<rect x="250" y="150" width="780" height="430" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<rect x="265" y="165" width="750" height="36" stroke="#EAECEF" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<text x="280" y="186" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Konfidencia</text>
+<text x="380" y="186" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Kerdes</text>
+<text x="620" y="186" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Javasolt valasz</text>
+<text x="950" y="186" font-size="11" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">Muveletek</text>
+<rect x="265" y="210" width="750" height="70" stroke="#fff3e0" fill="#fff3e0" stroke-width="1" rx="0" opacity="1"/>
+<rect x="280" y="225" width="60" height="28" stroke="#f57c00" fill="#fff3e0" stroke-width="1" rx="4" opacity="1"/>
+<text x="310" y="245" font-size="13" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">68%</text>
+<text x="380" y="233" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Mennyibe kerul a Makita</text>
+<text x="380" y="248.6" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">furoszalag csere?</text>
+<text x="620" y="232" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">A szalag csere 3.500 Ft + AFA,</text>
+<text x="620" y="246.4" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">munkadijtol fuggoen...</text>
+<rect x="890" y="248" width="55" height="4" stroke="#1a4a33" fill="#1a4a33" stroke-width="1" rx="4" opacity="1"/>
+<rect x="890" y="220" width="55" height="28" stroke="#276749" fill="#276749" stroke-width="1" rx="4" opacity="1"/>
+<text x="917.5" y="239" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">OK</text>
+<rect x="955" y="248" width="55" height="4" stroke="#6b1f1f" fill="#6b1f1f" stroke-width="1" rx="4" opacity="1"/>
+<rect x="955" y="220" width="55" height="28" stroke="#9b2c2c" fill="#9b2c2c" stroke-width="1" rx="4" opacity="1"/>
+<text x="983" y="239" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Nem</text>
+<path d="M 265 280 L 1015 280" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<rect x="280" y="300" width="60" height="28" stroke="#f57c00" fill="#fff3e0" stroke-width="1" rx="4" opacity="1"/>
+<text x="310" y="320" font-size="13" fill="#f57c00" text-anchor="middle" class="excalidraw-text" opacity="1">72%</text>
+<text x="380" y="308" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Mikor nyitnak szombaton</text>
+<text x="380" y="323.6" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">a KGC Erd bolt?</text>
+<text x="620" y="307" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Szombaton 8:00-tol 14:00-ig</text>
+<text x="620" y="321.4" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">vagyunk nyitva...</text>
+<rect x="890" y="323" width="55" height="4" stroke="#1a4a33" fill="#1a4a33" stroke-width="1" rx="4" opacity="1"/>
+<rect x="890" y="295" width="55" height="28" stroke="#276749" fill="#276749" stroke-width="1" rx="4" opacity="1"/>
+<text x="917.5" y="314" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">OK</text>
+<rect x="955" y="323" width="55" height="4" stroke="#6b1f1f" fill="#6b1f1f" stroke-width="1" rx="4" opacity="1"/>
+<rect x="955" y="295" width="55" height="28" stroke="#9b2c2c" fill="#9b2c2c" stroke-width="1" rx="4" opacity="1"/>
+<text x="983" y="314" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Nem</text>
+<path d="M 265 355 L 1015 355" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<rect x="280" y="375" width="60" height="28" stroke="#4caf50" fill="#e8f5e9" stroke-width="1" rx="4" opacity="1"/>
+<text x="310" y="395" font-size="13" fill="#4caf50" text-anchor="middle" class="excalidraw-text" opacity="1">89%</text>
+<text x="380" y="383" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Milyen garanciaideje van</text>
+<text x="380" y="398.6" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">a Makita keverogepnek?</text>
+<text x="620" y="382" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">A Makita professzionalis gepekre</text>
+<text x="620" y="396.4" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">2 ev gyartoi garancia...</text>
+<rect x="890" y="398" width="55" height="4" stroke="#1a4a33" fill="#1a4a33" stroke-width="1" rx="4" opacity="1"/>
+<rect x="890" y="370" width="55" height="28" stroke="#276749" fill="#276749" stroke-width="1" rx="4" opacity="1"/>
+<text x="917.5" y="389" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">OK</text>
+<rect x="955" y="398" width="55" height="4" stroke="#6b1f1f" fill="#6b1f1f" stroke-width="1" rx="4" opacity="1"/>
+<rect x="955" y="370" width="55" height="28" stroke="#9b2c2c" fill="#9b2c2c" stroke-width="1" rx="4" opacity="1"/>
+<text x="983" y="389" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Nem</text>
+<path d="M 265 430 L 1015 430" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<rect x="280" y="450" width="60" height="28" stroke="#f44336" fill="#ffebee" stroke-width="1" rx="4" opacity="1"/>
+<text x="310" y="470" font-size="13" fill="#f44336" text-anchor="middle" class="excalidraw-text" opacity="1">45%</text>
+<text x="380" y="458" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Van olyan gepetek ami</text>
+<text x="380" y="473.6" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">alkalmas betonkeveresre?</text>
+<text x="620" y="457" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Igen, a keverogepek idealisak</text>
+<text x="620" y="471.4" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">betonkevereshez is...</text>
+<rect x="890" y="473" width="55" height="4" stroke="#1a4a33" fill="#1a4a33" stroke-width="1" rx="4" opacity="1"/>
+<rect x="890" y="445" width="55" height="28" stroke="#276749" fill="#276749" stroke-width="1" rx="4" opacity="1"/>
+<text x="917.5" y="464" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">OK</text>
+<rect x="955" y="473" width="55" height="4" stroke="#6b1f1f" fill="#6b1f1f" stroke-width="1" rx="4" opacity="1"/>
+<rect x="955" y="445" width="55" height="28" stroke="#9b2c2c" fill="#9b2c2c" stroke-width="1" rx="4" opacity="1"/>
+<text x="983" y="464" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Nem</text>
+<path d="M 265 505 L 1015 505" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<rect x="280" y="525" width="60" height="28" stroke="#4caf50" fill="#e8f5e9" stroke-width="1" rx="4" opacity="1"/>
+<text x="310" y="545" font-size="13" fill="#4caf50" text-anchor="middle" class="excalidraw-text" opacity="1">91%</text>
+<text x="380" y="533" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Tudok berles utan vasarolni</text>
+<text x="380" y="548.6" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">a gepet?</text>
+<text x="620" y="532" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Igen, a berleti dijat beszamitjuk</text>
+<text x="620" y="546.4" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">a vasarlasi arbol...</text>
+<rect x="890" y="548" width="55" height="4" stroke="#1a4a33" fill="#1a4a33" stroke-width="1" rx="4" opacity="1"/>
+<rect x="890" y="520" width="55" height="28" stroke="#276749" fill="#276749" stroke-width="1" rx="4" opacity="1"/>
+<text x="917.5" y="539" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">OK</text>
+<rect x="955" y="548" width="55" height="4" stroke="#6b1f1f" fill="#6b1f1f" stroke-width="1" rx="4" opacity="1"/>
+<rect x="955" y="520" width="55" height="28" stroke="#9b2c2c" fill="#9b2c2c" stroke-width="1" rx="4" opacity="1"/>
+<text x="983" y="539" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Nem</text>
+<rect x="1050" y="150" width="360" height="430" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="1070" y="183" font-size="18" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Tudasbazis</text>
+<rect x="1070" y="200" width="320" height="34" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<text x="1085" y="222" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Kereses a tudasbazisban...</text>
+<text x="1070" y="260" font-size="10" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">KATEGORIAK</text>
+<rect x="1070" y="275" width="320" height="36" stroke="#e3f2fd" fill="#e3f2fd" stroke-width="1" rx="4" opacity="1"/>
+<text x="1088" y="297" font-size="12" fill="#1565A8" text-anchor="middle" class="excalidraw-text" opacity="1">v</text>
+<text x="1100" y="299" font-size="14" fill="#1565A8" text-anchor="start" class="excalidraw-text" opacity="1">Berles</text>
+<text x="1380" y="297" font-size="12" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">24</text>
+<text x="1120" y="330" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Berlesi feltetelek</text>
+<text x="1120" y="352" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Kaucio szabalyok</text>
+<text x="1120" y="374" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Dijszabas</text>
+<text x="1088" y="407" font-size="12" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">&gt;</text>
+<text x="1100" y="409" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Szerviz</text>
+<text x="1380" y="407" font-size="12" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">18</text>
+<text x="1088" y="437" font-size="12" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">&gt;</text>
+<text x="1100" y="439" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Arak</text>
+<text x="1380" y="437" font-size="12" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">32</text>
+<text x="1088" y="467" font-size="12" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">&gt;</text>
+<text x="1100" y="469" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Nyitvatartas</text>
+<text x="1380" y="467" font-size="12" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">8</text>
+<text x="1088" y="497" font-size="12" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">&gt;</text>
+<text x="1100" y="499" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Termekismerteto</text>
+<text x="1380" y="497" font-size="12" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">156</text>
+<rect x="1070" y="556" width="150" height="4" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="4" opacity="1"/>
+<rect x="1070" y="520" width="150" height="36" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="1145" y="543" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">+ Uj bejegyzes</text>
+<rect x="1240" y="556" width="150" height="4" stroke="#0E4A7A" fill="#0E4A7A" stroke-width="1" rx="4" opacity="1"/>
+<rect x="1240" y="520" width="150" height="36" stroke="#1565A8" fill="#1565A8" stroke-width="1" rx="4" opacity="1"/>
+<text x="1315" y="543" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Importalas</text>
+<rect x="250" y="600" width="1160" height="140" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="270" y="631" font-size="16" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">AI Teljesitmeny</text>
+<rect x="270" y="650" width="260" height="70" stroke="#e8f5e9" fill="#e8f5e9" stroke-width="1" rx="4" opacity="1"/>
+<text x="290" y="688" font-size="28" fill="#4caf50" text-anchor="start" class="excalidraw-text" opacity="1">72%</text>
+<text x="290" y="708" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Auto-valasz arany</text>
+<text x="520" y="676" font-size="11" fill="#4caf50" text-anchor="end" class="excalidraw-text" opacity="1">+5% ^</text>
+<rect x="550" y="650" width="260" height="70" stroke="#e3f2fd" fill="#e3f2fd" stroke-width="1" rx="4" opacity="1"/>
+<text x="570" y="688" font-size="28" fill="#1565A8" text-anchor="start" class="excalidraw-text" opacity="1">81%</text>
+<text x="570" y="708" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Atlag konfidencia</text>
+<text x="800" y="676" font-size="11" fill="#4caf50" text-anchor="end" class="excalidraw-text" opacity="1">+2% ^</text>
+<rect x="830" y="650" width="260" height="70" stroke="#fff3e0" fill="#fff3e0" stroke-width="1" rx="4" opacity="1"/>
+<text x="850" y="688" font-size="28" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">4.2/5</text>
+<text x="850" y="708" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Elegedettseg</text>
+<text x="1080" y="676" font-size="11" fill="#f57c00" text-anchor="end" class="excalidraw-text" opacity="1">* * * * *</text>
+<rect x="1110" y="650" width="280" height="70" stroke="#EAECEF" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<text x="1130" y="688" font-size="28" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">238</text>
+<text x="1130" y="708" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Tudasbazis bejegyzesek</text>
+<text x="1380" y="676" font-size="11" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">+12 heten</text>
+<rect x="250" y="760" width="1160" height="80" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="270" y="792" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Csoportos muveletek:</text>
+<rect x="270" y="830" width="180" height="4" stroke="#1a4a33" fill="#1a4a33" stroke-width="1" rx="4" opacity="1"/>
+<rect x="270" y="800" width="180" height="30" stroke="#276749" fill="#276749" stroke-width="1" rx="4" opacity="1"/>
+<text x="360" y="820" font-size="12" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Mind jovahagyasa (89%+)</text>
+<rect x="470" y="830" width="180" height="4" stroke="#0E4A7A" fill="#0E4A7A" stroke-width="1" rx="4" opacity="1"/>
+<rect x="470" y="800" width="180" height="30" stroke="#1565A8" fill="#1565A8" stroke-width="1" rx="4" opacity="1"/>
+<text x="560" y="820" font-size="12" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Model ujratanitas</text>
+<rect x="670" y="830" width="130" height="4" stroke="#a0a4a9" fill="#a0a4a9" stroke-width="1" rx="4" opacity="1"/>
+<rect x="670" y="800" width="130" height="30" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<text x="735" y="820" font-size="12" fill="#1A1F26" text-anchor="middle" class="excalidraw-text" opacity="1">Exportalas</text>
+<text x="1000" y="786" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Konfidencia jeloles:</text>
+<rect x="1000" y="795" width="50" height="20" stroke="#4caf50" fill="#e8f5e9" stroke-width="1" rx="4" opacity="1"/>
+<text x="1060" y="808" font-size="10" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">&gt;85% Magas</text>
+<rect x="1150" y="795" width="50" height="20" stroke="#f57c00" fill="#fff3e0" stroke-width="1" rx="4" opacity="1"/>
+<text x="1210" y="808" font-size="10" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">60-85% Kozepes</text>
+<rect x="1310" y="795" width="50" height="20" stroke="#f44336" fill="#ffebee" stroke-width="1" rx="4" opacity="1"/>
+<text x="1370" y="808" font-size="10" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">&lt;60% Alacsony</text>
+</svg>

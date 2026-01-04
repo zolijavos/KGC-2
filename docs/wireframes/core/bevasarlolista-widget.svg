@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -80 1000 854" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-40" y="-80" width="1000" height="854" fill="#EAECEF"/>
+<rect x="0" y="0" width="420" height="640" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<rect x="0" y="0" width="420" height="52" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<text x="16" y="32" font-size="18" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Bevasarlolista</text>
+<rect x="362" y="14" width="44" height="32" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="4" opacity="1"/>
+<rect x="362" y="10" width="44" height="32" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="385" y="34" font-size="18" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">+</text>
+<rect x="16" y="60" width="100" height="36" stroke="#BF4400" fill="#BF440015" stroke-width="2" rx="4" opacity="1"/>
+<text x="70" y="82" font-size="14" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Aktiv</text>
+<rect x="124" y="60" width="120" height="36" stroke="#D0D4D9" fill="transparent" stroke-width="1" rx="4" opacity="1"/>
+<text x="185" y="82" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Elozmenyek</text>
+<path d="M 16 110 L 404 110" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="16" y="132" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Uj tetel hozzaadasa</text>
+<rect x="16" y="142" width="240" height="44" stroke="#D0D4D9" fill="#ffffff" stroke-width="2" rx="4" opacity="1"/>
+<text x="28" y="168" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Mi kell?</text>
+<rect x="264" y="142" width="140" height="44" stroke="#D0D4D9" fill="#ffffff" stroke-width="2" rx="4" opacity="1"/>
+<text x="276" y="168" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Epulet 1</text>
+<text x="388" y="168" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">v</text>
+<rect x="16" y="194" width="80" height="44" stroke="#D0D4D9" fill="#ffffff" stroke-width="2" rx="4" opacity="1"/>
+<text x="28" y="220" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Menny.</text>
+<rect x="104" y="198" width="110" height="40" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="4" opacity="1"/>
+<rect x="104" y="194" width="110" height="40" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="159" y="218" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Hozzaad</text>
+<path d="M 16 252 L 404 252" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="16" y="274" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Aktiv tetelek (4)</text>
+<rect x="16" y="286" width="388" height="72" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<rect x="28" y="306" width="22" height="22" stroke="#D0D4D9" fill="#ffffff" stroke-width="2" rx="4" opacity="1"/>
+<text x="60" y="312" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Makita szenkefe CB-430</text>
+<rect x="60" y="322" width="70" height="22" stroke="#2B6CB0" fill="#2B6CB020" stroke-width="1" rx="4" opacity="1"/>
+<text x="95" y="337" font-size="11" fill="#2B6CB0" text-anchor="middle" class="excalidraw-text" opacity="1">Epulet 1</text>
+<text x="140" y="337" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">10 db</text>
+<text x="390" y="309" font-size="11" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">Kiss Peter</text>
+<text x="390" y="327" font-size="11" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">08:45</text>
+<rect x="16" y="366" width="388" height="72" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<rect x="28" y="386" width="22" height="22" stroke="#D0D4D9" fill="#ffffff" stroke-width="2" rx="4" opacity="1"/>
+<text x="60" y="392" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">WD-40 spray 400ml</text>
+<rect x="60" y="402" width="70" height="22" stroke="#276749" fill="#27674920" stroke-width="1" rx="4" opacity="1"/>
+<text x="95" y="417" font-size="11" fill="#276749" text-anchor="middle" class="excalidraw-text" opacity="1">Epulet 2</text>
+<text x="140" y="417" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">5 db</text>
+<text x="390" y="389" font-size="11" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">Nagy Janos</text>
+<text x="390" y="407" font-size="11" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">10:22</text>
+<rect x="16" y="446" width="388" height="72" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<rect x="28" y="466" width="22" height="22" stroke="#D0D4D9" fill="#ffffff" stroke-width="2" rx="4" opacity="1"/>
+<text x="60" y="472" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Kesztyuk (L meret)</text>
+<rect x="60" y="482" width="70" height="22" stroke="#B7791F" fill="#B7791F20" stroke-width="1" rx="4" opacity="1"/>
+<text x="95" y="497" font-size="11" fill="#B7791F" text-anchor="middle" class="excalidraw-text" opacity="1">Epulet 3</text>
+<text x="390" y="469" font-size="11" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">Szabo Istvan</text>
+<text x="390" y="487" font-size="11" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">tegnap</text>
+<rect x="16" y="526" width="388" height="72" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<rect x="28" y="546" width="22" height="22" stroke="#276749" fill="#276749" stroke-width="1" rx="4" opacity="1"/>
+<text x="39" y="562" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">v</text>
+<path d="M 60 548 L 210 548" stroke="#718096" fill="none" stroke-width="1" opacity="1"/>
+<text x="60" y="552" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Bosch olajszuro</text>
+<rect x="60" y="562" width="70" height="22" stroke="#4A5568" fill="#4A556820" stroke-width="1" rx="4" opacity="1"/>
+<text x="95" y="577" font-size="11" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">Epulet 1</text>
+<text x="140" y="577" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">2 db</text>
+<text x="390" y="549" font-size="11" fill="#276749" text-anchor="end" class="excalidraw-text" opacity="1">Kesz</text>
+<text x="390" y="567" font-size="11" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">Kiss Peter</text>
+<text x="390" y="585" font-size="11" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">07:30</text>
+<rect x="500" y="0" width="420" height="400" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<rect x="500" y="0" width="420" height="52" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<text x="516" y="32" font-size="18" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Bevasarlolista</text>
+<rect x="862" y="14" width="44" height="32" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="4" opacity="1"/>
+<rect x="862" y="10" width="44" height="32" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="885" y="34" font-size="18" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">+</text>
+<rect x="516" y="60" width="100" height="36" stroke="#BF4400" fill="#BF440015" stroke-width="2" rx="4" opacity="1"/>
+<text x="570" y="82" font-size="14" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Aktiv</text>
+<rect x="624" y="60" width="120" height="36" stroke="#D0D4D9" fill="transparent" stroke-width="1" rx="4" opacity="1"/>
+<text x="685" y="82" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Elozmenyek</text>
+<path d="M 516 110 L 904 110" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<ellipse cx="700" cy="220" rx="40" ry="40" stroke="#D0D4D9" fill="#EAECEF" stroke-width="2" opacity="1"/>
+<text x="700" y="224" font-size="24" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">[ ]</text>
+<text x="700" y="296" font-size="16" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Nincs aktiv tetel</text>
+<text x="700" y="323" font-size="13" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">Adj hozza uj tetelt a + gombbal</text>
+<text x="240" y="-24" font-size="16" fill="#1565A8" text-anchor="middle" class="excalidraw-text" opacity="1">Aktiv allapot</text>
+<text x="740" y="-24" font-size="16" fill="#1565A8" text-anchor="middle" class="excalidraw-text" opacity="1">Ures allapot</text>
+<text x="0" y="694" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Helyszin badge szinek:</text>
+<rect x="0" y="710" width="70" height="24" stroke="#2B6CB0" fill="#2B6CB020" stroke-width="1" rx="4" opacity="1"/>
+<text x="35" y="726" font-size="12" fill="#2B6CB0" text-anchor="middle" class="excalidraw-text" opacity="1">Epulet 1</text>
+<text x="80" y="726" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Info kek</text>
+<rect x="180" y="710" width="70" height="24" stroke="#276749" fill="#27674920" stroke-width="1" rx="4" opacity="1"/>
+<text x="215" y="726" font-size="12" fill="#276749" text-anchor="middle" class="excalidraw-text" opacity="1">Epulet 2</text>
+<text x="260" y="726" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Zold</text>
+<rect x="340" y="710" width="70" height="24" stroke="#B7791F" fill="#B7791F20" stroke-width="1" rx="4" opacity="1"/>
+<text x="375" y="726" font-size="12" fill="#B7791F" text-anchor="middle" class="excalidraw-text" opacity="1">Epulet 3</text>
+<text x="420" y="726" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Sarga</text>
+</svg>

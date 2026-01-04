@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 1520 980" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-40" y="-40" width="1520" height="980" fill="#EAECEF"/>
+<rect x="0" y="0" width="1440" height="900" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<rect x="0" y="0" width="1440" height="64" stroke="#1A2634" fill="#1A2634" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="42" font-size="24" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP</text>
+<text x="200" y="38" font-size="16" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">/ Integraciok / Email Feldolgozas</text>
+<text x="1240" y="36" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">4:32</text>
+<text x="1420" y="36" font-size="14" fill="#ffffff" text-anchor="end" class="excalidraw-text" opacity="1">Nagy Janos</text>
+<rect x="0" y="64" width="240" height="836" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="104" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Dashboard</text>
+<text x="20" y="140" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Berles</text>
+<text x="20" y="176" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Szerviz</text>
+<text x="20" y="212" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Keszlet</text>
+<text x="20" y="248" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Partnerek</text>
+<rect x="0" y="260" width="240" height="40" stroke="#BF4400" fill="#FFF5EB" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="284" font-size="14" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Integraciok</text>
+<text x="40" y="319" font-size="13" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">- Email Feldolgozas</text>
+<text x="40" y="345" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">- Szamlazz.hu</text>
+<text x="40" y="371" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">- MyPos</text>
+<text x="270" y="112" font-size="28" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Email Feldolgozas</text>
+<text x="270" y="130" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Beerkezett emailek kezelese es hozzarendelese</text>
+<rect x="1280" y="88" width="130" height="44" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="8" opacity="1"/>
+<rect x="1280" y="84" width="130" height="44" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="8" opacity="1"/>
+<text x="1345" y="110" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Frissites</text>
+<rect x="260" y="150" width="340" height="730" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="280" y="181" font-size="16" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Beerkezett levelek</text>
+<rect x="450" y="162" width="36" height="24" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="12" opacity="1"/>
+<text x="468" y="178" font-size="12" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">12</text>
+<rect x="270" y="200" width="320" height="40" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<rect x="274" y="204" width="100" height="32" stroke="#BF4400" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="324" y="224" font-size="12" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Beerkezett</text>
+<text x="430" y="224" font-size="12" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">Feldolgozott</text>
+<text x="535" y="224" font-size="12" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">Varakozik</text>
+<rect x="270" y="250" width="320" height="36" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="285" y="273" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Kereses a levelek kozott...</text>
+<rect x="270" y="300" width="320" height="90" stroke="#BF4400" fill="#FFF5EB" stroke-width="2" rx="6" opacity="1"/>
+<ellipse cx="285" cy="323" rx="5" ry="5" stroke="#BF4400" fill="#BF4400" stroke-width="1" opacity="1"/>
+<text x="298" y="326" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Kovacs Peter</text>
+<text x="580" y="324" font-size="12" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">09:42</text>
+<text x="298" y="349" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Szerviz igeny - Makita furo</text>
+<text x="298" y="370" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Tisztelt Kisgepcentrum! Szeretnem...</text>
+<rect x="280" y="365" width="12" height="12" stroke="#9B2C2C" fill="#9B2C2C" stroke-width="1" rx="2" opacity="1"/>
+<rect x="270" y="400" width="320" height="90" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<ellipse cx="285" cy="423" rx="5" ry="5" stroke="#BF4400" fill="#BF4400" stroke-width="1" opacity="1"/>
+<text x="298" y="426" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Nagy Epitok Kft.</text>
+<text x="580" y="424" font-size="12" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">08:15</text>
+<text x="298" y="449" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Re: Arajanlat - gepberles</text>
+<text x="298" y="470" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Koszonom az arajanlat elfogadjuk...</text>
+<rect x="270" y="500" width="320" height="90" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="6" opacity="1"/>
+<text x="298" y="526" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Toth Janos</text>
+<text x="580" y="524" font-size="12" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">Tegnap</text>
+<text x="298" y="549" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Koszonet a gyors szervizert</text>
+<text x="298" y="570" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Nagyon elegedett vagyok a...</text>
+<rect x="280" y="562" width="70" height="20" stroke="#276749" fill="#E6F4EA" stroke-width="1" rx="10" opacity="1"/>
+<text x="315" y="576" font-size="10" fill="#276749" text-anchor="middle" class="excalidraw-text" opacity="1">Kesz</text>
+<rect x="270" y="600" width="320" height="90" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<text x="298" y="626" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Szabo Epitoipari Kft.</text>
+<text x="580" y="624" font-size="12" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">Jan 2.</text>
+<text x="298" y="649" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Berles meghosszabbitas kerelem</text>
+<text x="298" y="670" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Kernenk a beton toro berles...</text>
+<rect x="280" y="662" width="90" height="20" stroke="#B7791F" fill="#FEF3C7" stroke-width="1" rx="10" opacity="1"/>
+<text x="325" y="676" font-size="10" fill="#B7791F" text-anchor="middle" class="excalidraw-text" opacity="1">Varakozik</text>
+<rect x="620" y="150" width="500" height="730" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="620" y="150" width="500" height="120" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="8" opacity="1"/>
+<text x="640" y="188" font-size="20" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Szerviz igeny - Makita furo</text>
+<rect x="640" y="198" width="70" height="22" stroke="#9B2C2C" fill="#FED7D7" stroke-width="1" rx="11" opacity="1"/>
+<text x="675" y="213" font-size="11" fill="#9B2C2C" text-anchor="middle" class="excalidraw-text" opacity="1">Surgos</text>
+<text x="640" y="244" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Felado:</text>
+<text x="700" y="244" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Kovacs Peter &lt;kovacs.peter@email.hu&gt;</text>
+<text x="640" y="264" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Datum:</text>
+<text x="700" y="264" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">2026. januar 4. 09:42</text>
+<rect x="640" y="285" width="460" height="380" stroke="transparent" fill="transparent" stroke-width="1" rx="0" opacity="1"/>
+<text x="640" y="309" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Tisztelt Kisgepcentrum!</text>
+<text x="640" y="344" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Szeretnem jelezni, hogy a nalam levo Makita</text>
+<text x="640" y="364" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">DHP484 tipusu akkumulatoros furokalapacs</text>
+<text x="640" y="384" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">nem mukodik megfeleloen.</text>
+<text x="640" y="419" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">A gep bekapcsolas utan par masodperccel leall,</text>
+<text x="640" y="439" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">es tulelmelgedes jeleit mutatja. A garancia meg</text>
+<text x="640" y="459" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">ervenyes (vasarlas datuma: 2025.08.15).</text>
+<text x="640" y="494" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Kerem ertesistenek, hogy mikor tudnam behozni</text>
+<text x="640" y="514" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">a gepet javitasra.</text>
+<text x="640" y="549" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Tisztelettel,</text>
+<text x="640" y="569" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Kovacs Peter</text>
+<text x="640" y="589" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Tel: +36 30 123 4567</text>
+<rect x="640" y="680" width="460" height="80" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="6" opacity="1"/>
+<text x="655" y="707" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Csatolomanyok</text>
+<rect x="655" y="720" width="180" height="30" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="665" y="739" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">gep-foto.jpg (1.2 MB)</text>
+<rect x="850" y="720" width="180" height="30" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="860" y="739" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">szamla.pdf (245 KB)</text>
+<rect x="640" y="780" width="460" height="80" stroke="transparent" fill="transparent" stroke-width="1" rx="0" opacity="1"/>
+<rect x="640" y="804" width="100" height="40" stroke="#D0D4D9" fill="#D0D4D9" stroke-width="1" rx="6" opacity="1"/>
+<rect x="640" y="800" width="100" height="40" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<text x="690" y="825" font-size="13" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Valasz</text>
+<rect x="755" y="804" width="100" height="40" stroke="#D0D4D9" fill="#D0D4D9" stroke-width="1" rx="6" opacity="1"/>
+<rect x="755" y="800" width="100" height="40" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<text x="805" y="825" font-size="13" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Tovabbitas</text>
+<rect x="870" y="804" width="100" height="40" stroke="#D0D4D9" fill="#D0D4D9" stroke-width="1" rx="6" opacity="1"/>
+<rect x="870" y="800" width="100" height="40" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<text x="920" y="825" font-size="13" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Archiv</text>
+<rect x="985" y="804" width="100" height="40" stroke="#9B2C2C" fill="#9B2C2C" stroke-width="1" rx="6" opacity="1"/>
+<rect x="985" y="800" width="100" height="40" stroke="#9B2C2C" fill="#FED7D7" stroke-width="1" rx="6" opacity="1"/>
+<text x="1035" y="825" font-size="13" fill="#9B2C2C" text-anchor="middle" class="excalidraw-text" opacity="1">Torles</text>
+<rect x="1140" y="150" width="280" height="730" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="1160" y="186" font-size="18" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Hozzarendeles</text>
+<rect x="1155" y="210" width="250" height="110" stroke="#276749" fill="#E6F4EA" stroke-width="1" rx="8" opacity="1"/>
+<text x="1180" y="239" font-size="14" fill="#276749" text-anchor="middle" class="excalidraw-text" opacity="1">AI</text>
+<text x="1195" y="236" font-size="11" fill="#276749" text-anchor="start" class="excalidraw-text" opacity="1">Partner automatikusan felismerve</text>
+<text x="1170" y="271" font-size="16" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Kovacs Peter</text>
+<text x="1170" y="291" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">kovacs.peter@email.hu</text>
+<text x="1170" y="309" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">+36 30 123 4567</text>
+<rect x="1155" y="340" width="250" height="130" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="8" opacity="1"/>
+<text x="1170" y="367" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Kapcsolodo tranzakciok</text>
+<rect x="1165" y="380" width="230" height="36" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="1175" y="402" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">ML-2025-0892 - Garancia</text>
+<rect x="1165" y="424" width="230" height="36" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="1175" y="446" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">SZ-2025-0415 - Makita DHP484</text>
+<text x="1160" y="502" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Hozzarendeles</text>
+<rect x="1155" y="515" width="250" height="44" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<text x="1170" y="542" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Valasszon tipust...</text>
+<text x="1385" y="542" font-size="14" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">v</text>
+<text x="1160" y="592" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Gyors muveletek</text>
+<rect x="1155" y="609" width="250" height="48" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="6" opacity="1"/>
+<rect x="1155" y="605" width="250" height="48" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="6" opacity="1"/>
+<text x="1280" y="635" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">+ Uj Munkalap</text>
+<rect x="1155" y="669" width="250" height="48" stroke="#1D5436" fill="#1D5436" stroke-width="1" rx="6" opacity="1"/>
+<rect x="1155" y="665" width="250" height="48" stroke="#276749" fill="#276749" stroke-width="1" rx="6" opacity="1"/>
+<text x="1280" y="695" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">+ Uj Arajanlat</text>
+<rect x="1155" y="729" width="250" height="48" stroke="#D0D4D9" fill="#D0D4D9" stroke-width="1" rx="6" opacity="1"/>
+<rect x="1155" y="725" width="250" height="48" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<text x="1280" y="755" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">+ Uj Partner</text>
+<rect x="1155" y="789" width="250" height="48" stroke="#8A5A1A" fill="#8A5A1A" stroke-width="1" rx="6" opacity="1"/>
+<rect x="1155" y="785" width="250" height="48" stroke="#B7791F" fill="#FEF3C7" stroke-width="1" rx="6" opacity="1"/>
+<text x="1280" y="815" font-size="14" fill="#B7791F" text-anchor="middle" class="excalidraw-text" opacity="1">Feldolgozottkent jelol</text>
+</svg>

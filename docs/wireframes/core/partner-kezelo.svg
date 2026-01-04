@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 1520 980" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-40" y="-40" width="1520" height="980" fill="#EAECEF"/>
+<rect x="0" y="0" width="1440" height="900" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<rect x="0" y="0" width="1440" height="64" stroke="#1A2634" fill="#1A2634" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="42" font-size="24" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP</text>
+<text x="200" y="38" font-size="16" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">/ Partnerek</text>
+<text x="1240" y="36" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">3:45</text>
+<text x="1420" y="36" font-size="14" fill="#ffffff" text-anchor="end" class="excalidraw-text" opacity="1">Kiss Peter</text>
+<rect x="0" y="64" width="240" height="836" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="104" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Dashboard</text>
+<text x="20" y="140" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Berles</text>
+<text x="20" y="176" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Szerviz</text>
+<text x="20" y="212" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Keszlet</text>
+<rect x="0" y="224" width="240" height="40" stroke="#BF4400" fill="#FFF5F0" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="248" font-size="14" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Partnerek</text>
+<text x="20" y="294" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Penztar</text>
+<text x="280" y="118" font-size="28" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Partnerek</text>
+<rect x="1230" y="84" width="150" height="44" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="8" opacity="1"/>
+<text x="1305" y="110" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">+ Uj partner</text>
+<rect x="280" y="140" width="1100" height="50" stroke="transparent" fill="transparent" stroke-width="1" rx="0" opacity="1"/>
+<rect x="280" y="140" width="120" height="44" stroke="#BF4400" fill="#F8F9FA" stroke-width="2" rx="8" opacity="1"/>
+<text x="340" y="167" font-size="13" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Mind (1,247)</text>
+<rect x="420" y="140" width="130" height="44" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="485" y="167" font-size="13" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Magansz. (892)</text>
+<rect x="570" y="140" width="120" height="44" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="630" y="167" font-size="13" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Ceg (355)</text>
+<rect x="710" y="140" width="160" height="44" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="790" y="167" font-size="13" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Szerzodeses (42)</text>
+<rect x="890" y="140" width="110" height="44" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="945" y="167" font-size="13" fill="#C53030" text-anchor="middle" class="excalidraw-text" opacity="1">Tiltott (8)</text>
+<rect x="280" y="200" width="1100" height="56" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="300" y="212" width="400" height="36" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<text x="316" y="235" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Kereses nev, telefon, email, adoszam alapjan...</text>
+<rect x="720" y="212" width="140" height="36" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<text x="736" y="235" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Varos: Mind</text>
+<rect x="880" y="212" width="160" height="36" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<text x="896" y="235" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Rendezes: Nev</text>
+<rect x="1280" y="212" width="80" height="36" stroke="#1565A8" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="1320" y="234" font-size="12" fill="#1565A8" text-anchor="middle" class="excalidraw-text" opacity="1">Export</text>
+<rect x="280" y="276" width="1100" height="580" stroke="transparent" fill="transparent" stroke-width="1" rx="0" opacity="1"/>
+<rect x="280" y="276" width="350" height="180" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="12" opacity="1"/>
+<ellipse cx="325" cy="321" rx="25" ry="25" stroke="#1565A8" fill="#E8F4FD" stroke-width="1" opacity="1"/>
+<text x="325" y="327" font-size="16" fill="#1565A8" text-anchor="middle" class="excalidraw-text" opacity="1">KI</text>
+<text x="370" y="318" font-size="18" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Kovacs Istvan</text>
+<rect x="370" y="326" width="80" height="20" stroke="#1565A8" fill="#E8F4FD" stroke-width="1" rx="10" opacity="1"/>
+<text x="410" y="340" font-size="10" fill="#0E4A7A" text-anchor="middle" class="excalidraw-text" opacity="1">Magansz.</text>
+<rect x="460" y="326" width="40" height="20" stroke="#BF4400" fill="#FFF5F0" stroke-width="1" rx="10" opacity="1"/>
+<text x="480" y="340" font-size="10" fill="#8A3200" text-anchor="middle" class="excalidraw-text" opacity="1">VIP</text>
+<text x="300" y="383" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">+36 30 123 4567</text>
+<text x="300" y="405" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">kovacs.istvan@email.hu</text>
+<text x="300" y="432" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Berlesek: 12  |  Szerviz: 3  |  Aktiv: 1</text>
+<text x="602" y="314" font-size="18" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">...</text>
+<rect x="655" y="276" width="350" height="180" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="12" opacity="1"/>
+<ellipse cx="700" cy="321" rx="25" ry="25" stroke="#1565A8" fill="#E8F4FD" stroke-width="1" opacity="1"/>
+<text x="700" y="327" font-size="16" fill="#1565A8" text-anchor="middle" class="excalidraw-text" opacity="1">NE</text>
+<text x="745" y="318" font-size="18" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Nagy Epito Kft.</text>
+<rect x="745" y="326" width="40" height="20" stroke="#1565A8" fill="#E8F4FD" stroke-width="1" rx="10" opacity="1"/>
+<text x="765" y="340" font-size="10" fill="#0E4A7A" text-anchor="middle" class="excalidraw-text" opacity="1">Ceg</text>
+<rect x="795" y="326" width="80" height="20" stroke="#38A169" fill="#E6FFED" stroke-width="1" rx="10" opacity="1"/>
+<text x="835" y="340" font-size="10" fill="#276749" text-anchor="middle" class="excalidraw-text" opacity="1">Szerzodeses</text>
+<text x="675" y="383" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">+36 1 234 5678</text>
+<text x="675" y="405" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">12345678-2-42</text>
+<text x="675" y="432" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Berlesek: 45  |  Szerviz: 8  |  Aktiv: 3</text>
+<text x="977" y="314" font-size="18" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">...</text>
+<rect x="1030" y="276" width="350" height="180" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="12" opacity="1"/>
+<ellipse cx="1075" cy="321" rx="25" ry="25" stroke="#1565A8" fill="#E8F4FD" stroke-width="1" opacity="1"/>
+<text x="1075" y="327" font-size="16" fill="#1565A8" text-anchor="middle" class="excalidraw-text" opacity="1">TP</text>
+<text x="1120" y="318" font-size="18" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Toth Peter</text>
+<rect x="1120" y="326" width="80" height="20" stroke="#1565A8" fill="#E8F4FD" stroke-width="1" rx="10" opacity="1"/>
+<text x="1160" y="340" font-size="10" fill="#0E4A7A" text-anchor="middle" class="excalidraw-text" opacity="1">Magansz.</text>
+<text x="1050" y="383" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">+36 70 987 6543</text>
+<text x="1050" y="405" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">toth.peter@gmail.com</text>
+<text x="1050" y="432" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Berlesek: 5  |  Szerviz: 1  |  Aktiv: 0</text>
+<text x="1352" y="314" font-size="18" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">...</text>
+<rect x="280" y="476" width="350" height="180" stroke="#C53030" fill="#FFF5F5" stroke-width="2" rx="12" opacity="1"/>
+<ellipse cx="325" cy="521" rx="25" ry="25" stroke="#C53030" fill="#FED7D7" stroke-width="1" opacity="1"/>
+<text x="325" y="527" font-size="16" fill="#9B2C2C" text-anchor="middle" class="excalidraw-text" opacity="1">SG</text>
+<text x="370" y="518" font-size="18" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Szabo Gabor</text>
+<rect x="370" y="526" width="60" height="20" stroke="#C53030" fill="#C53030" stroke-width="1" rx="10" opacity="1"/>
+<text x="400" y="539" font-size="9" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">TILTOTT</text>
+<text x="300" y="583" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">+36 20 111 2222</text>
+<text x="300" y="605" font-size="13" fill="#9B2C2C" text-anchor="start" class="excalidraw-text" opacity="1">Fizetesi elmaradas: 85 000 Ft</text>
+<text x="300" y="632" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Berlesek: 8  |  Szerviz: 2  |  Aktiv: 0</text>
+<text x="602" y="514" font-size="18" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">...</text>
+<rect x="655" y="476" width="350" height="180" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="12" opacity="1"/>
+<ellipse cx="700" cy="521" rx="25" ry="25" stroke="#1565A8" fill="#E8F4FD" stroke-width="1" opacity="1"/>
+<text x="700" y="527" font-size="16" fill="#1565A8" text-anchor="middle" class="excalidraw-text" opacity="1">VL</text>
+<text x="745" y="518" font-size="18" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Varga Laszlo</text>
+<rect x="745" y="526" width="80" height="20" stroke="#1565A8" fill="#E8F4FD" stroke-width="1" rx="10" opacity="1"/>
+<text x="785" y="540" font-size="10" fill="#0E4A7A" text-anchor="middle" class="excalidraw-text" opacity="1">Magansz.</text>
+<text x="675" y="583" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">+36 30 555 4444</text>
+<text x="675" y="605" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">varga.laszlo@freemail.hu</text>
+<text x="675" y="632" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Berlesek: 2  |  Szerviz: 0  |  Aktiv: 0</text>
+<text x="977" y="514" font-size="18" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">...</text>
+<rect x="1030" y="476" width="350" height="180" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="12" opacity="1"/>
+<ellipse cx="1075" cy="521" rx="25" ry="25" stroke="#1565A8" fill="#E8F4FD" stroke-width="1" opacity="1"/>
+<text x="1075" y="527" font-size="16" fill="#1565A8" text-anchor="middle" class="excalidraw-text" opacity="1">BK</text>
+<text x="1120" y="518" font-size="18" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Bauer Kft.</text>
+<rect x="1120" y="526" width="40" height="20" stroke="#1565A8" fill="#E8F4FD" stroke-width="1" rx="10" opacity="1"/>
+<text x="1140" y="540" font-size="10" fill="#0E4A7A" text-anchor="middle" class="excalidraw-text" opacity="1">Ceg</text>
+<text x="1050" y="583" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">+36 1 333 2222</text>
+<text x="1050" y="605" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">98765432-1-13</text>
+<text x="1050" y="632" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Berlesek: 23  |  Szerviz: 5  |  Aktiv: 2</text>
+<text x="1352" y="514" font-size="18" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">...</text>
+<rect x="280" y="820" width="1100" height="50" stroke="transparent" fill="transparent" stroke-width="1" rx="0" opacity="1"/>
+<text x="300" y="849" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">1-12 / 1,247 partner</text>
+<rect x="800" y="828" width="100" height="32" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="850" y="850" font-size="12" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">12 / oldal</text>
+<rect x="1140" y="826" width="220" height="36" stroke="transparent" fill="transparent" stroke-width="1" rx="0" opacity="1"/>
+<rect x="1140" y="826" width="36" height="36" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="1158" y="850" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">&lt;</text>
+<rect x="1186" y="826" width="36" height="36" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="1204" y="850" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">1</text>
+<rect x="1232" y="826" width="36" height="36" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="1250" y="850" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">2</text>
+<text x="1288" y="850" font-size="14" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">...</text>
+<rect x="1324" y="826" width="36" height="36" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="1342" y="850" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">&gt;</text>
+</svg>

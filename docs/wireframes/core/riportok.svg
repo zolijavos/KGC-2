@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 1520 980" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-40" y="-40" width="1520" height="980" fill="#EAECEF"/>
+<rect x="0" y="0" width="1440" height="900" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<rect x="0" y="0" width="1440" height="64" stroke="#1A2634" fill="#1A2634" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="40" font-size="22" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP</text>
+<text x="130" y="36" font-size="14" fill="#94A3B8" text-anchor="start" class="excalidraw-text" opacity="1">/ Riportok</text>
+<rect x="300" y="14" width="400" height="36" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<text x="315" y="36" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Kereses...</text>
+<rect x="1050" y="14" width="120" height="36" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="1110" y="35" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">KGC Erd</text>
+<text x="1210" y="34" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">3</text>
+<text x="1300" y="32" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Joska</text>
+<text x="1400" y="30" font-size="12" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">4:32</text>
+<rect x="0" y="64" width="220" height="836" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="91" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">NAVIGACIO</text>
+<text x="25" y="129" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Dashboard</text>
+<text x="25" y="169" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Berles</text>
+<text x="25" y="209" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Szerviz</text>
+<text x="25" y="249" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Keszlet</text>
+<text x="25" y="289" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Partnerek</text>
+<text x="25" y="329" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Penztar</text>
+<text x="25" y="369" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Arajanlat</text>
+<path d="M 20 400 L 200 400" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="25" y="434" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Admin</text>
+<rect x="10" y="450" width="200" height="40" stroke="#FFF0E6" fill="#FFF0E6" stroke-width="1" rx="6" opacity="1"/>
+<text x="25" y="474" font-size="14" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Riportok</text>
+<rect x="220" y="64" width="1220" height="836" stroke="transparent" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<text x="250" y="111" font-size="26" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Riportok</text>
+<text x="250" y="131" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Uzleti riportok es statisztikak | 2026. januar 4.</text>
+<rect x="1200" y="86" width="120" height="40" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="6" opacity="1"/>
+<rect x="1200" y="82" width="120" height="40" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="6" opacity="1"/>
+<text x="1260" y="106" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Export</text>
+<rect x="1200" y="126" width="120" height="70" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="1215" y="151" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">PDF</text>
+<text x="1215" y="178" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Excel (XLSX)</text>
+<rect x="250" y="150" width="900" height="44" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="258" y="160" width="100" height="32" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="4" opacity="1"/>
+<rect x="258" y="156" width="100" height="32" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="310" y="178" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Berles</text>
+<text x="415" y="178" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Szerviz</text>
+<text x="520" y="178" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Penzugy</text>
+<text x="620" y="178" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Keszlet</text>
+<rect x="250" y="210" width="500" height="40" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="6" opacity="1"/>
+<text x="265" y="233" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Idoszak:</text>
+<rect x="345" y="220" width="60" height="28" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="4" opacity="1"/>
+<rect x="345" y="216" width="60" height="28" stroke="#BF4400" fill="#FFF0E6" stroke-width="1" rx="4" opacity="1"/>
+<text x="375.5" y="234" font-size="12" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Ma</text>
+<rect x="415" y="216" width="60" height="28" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="445.5" y="234" font-size="12" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Het</text>
+<rect x="485" y="216" width="70" height="28" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="520.5" y="234" font-size="12" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Honap</text>
+<rect x="565" y="216" width="70" height="28" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="600" y="234" font-size="12" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Egyeni</text>
+<rect x="650" y="216" width="90" height="28" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<text x="695" y="233" font-size="11" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">2026-01-04</text>
+<rect x="250" y="270" width="280" height="130" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="270" y="290" width="48" height="48" stroke="#FFF0E6" fill="#FFF0E6" stroke-width="1" rx="8" opacity="1"/>
+<text x="294" y="322" font-size="20" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">$</text>
+<text x="330" y="303" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Napi forgalom</text>
+<text x="330" y="341" font-size="26" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">245.600 Ft</text>
+<text x="330" y="367" font-size="12" fill="#16A34A" text-anchor="start" class="excalidraw-text" opacity="1">+12% vs tegnap</text>
+<text x="295" y="370" font-size="20" fill="#16A34A" text-anchor="middle" class="excalidraw-text" opacity="1">^</text>
+<rect x="550" y="270" width="280" height="130" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="570" y="290" width="48" height="48" stroke="#DCFCE7" fill="#DCFCE7" stroke-width="1" rx="8" opacity="1"/>
+<text x="594" y="320" font-size="18" fill="#16A34A" text-anchor="middle" class="excalidraw-text" opacity="1">[]</text>
+<text x="630" y="303" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Aktiv berlesek</text>
+<text x="630" y="341" font-size="26" fill="#16A34A" text-anchor="start" class="excalidraw-text" opacity="1">24</text>
+<text x="630" y="367" font-size="12" fill="#16A34A" text-anchor="start" class="excalidraw-text" opacity="1">+3 ma indult</text>
+<text x="595" y="370" font-size="20" fill="#16A34A" text-anchor="middle" class="excalidraw-text" opacity="1">^</text>
+<rect x="850" y="270" width="280" height="130" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="870" y="290" width="48" height="48" stroke="#FEE2E2" fill="#FEE2E2" stroke-width="1" rx="8" opacity="1"/>
+<text x="894" y="322" font-size="20" fill="#DC2626" text-anchor="middle" class="excalidraw-text" opacity="1">!</text>
+<text x="930" y="303" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Kedelmes visszahozasok</text>
+<text x="930" y="341" font-size="26" fill="#DC2626" text-anchor="start" class="excalidraw-text" opacity="1">5</text>
+<text x="930" y="367" font-size="12" fill="#DC2626" text-anchor="start" class="excalidraw-text" opacity="1">+2 vs tegnap</text>
+<text x="895" y="370" font-size="20" fill="#DC2626" text-anchor="middle" class="excalidraw-text" opacity="1">^</text>
+<rect x="250" y="420" width="280" height="130" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="270" y="440" width="48" height="48" stroke="#FFF0E6" fill="#FFF0E6" stroke-width="1" rx="8" opacity="1"/>
+<text x="294" y="470" font-size="18" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">#</text>
+<text x="330" y="453" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Szerviz statisztika</text>
+<text x="330" y="491" font-size="26" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">8 / 12</text>
+<text x="330" y="517" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">nyitott / osszesen</text>
+<rect x="550" y="420" width="280" height="130" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="570" y="440" width="48" height="48" stroke="#DBEAFE" fill="#DBEAFE" stroke-width="1" rx="8" opacity="1"/>
+<text x="594" y="470" font-size="18" fill="#1565A8" text-anchor="middle" class="excalidraw-text" opacity="1">%</text>
+<text x="630" y="453" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Keszlet kihasznaltsag</text>
+<text x="630" y="491" font-size="26" fill="#1565A8" text-anchor="start" class="excalidraw-text" opacity="1">78%</text>
+<text x="630" y="517" font-size="12" fill="#16A34A" text-anchor="start" class="excalidraw-text" opacity="1">+5% vs mult het</text>
+<text x="595" y="520" font-size="20" fill="#16A34A" text-anchor="middle" class="excalidraw-text" opacity="1">^</text>
+<rect x="850" y="420" width="280" height="130" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="870" y="440" width="48" height="48" stroke="#DCFCE7" fill="#DCFCE7" stroke-width="1" rx="8" opacity="1"/>
+<text x="894" y="472" font-size="20" fill="#16A34A" text-anchor="middle" class="excalidraw-text" opacity="1">*</text>
+<text x="930" y="453" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Top partnerek</text>
+<text x="930" y="481" font-size="16" fill="#16A34A" text-anchor="start" class="excalidraw-text" opacity="1">Kovacs Epitoipari</text>
+<text x="930" y="502" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Nagy Szerviz</text>
+<text x="930" y="522" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Epitok Kft</text>
+<rect x="250" y="570" width="880" height="300" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="270" y="606" font-size="16" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Heti forgalom alakulasa</text>
+<rect x="270" y="625" width="840" height="220" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<path d="M 320 645 L 320 825" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<path d="M 320 825 L 1080 825" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="315" y="660" font-size="10" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">300k</text>
+<text x="315" y="720" font-size="10" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">200k</text>
+<text x="315" y="780" font-size="10" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">100k</text>
+<rect x="370" y="725" width="60" height="100" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<rect x="470" y="695" width="60" height="130" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<rect x="570" y="710" width="60" height="115" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<rect x="670" y="680" width="60" height="145" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<rect x="770" y="700" width="60" height="125" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<rect x="870" y="755" width="60" height="70" stroke="#1565A8" fill="#1565A8" stroke-width="1" rx="4" opacity="1"/>
+<rect x="970" y="770" width="60" height="55" stroke="#DBEAFE" fill="#DBEAFE" stroke-width="1" rx="4" opacity="1"/>
+<text x="400" y="841" font-size="11" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">H</text>
+<text x="500" y="841" font-size="11" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">K</text>
+<text x="600" y="841" font-size="11" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Sze</text>
+<text x="700" y="841" font-size="11" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Cs</text>
+<text x="800" y="841" font-size="11" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">P</text>
+<text x="900" y="841" font-size="11" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Szo</text>
+<text x="1000" y="841" font-size="11" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">V</text>
+<rect x="990" y="590" width="16" height="16" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="2" opacity="1"/>
+<text x="1015" y="602" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Forgalom</text>
+<text x="1320" y="266" font-size="11" fill="#718096" text-anchor="end" class="excalidraw-text" opacity="1">Utolso frissites: 14:32</text>
+</svg>

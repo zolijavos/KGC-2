@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 1520 980" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-40" y="-40" width="1520" height="980" fill="#EAECEF"/>
+<rect x="0" y="0" width="1440" height="900" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<rect x="0" y="0" width="1440" height="64" stroke="#1A2634" fill="#1A2634" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="40" font-size="22" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP</text>
+<text x="130" y="36" font-size="14" fill="#94a3b8" text-anchor="start" class="excalidraw-text" opacity="1">/ Admin / Rendszer Monitoring</text>
+<rect x="1100" y="14" width="120" height="36" stroke="#374151" fill="#374151" stroke-width="1" rx="4" opacity="1"/>
+<text x="1160" y="35" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Kozpont</text>
+<text x="1350" y="32" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Super Admin</text>
+<rect x="0" y="64" width="220" height="836" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="91" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">ADMIN BEALLITASOK</text>
+<text x="25" y="124" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Felhasznalok</text>
+<text x="25" y="164" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Jogosultsagok</text>
+<text x="25" y="204" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Uzlet adatok</text>
+<text x="25" y="244" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Integraciok</text>
+<rect x="10" y="260" width="200" height="40" stroke="#FFF4ED" fill="#FFF4ED" stroke-width="1" rx="6" opacity="1"/>
+<text x="25" y="286" font-size="14" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Rendszer Monitoring</text>
+<path d="M 20 320 L 200 320" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="25" y="352" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">&lt;- Vissza a Dashboard-ra</text>
+<rect x="220" y="64" width="1220" height="836" stroke="transparent" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<text x="250" y="111" font-size="26" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Rendszer Monitoring</text>
+<text x="250" y="131" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Szerverek, szinkronizacio es rendszer allapot figyelese</text>
+<text x="1380" y="107" font-size="12" fill="#4A5568" text-anchor="end" class="excalidraw-text" opacity="1">Utolso frissites: 09:45:23</text>
+<rect x="250" y="150" width="270" height="120" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="270" y="170" width="50" height="50" stroke="#276749" fill="#e8f5e9" stroke-width="1" rx="8" opacity="1"/>
+<text x="295" y="196" font-size="14" fill="#276749" text-anchor="middle" class="excalidraw-text" opacity="1">8/9</text>
+<text x="335" y="186" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Online Uzletek</text>
+<text x="335" y="219" font-size="24" fill="#276749" text-anchor="start" class="excalidraw-text" opacity="1">8 / 9</text>
+<text x="270" y="246" font-size="11" fill="#B7791F" text-anchor="start" class="excalidraw-text" opacity="1">1 uzlet offline: KGC Szekesfehervar</text>
+<rect x="535" y="150" width="270" height="120" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="555" y="170" width="50" height="50" stroke="#276749" fill="#e8f5e9" stroke-width="1" rx="8" opacity="1"/>
+<text x="580" y="199" font-size="14" fill="#276749" text-anchor="middle" class="excalidraw-text" opacity="1">OK</text>
+<text x="620" y="186" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Szinkron Statusz</text>
+<text x="620" y="219" font-size="24" fill="#276749" text-anchor="start" class="excalidraw-text" opacity="1">Aktiv</text>
+<text x="555" y="246" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Utolso sync: 2 perce (09:43:12)</text>
+<rect x="820" y="150" width="270" height="120" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="840" y="170" width="50" height="50" stroke="#276749" fill="#e8f5e9" stroke-width="1" rx="8" opacity="1"/>
+<text x="865" y="197" font-size="12" fill="#276749" text-anchor="middle" class="excalidraw-text" opacity="1">API</text>
+<text x="905" y="186" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">API Egeszseg</text>
+<text x="905" y="219" font-size="24" fill="#276749" text-anchor="start" class="excalidraw-text" opacity="1">100%</text>
+<text x="840" y="246" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Minden endpoint elerheto</text>
+<rect x="1105" y="150" width="270" height="120" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="1125" y="170" width="50" height="50" stroke="#1565A8" fill="#e3f2fd" stroke-width="1" rx="8" opacity="1"/>
+<text x="1150.5" y="199" font-size="14" fill="#1565A8" text-anchor="middle" class="excalidraw-text" opacity="1">DB</text>
+<text x="1190" y="186" font-size="14" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Adatbazis</text>
+<text x="1190" y="219" font-size="24" fill="#276749" text-anchor="start" class="excalidraw-text" opacity="1">32 ms</text>
+<text x="1125" y="246" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">PostgreSQL v15.4 - 2.4 GB / 10 GB</text>
+<rect x="250" y="290" width="555" height="200" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="270" y="321" font-size="16" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Teljesitmeny Metrikak</text>
+<text x="270" y="358" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Atlagos valaszido:</text>
+<text x="400" y="358" font-size="13" fill="#276749" text-anchor="start" class="excalidraw-text" opacity="1">145 ms</text>
+<rect x="270" y="365" width="250" height="8" stroke="#D0D4D9" fill="#D0D4D9" stroke-width="1" rx="4" opacity="1"/>
+<rect x="270" y="365" width="75" height="8" stroke="#276749" fill="#276749" stroke-width="1" rx="4" opacity="1"/>
+<text x="270" y="403" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Uptime (30 nap):</text>
+<text x="400" y="403" font-size="13" fill="#276749" text-anchor="start" class="excalidraw-text" opacity="1">99.97%</text>
+<rect x="270" y="410" width="250" height="8" stroke="#D0D4D9" fill="#D0D4D9" stroke-width="1" rx="4" opacity="1"/>
+<rect x="270" y="410" width="248" height="8" stroke="#276749" fill="#276749" stroke-width="1" rx="4" opacity="1"/>
+<text x="270" y="448" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">CPU hasznalat:</text>
+<text x="400" y="448" font-size="13" fill="#276749" text-anchor="start" class="excalidraw-text" opacity="1">23%</text>
+<rect x="270" y="455" width="250" height="8" stroke="#D0D4D9" fill="#D0D4D9" stroke-width="1" rx="4" opacity="1"/>
+<rect x="270" y="455" width="58" height="8" stroke="#276749" fill="#276749" stroke-width="1" rx="4" opacity="1"/>
+<text x="545" y="358" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Memoria hasznalat:</text>
+<text x="680" y="358" font-size="13" fill="#B7791F" text-anchor="start" class="excalidraw-text" opacity="1">4.2 / 8 GB</text>
+<rect x="545" y="365" width="240" height="8" stroke="#D0D4D9" fill="#D0D4D9" stroke-width="1" rx="4" opacity="1"/>
+<rect x="545" y="365" width="126" height="8" stroke="#B7791F" fill="#B7791F" stroke-width="1" rx="4" opacity="1"/>
+<text x="545" y="403" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Lemez hasznalat:</text>
+<text x="680" y="403" font-size="13" fill="#276749" text-anchor="start" class="excalidraw-text" opacity="1">45 / 100 GB</text>
+<rect x="545" y="410" width="240" height="8" stroke="#D0D4D9" fill="#D0D4D9" stroke-width="1" rx="4" opacity="1"/>
+<rect x="545" y="410" width="108" height="8" stroke="#276749" fill="#276749" stroke-width="1" rx="4" opacity="1"/>
+<text x="545" y="448" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Halozat ki/be:</text>
+<text x="680" y="448" font-size="13" fill="#276749" text-anchor="start" class="excalidraw-text" opacity="1">12/45 MB/s</text>
+<rect x="820" y="290" width="555" height="200" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="840" y="321" font-size="16" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Aktiv Munkamenetek</text>
+<rect x="1010" y="302" width="40" height="24" stroke="#276749" fill="#e8f5e9" stroke-width="1" rx="12" opacity="1"/>
+<text x="1030" y="319" font-size="12" fill="#276749" text-anchor="middle" class="excalidraw-text" opacity="1">12</text>
+<rect x="835" y="340" width="525" height="28" stroke="#F8F9FA" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="850" y="357" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Felhasznalo</text>
+<text x="1000" y="357" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Uzlet</text>
+<text x="1130" y="357" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Idotartam</text>
+<text x="1260" y="357" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Utolso</text>
+<text x="850" y="390" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Kovacs Janos</text>
+<text x="1000" y="390" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">KGC Erd</text>
+<text x="1130" y="390" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">2h 15m</text>
+<text x="1260" y="390" font-size="12" fill="#276749" text-anchor="start" class="excalidraw-text" opacity="1">3 perce</text>
+<text x="850" y="417" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Nagy Maria</text>
+<text x="1000" y="417" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">KGC Budaors</text>
+<text x="1130" y="417" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">45m</text>
+<text x="1260" y="417" font-size="12" fill="#276749" text-anchor="start" class="excalidraw-text" opacity="1">1 perce</text>
+<text x="850" y="444" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Toth Peter</text>
+<text x="1000" y="444" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">KGC Gyor</text>
+<text x="1130" y="444" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">1h 30m</text>
+<text x="1260" y="444" font-size="12" fill="#B7791F" text-anchor="start" class="excalidraw-text" opacity="1">8 perce</text>
+<text x="850" y="471" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Kiss Anna</text>
+<text x="1000" y="471" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">KGC Pecs</text>
+<text x="1130" y="471" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">20m</text>
+<text x="1260" y="471" font-size="12" fill="#276749" text-anchor="start" class="excalidraw-text" opacity="1">most</text>
+<rect x="250" y="510" width="840" height="280" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="270" y="541" font-size="16" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Hibak / Figyelmeztetesek</text>
+<rect x="490" y="522" width="30" height="24" stroke="#B7791F" fill="#fff3e0" stroke-width="1" rx="12" opacity="1"/>
+<text x="505" y="539" font-size="12" fill="#B7791F" text-anchor="middle" class="excalidraw-text" opacity="1">3</text>
+<rect x="530" y="522" width="30" height="24" stroke="#9B2C2C" fill="#ffebee" stroke-width="1" rx="12" opacity="1"/>
+<text x="545" y="539" font-size="12" fill="#9B2C2C" text-anchor="middle" class="excalidraw-text" opacity="1">1</text>
+<rect x="265" y="560" width="810" height="28" stroke="#F8F9FA" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="280" y="577" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Tipus</text>
+<text x="360" y="577" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Idopont</text>
+<text x="490" y="577" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Uzlet</text>
+<text x="620" y="577" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Uzenet</text>
+<rect x="265" y="595" width="810" height="40" stroke="#ffebee" fill="#ffebee" stroke-width="1" rx="0" opacity="1"/>
+<rect x="280" y="603" width="55" height="22" stroke="#9B2C2C" fill="#9B2C2C" stroke-width="1" rx="4" opacity="1"/>
+<text x="307.5" y="618" font-size="10" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">HIBA</text>
+<text x="360" y="620" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Ma, 09:42:15</text>
+<text x="490" y="620" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">KGC Szekesfehervar</text>
+<text x="620" y="620" font-size="12" fill="#9B2C2C" text-anchor="start" class="excalidraw-text" opacity="1">Kapcsolat megszakadt - Utolso sync 15 perce</text>
+<rect x="280" y="648" width="55" height="22" stroke="#B7791F" fill="#B7791F" stroke-width="1" rx="4" opacity="1"/>
+<text x="307.5" y="663" font-size="10" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">FIGY.</text>
+<text x="360" y="665" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Ma, 09:30:00</text>
+<text x="490" y="665" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">KGC Erd</text>
+<text x="620" y="665" font-size="12" fill="#B7791F" text-anchor="start" class="excalidraw-text" opacity="1">Magas memoria hasznalat (85%) - MyPos integraciok</text>
+<rect x="280" y="688" width="55" height="22" stroke="#B7791F" fill="#B7791F" stroke-width="1" rx="4" opacity="1"/>
+<text x="307.5" y="703" font-size="10" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">FIGY.</text>
+<text x="360" y="705" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Ma, 08:15:42</text>
+<text x="490" y="705" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Kozpont</text>
+<text x="620" y="705" font-size="12" fill="#B7791F" text-anchor="start" class="excalidraw-text" opacity="1">Szamlazz.hu API lassulas - 3.2s valaszido</text>
+<rect x="280" y="728" width="55" height="22" stroke="#B7791F" fill="#B7791F" stroke-width="1" rx="4" opacity="1"/>
+<text x="307.5" y="743" font-size="10" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">FIGY.</text>
+<text x="360" y="745" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Tegnap, 22:30</text>
+<text x="490" y="745" font-size="12" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">KGC Gyor</text>
+<text x="620" y="745" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Sikertelen backup - ujraprobalkozas hajnalban</text>
+<rect x="1105" y="510" width="270" height="280" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="1125" y="541" font-size="16" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Gyors Muveletek</text>
+<rect x="1125" y="564" width="230" height="44" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="4" opacity="1"/>
+<rect x="1125" y="560" width="230" height="44" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="1240" y="587" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Osszes Szinkronizalas</text>
+<rect x="1125" y="624" width="230" height="44" stroke="#0d4a7a" fill="#0d4a7a" stroke-width="1" rx="4" opacity="1"/>
+<rect x="1125" y="620" width="230" height="44" stroke="#1565A8" fill="#1565A8" stroke-width="1" rx="4" opacity="1"/>
+<text x="1240" y="647" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Cache Torlese</text>
+<rect x="1125" y="684" width="230" height="44" stroke="#701a1a" fill="#701a1a" stroke-width="1" rx="4" opacity="1"/>
+<rect x="1125" y="680" width="230" height="44" stroke="#9B2C2C" fill="#9B2C2C" stroke-width="1" rx="4" opacity="1"/>
+<text x="1240" y="707" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Szolgaltatasok Ujrainditas</text>
+<rect x="1125" y="740" width="230" height="36" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<text x="1240" y="763" font-size="12" fill="#1A1F26" text-anchor="middle" class="excalidraw-text" opacity="1">Diagnostika Export</text>
+<text x="250" y="822" font-size="12" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Rendszer verzio: KGC ERP v3.0.1 | Server: kgc-prod-01 | Uptime: 45 nap 12 ora</text>
+<rect x="1280" y="802" width="95" height="30" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="4" opacity="1"/>
+<text x="1327.5" y="822" font-size="12" fill="#1A1F26" text-anchor="middle" class="excalidraw-text" opacity="1">Frissites</text>
+</svg>

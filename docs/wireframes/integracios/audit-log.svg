@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 1520 980" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-40" y="-40" width="1520" height="980" fill="#EAECEF"/>
+<rect x="0" y="0" width="1440" height="900" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<rect x="0" y="0" width="1440" height="64" stroke="#1A2634" fill="#1A2634" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="42" font-size="24" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP</text>
+<text x="200" y="38" font-size="16" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">/ Admin / Rendszer Naplo</text>
+<text x="1240" y="36" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">4:58</text>
+<text x="1420" y="36" font-size="14" fill="#ffffff" text-anchor="end" class="excalidraw-text" opacity="1">Admin User</text>
+<rect x="0" y="64" width="240" height="836" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="104" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Dashboard</text>
+<text x="20" y="140" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Berles</text>
+<text x="20" y="176" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Szerviz</text>
+<text x="20" y="212" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Keszlet</text>
+<text x="20" y="248" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Partnerek</text>
+<text x="20" y="284" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Penztar</text>
+<path d="M 10 310 L 230 310" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="20" y="341" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">ADMIN</text>
+<rect x="0" y="350" width="240" height="40" stroke="#FFF0E6" fill="#FFF0E6" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="374" font-size="14" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Rendszer Naplo</text>
+<text x="20" y="420" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Felhasznalok</text>
+<text x="20" y="456" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Beallitasok</text>
+<text x="280" y="118" font-size="28" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Rendszer Naplo</text>
+<text x="280" y="137" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Rendszertevekenyesgek es felhasznaloi muveletek nyilvantartasa</text>
+<rect x="280" y="160" width="1100" height="70" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="300" y="181" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Datum tartomany</text>
+<rect x="300" y="186" width="200" height="36" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<text x="316" y="209" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">2026.01.01 - 2026.01.04</text>
+<text x="520" y="181" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Felhasznalo</text>
+<rect x="520" y="186" width="160" height="36" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<text x="536" y="209" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Mind</text>
+<text x="700" y="181" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Muvelet tipus</text>
+<rect x="700" y="186" width="140" height="36" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<text x="716" y="209" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Mind</text>
+<text x="860" y="181" font-size="11" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Modul</text>
+<rect x="860" y="186" width="140" height="36" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<text x="876" y="209" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Mind</text>
+<rect x="1020" y="186" width="220" height="36" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<text x="1036" y="209" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Kereses...</text>
+<rect x="1260" y="190" width="100" height="36" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="4" opacity="1"/>
+<rect x="1260" y="186" width="100" height="36" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="1310" y="209" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Szures</text>
+<rect x="280" y="250" width="1100" height="560" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<rect x="280" y="250" width="1100" height="48" stroke="#EAECEF" fill="#EAECEF" stroke-width="1" rx="8" opacity="1"/>
+<text x="300" y="278" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Idopont</text>
+<text x="450" y="278" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Felhasznalo</text>
+<text x="600" y="278" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Muvelet</text>
+<text x="720" y="278" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Entitas</text>
+<text x="900" y="278" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Valtozasok</text>
+<text x="1100" y="278" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">IP cim</text>
+<text x="300" y="329" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">2026.01.04 14:32:18</text>
+<text x="450" y="329" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Kiss Peter</text>
+<rect x="600" y="310" width="70" height="24" stroke="#276749" fill="#C6F6D5" stroke-width="1" rx="12" opacity="1"/>
+<text x="635" y="326" font-size="10" fill="#276749" text-anchor="middle" class="excalidraw-text" opacity="1">CREATE</text>
+<text x="720" y="329" font-size="13" fill="#2B6CB0" text-anchor="start" class="excalidraw-text" opacity="1">Berles #B-2026-0045</text>
+<text x="900" y="329" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Uj berles letrehozva</text>
+<text x="1100" y="329" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">192.168.1.105</text>
+<text x="1335" y="330" font-size="14" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">[+]</text>
+<path d="M 300 350 L 1360 350" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="300" y="383" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">2026.01.04 14:28:45</text>
+<text x="450" y="383" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Nagy Joska</text>
+<rect x="600" y="364" width="70" height="24" stroke="#2B6CB0" fill="#BEE3F8" stroke-width="1" rx="12" opacity="1"/>
+<text x="635" y="380" font-size="10" fill="#2B6CB0" text-anchor="middle" class="excalidraw-text" opacity="1">UPDATE</text>
+<text x="720" y="383" font-size="13" fill="#2B6CB0" text-anchor="start" class="excalidraw-text" opacity="1">Partner #P-1234</text>
+<text x="900" y="383" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">telefon, email modositva</text>
+<text x="1100" y="383" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">192.168.1.102</text>
+<text x="1335" y="384" font-size="14" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">[+]</text>
+<path d="M 300 404 L 1360 404" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="300" y="437" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">2026.01.04 14:15:02</text>
+<text x="450" y="437" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Kovacs Istvan</text>
+<rect x="600" y="418" width="70" height="24" stroke="#9B2C2C" fill="#FED7D7" stroke-width="1" rx="12" opacity="1"/>
+<text x="635" y="434" font-size="10" fill="#9B2C2C" text-anchor="middle" class="excalidraw-text" opacity="1">DELETE</text>
+<text x="720" y="437" font-size="13" fill="#2B6CB0" text-anchor="start" class="excalidraw-text" opacity="1">Keszlet #K-8821</text>
+<text x="900" y="437" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Keszlet elem torolve</text>
+<text x="1100" y="437" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">192.168.1.108</text>
+<text x="1335" y="438" font-size="14" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">[+]</text>
+<path d="M 300 458 L 1360 458" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="300" y="491" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">2026.01.04 13:52:33</text>
+<text x="450" y="491" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Kiss Peter</text>
+<rect x="600" y="472" width="70" height="24" stroke="#276749" fill="#C6F6D5" stroke-width="1" rx="12" opacity="1"/>
+<text x="635" y="488" font-size="10" fill="#276749" text-anchor="middle" class="excalidraw-text" opacity="1">CREATE</text>
+<text x="720" y="491" font-size="13" fill="#2B6CB0" text-anchor="start" class="excalidraw-text" opacity="1">Munkalap #ML-0142</text>
+<text x="900" y="491" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Uj szerviz munkalap</text>
+<text x="1100" y="491" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">192.168.1.105</text>
+<text x="1335" y="492" font-size="14" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">[+]</text>
+<path d="M 300 512 L 1360 512" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="300" y="545" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">2026.01.04 13:45:11</text>
+<text x="450" y="545" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Admin User</text>
+<rect x="600" y="526" width="70" height="24" stroke="#B7791F" fill="#FEFCBF" stroke-width="1" rx="12" opacity="1"/>
+<text x="635" y="542" font-size="10" fill="#B7791F" text-anchor="middle" class="excalidraw-text" opacity="1">LOGIN</text>
+<text x="720" y="545" font-size="13" fill="#2B6CB0" text-anchor="start" class="excalidraw-text" opacity="1">Session #S-9182</text>
+<text x="900" y="545" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Sikeres bejelentkezes</text>
+<text x="1100" y="545" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">192.168.1.100</text>
+<text x="1335" y="546" font-size="14" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">[+]</text>
+<path d="M 300 566 L 1360 566" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="300" y="599" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">2026.01.04 13:30:22</text>
+<text x="450" y="599" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Toth Anna</text>
+<rect x="600" y="580" width="70" height="24" stroke="#2B6CB0" fill="#BEE3F8" stroke-width="1" rx="12" opacity="1"/>
+<text x="635" y="596" font-size="10" fill="#2B6CB0" text-anchor="middle" class="excalidraw-text" opacity="1">UPDATE</text>
+<text x="720" y="599" font-size="13" fill="#2B6CB0" text-anchor="start" class="excalidraw-text" opacity="1">Berles #B-2026-0044</text>
+<text x="900" y="599" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">statusz: aktiv -&gt; lezart</text>
+<text x="1100" y="599" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">192.168.1.110</text>
+<text x="1335" y="600" font-size="14" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">[+]</text>
+<path d="M 300 620 L 1360 620" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="300" y="653" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">2026.01.04 13:22:08</text>
+<text x="450" y="653" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Nagy Joska</text>
+<rect x="600" y="634" width="70" height="24" stroke="#276749" fill="#C6F6D5" stroke-width="1" rx="12" opacity="1"/>
+<text x="635" y="650" font-size="10" fill="#276749" text-anchor="middle" class="excalidraw-text" opacity="1">CREATE</text>
+<text x="720" y="653" font-size="13" fill="#2B6CB0" text-anchor="start" class="excalidraw-text" opacity="1">Partner #P-1238</text>
+<text x="900" y="653" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Uj partner felveve</text>
+<text x="1100" y="653" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">192.168.1.102</text>
+<text x="1335" y="654" font-size="14" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">[+]</text>
+<path d="M 300 674 L 1360 674" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<text x="300" y="707" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">2026.01.04 13:10:55</text>
+<text x="450" y="707" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Szabo Eva</text>
+<rect x="600" y="688" width="70" height="24" stroke="#2B6CB0" fill="#BEE3F8" stroke-width="1" rx="12" opacity="1"/>
+<text x="635" y="704" font-size="10" fill="#2B6CB0" text-anchor="middle" class="excalidraw-text" opacity="1">UPDATE</text>
+<text x="720" y="707" font-size="13" fill="#2B6CB0" text-anchor="start" class="excalidraw-text" opacity="1">Penztar #PT-2026-01</text>
+<text x="900" y="707" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">egyenleg: +15000 Ft</text>
+<text x="1100" y="707" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">192.168.1.115</text>
+<text x="1335" y="708" font-size="14" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">[+]</text>
+<rect x="280" y="830" width="1100" height="50" stroke="transparent" fill="transparent" stroke-width="1" rx="0" opacity="1"/>
+<text x="300" y="860" font-size="13" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">1-25 / 4,892 bejegyzes</text>
+<rect x="1120" y="842" width="90" height="36" stroke="#D0D4D9" fill="#D0D4D9" stroke-width="1" rx="4" opacity="1"/>
+<rect x="1120" y="838" width="90" height="36" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="1165" y="862" font-size="12" fill="#1A1F26" text-anchor="middle" class="excalidraw-text" opacity="1">CSV Export</text>
+<rect x="1220" y="842" width="100" height="36" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="4" opacity="1"/>
+<rect x="1220" y="838" width="100" height="36" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="1270" y="862" font-size="12" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Excel Export</text>
+<rect x="700" y="840" width="100" height="32" stroke="#D0D4D9" fill="#ffffff" stroke-width="1" rx="4" opacity="1"/>
+<text x="750" y="862" font-size="12" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">25 / oldal</text>
+<rect x="830" y="838" width="36" height="36" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="848" y="864" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">&lt;</text>
+<rect x="876" y="842" width="36" height="36" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="4" opacity="1"/>
+<rect x="876" y="838" width="36" height="36" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<text x="894" y="864" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">1</text>
+<rect x="922" y="838" width="36" height="36" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="940" y="864" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">2</text>
+<rect x="968" y="838" width="36" height="36" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="986" y="864" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">3</text>
+<text x="1024" y="864" font-size="14" fill="#718096" text-anchor="middle" class="excalidraw-text" opacity="1">...</text>
+<rect x="1050" y="838" width="36" height="36" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="4" opacity="1"/>
+<text x="1068" y="864" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">&gt;</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 880 980" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-40" y="-40" width="880" height="980" fill="#EAECEF"/>
+<rect x="0" y="0" width="800" height="900" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="0" opacity="1"/>
+<rect x="0" y="0" width="800" height="56" stroke="#1A2634" fill="#1A2634" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="36" font-size="20" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP</text>
+<text x="140" y="34" font-size="14" fill="#8fa3b8" text-anchor="start" class="excalidraw-text" opacity="1">/ Szerviz / Munkalap #ML-2026-0142</text>
+<text x="780" y="34" font-size="14" fill="#ffffff" text-anchor="end" class="excalidraw-text" opacity="1">Nagy Janos</text>
+<text x="30" y="100" font-size="24" fill="#1A2634" text-anchor="start" class="excalidraw-text" opacity="1">MUNKALAP #ML-2026-0142</text>
+<rect x="660" y="84" width="110" height="4" stroke="#0e4a7a" fill="#0e4a7a" stroke-width="1" rx="4" opacity="1"/>
+<rect x="660" y="68" width="110" height="40" stroke="#1565A8" fill="#1565A8" stroke-width="1" rx="4" opacity="1"/>
+<text x="715" y="93" font-size="13" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Nyomtatas</text>
+<rect x="30" y="120" width="740" height="80" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="50" y="148" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Ugyfel:</text>
+<text x="110" y="148" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Kovacs Janos</text>
+<text x="280" y="148" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Tel: +36 30 123 4567</text>
+<text x="50" y="173" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Gep:</text>
+<text x="110" y="173" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Stihl MS 261 Lancfuresz</text>
+<rect x="580" y="145" width="170" height="32" stroke="#4caf50" fill="#e8f5e9" stroke-width="1" rx="16" opacity="1"/>
+<text x="665" y="166" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">KESZ - Atvetelre var</text>
+<path d="M 30 215 L 770 215" stroke="#D0D4D9" fill="none" stroke-width="1" opacity="1"/>
+<rect x="30" y="462" width="740" height="8" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="8" opacity="1"/>
+<rect x="30" y="230" width="740" height="240" stroke="#BF4400" fill="#fff8f5" stroke-width="2" rx="8" opacity="1"/>
+<rect x="30" y="230" width="740" height="44" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="8" opacity="1"/>
+<rect x="30" y="260" width="740" height="20" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="0" opacity="1"/>
+<text x="50" y="259" font-size="16" fill="#ffffff" text-anchor="start" class="excalidraw-text" opacity="1">TAROLASI DIJ INFORMACIO</text>
+<rect x="50" y="290" width="90" height="28" stroke="#1565A8" fill="#e3f2fd" stroke-width="1" rx="14" opacity="1"/>
+<text x="95" y="309" font-size="12" fill="#1565A8" text-anchor="middle" class="excalidraw-text" opacity="1">KIS GEP</text>
+<text x="150" y="309" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">(Bevizsgalas: 3.500 Ft &lt; 5.000 Ft)</text>
+<text x="50" y="348" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Ingyenes tarolas: 30 nap (2025-12-15 -&gt; 2026-01-14)</text>
+<rect x="50" y="358" width="400" height="16" stroke="#D0D4D9" fill="#D0D4D9" stroke-width="1" rx="8" opacity="1"/>
+<rect x="50" y="358" width="268" height="16" stroke="#4caf50" fill="#4caf50" stroke-width="1" rx="8" opacity="1"/>
+<text x="460" y="371" font-size="13" fill="#4caf50" text-anchor="start" class="excalidraw-text" opacity="1">67%</text>
+<text x="50" y="398" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Hatralevo ingyenes napok:</text>
+<text x="250" y="398" font-size="13" fill="#4caf50" text-anchor="start" class="excalidraw-text" opacity="1">10 nap</text>
+<text x="50" y="423" font-size="13" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Ha nem veszi at 2026-01-14-ig:</text>
+<text x="50" y="446" font-size="14" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Tarolasi dij: 100 Ft/nap</text>
+<rect x="500" y="285" width="250" height="165" stroke="#D0D4D9" fill="#EAECEF" stroke-width="1" rx="6" opacity="1"/>
+<text x="520" y="308" font-size="13" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">Ertesitesek:</text>
+<path d="M 530 328 L 530 428" stroke="#D0D4D9" fill="none" stroke-width="2" opacity="1"/>
+<ellipse cx="530" cy="332" rx="8" ry="8" stroke="#4caf50" fill="#4caf50" stroke-width="1" opacity="1"/>
+<text x="548" y="336" font-size="11" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">7 nap elott: 2026-01-07</text>
+<text x="548" y="352" font-size="10" fill="#4caf50" text-anchor="start" class="excalidraw-text" opacity="1">(kuldve)</text>
+<ellipse cx="530" cy="378" rx="8" ry="8" stroke="#ff9800" fill="#ff9800" stroke-width="1" opacity="1"/>
+<text x="548" y="382" font-size="11" fill="#1A1F26" text-anchor="start" class="excalidraw-text" opacity="1">1 nap elott: 2026-01-13</text>
+<text x="548" y="398" font-size="10" fill="#ff9800" text-anchor="start" class="excalidraw-text" opacity="1">(utemezve)</text>
+<ellipse cx="530" cy="424" rx="8" ry="8" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="2" opacity="1"/>
+<text x="548" y="428" font-size="11" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Lejarat: 2026-01-14</text>
+<text x="548" y="444" font-size="10" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">(pending)</text>
+<text x="30" y="511" font-size="16" fill="#1A2634" text-anchor="start" class="excalidraw-text" opacity="1">KOLTSEGEK</text>
+<rect x="30" y="525" width="740" height="180" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="1" rx="8" opacity="1"/>
+<text x="50" y="559" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Munka:</text>
+<text x="750" y="559" font-size="14" fill="#1A1F26" text-anchor="end" class="excalidraw-text" opacity="1">12.500 Ft</text>
+<text x="50" y="589" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Alkatreszek:</text>
+<text x="750" y="589" font-size="14" fill="#1A1F26" text-anchor="end" class="excalidraw-text" opacity="1">4.200 Ft</text>
+<text x="50" y="619" font-size="14" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Tarolasi dij:</text>
+<text x="150" y="617" font-size="12" fill="#4caf50" text-anchor="start" class="excalidraw-text" opacity="1">(ingyenes idoszak)</text>
+<text x="750" y="619" font-size="14" fill="#4caf50" text-anchor="end" class="excalidraw-text" opacity="1">0 Ft</text>
+<path d="M 50 640 L 750 640" stroke="#D0D4D9" fill="none" stroke-width="2" opacity="1"/>
+<text x="50" y="676" font-size="16" fill="#1A2634" text-anchor="start" class="excalidraw-text" opacity="1">OSSZESEN:</text>
+<text x="750" y="678" font-size="20" fill="#BF4400" text-anchor="end" class="excalidraw-text" opacity="1">16.700 Ft</text>
+<rect x="30" y="730" width="740" height="70" stroke="transparent" fill="transparent" stroke-width="1" rx="0" opacity="1"/>
+<rect x="30" y="784" width="120" height="4" stroke="#a0a4a9" fill="#a0a4a9" stroke-width="1" rx="4" opacity="1"/>
+<rect x="30" y="740" width="120" height="48" stroke="#D0D4D9" fill="#F8F9FA" stroke-width="2" rx="4" opacity="1"/>
+<text x="90" y="770" font-size="14" fill="#4A5568" text-anchor="middle" class="excalidraw-text" opacity="1">Vissza</text>
+<rect x="590" y="784" width="180" height="4" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="4" opacity="1"/>
+<rect x="590" y="740" width="180" height="48" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="4" opacity="1"/>
+<rect x="590" y="740" width="180" height="24" stroke="#d45500" fill="#d45500" stroke-width="1" rx="4" opacity="1"/>
+<text x="680" y="770" font-size="14" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Kiadasa atalitas</text>
+<text x="30" y="844" font-size="14" fill="#718096" text-anchor="start" class="excalidraw-text" opacity="1">Wireframe: Tarolasi Dij UI - Munkalap nezet</text>
+<text x="770" y="842" font-size="12" fill="#D0D4D9" text-anchor="end" class="excalidraw-text" opacity="1">KGC ERP v3.0 - 2026-01-04</text>
+<text x="30" y="872" font-size="12" fill="#4A5568" text-anchor="start" class="excalidraw-text" opacity="1">Legenda:</text>
+<text x="110" y="871" font-size="11" fill="#1565A8" text-anchor="start" class="excalidraw-text" opacity="1">KIS GEP: &lt; 5.000 Ft = 100 Ft/nap</text>
+<text x="320" y="871" font-size="11" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">NAGY GEP: &gt;= 5.000 Ft = 500 Ft/nap</text>
+<text x="560" y="871" font-size="11" fill="#4caf50" text-anchor="start" class="excalidraw-text" opacity="1">Ingyenes idoszak: 30 nap</text>
+</svg>

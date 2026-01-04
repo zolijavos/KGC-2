@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 1520 980" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-40" y="-40" width="1520" height="980" fill="#0D1117"/>
+<rect x="0" y="0" width="1440" height="900" stroke="#30363D" fill="#0D1117" stroke-width="1" rx="0" opacity="1"/>
+<rect x="0" y="0" width="1440" height="64" stroke="#21262D" fill="#161B22" stroke-width="1" rx="0" opacity="1"/>
+<text x="20" y="42" font-size="24" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP</text>
+<text x="200" y="38" font-size="16" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">/ Rental / New Checkout</text>
+<text x="1240" y="36" font-size="14" fill="#E6EDF3" text-anchor="middle" class="excalidraw-text" opacity="1">Active 4:32</text>
+<text x="1420" y="36" font-size="14" fill="#E6EDF3" text-anchor="end" class="excalidraw-text" opacity="1">Peter Kiss</text>
+<rect x="0" y="64" width="1440" height="80" stroke="#30363D" fill="#161B22" stroke-width="1" rx="0" opacity="1"/>
+<ellipse cx="220" cy="104" rx="20" ry="20" stroke="#BF4400" fill="#BF4400" stroke-width="2" opacity="1"/>
+<text x="220" y="110" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">1</text>
+<text x="220" y="142" font-size="14" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Customer</text>
+<path d="M 250 104 L 450 104" stroke="#BF4400" fill="none" stroke-width="3" opacity="1"/>
+<ellipse cx="480" cy="104" rx="20" ry="20" stroke="#BF4400" fill="#BF4400" stroke-width="2" opacity="1"/>
+<text x="480" y="110" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">2</text>
+<text x="480" y="142" font-size="14" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Equipment</text>
+<path d="M 510 104 L 710 104" stroke="#30363D" fill="none" stroke-width="3" opacity="1"/>
+<ellipse cx="740" cy="104" rx="20" ry="20" stroke="#30363D" fill="#21262D" stroke-width="2" opacity="1"/>
+<text x="740" y="110" font-size="16" fill="#8B949E" text-anchor="middle" class="excalidraw-text" opacity="1">3</text>
+<text x="740" y="142" font-size="14" fill="#8B949E" text-anchor="middle" class="excalidraw-text" opacity="1">Deposit</text>
+<path d="M 770 104 L 970 104" stroke="#30363D" fill="none" stroke-width="3" opacity="1"/>
+<ellipse cx="1000" cy="104" rx="20" ry="20" stroke="#30363D" fill="#21262D" stroke-width="2" opacity="1"/>
+<text x="1000" y="110" font-size="16" fill="#8B949E" text-anchor="middle" class="excalidraw-text" opacity="1">4</text>
+<text x="1000" y="142" font-size="14" fill="#8B949E" text-anchor="middle" class="excalidraw-text" opacity="1">Summary</text>
+<path d="M 1030 104 L 1190 104" stroke="#30363D" fill="none" stroke-width="3" opacity="1"/>
+<ellipse cx="1220" cy="104" rx="20" ry="20" stroke="#30363D" fill="#21262D" stroke-width="2" opacity="1"/>
+<text x="1220" y="110" font-size="16" fill="#8B949E" text-anchor="middle" class="excalidraw-text" opacity="1">5</text>
+<text x="1220" y="142" font-size="14" fill="#8B949E" text-anchor="middle" class="excalidraw-text" opacity="1">Print</text>
+<rect x="20" y="164" width="960" height="680" stroke="#30363D" fill="#161B22" stroke-width="1" rx="8" opacity="1"/>
+<text x="40" y="206" font-size="22" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Step 2: Select Equipment</text>
+<text x="40" y="244" font-size="14" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Search equipment (barcode/name):</text>
+<rect x="40" y="252" width="500" height="44" stroke="#30363D" fill="#21262D" stroke-width="1" rx="4" opacity="1"/>
+<text x="56" y="278" font-size="14" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Scan barcode or enter equipment name...</text>
+<rect x="560" y="252" width="120" height="44" stroke="#BF4400" fill="#21262D" stroke-width="1" rx="4" opacity="1"/>
+<text x="620" y="277" font-size="13" fill="#BF4400" text-anchor="middle" class="excalidraw-text" opacity="1">Scan</text>
+<text x="40" y="334" font-size="14" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Selected equipment (2):</text>
+<rect x="40" y="344" width="920" height="40" stroke="#30363D" fill="#21262D" stroke-width="1" rx="0" opacity="1"/>
+<text x="56" y="367" font-size="13" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Equipment Name</text>
+<text x="240" y="367" font-size="13" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Barcode</text>
+<text x="400" y="367" font-size="13" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Daily Rate</text>
+<text x="520" y="367" font-size="13" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Deposit</text>
+<text x="640" y="367" font-size="13" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Status</text>
+<text x="850" y="367" font-size="13" fill="#8B949E" text-anchor="middle" class="excalidraw-text" opacity="1">Action</text>
+<rect x="40" y="384" width="920" height="56" stroke="#30363D" fill="#161B22" stroke-width="1" rx="0" opacity="1"/>
+<text x="56" y="416" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Makita HR2470 Drill</text>
+<text x="240" y="416" font-size="14" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">BG-001234</text>
+<text x="400" y="416" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">4,500 Ft</text>
+<text x="520" y="416" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">45,000 Ft</text>
+<rect x="640" y="400" width="80" height="24" stroke="#3FB950" fill="#1B4332" stroke-width="1" rx="12" opacity="1"/>
+<text x="680" y="415" font-size="11" fill="#3FB950" text-anchor="middle" class="excalidraw-text" opacity="1">Available</text>
+<rect x="800" y="398" width="80" height="28" stroke="#F85149" fill="#3D1F1F" stroke-width="1" rx="4" opacity="1"/>
+<text x="840" y="415" font-size="11" fill="#F85149" text-anchor="middle" class="excalidraw-text" opacity="1">Remove</text>
+<rect x="40" y="440" width="920" height="56" stroke="#30363D" fill="#21262D" stroke-width="1" rx="0" opacity="1"/>
+<text x="56" y="472" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Bosch GWS 750 Grinder</text>
+<text x="240" y="472" font-size="14" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">BG-002567</text>
+<text x="400" y="472" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">3,500 Ft</text>
+<text x="520" y="472" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">35,000 Ft</text>
+<rect x="640" y="456" width="80" height="24" stroke="#3FB950" fill="#1B4332" stroke-width="1" rx="12" opacity="1"/>
+<text x="680" y="471" font-size="11" fill="#3FB950" text-anchor="middle" class="excalidraw-text" opacity="1">Available</text>
+<rect x="800" y="454" width="80" height="28" stroke="#F85149" fill="#3D1F1F" stroke-width="1" rx="4" opacity="1"/>
+<text x="840" y="471" font-size="11" fill="#F85149" text-anchor="middle" class="excalidraw-text" opacity="1">Remove</text>
+<text x="40" y="534" font-size="14" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Add accessories:</text>
+<rect x="40" y="548" width="20" height="20" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="2" opacity="1"/>
+<text x="50" y="562" font-size="12" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">x</text>
+<text x="72" y="563" font-size="13" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">SDS Drill Bit Set (3,500 Ft)</text>
+<rect x="300" y="548" width="20" height="20" stroke="#30363D" fill="#21262D" stroke-width="1" rx="2" opacity="1"/>
+<text x="332" y="563" font-size="13" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Cutting Disc Pack (2,000 Ft)</text>
+<rect x="560" y="548" width="20" height="20" stroke="#30363D" fill="#21262D" stroke-width="1" rx="2" opacity="1"/>
+<text x="592" y="563" font-size="13" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Safety Glasses (500 Ft)</text>
+<text x="40" y="614" font-size="14" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Rental Period:</text>
+<text x="40" y="642" font-size="12" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Start:</text>
+<rect x="40" y="650" width="180" height="44" stroke="#30363D" fill="#21262D" stroke-width="1" rx="4" opacity="1"/>
+<text x="56" y="676" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">2026.01.04</text>
+<text x="250" y="642" font-size="12" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Expected Return:</text>
+<rect x="250" y="650" width="180" height="44" stroke="#30363D" fill="#21262D" stroke-width="1" rx="4" opacity="1"/>
+<text x="266" y="676" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">2026.01.07</text>
+<text x="460" y="676" font-size="14" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">= 3 days</text>
+<text x="40" y="734" font-size="14" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Notes (optional):</text>
+<rect x="40" y="744" width="640" height="80" stroke="#30363D" fill="#21262D" stroke-width="1" rx="4" opacity="1"/>
+<text x="56" y="775" font-size="13" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">E.g. Customer request, special conditions...</text>
+<rect x="1000" y="164" width="420" height="680" stroke="#30363D" fill="#161B22" stroke-width="1" rx="8" opacity="1"/>
+<text x="1020" y="204" font-size="20" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Summary</text>
+<text x="1020" y="243" font-size="13" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Customer:</text>
+<text x="1020" y="268" font-size="16" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">Istvan Kovacs</text>
+<text x="1020" y="288" font-size="12" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">+36 30 123 4567</text>
+<path d="M 1020 310 L 1400 310" stroke="#30363D" fill="none" stroke-width="1" opacity="1"/>
+<text x="1020" y="343" font-size="13" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Equipment (2 items):</text>
+<text x="1020" y="370" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">- Makita HR2470 Drill</text>
+<text x="1400" y="370" font-size="14" fill="#8B949E" text-anchor="end" class="excalidraw-text" opacity="1">4,500 Ft/day</text>
+<text x="1020" y="396" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">- Bosch GWS 750 Grinder</text>
+<text x="1400" y="396" font-size="14" fill="#8B949E" text-anchor="end" class="excalidraw-text" opacity="1">3,500 Ft/day</text>
+<text x="1020" y="422" font-size="14" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">- SDS Drill Bit Set</text>
+<text x="1400" y="422" font-size="14" fill="#8B949E" text-anchor="end" class="excalidraw-text" opacity="1">3,500 Ft</text>
+<path d="M 1020 450 L 1400 450" stroke="#30363D" fill="none" stroke-width="1" opacity="1"/>
+<text x="1020" y="483" font-size="13" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Period:</text>
+<text x="1020" y="508" font-size="14" fill="#E6EDF3" text-anchor="start" class="excalidraw-text" opacity="1">2026.01.04 - 2026.01.07 (3 days)</text>
+<path d="M 1020 530 L 1400 530" stroke="#30363D" fill="none" stroke-width="1" opacity="1"/>
+<text x="1020" y="563" font-size="13" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Calculation:</text>
+<text x="1020" y="590" font-size="14" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Rental fee (3 days):</text>
+<text x="1400" y="590" font-size="14" fill="#E6EDF3" text-anchor="end" class="excalidraw-text" opacity="1">24,000 Ft</text>
+<text x="1020" y="616" font-size="14" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Accessories:</text>
+<text x="1400" y="616" font-size="14" fill="#E6EDF3" text-anchor="end" class="excalidraw-text" opacity="1">3,500 Ft</text>
+<text x="1020" y="642" font-size="14" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">Total deposit:</text>
+<text x="1400" y="642" font-size="14" fill="#BF4400" text-anchor="end" class="excalidraw-text" opacity="1">80,000 Ft</text>
+<rect x="1010" y="660" width="400" height="60" stroke="#BF4400" fill="#21262D" stroke-width="1" rx="8" opacity="1"/>
+<text x="1030" y="696" font-size="16" fill="#BF4400" text-anchor="start" class="excalidraw-text" opacity="1">Due Now:</text>
+<text x="1400" y="700" font-size="24" fill="#BF4400" text-anchor="end" class="excalidraw-text" opacity="1">107,500 Ft</text>
+<text x="1030" y="713" font-size="11" fill="#8B949E" text-anchor="start" class="excalidraw-text" opacity="1">(Rental Fee + Accessories + Deposit)</text>
+<rect x="1010" y="744" width="400" height="50" stroke="#8A3200" fill="#8A3200" stroke-width="1" rx="8" opacity="1"/>
+<rect x="1010" y="740" width="400" height="50" stroke="#BF4400" fill="#BF4400" stroke-width="1" rx="8" opacity="1"/>
+<text x="1210" y="771" font-size="16" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Next: Deposit -&gt;</text>
+<rect x="1010" y="800" width="190" height="40" stroke="#30363D" fill="#21262D" stroke-width="1" rx="8" opacity="1"/>
+<text x="1105" y="826" font-size="14" fill="#8B949E" text-anchor="middle" class="excalidraw-text" opacity="1">&lt;- Back</text>
+<rect x="1220" y="800" width="190" height="40" stroke="#F85149" fill="#21262D" stroke-width="1" rx="8" opacity="1"/>
+<text x="1315" y="826" font-size="14" fill="#F85149" text-anchor="middle" class="excalidraw-text" opacity="1">Cancel</text>
+</svg>

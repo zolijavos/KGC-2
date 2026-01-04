@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -10 1380 939" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="10" y="-10" width="1380" height="939" fill="#ffffff"/>
+<text x="50" y="62" font-size="32" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">KGC ERP - Ikon Konyvtar Osszehasonlitas</text>
+<text x="50" y="96" font-size="16" fill="#4a5568" text-anchor="start" class="excalidraw-text" opacity="1">Ugyanazok az ikonok kulonbozo konyvtarakbol</text>
+<path d="M 50 115 L 1350 115" stroke="#d0d4d9" fill="none" stroke-width="2" opacity="1"/>
+<text x="50" y="149" font-size="14" fill="#4a5568" text-anchor="start" class="excalidraw-text" opacity="1">Ikon</text>
+<text x="255" y="149" font-size="14" fill="#bf4400" text-anchor="middle" class="excalidraw-text" opacity="1">LUCIDE</text>
+<text x="455" y="149" font-size="14" fill="#1565a8" text-anchor="middle" class="excalidraw-text" opacity="1">PHOSPHOR</text>
+<text x="655" y="149" font-size="14" fill="#276749" text-anchor="middle" class="excalidraw-text" opacity="1">HEROICONS</text>
+<text x="855" y="149" font-size="14" fill="#9b2c2c" text-anchor="middle" class="excalidraw-text" opacity="1">TABLER</text>
+<text x="50" y="194" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Szerviz</text>
+<rect x="180" y="165" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<path d="M 195 200 L 215 180" stroke="#1a1f26" fill="none" stroke-width="2" opacity="1"/>
+<ellipse cx="216" cy="178" rx="6" ry="6" stroke="#1a1f26" fill="transparent" stroke-width="2" opacity="1"/>
+<rect x="380" y="165" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<path d="M 395 200 L 415 180" stroke="#1a1f26" fill="none" stroke-width="1.5" opacity="1"/>
+<ellipse cx="416" cy="178" rx="6" ry="6" stroke="#1a1f26" fill="transparent" stroke-width="1.5" opacity="1"/>
+<rect x="580" y="165" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<path d="M 595 200 L 615 180" stroke="#1a1f26" fill="none" stroke-width="2" opacity="1"/>
+<ellipse cx="617" cy="179" rx="7" ry="7" stroke="#1a1f26" fill="#1a1f26" stroke-width="2" opacity="1"/>
+<rect x="780" y="165" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<path d="M 795 200 L 815 180" stroke="#1a1f26" fill="none" stroke-width="2" opacity="1"/>
+<ellipse cx="816" cy="178" rx="6" ry="6" stroke="#1a1f26" fill="transparent" stroke-width="2" opacity="1"/>
+<text x="50" y="264" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Keszlet</text>
+<rect x="180" y="235" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<rect x="193" y="248" width="24" height="24" stroke="#1a1f26" fill="transparent" stroke-width="2" rx="0" opacity="1"/>
+<path d="M 193 260 L 217 260" stroke="#1a1f26" fill="none" stroke-width="2" opacity="1"/>
+<rect x="380" y="235" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<rect x="393" y="248" width="24" height="24" stroke="#1a1f26" fill="transparent" stroke-width="1.5" rx="0" opacity="1"/>
+<path d="M 393 260 L 417 260" stroke="#1a1f26" fill="none" stroke-width="1.5" opacity="1"/>
+<rect x="580" y="235" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<rect x="593" y="248" width="24" height="24" stroke="#1a1f26" fill="#1a1f2630" stroke-width="2" rx="0" opacity="1"/>
+<rect x="780" y="235" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<rect x="793" y="248" width="24" height="24" stroke="#1a1f26" fill="transparent" stroke-width="2" rx="0" opacity="1"/>
+<path d="M 793 260 L 817 260" stroke="#1a1f26" fill="none" stroke-width="2" opacity="1"/>
+<text x="50" y="334" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Felhasznalok</text>
+<rect x="180" y="305" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<ellipse cx="200" cy="317" rx="5" ry="5" stroke="#1a1f26" fill="transparent" stroke-width="2" opacity="1"/>
+<ellipse cx="215" cy="317" rx="5" ry="5" stroke="#1a1f26" fill="transparent" stroke-width="2" opacity="1"/>
+<rect x="380" y="305" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<ellipse cx="400" cy="317" rx="5" ry="5" stroke="#1a1f26" fill="transparent" stroke-width="1.5" opacity="1"/>
+<ellipse cx="415" cy="317" rx="5" ry="5" stroke="#1a1f26" fill="transparent" stroke-width="1.5" opacity="1"/>
+<rect x="580" y="305" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<ellipse cx="600" cy="317" rx="5" ry="5" stroke="#1a1f26" fill="#1a1f26" stroke-width="2" opacity="1"/>
+<ellipse cx="615" cy="317" rx="5" ry="5" stroke="#1a1f26" fill="#1a1f26" stroke-width="2" opacity="1"/>
+<rect x="780" y="305" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<ellipse cx="800" cy="317" rx="5" ry="5" stroke="#1a1f26" fill="transparent" stroke-width="2" opacity="1"/>
+<ellipse cx="815" cy="317" rx="5" ry="5" stroke="#1a1f26" fill="transparent" stroke-width="2" opacity="1"/>
+<text x="50" y="404" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Kereses</text>
+<rect x="180" y="375" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<ellipse cx="202" cy="394" rx="9" ry="9" stroke="#1a1f26" fill="transparent" stroke-width="2" opacity="1"/>
+<path d="M 208 400 L 216 408" stroke="#1a1f26" fill="none" stroke-width="2" opacity="1"/>
+<rect x="380" y="375" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<ellipse cx="402" cy="394" rx="9" ry="9" stroke="#1a1f26" fill="transparent" stroke-width="1.5" opacity="1"/>
+<path d="M 408 400 L 416 408" stroke="#1a1f26" fill="none" stroke-width="1.5" opacity="1"/>
+<rect x="580" y="375" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<ellipse cx="602" cy="394" rx="9" ry="9" stroke="#1a1f26" fill="transparent" stroke-width="2" opacity="1"/>
+<path d="M 608 400 L 618 410" stroke="#1a1f26" fill="none" stroke-width="2.5" opacity="1"/>
+<rect x="780" y="375" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<ellipse cx="802" cy="394" rx="9" ry="9" stroke="#1a1f26" fill="transparent" stroke-width="2" opacity="1"/>
+<path d="M 808 400 L 816 408" stroke="#1a1f26" fill="none" stroke-width="2" opacity="1"/>
+<text x="50" y="474" font-size="14" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">Hozzaadas</text>
+<rect x="180" y="445" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<path d="M 193 470 L 217 470" stroke="#1a1f26" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 205 458 L 205 482" stroke="#1a1f26" fill="none" stroke-width="2" opacity="1"/>
+<rect x="380" y="445" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<path d="M 393 470 L 417 470" stroke="#1a1f26" fill="none" stroke-width="1.5" opacity="1"/>
+<path d="M 405 458 L 405 482" stroke="#1a1f26" fill="none" stroke-width="1.5" opacity="1"/>
+<rect x="580" y="445" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<path d="M 593 470 L 617 470" stroke="#1a1f26" fill="none" stroke-width="2.5" opacity="1"/>
+<path d="M 605 458 L 605 482" stroke="#1a1f26" fill="none" stroke-width="2.5" opacity="1"/>
+<rect x="780" y="445" width="50" height="50" stroke="#d0d4d9" fill="#f8f9fa" stroke-width="1" rx="4" opacity="1"/>
+<path d="M 793 470 L 817 470" stroke="#1a1f26" fill="none" stroke-width="2" opacity="1"/>
+<path d="M 805 458 L 805 482" stroke="#1a1f26" fill="none" stroke-width="2" opacity="1"/>
+<text x="50" y="548" font-size="18" fill="#bf4400" text-anchor="start" class="excalidraw-text" opacity="1">OSSZEFOGLALAS</text>
+<rect x="50" y="570" width="200" height="180" stroke="#bf4400" fill="#bf440010" stroke-width="2" rx="8" opacity="1"/>
+<text x="150" y="603" font-size="18" fill="#bf4400" text-anchor="middle" class="excalidraw-text" opacity="1">LUCIDE</text>
+<text x="150" y="627" font-size="12" fill="#276749" text-anchor="middle" class="excalidraw-text" opacity="1">AJANLOTT</text>
+<text x="65" y="658" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">+ 1400+ ikon</text>
+<text x="65" y="673.6" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">+ Nagyon kicsi meret</text>
+<text x="65" y="689.2" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">+ Tree-shakeable</text>
+<text x="65" y="704.8" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">+ Vekony, modern</text>
+<text x="65" y="720.4" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">+ MIT licensz</text>
+<rect x="270" y="570" width="200" height="180" stroke="#1565a8" fill="#1565a810" stroke-width="2" rx="8" opacity="1"/>
+<text x="370" y="603" font-size="18" fill="#1565a8" text-anchor="middle" class="excalidraw-text" opacity="1">PHOSPHOR</text>
+<text x="285" y="638" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">+ 7000+ ikon</text>
+<text x="285" y="653.6" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">+ 6 suly variacio</text>
+<text x="285" y="669.2" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">+ Duotone opcio</text>
+<text x="285" y="684.8" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">- Nagyobb bundle</text>
+<text x="285" y="700.4" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">- Tobb dontes kell</text>
+<rect x="490" y="570" width="200" height="180" stroke="#276749" fill="#27674910" stroke-width="2" rx="8" opacity="1"/>
+<text x="590" y="603" font-size="18" fill="#276749" text-anchor="middle" class="excalidraw-text" opacity="1">HEROICONS</text>
+<text x="505" y="638" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">+ Tailwind nativ</text>
+<text x="505" y="653.6" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">+ Kicsi bundle</text>
+<text x="505" y="669.2" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">+ Solid + Outline</text>
+<text x="505" y="684.8" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">- Csak 300 ikon</text>
+<text x="505" y="700.4" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">- Limitalt valasztek</text>
+<rect x="710" y="570" width="200" height="180" stroke="#9b2c2c" fill="#9b2c2c10" stroke-width="2" rx="8" opacity="1"/>
+<text x="810" y="603" font-size="18" fill="#9b2c2c" text-anchor="middle" class="excalidraw-text" opacity="1">TABLER</text>
+<text x="725" y="638" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">+ 4500+ ikon</text>
+<text x="725" y="653.6" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">+ Konzisztens 2px</text>
+<text x="725" y="669.2" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">+ Jo dokumentacio</text>
+<text x="725" y="684.8" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">- Kozepes meret</text>
+<text x="725" y="700.4" font-size="13" fill="#1a1f26" text-anchor="start" class="excalidraw-text" opacity="1">- Tul sok opcio</text>
+<text x="50" y="796" font-size="16" fill="#4a5568" text-anchor="start" class="excalidraw-text" opacity="1">STROKE VASTAGSAG KULONBSEG</text>
+<path d="M 50 820 L 200 820" stroke="#1a1f26" fill="none" stroke-width="1.5" opacity="1"/>
+<text x="220" y="825" font-size="12" fill="#4a5568" text-anchor="start" class="excalidraw-text" opacity="1">Phosphor Light (1.5px)</text>
+<path d="M 50 850 L 200 850" stroke="#1a1f26" fill="none" stroke-width="2" opacity="1"/>
+<text x="220" y="855" font-size="12" fill="#4a5568" text-anchor="start" class="excalidraw-text" opacity="1">Lucide / Tabler / Heroicons (2px)</text>
+<path d="M 50 880 L 200 880" stroke="#1a1f26" fill="none" stroke-width="2.5" opacity="1"/>
+<text x="220" y="885" font-size="12" fill="#4a5568" text-anchor="start" class="excalidraw-text" opacity="1">Heroicons Solid (2.5px)</text>
+</svg>
