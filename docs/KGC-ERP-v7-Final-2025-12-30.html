@@ -117,7 +117,7 @@
                         <button @click="activeTab = 'features'"
                             :class="activeTab === 'features' ? 'bg-purple-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'"
                             class="w-full text-left px-3 py-2 rounded-lg text-sm transition-colors">
-                            ⚡ Feature Flowcharts (13)
+                            ⚡ Feature Flowcharts (19)
                         </button>
                         <button @click="activeTab = 'core'"
                             :class="activeTab === 'core' ? 'bg-blue-600 text-white' : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'"
@@ -1996,7 +1996,7 @@
                     <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border-l-4 border-purple-500">
                         <div class="flex justify-between items-start">
                             <div>
-                                <h2 class="text-2xl font-bold">⚡ Feature Flowcharts <span class="ml-2 px-2 py-1 bg-purple-500 text-white text-xs rounded-full">13 high/medium</span></h2>
+                                <h2 class="text-2xl font-bold">⚡ Feature Flowcharts <span class="ml-2 px-2 py-1 bg-purple-500 text-white text-xs rounded-full">19 high/medium</span></h2>
                                 <p class="text-gray-600 dark:text-gray-400 mt-2">Fit-Gap követelmény diagramok - HIGH és MEDIUM priority beágyazott SVG diagramok.</p>
                             </div>
                             <div class="flex gap-2">
@@ -3683,6 +3683,807 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Gyártás Modul Wireframe -->
+                <div class="diagram-container" id="Feature-Gyartas-Modul-Wireframe">
+                    <div class="flex justify-between items-start mb-3">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 dark:text-gray-100">
+                                Gyártás Modul - Wireframe
+                                <span class="ml-2 px-3 py-1 bg-green-500 text-white text-sm rounded-full font-bold animate-pulse">🆕 ÚJ</span>
+                            </h3>
+                            <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">BOM Kezelés + Gyártási Rendelés + Gyártási Lap <span class="priority-badge priority-medium ml-2">PHASE 2</span></p>
+                        </div>
+                        <button @click="expanded['Feature-Gyartas-Modul-Wireframe'] = !expanded['Feature-Gyartas-Modul-Wireframe']"
+                            class="px-4 py-2 bg-purple-500 hover:bg-purple-600 text-white rounded-lg transition-colors text-sm">
+                            <span x-text="expanded['Feature-Gyartas-Modul-Wireframe'] ? '➖ Bezár' : '➕ Megnyit'"></span>
+                        </button>
+                    </div>
+
+                    <div class="explanation-box">
+                        <p class="text-sm text-gray-700 dark:text-gray-300"><strong>📋 ADR-038:</strong> Gyártás modul - BOM kezelés (multi-level, 2-3 szint), gyártási rendelések lifecycle, fáziskövetés és készletmozgás integráció. Pályázati követelmény - NEM MVP.</p>
+                    </div>
+
+                    <div x-show="expanded['Feature-Gyartas-Modul-Wireframe']" x-collapse>
+                        <div class="diagram-wrapper mt-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 -20 1260 970" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-20" y="-20" width="1260" height="970" fill="#ffffff"/>
+<text x="20" y="44" font-size="24" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">KGC Gyartas Modul - Wireframe</text>
+<text x="20" y="69" font-size="14" fill="#868e96" text-anchor="start" class="excalidraw-text" opacity="1">BOM Kezeles + Gyartasi Rendeles + Gyartasi Lap reszletek</text>
+<text x="20" y="118" font-size="18" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">1. BOM KEZELES (bal oldal)</text>
+<rect x="20" y="130" width="320" height="400" stroke="#495057" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<rect x="20" y="130" width="320" height="45" stroke="#1971c2" fill="#e7f5ff" stroke-width="1" rx="0" opacity="1"/>
+<text x="35" y="158" font-size="16" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">BOM Lista</text>
+<rect x="245" y="138" width="85" height="30" stroke="#1971c2" fill="#1971c2" stroke-width="1" rx="0" opacity="1"/>
+<text x="287" y="156" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">+ Uj BOM</text>
+<rect x="30" y="185" width="200" height="32" stroke="#868e96" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="50" y="205" font-size="12" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Q</text>
+<text x="65" y="204" font-size="11" fill="#adb5bd" text-anchor="start" class="excalidraw-text" opacity="1">Kereses...</text>
+<rect x="240" y="190" width="18" height="18" stroke="#1971c2" fill="#1971c2" stroke-width="1" rx="0" opacity="1"/>
+<text x="249" y="202" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">v</text>
+<text x="265" y="202" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Csak aktiv</text>
+<rect x="30" y="230" width="300" height="28" stroke="#dee2e6" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="40" y="247" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Kod</text>
+<text x="100" y="247" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Megnevezes</text>
+<text x="237.5" y="247" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Ver.</text>
+<text x="295" y="247" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Aktiv</text>
+<rect x="30" y="260" width="300" height="36" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" rx="0" opacity="1"/>
+<text x="40" y="281" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">BOM-001</text>
+<text x="100" y="281" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Lancfuresz keszlet</text>
+<text x="237.5" y="281" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">v2.1</text>
+<ellipse cx="293" cy="278" rx="8" ry="8" stroke="#2f9e44" fill="#2f9e44" stroke-width="1" opacity="1"/>
+<rect x="30" y="300" width="300" height="36" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="40" y="321" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">BOM-002</text>
+<text x="100" y="321" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Funyiro csomag</text>
+<text x="237.5" y="321" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">v1.0</text>
+<ellipse cx="293" cy="318" rx="8" ry="8" stroke="#2f9e44" fill="#2f9e44" stroke-width="1" opacity="1"/>
+<rect x="30" y="340" width="300" height="36" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="40" y="361" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">BOM-003</text>
+<text x="100" y="361" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Kerti gepcsomag Pro</text>
+<text x="237.5" y="361" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">v3.2</text>
+<ellipse cx="293" cy="358" rx="8" ry="8" stroke="#868e96" fill="#dee2e6" stroke-width="1" opacity="1"/>
+<rect x="30" y="380" width="300" height="36" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="40" y="401" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">BOM-004</text>
+<text x="100" y="401" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Stihl alapcsomag</text>
+<text x="237.5" y="401" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">v1.5</text>
+<ellipse cx="293" cy="398" rx="8" ry="8" stroke="#2f9e44" fill="#2f9e44" stroke-width="1" opacity="1"/>
+<text x="180" y="511" font-size="11" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">&lt; 1 2 3 ... 8 &gt;</text>
+<text x="370" y="118" font-size="18" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">2. BOM SZERKESZTO (kozepso panel)</text>
+<rect x="370" y="130" width="420" height="400" stroke="#495057" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<rect x="370" y="130" width="420" height="70" stroke="#2f9e44" fill="#ebfbee" stroke-width="1" rx="0" opacity="1"/>
+<text x="385" y="152" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">BOM kod:</text>
+<text x="450" y="154" font-size="14" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">BOM-001</text>
+<rect x="550" y="138" width="45" height="22" stroke="#1971c2" fill="#d0ebff" stroke-width="1" rx="0" opacity="1"/>
+<text x="572.5" y="153" font-size="10" fill="#1864ab" text-anchor="middle" class="excalidraw-text" opacity="1">v2.1</text>
+<rect x="605" y="138" width="50" height="22" stroke="#2f9e44" fill="#c3fae8" stroke-width="1" rx="0" opacity="1"/>
+<text x="630" y="153" font-size="10" fill="#087f5b" text-anchor="middle" class="excalidraw-text" opacity="1">Aktiv</text>
+<text x="385" y="178" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Megnevezes:</text>
+<text x="470" y="180" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Lancfuresz keszlet</text>
+<text x="385" y="222" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Komponensek (fa nezet)</text>
+<rect x="385" y="230" width="390" height="220" stroke="#dee2e6" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<rect x="395" y="240" width="370" height="32" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="407.5" y="260" font-size="12" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">:::</text>
+<text x="427.5" y="260" font-size="12" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">v</text>
+<text x="440" y="260" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Stihl MS 251 lancfuresz</text>
+<text x="660" y="260" font-size="11" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">1 db</text>
+<text x="737.5" y="259" font-size="10" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">szerk</text>
+<rect x="420" y="278" width="345" height="28" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="432.5" y="295" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">L</text>
+<text x="452.5" y="295" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">:::</text>
+<text x="465" y="295" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Vezetolanc 35cm</text>
+<text x="660" y="295" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">2 db</text>
+<rect x="420" y="310" width="345" height="28" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="432.5" y="327" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">L</text>
+<text x="452.5" y="327" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">:::</text>
+<text x="465" y="327" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Fureslanc PM3</text>
+<text x="660" y="327" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">3 db</text>
+<rect x="395" y="346" width="370" height="32" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="407.5" y="366" font-size="12" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">:::</text>
+<text x="427.5" y="366" font-size="12" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">&gt;</text>
+<text x="440" y="366" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Vedofelszereles szett</text>
+<text x="660" y="366" font-size="11" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">1 db</text>
+<text x="725" y="365" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">(4 elem)</text>
+<rect x="395" y="384" width="370" height="32" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="407.5" y="404" font-size="12" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">:::</text>
+<text x="440" y="404" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Olaj 2T keverek 1L</text>
+<text x="660" y="404" font-size="11" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">2 L</text>
+<rect x="385" y="460" width="150" height="32" stroke="#1971c2" fill="#e7f5ff" stroke-width="1" rx="0" opacity="1"/>
+<text x="460" y="479" font-size="10" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">+ Komponens hozzaad</text>
+<rect x="610" y="460" width="80" height="32" stroke="#868e96" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="650.5" y="479" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Mentes</text>
+<rect x="700" y="460" width="75" height="32" stroke="#2f9e44" fill="#2f9e44" stroke-width="1" rx="0" opacity="1"/>
+<text x="737" y="479" font-size="10" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Aktivalas</text>
+<text x="820" y="118" font-size="18" fill="#9c36b5" text-anchor="start" class="excalidraw-text" opacity="1">3. GYARTASI RENDELES (jobb oldal)</text>
+<rect x="820" y="130" width="380" height="400" stroke="#495057" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<rect x="820" y="130" width="380" height="45" stroke="#9c36b5" fill="#f3d9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="835" y="156" font-size="14" fill="#862e9c" text-anchor="start" class="excalidraw-text" opacity="1">Gyartasi rendelesek</text>
+<rect x="1090" y="138" width="100" height="30" stroke="#9c36b5" fill="#9c36b5" stroke-width="1" rx="0" opacity="1"/>
+<text x="1139.5" y="155" font-size="10" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">+ Uj rendeles</text>
+<rect x="830" y="185" width="360" height="28" stroke="#dee2e6" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="840" y="202" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Szam</text>
+<text x="910" y="202" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">BOM</text>
+<text x="1015" y="202" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Mny</text>
+<text x="1080" y="202" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Statusz</text>
+<text x="1157.5" y="202" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Datum</text>
+<rect x="830" y="218" width="360" height="40" stroke="#9c36b5" fill="#f3d9fa" stroke-width="2" rx="0" opacity="1"/>
+<text x="840" y="241" font-size="10" fill="#862e9c" text-anchor="start" class="excalidraw-text" opacity="1">GY-2026-001</text>
+<text x="910" y="241" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Lancfuresz k.</text>
+<text x="1015" y="241" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">5</text>
+<rect x="1040" y="226" width="70" height="22" stroke="#f59f00" fill="#fff3bf" stroke-width="1" rx="0" opacity="1"/>
+<text x="1075.5" y="240" font-size="9" fill="#e67700" text-anchor="middle" class="excalidraw-text" opacity="1">Folyamatban</text>
+<text x="1155" y="241" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Jan 5.</text>
+<rect x="830" y="263" width="360" height="40" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="840" y="286" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">GY-2026-002</text>
+<text x="910" y="286" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Funyiro cs.</text>
+<text x="1015" y="286" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">10</text>
+<rect x="1040" y="271" width="70" height="22" stroke="#1971c2" fill="#d0ebff" stroke-width="1" rx="0" opacity="1"/>
+<text x="1075" y="285" font-size="9" fill="#1864ab" text-anchor="middle" class="excalidraw-text" opacity="1">Megerositett</text>
+<text x="1155" y="286" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Jan 6.</text>
+<rect x="830" y="308" width="360" height="40" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="840" y="331" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">GY-2025-089</text>
+<text x="910" y="331" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Stihl alap</text>
+<text x="1015" y="331" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">3</text>
+<rect x="1040" y="316" width="70" height="22" stroke="#2f9e44" fill="#c3fae8" stroke-width="1" rx="0" opacity="1"/>
+<text x="1074.5" y="330" font-size="9" fill="#087f5b" text-anchor="middle" class="excalidraw-text" opacity="1">Kesz</text>
+<text x="1155" y="331" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Dec 28.</text>
+<rect x="830" y="353" width="360" height="40" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="840" y="376" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">GY-2026-003</text>
+<text x="910" y="376" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Kerti Pro</text>
+<text x="1015" y="376" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">2</text>
+<rect x="1040" y="361" width="70" height="22" stroke="#868e96" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="1075" y="375" font-size="9" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Tervezet</text>
+<text x="1155" y="376" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Jan 7.</text>
+<rect x="830" y="410" width="360" height="50" stroke="#dee2e6" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="840" y="428" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Statusz badge-ek:</text>
+<rect x="840" y="435" width="50" height="18" stroke="#868e96" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="865" y="447" font-size="8" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Tervezet</text>
+<rect x="900" y="435" width="60" height="18" stroke="#1971c2" fill="#d0ebff" stroke-width="1" rx="0" opacity="1"/>
+<text x="930" y="447" font-size="8" fill="#1864ab" text-anchor="middle" class="excalidraw-text" opacity="1">Megerositett</text>
+<rect x="970" y="435" width="60" height="18" stroke="#f59f00" fill="#fff3bf" stroke-width="1" rx="0" opacity="1"/>
+<text x="1000" y="447" font-size="8" fill="#e67700" text-anchor="middle" class="excalidraw-text" opacity="1">Folyamatban</text>
+<rect x="1040" y="435" width="35" height="18" stroke="#2f9e44" fill="#c3fae8" stroke-width="1" rx="0" opacity="1"/>
+<text x="1057.5" y="447" font-size="8" fill="#087f5b" text-anchor="middle" class="excalidraw-text" opacity="1">Kesz</text>
+<text x="1010" y="511" font-size="11" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">&lt; 1 2 ... 5 &gt;</text>
+<text x="20" y="578" font-size="18" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">4. GYARTASI LAP RESZLETEK (alul)</text>
+<rect x="20" y="590" width="1180" height="320" stroke="#495057" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<rect x="20" y="590" width="1180" height="55" stroke="#e03131" fill="#ffe3e3" stroke-width="1" rx="0" opacity="1"/>
+<text x="35" y="618" font-size="16" fill="#c92a2a" text-anchor="start" class="excalidraw-text" opacity="1">Gyartasi Lap: GY-2026-001</text>
+<text x="35" y="636" font-size="11" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">BOM: Lancfuresz keszlet v2.1</text>
+<text x="280" y="636" font-size="11" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Mennyiseg: 5 db</text>
+<rect x="450" y="608" width="80" height="24" stroke="#f59f00" fill="#fff3bf" stroke-width="1" rx="0" opacity="1"/>
+<text x="490" y="624" font-size="10" fill="#e67700" text-anchor="middle" class="excalidraw-text" opacity="1">Folyamatban</text>
+<text x="35" y="674" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Gyartasi fazisok:</text>
+<rect x="35" y="700" width="1000" height="4" stroke="#dee2e6" fill="#dee2e6" stroke-width="1" rx="0" opacity="1"/>
+<ellipse cx="95" cy="702" rx="10" ry="10" stroke="#2f9e44" fill="#2f9e44" stroke-width="2" opacity="1"/>
+<text x="95" y="706" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">v</text>
+<text x="95" y="731" font-size="11" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">Elokeszites</text>
+<text x="95" y="747" font-size="9" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Jan 5. 08:00 - 09:30</text>
+<text x="95" y="762" font-size="9" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Felelos: Kovacs P.</text>
+<rect x="105" y="700" width="180" height="4" stroke="#2f9e44" fill="#2f9e44" stroke-width="1" rx="0" opacity="1"/>
+<ellipse cx="345" cy="702" rx="10" ry="10" stroke="#f59f00" fill="#f59f00" stroke-width="2" opacity="1"/>
+<text x="345" y="703" font-size="8" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">...</text>
+<text x="345" y="731" font-size="11" fill="#f59f00" text-anchor="middle" class="excalidraw-text" opacity="1">Gyartas</text>
+<text x="345" y="747" font-size="9" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Jan 5. 09:30 - ...</text>
+<text x="345" y="762" font-size="9" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Felelos: Nagy J.</text>
+<text x="345" y="777" font-size="9" fill="#e03131" text-anchor="middle" class="excalidraw-text" opacity="1">Selejt: 1 db</text>
+<ellipse cx="595" cy="702" rx="10" ry="10" stroke="#868e96" fill="#ffffff" stroke-width="2" opacity="1"/>
+<text x="595" y="731" font-size="11" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Ellenorzes</text>
+<text x="595" y="747" font-size="9" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Fuggben</text>
+<ellipse cx="845" cy="702" rx="10" ry="10" stroke="#868e96" fill="#ffffff" stroke-width="2" opacity="1"/>
+<text x="845" y="731" font-size="11" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Keszletbe vetel</text>
+<text x="845" y="747" font-size="9" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Fuggben</text>
+<text x="35" y="814" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Keszlet mozgas elonezet:</text>
+<rect x="35" y="825" width="300" height="70" stroke="#e03131" fill="#ffe3e3" stroke-width="1" rx="0" opacity="1"/>
+<text x="50" y="844" font-size="11" fill="#c92a2a" text-anchor="start" class="excalidraw-text" opacity="1">Alapanyag csokkenes:</text>
+<text x="50" y="861" font-size="9" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">- Stihl MS 251 lancfuresz: -5 db</text>
+<text x="50" y="875" font-size="9" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">- Vezetolanc 35cm: -10 db</text>
+<text x="50" y="889" font-size="9" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">- Fureslanc PM3: -15 db  | + 2 tovabb...</text>
+<text x="380" y="874" font-size="24" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">--&gt;</text>
+<rect x="420" y="825" width="300" height="70" stroke="#2f9e44" fill="#c3fae8" stroke-width="1" rx="0" opacity="1"/>
+<text x="435" y="844" font-size="11" fill="#087f5b" text-anchor="start" class="excalidraw-text" opacity="1">Kesztermek novelkedes:</text>
+<text x="435" y="865" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">+ Lancfuresz keszlet (BOM-001): +5 db</text>
+<text x="435" y="884" font-size="9" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">(selejt utan: effektiv +4 db)</text>
+<rect x="760" y="825" width="430" height="70" stroke="#dee2e6" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="775" y="844" font-size="11" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Muveletek:</text>
+<rect x="775" y="855" width="100" height="30" stroke="#1971c2" fill="#e7f5ff" stroke-width="1" rx="0" opacity="1"/>
+<text x="825" y="873" font-size="10" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">Fazis lepes</text>
+<rect x="885" y="855" width="100" height="30" stroke="#e03131" fill="#ffe3e3" stroke-width="1" rx="0" opacity="1"/>
+<text x="935" y="873" font-size="10" fill="#c92a2a" text-anchor="middle" class="excalidraw-text" opacity="1">Selejt rogzites</text>
+<rect x="995" y="855" width="80" height="30" stroke="#868e96" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="1035" y="873" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Nyomtat</text>
+<rect x="1085" y="855" width="95" height="30" stroke="#2f9e44" fill="#2f9e44" stroke-width="1" rx="0" opacity="1"/>
+<text x="1132.5" y="873" font-size="10" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Befejezesre</text>
+</svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gyártás Modul ERD -->
+                <div class="diagram-container" id="Feature-Gyartas-Modul-ERD">
+                    <div class="flex justify-between items-start mb-3">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 dark:text-gray-100">
+                                Gyártás Modul - ERD
+                                <span class="ml-2 px-3 py-1 bg-green-500 text-white text-sm rounded-full font-bold animate-pulse">🆕 ÚJ</span>
+                            </h3>
+                            <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">BOM + Gyártási rendelés + Lot/Batch követés <span class="priority-badge priority-medium ml-2">PHASE 2</span></p>
+                        </div>
+                        <button @click="expanded['Feature-Gyartas-Modul-ERD'] = !expanded['Feature-Gyartas-Modul-ERD']"
+                            class="px-4 py-2 bg-purple-500 hover:bg-purple-600 text-white rounded-lg transition-colors text-sm">
+                            <span x-text="expanded['Feature-Gyartas-Modul-ERD'] ? '➖ Bezár' : '➕ Megnyit'"></span>
+                        </button>
+                    </div>
+
+                    <div class="explanation-box">
+                        <p class="text-sm text-gray-700 dark:text-gray-300"><strong>📋 ADR-038:</strong> Adatmodell - BOM Header/Line public sémában, Production Order/Phase/Lot tenant sémában RLS védelemmel. Multi-level BOM hierarchia parent_line_id-vel.</p>
+                    </div>
+
+                    <div x-show="expanded['Feature-Gyartas-Modul-ERD']" x-collapse>
+                        <div class="diagram-wrapper mt-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -20 1130 890" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="10" y="-20" width="1130" height="890" fill="#ffffff"/>
+<text x="600" y="52" font-size="32" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">KGC ERP v3.0 - Gyártás Modul ERD</text>
+<text x="600" y="81" font-size="16" fill="#666666" text-anchor="middle" class="excalidraw-text" opacity="1">BOM + Gyártási rendelés + Lot/Batch követés</text>
+<rect x="900" y="20" width="200" height="120" stroke="#424242" fill="#fafafa" stroke-width="1" rx="0" opacity="1"/>
+<text x="920" y="44" font-size="14" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">Színkódok:</text>
+<rect x="920" y="55" width="20" height="15" stroke="#1976d2" fill="#e3f2fd" stroke-width="1" rx="0" opacity="1"/>
+<text x="950" y="65" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">BOM táblák (public)</text>
+<rect x="920" y="78" width="20" height="15" stroke="#2e7d32" fill="#c8e6c9" stroke-width="1" rx="0" opacity="1"/>
+<text x="950" y="88" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">Tranzakciós (tenant)</text>
+<rect x="920" y="101" width="20" height="15" stroke="#757575" fill="#eeeeee" stroke-width="1" rx="0" opacity="1"/>
+<text x="950" y="111" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">Külső referenciák</text>
+<rect x="50" y="150" width="280" height="220" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="190" y="178" font-size="18" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">BOM_HEADER</text>
+<text x="60" y="195" font-size="10" fill="#1976d2" text-anchor="start" class="excalidraw-text" opacity="1">public séma</text>
+<path d="M 60 200 L 320 200" stroke="#1976d2" fill="none" stroke-width="1" opacity="1"/>
+<text x="60" y="222" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">PK id</text>
+<text x="60" y="236.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK cikk_id → public.cikk</text>
+<text x="60" y="250.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   bom_kod</text>
+<text x="60" y="265.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   megnevezes</text>
+<text x="60" y="279.6" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   verzio</text>
+<text x="60" y="294" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   aktiv (boolean)</text>
+<text x="60" y="308.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   letrehozva (timestamp)</text>
+<text x="60" y="322.79999999999995" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   modositva (timestamp)</text>
+<rect x="50" y="420" width="280" height="220" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="190" y="448" font-size="18" fill="#0d47a1" text-anchor="middle" class="excalidraw-text" opacity="1">BOM_LINE</text>
+<text x="60" y="465" font-size="10" fill="#1976d2" text-anchor="start" class="excalidraw-text" opacity="1">public séma</text>
+<path d="M 60 470 L 320 470" stroke="#1976d2" fill="none" stroke-width="1" opacity="1"/>
+<text x="60" y="492" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">PK id</text>
+<text x="60" y="506.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK bom_header_id → bom_header</text>
+<text x="60" y="520.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK parent_line_id → self (nullable)</text>
+<text x="60" y="535.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK komponens_cikk_id → public.cikk</text>
+<text x="60" y="549.6" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   mennyiseg (decimal)</text>
+<text x="60" y="564" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   mertekegyseg</text>
+<text x="60" y="578.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   level (int)</text>
+<text x="60" y="592.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   sorrend (int)</text>
+<rect x="420" y="150" width="320" height="280" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
+<text x="580" y="178" font-size="18" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">PRODUCTION_ORDER</text>
+<text x="430" y="195" font-size="10" fill="#2e7d32" text-anchor="start" class="excalidraw-text" opacity="1">tenant séma</text>
+<path d="M 430 200 L 730 200" stroke="#2e7d32" fill="none" stroke-width="1" opacity="1"/>
+<text x="430" y="222" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">PK id</text>
+<text x="430" y="236.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   rendeles_szam (unique)</text>
+<text x="430" y="250.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK bom_header_id → public.bom_header</text>
+<text x="430" y="265.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   gyartando_mennyiseg (decimal)</text>
+<text x="430" y="279.6" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   statusz ENUM:</text>
+<text x="430" y="294" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">     - draft</text>
+<text x="430" y="308.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">     - confirmed</text>
+<text x="430" y="322.79999999999995" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">     - in_progress</text>
+<text x="430" y="337.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">     - completed</text>
+<text x="430" y="351.6" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">     - cancelled</text>
+<text x="430" y="366" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   tervezett_kezdes (date)</text>
+<text x="430" y="380.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   tervezett_befejezes (date)</text>
+<text x="430" y="394.79999999999995" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK letrehozta_user_id → tenant.user</text>
+<rect x="420" y="480" width="320" height="300" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
+<text x="580" y="506" font-size="16" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">PRODUCTION_ORDER_PHASE</text>
+<text x="430" y="525" font-size="10" fill="#2e7d32" text-anchor="start" class="excalidraw-text" opacity="1">tenant séma</text>
+<path d="M 430 530 L 730 530" stroke="#2e7d32" fill="none" stroke-width="1" opacity="1"/>
+<text x="430" y="552" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">PK id</text>
+<text x="430" y="566.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK production_order_id → production_order</text>
+<text x="430" y="580.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   fazis_tipus ENUM:</text>
+<text x="430" y="595.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">     - elokeszites</text>
+<text x="430" y="609.6" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">     - gyartas</text>
+<text x="430" y="624" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">     - ellenorzes</text>
+<text x="430" y="638.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">     - keszletbe_vetel</text>
+<text x="430" y="652.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   statusz</text>
+<text x="430" y="667.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   kezdes (timestamp)</text>
+<text x="430" y="681.6" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   befejezes (timestamp)</text>
+<text x="430" y="696" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK felelos_user_id → tenant.user</text>
+<text x="430" y="710.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   megjegyzes (text)</text>
+<text x="430" y="724.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   selejt_mennyiseg (decimal)</text>
+<text x="430" y="739.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   selejt_ok (text)</text>
+<rect x="820" y="200" width="280" height="230" stroke="#2e7d32" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
+<text x="960" y="228" font-size="18" fill="#1b5e20" text-anchor="middle" class="excalidraw-text" opacity="1">LOT_BATCH</text>
+<text x="830" y="245" font-size="10" fill="#2e7d32" text-anchor="start" class="excalidraw-text" opacity="1">tenant séma</text>
+<path d="M 830 250 L 1090 250" stroke="#2e7d32" fill="none" stroke-width="1" opacity="1"/>
+<text x="830" y="272" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">PK id</text>
+<text x="830" y="286.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK production_order_id → production_order</text>
+<text x="830" y="300.8" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   lot_szam (unique)</text>
+<text x="830" y="315.2" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   gyartas_datum (date)</text>
+<text x="830" y="329.6" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   lejarati_datum (date, nullable)</text>
+<text x="830" y="344" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">   mennyiseg (decimal)</text>
+<text x="830" y="358.4" font-size="12" fill="#424242" text-anchor="start" class="excalidraw-text" opacity="1">FK cikk_id → public.cikk</text>
+<rect x="820" y="480" width="180" height="100" stroke="#757575" fill="#eeeeee" stroke-width="2" rx="0" opacity="1"/>
+<text x="910" y="506" font-size="16" fill="#424242" text-anchor="middle" class="excalidraw-text" opacity="1">CIKK</text>
+<text x="830" y="525" font-size="10" fill="#757575" text-anchor="start" class="excalidraw-text" opacity="1">public séma</text>
+<rect x="820" y="610" width="180" height="100" stroke="#757575" fill="#eeeeee" stroke-width="2" rx="0" opacity="1"/>
+<text x="910" y="636" font-size="16" fill="#424242" text-anchor="middle" class="excalidraw-text" opacity="1">USER</text>
+<text x="830" y="655" font-size="10" fill="#757575" text-anchor="start" class="excalidraw-text" opacity="1">tenant séma</text>
+<path d="M 190 370 L 190 420" stroke="#1976d2" fill="none" stroke-width="2" opacity="1"/>
+<text x="220" y="397" font-size="12" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">1 : N</text>
+<path d="M 330 260 L 420 260" stroke="#424242" fill="none" stroke-width="2" opacity="1"/>
+<text x="370" y="252" font-size="12" fill="#424242" text-anchor="middle" class="excalidraw-text" opacity="1">1 : N</text>
+<path d="M 580 430 L 580 480" stroke="#2e7d32" fill="none" stroke-width="2" opacity="1"/>
+<text x="610" y="457" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">1 : N</text>
+<path d="M 740 300 L 820 300" stroke="#2e7d32" fill="none" stroke-width="2" opacity="1"/>
+<text x="780" y="292" font-size="12" fill="#2e7d32" text-anchor="middle" class="excalidraw-text" opacity="1">1 : N</text>
+<rect x="50" y="680" width="300" height="150" stroke="#f57c00" fill="#fff8e1" stroke-width="1" rx="0" opacity="1"/>
+<text x="60" y="704" font-size="14" fill="#e65100" text-anchor="start" class="excalidraw-text" opacity="1">Megjegyzések:</text>
+<text x="60" y="726" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">- BOM táblák PUBLIC sémában</text>
+<text x="60" y="739.2" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">- Tranzakciós táblák TENANT sémában</text>
+<text x="60" y="752.4" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">- bom_line.parent_line_id: hierarchikus</text>
+<text x="60" y="765.6" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">  BOM struktúra (al-termékek)</text>
+<text x="60" y="778.8" font-size="11" fill="#bf360c" text-anchor="start" class="excalidraw-text" opacity="1">- Lot/Batch: nyomonkövethetőség</text>
+</svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gyártás Rendelés Lifecycle Flowchart -->
+                <div class="diagram-container" id="Feature-Gyartas-Rendeles-Lifecycle-Flowchart">
+                    <div class="flex justify-between items-start mb-3">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 dark:text-gray-100">
+                                Gyártási Rendelés Életciklus
+                                <span class="ml-2 px-3 py-1 bg-green-500 text-white text-sm rounded-full font-bold animate-pulse">🆕 ÚJ</span>
+                            </h3>
+                            <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Production Order State Machine - DRAFT → PLANNED → IN_PROGRESS → COMPLETED <span class="priority-badge priority-medium ml-2">PHASE 2</span></p>
+                        </div>
+                        <button @click="expanded['Feature-Gyartas-Rendeles-Lifecycle-Flowchart'] = !expanded['Feature-Gyartas-Rendeles-Lifecycle-Flowchart']"
+                            class="px-4 py-2 bg-purple-500 hover:bg-purple-600 text-white rounded-lg transition-colors text-sm">
+                            <span x-text="expanded['Feature-Gyartas-Rendeles-Lifecycle-Flowchart'] ? '➖ Bezár' : '➕ Megnyit'"></span>
+                        </button>
+                    </div>
+
+                    <div class="explanation-box">
+                        <p class="text-sm text-gray-700 dark:text-gray-300"><strong>📋 ADR-038:</strong> Gyártási rendelés állapotgép: draft (tervezet) → planned (jóváhagyott) → in_progress (gyártás alatt) → completed (befejezett). Bármely aktív állapotból CANCELLED-be léphető.</p>
+                    </div>
+
+                    <div x-show="expanded['Feature-Gyartas-Rendeles-Lifecycle-Flowchart']" x-collapse>
+                        <div class="diagram-wrapper mt-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="100 -20 780 760" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="100" y="-20" width="780" height="760" fill="#ffffff"/>
+<text x="500" y="48" font-size="28" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Gyártási Rendelés Életciklus</text>
+<text x="500" y="69" font-size="14" fill="#666666" text-anchor="middle" class="excalidraw-text" opacity="1">ADR-038 | Production Order State Machine</text>
+<ellipse cx="500" cy="120" rx="40" ry="20" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" opacity="1"/>
+<text x="500" y="124" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">START</text>
+<rect x="420" y="180" width="160" height="60" stroke="#757575" fill="#f5f5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="209" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">DRAFT</text>
+<text x="500" y="225.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Tervezet)</text>
+<rect x="420" y="300" width="160" height="60" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="329" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">PLANNED</text>
+<text x="500" y="345.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Jóváhagyott)</text>
+<rect x="420" y="420" width="160" height="60" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="449" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">IN_PROGRESS</text>
+<text x="500" y="465.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Folyamatban)</text>
+<rect x="420" y="540" width="160" height="60" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="569" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">COMPLETED</text>
+<text x="500" y="585.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Befejezett)</text>
+<rect x="680" y="360" width="160" height="60" stroke="#d32f2f" fill="#ffcdd2" stroke-width="2" rx="0" opacity="1"/>
+<text x="760" y="389" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">CANCELLED</text>
+<text x="760" y="405.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Törölve)</text>
+<ellipse cx="500" cy="680" rx="40" ry="20" stroke="#388e3c" fill="#c8e6c9" stroke-width="2" opacity="1"/>
+<text x="500" y="684" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">END</text>
+<path d="M 500 145 L 500 175" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 500 245 L 500 295" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<text x="510" y="272" font-size="12" fill="#1976d2" text-anchor="start" class="excalidraw-text" opacity="1">Jóváhagyás</text>
+<path d="M 500 365 L 500 415" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<text x="510" y="392" font-size="12" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">Gyártás indítás</text>
+<path d="M 500 485 L 500 535" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<text x="510" y="512" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">Minden fázis kész</text>
+<path d="M 500 605 L 500 655" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 585 210 L 675 210 L 675 360" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 585 330 L 675 330 L 675 380" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 585 450 L 675 450 L 675 400" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 760 425 L 760 685 L 540 685" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="140" y="200" width="200" height="180" stroke="#757575" fill="#fafafa" stroke-width="1" rx="0" opacity="1"/>
+<text x="160" y="224" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Jelmagyarázat:</text>
+<text x="160" y="252" font-size="12" fill="#757575" text-anchor="start" class="excalidraw-text" opacity="1">⬜ Draft - Szerkeszthető</text>
+<text x="160" y="277" font-size="12" fill="#1976d2" text-anchor="start" class="excalidraw-text" opacity="1">🔵 Planned - Jóváhagyott</text>
+<text x="160" y="302" font-size="12" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">🟠 In Progress - Aktív</text>
+<text x="160" y="327" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">🟢 Completed - Befejezett</text>
+<text x="160" y="352" font-size="12" fill="#d32f2f" text-anchor="start" class="excalidraw-text" opacity="1">🔴 Cancelled - Törölve</text>
+</svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gyártás Anyagfelhasználás Flowchart -->
+                <div class="diagram-container" id="Feature-Gyartas-Anyagfelhasznalás-Flowchart">
+                    <div class="flex justify-between items-start mb-3">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 dark:text-gray-100">
+                                Gyártás Anyagfelhasználás Flow
+                                <span class="ml-2 px-3 py-1 bg-green-500 text-white text-sm rounded-full font-bold animate-pulse">🆕 ÚJ</span>
+                            </h3>
+                            <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">BOM → Készletfoglalás → Felhasználás → Output <span class="priority-badge priority-medium ml-2">PHASE 2</span></p>
+                        </div>
+                        <button @click="expanded['Feature-Gyartas-Anyagfelhasznalás-Flowchart'] = !expanded['Feature-Gyartas-Anyagfelhasznalás-Flowchart']"
+                            class="px-4 py-2 bg-purple-500 hover:bg-purple-600 text-white rounded-lg transition-colors text-sm">
+                            <span x-text="expanded['Feature-Gyartas-Anyagfelhasznalás-Flowchart'] ? '➖ Bezár' : '➕ Megnyit'"></span>
+                        </button>
+                    </div>
+
+                    <div class="explanation-box">
+                        <p class="text-sm text-gray-700 dark:text-gray-300"><strong>📋 ADR-038:</strong> Készletmozgás típusok: PRODUCTION_RESERVE (foglalás), PRODUCTION_CONSUMPTION (felhasználás), PRODUCTION_OUTPUT (késztermék), PRODUCTION_SCRAP (selejt).</p>
+                    </div>
+
+                    <div x-show="expanded['Feature-Gyartas-Anyagfelhasznalás-Flowchart']" x-collapse>
+                        <div class="diagram-wrapper mt-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="20 -20 980 820" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="20" y="-20" width="980" height="820" fill="#ffffff"/>
+<text x="650" y="48" font-size="28" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Gyártás Anyagfelhasználás Flow</text>
+<text x="650" y="69" font-size="14" fill="#666666" text-anchor="middle" class="excalidraw-text" opacity="1">ADR-038 | BOM → Készletfoglalás → Felhasználás → Output</text>
+<rect x="60" y="120" width="180" height="80" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="150" y="154" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Production Order</text>
+<text x="150" y="170.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Gyártási Rendelés)</text>
+<rect x="300" y="120" width="180" height="80" stroke="#7b1fa2" fill="#f3e5f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="390" y="154" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">BOM</text>
+<text x="390" y="170.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Bill of Materials)</text>
+<rect x="540" y="120" width="180" height="80" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="630" y="154" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Inventory</text>
+<text x="630" y="170.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Készlet)</text>
+<rect x="780" y="120" width="180" height="80" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="0" opacity="1"/>
+<text x="870" y="154" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Lot/Batch</text>
+<text x="870" y="170.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Tétel követés)</text>
+<path d="M 245 160 L 295 160" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<text x="270" y="146" font-size="11" fill="#1976d2" text-anchor="middle" class="excalidraw-text" opacity="1">Lekér</text>
+<path d="M 485 160 L 535 160" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 725 160 L 775 160" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<text x="60" y="268" font-size="18" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Folyamat lépések:</text>
+<rect x="60" y="290" width="200" height="70" stroke="#1976d2" fill="#e3f2fd" stroke-width="2" rx="0" opacity="1"/>
+<text x="160" y="313" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">1. Komponens lista</text>
+<text x="160" y="328.6" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">lekérése BOM-ból</text>
+<rect x="300" y="290" width="200" height="70" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="0" opacity="1"/>
+<text x="400" y="313" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">2. Készlet foglalás</text>
+<text x="400" y="328.6" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(RESERVE)</text>
+<polygon points="630,275 705,325 630,375 555,325" stroke="#fbc02d" fill="#fff9c4" stroke-width="2" opacity="1"/>
+<text x="630" y="318" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Készlet</text>
+<text x="630" y="333.6" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">elegendő?</text>
+<rect x="760" y="290" width="200" height="70" stroke="#d32f2f" fill="#ffcdd2" stroke-width="2" rx="0" opacity="1"/>
+<text x="860" y="313" font-size="13" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">⚠️ Készlethiány</text>
+<text x="860" y="328.6" font-size="13" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">ALERT</text>
+<path d="M 265 325 L 295 325" stroke="#1976d2" fill="none" stroke-width="2" marker-end="url(#ah-blue)" opacity="1"/>
+<path d="M 505 325 L 550 325" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<path d="M 710 325 L 755 325" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="737.5" y="316" font-size="11" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">NEM</text>
+<rect x="180" y="420" width="200" height="70" stroke="#388e3c" fill="#e8f5e9" stroke-width="2" rx="0" opacity="1"/>
+<text x="280" y="443" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">3. Gyártás végrehajtás</text>
+<text x="280" y="458.6" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(Fázisok)</text>
+<rect x="420" y="420" width="200" height="70" stroke="#d32f2f" fill="#ffcdd2" stroke-width="2" rx="0" opacity="1"/>
+<text x="520" y="443" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">4. Anyag felhasználás</text>
+<text x="520" y="458.6" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(CONSUMPTION)</text>
+<rect x="660" y="420" width="200" height="70" stroke="#388e3c" fill="#c8e6c9" stroke-width="2" rx="0" opacity="1"/>
+<text x="760" y="443" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">5. Késztermék</text>
+<text x="760" y="458.6" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(OUTPUT)</text>
+<path d="M 630 380 L 630 415 L 350 415" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<text x="625" y="396" font-size="11" fill="#388e3c" text-anchor="middle" class="excalidraw-text" opacity="1">IGEN</text>
+<path d="M 385 455 L 415 455" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<path d="M 625 455 L 655 455" stroke="#388e3c" fill="none" stroke-width="2" marker-end="url(#ah-green)" opacity="1"/>
+<rect x="660" y="540" width="200" height="70" stroke="#f57c00" fill="#fff3e0" stroke-width="2" rx="0" opacity="1"/>
+<text x="760" y="563" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">6. Lot/Batch</text>
+<text x="760" y="578.6" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">létrehozás</text>
+<path d="M 760 495 L 760 535" stroke="#f57c00" fill="none" stroke-width="2" marker-end="url(#ah-orange)" opacity="1"/>
+<polygon points="270,530 345,575 270,620 195,575" stroke="#fbc02d" fill="#fff9c4" stroke-width="2" opacity="1"/>
+<text x="270" y="568" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Selejt</text>
+<text x="270" y="583.6" font-size="13" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">keletkezett?</text>
+<rect x="60" y="540" width="100" height="70" stroke="#d32f2f" fill="#ffcdd2" stroke-width="2" rx="0" opacity="1"/>
+<text x="110" y="567" font-size="12" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">SCRAP</text>
+<text x="110" y="581.4" font-size="12" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">(Selejt)</text>
+<path d="M 280 495 L 280 525" stroke="#fbc02d" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 190 575 L 165 575" stroke="#d32f2f" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="175" y="565" font-size="10" fill="#d32f2f" text-anchor="middle" class="excalidraw-text" opacity="1">IGEN</text>
+<rect x="60" y="660" width="900" height="100" stroke="#757575" fill="#fafafa" stroke-width="1" rx="0" opacity="1"/>
+<text x="80" y="684" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Készletmozgás típusok:</text>
+<text x="80" y="712" font-size="12" fill="#f57c00" text-anchor="start" class="excalidraw-text" opacity="1">🟠 PRODUCTION_RESERVE</text>
+<text x="300" y="712" font-size="12" fill="#d32f2f" text-anchor="start" class="excalidraw-text" opacity="1">🔴 PRODUCTION_CONSUMPTION</text>
+<text x="540" y="712" font-size="12" fill="#388e3c" text-anchor="start" class="excalidraw-text" opacity="1">🟢 PRODUCTION_OUTPUT</text>
+<text x="760" y="712" font-size="12" fill="#757575" text-anchor="start" class="excalidraw-text" opacity="1">⚫ PRODUCTION_SCRAP</text>
+<text x="80" y="731" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">Szabad → Foglalt</text>
+<text x="300" y="731" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">Foglalt → Felhasznált</text>
+<text x="540" y="731" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">Készlet növekedés</text>
+<text x="760" y="731" font-size="11" fill="#666666" text-anchor="start" class="excalidraw-text" opacity="1">Készlet csökkenés</text>
+</svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gyártás BOM Hierarchia Flowchart -->
+                <div class="diagram-container" id="Feature-Gyartas-BOM-Hierarchia-Flowchart">
+                    <div class="flex justify-between items-start mb-3">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 dark:text-gray-100">
+                                BOM Hierarchia Feldolgozás
+                                <span class="ml-2 px-3 py-1 bg-green-500 text-white text-sm rounded-full font-bold animate-pulse">🆕 ÚJ</span>
+                            </h3>
+                            <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Multi-level BOM explosion - rekurzív feldolgozás <span class="priority-badge priority-medium ml-2">PHASE 2</span></p>
+                        </div>
+                        <button @click="expanded['Feature-Gyartas-BOM-Hierarchia-Flowchart'] = !expanded['Feature-Gyartas-BOM-Hierarchia-Flowchart']"
+                            class="px-4 py-2 bg-purple-500 hover:bg-purple-600 text-white rounded-lg transition-colors text-sm">
+                            <span x-text="expanded['Feature-Gyartas-BOM-Hierarchia-Flowchart'] ? '➖ Bezár' : '➕ Megnyit'"></span>
+                        </button>
+                    </div>
+
+                    <div class="explanation-box">
+                        <p class="text-sm text-gray-700 dark:text-gray-300"><strong>📋 ADR-038:</strong> Multi-level BOM (max 2-3 szint) rekurzív feldolgozása. Félkész termékek al-BOM-ját automatikusan bontja, alapanyagok közvetlenül a laposított listába kerülnek.</p>
+                    </div>
+
+                    <div x-show="expanded['Feature-Gyartas-BOM-Hierarchia-Flowchart']" x-collapse>
+                        <div class="diagram-wrapper mt-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="60 -20 1030 1320" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="60" y="-20" width="1030" height="1320" fill="#ffffff"/>
+<text x="500" y="48" font-size="28" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">BOM Hierarchia Feldolgozás (Explosion)</text>
+<ellipse cx="500" cy="120" rx="40" ry="40" stroke="#1e1e1e" fill="#d3f9d8" stroke-width="2" opacity="1"/>
+<text x="500" y="122" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">START</text>
+<path d="M 500 160 L 500 200" stroke="#1e1e1e" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="380" y="210" width="240" height="60" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="239" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">BOM Header betöltése</text>
+<text x="500" y="255.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(bom_header rekord)</text>
+<path d="M 500 270 L 500 310" stroke="#1e1e1e" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="380" y="320" width="240" height="60" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="349" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Gyökér szintű sorok</text>
+<text x="500" y="365.8" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">lekérdezése (level=1)</text>
+<path d="M 500 380 L 500 420" stroke="#1e1e1e" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<polygon points="500,430 580,480 500,530 420,480" stroke="#e67700" fill="#fff3bf" stroke-width="2" opacity="1"/>
+<text x="500" y="477" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Van még</text>
+<text x="500" y="491.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">feldolgozandó sor?</text>
+<path d="M 500 530 L 500 570" stroke="#2f9e44" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="510" y="552" font-size="12" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">IGEN</text>
+<path d="M 580 480 L 700 480" stroke="#e03131" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="620" y="472" font-size="12" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">NEM</text>
+<polygon points="500,580 580,630 500,680 420,630" stroke="#e67700" fill="#fff3bf" stroke-width="2" opacity="1"/>
+<text x="500" y="627" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Komponens</text>
+<text x="500" y="641.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">típusa?</text>
+<path d="M 420 630 L 300 630" stroke="#9c36b5" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="330" y="622" font-size="12" fill="#9c36b5" text-anchor="middle" class="excalidraw-text" opacity="1">FÉLKÉSZ</text>
+<path d="M 580 630 L 700 630" stroke="#1971c2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="660" y="622" font-size="12" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">ALAPANYAG</text>
+<rect x="100" y="600" width="200" height="80" stroke="#9c36b5" fill="#f3d9fa" stroke-width="2" rx="0" opacity="1"/>
+<text x="200" y="627" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Rekurzív BOM</text>
+<text x="200" y="641.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">bontás (explosion)</text>
+<text x="200" y="655.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Al-BOM betöltése</text>
+<rect x="700" y="600" width="200" height="60" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" rx="0" opacity="1"/>
+<text x="800" y="627" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Levél komponens</text>
+<text x="800" y="641.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(nem bontható)</text>
+<path d="M 200 600 L 200 470 L 420 470" stroke="#9c36b5" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="150" y="522" font-size="12" fill="#9c36b5" text-anchor="middle" class="excalidraw-text" opacity="1">Rekurzió</text>
+<path d="M 800 660 L 800 700" stroke="#1e1e1e" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="700" y="710" width="200" height="60" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" rx="0" opacity="1"/>
+<text x="800" y="737" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Mennyiség számítás</text>
+<text x="800" y="751.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(szülő × komponens qty)</text>
+<path d="M 800 770 L 800 810" stroke="#1e1e1e" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="700" y="820" width="200" height="60" stroke="#2f9e44" fill="#d3f9d8" stroke-width="2" rx="0" opacity="1"/>
+<text x="800" y="847" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Hozzáadás a</text>
+<text x="800" y="861.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">laposított BOM-hoz</text>
+<path d="M 700 850 L 420 850 L 420 440" stroke="#1e1e1e" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="420" y="872" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Következő sor</text>
+<rect x="700" y="440" width="200" height="80" stroke="#2f9e44" fill="#d3f9d8" stroke-width="2" rx="0" opacity="1"/>
+<text x="800" y="467" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Laposított BOM</text>
+<text x="800" y="481.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">kimenet</text>
+<text x="800" y="495.8" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(flat_bom_lines)</text>
+<path d="M 900 480 L 960 480" stroke="#1e1e1e" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<ellipse cx="1010" cy="480" rx="40" ry="40" stroke="#e03131" fill="#ffe3e3" stroke-width="2" opacity="1"/>
+<text x="1010" y="482" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">END</text>
+<rect x="100" y="750" width="280" height="180" stroke="#868e96" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="240" y="774" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">JELMAGYARÁZAT</text>
+<rect x="120" y="795" width="30" height="20" stroke="#1971c2" fill="#e7f5ff" stroke-width="1" rx="0" opacity="1"/>
+<text x="160" y="807" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Feldolgozási lépés</text>
+<polygon points="135,825 150,835 135,845 120,835" stroke="#e67700" fill="#fff3bf" stroke-width="1" opacity="1"/>
+<text x="160" y="837" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Döntési pont</text>
+<rect x="120" y="855" width="30" height="20" stroke="#9c36b5" fill="#f3d9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="160" y="867" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Rekurzív feldolgozás (félkész)</text>
+<rect x="120" y="885" width="30" height="20" stroke="#2f9e44" fill="#d3f9d8" stroke-width="1" rx="0" opacity="1"/>
+<text x="160" y="897" font-size="12" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Eredmény / Output</text>
+<text x="120" y="921" font-size="11" fill="#868e96" text-anchor="start" class="excalidraw-text" opacity="1">Multi-level BOM: max 2-3 szint</text>
+</svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gyártás QA Flow Flowchart -->
+                <div class="diagram-container" id="Feature-Gyartas-QA-Flow-Flowchart">
+                    <div class="flex justify-between items-start mb-3">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 dark:text-gray-100">
+                                Minőségellenőrzés (QA) Flow
+                                <span class="ml-2 px-3 py-1 bg-green-500 text-white text-sm rounded-full font-bold animate-pulse">🆕 ÚJ</span>
+                            </h3>
+                            <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">QA kötelező fázisonként - passed/rework/rejected <span class="priority-badge priority-medium ml-2">PHASE 2</span></p>
+                        </div>
+                        <button @click="expanded['Feature-Gyartas-QA-Flow-Flowchart'] = !expanded['Feature-Gyartas-QA-Flow-Flowchart']"
+                            class="px-4 py-2 bg-purple-500 hover:bg-purple-600 text-white rounded-lg transition-colors text-sm">
+                            <span x-text="expanded['Feature-Gyartas-QA-Flow-Flowchart'] ? '➖ Bezár' : '➕ Megnyit'"></span>
+                        </button>
+                    </div>
+
+                    <div class="explanation-box">
+                        <p class="text-sm text-gray-700 dark:text-gray-300"><strong>📋 ADR-038:</strong> Minőségellenőrzés fázisonként konfigurálható (qa_required). Eredmény: passed (jóváhagyott), rework (újramunkálás), rejected (selejt → PRODUCTION_SCRAP).</p>
+                    </div>
+
+                    <div x-show="expanded['Feature-Gyartas-QA-Flow-Flowchart']" x-collapse>
+                        <div class="diagram-wrapper mt-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="60 -20 1020 1810" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="60" y="-20" width="1020" height="1810" fill="#ffffff"/>
+<text x="525" y="48" font-size="28" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Minőségellenőrzés (QA) Flow</text>
+<ellipse cx="500" cy="120" rx="40" ry="40" stroke="#1e1e1e" fill="#d3f9d8" stroke-width="2" opacity="1"/>
+<text x="500" y="122" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">START</text>
+<path d="M 500 160 L 500 200" stroke="#1e1e1e" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="380" y="210" width="240" height="60" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="237" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Gyártási fázis befejezése</text>
+<text x="500" y="251.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(phase status → completed)</text>
+<path d="M 500 270 L 500 310" stroke="#1e1e1e" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<polygon points="500,320 580,370 500,420 420,370" stroke="#e67700" fill="#fff3bf" stroke-width="2" opacity="1"/>
+<text x="500" y="367" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">QA kötelező</text>
+<text x="500" y="381.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">a fázishoz?</text>
+<path d="M 500 420 L 500 470" stroke="#2f9e44" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="510" y="442" font-size="12" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">IGEN</text>
+<path d="M 580 370 L 720 370" stroke="#e03131" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="620" y="362" font-size="12" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">NEM</text>
+<rect x="720" y="340" width="180" height="60" stroke="#868e96" fill="#f1f3f5" stroke-width="2" rx="0" opacity="1"/>
+<text x="810" y="367" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">QA kihagyása</text>
+<text x="810" y="381.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Auto-jóváhagyás</text>
+<rect x="380" y="480" width="240" height="60" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="507" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Mintavételezés</text>
+<text x="500" y="521.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(sampling_percentage %)</text>
+<path d="M 500 540 L 500 580" stroke="#1e1e1e" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="380" y="590" width="240" height="60" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" rx="0" opacity="1"/>
+<text x="500" y="617" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Minőségi ellenőrzés</text>
+<text x="500" y="631.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">végrehajtása</text>
+<path d="M 500 650 L 500 690" stroke="#1e1e1e" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<polygon points="500,700 580,750 500,800 420,750" stroke="#e67700" fill="#fff3bf" stroke-width="2" opacity="1"/>
+<text x="500" y="749" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Eredmény?</text>
+<path d="M 580 750 L 720 750" stroke="#2f9e44" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="655" y="742" font-size="12" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">MEGFELELT</text>
+<path d="M 420 750 L 300 750" stroke="#e03131" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="335" y="741" font-size="11" fill="#e03131" text-anchor="middle" class="excalidraw-text" opacity="1">NEM FELELT MEG</text>
+<rect x="720" y="720" width="180" height="60" stroke="#2f9e44" fill="#d3f9d8" stroke-width="2" rx="0" opacity="1"/>
+<text x="810" y="747" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">QA jóváhagyás</text>
+<text x="810" y="761.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">qa_status = 'passed'</text>
+<polygon points="220,700 300,750 220,800 140,750" stroke="#e03131" fill="#ffe3e3" stroke-width="2" opacity="1"/>
+<text x="220" y="749" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Javítható?</text>
+<path d="M 220 700 L 220 640" stroke="#e67700" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="230" y="672" font-size="12" fill="#e67700" text-anchor="start" class="excalidraw-text" opacity="1">IGEN</text>
+<path d="M 220 800 L 220 850" stroke="#e03131" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="230" y="822" font-size="12" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">NEM</text>
+<rect x="120" y="570" width="200" height="70" stroke="#e67700" fill="#fff3bf" stroke-width="2" rx="0" opacity="1"/>
+<text x="220" y="596" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Újramunkálás</text>
+<text x="220" y="609.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">(rework)</text>
+<text x="220" y="622.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">qa_status = 'rework'</text>
+<rect x="120" y="860" width="200" height="70" stroke="#e03131" fill="#ffe3e3" stroke-width="2" rx="0" opacity="1"/>
+<text x="220" y="886" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Selejtezés (scrap)</text>
+<text x="220" y="899.2" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">qa_status = 'rejected'</text>
+<text x="220" y="912.4" font-size="11" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">PRODUCTION_SCRAP</text>
+<path d="M 220 570 L 220 290 L 380 290" stroke="#e67700" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="180" y="331" font-size="11" fill="#e67700" text-anchor="middle" class="excalidraw-text" opacity="1">Újra fázis eleje</text>
+<path d="M 810 400 L 810 580" stroke="#868e96" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<path d="M 810 780 L 810 930" stroke="#2f9e44" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<polygon points="810,940 890,990 810,1040 730,990" stroke="#e67700" fill="#fff3bf" stroke-width="2" opacity="1"/>
+<text x="810" y="987" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">Van több</text>
+<text x="810" y="1001.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">fázis?</text>
+<path d="M 730 990 L 540 990 L 540 230 L 620 230" stroke="#1971c2" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="650" y="981" font-size="11" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">IGEN → Köv. fázis</text>
+<path d="M 890 990 L 950 990" stroke="#2f9e44" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<text x="900" y="982" font-size="12" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">NEM</text>
+<ellipse cx="1000" cy="990" rx="40" ry="40" stroke="#2f9e44" fill="#d3f9d8" stroke-width="2" opacity="1"/>
+<text x="1000" y="984" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">GYÁRTÁS</text>
+<text x="1000" y="998.4" font-size="12" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">KÉSZ</text>
+<path d="M 320 895 L 960 895 L 960 990" stroke="#e03131" fill="none" stroke-width="2" marker-end="url(#ah)" opacity="1"/>
+<rect x="100" y="100" width="220" height="180" stroke="#868e96" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="210" y="124" font-size="14" fill="#1e1e1e" text-anchor="middle" class="excalidraw-text" opacity="1">JELMAGYARÁZAT</text>
+<rect x="120" y="145" width="25" height="18" stroke="#2f9e44" fill="#d3f9d8" stroke-width="1" rx="0" opacity="1"/>
+<text x="155" y="156" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Sikeres / Jóváhagyott</text>
+<rect x="120" y="170" width="25" height="18" stroke="#e67700" fill="#fff3bf" stroke-width="1" rx="0" opacity="1"/>
+<text x="155" y="181" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Újramunkálás (rework)</text>
+<rect x="120" y="195" width="25" height="18" stroke="#e03131" fill="#ffe3e3" stroke-width="1" rx="0" opacity="1"/>
+<text x="155" y="206" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Elutasított / Selejt</text>
+<rect x="120" y="220" width="25" height="18" stroke="#868e96" fill="#f1f3f5" stroke-width="1" rx="0" opacity="1"/>
+<text x="155" y="231" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Kihagyott (optional)</text>
+<text x="120" y="260" font-size="10" fill="#868e96" text-anchor="start" class="excalidraw-text" opacity="1">qa_required: true/false fázisonként</text>
+</svg>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 
 
                 <!-- CORE SECTION - Placeholder -->
@@ -6832,6 +7633,12 @@
                     'Feature-Torzsvendeg-Szemelyazonositás-Flowchart': true,
                     'Feature-Multi-Location-Kiadas-Flowchart': true,
                     'Feature-Kaució-Visszatartás-Flowchart': true,
+                    'Feature-Gyartas-Modul-Wireframe': true,
+                    'Feature-Gyartas-Modul-ERD': true,
+                    'Feature-Gyartas-Rendeles-Lifecycle-Flowchart': true,
+                    'Feature-Gyartas-Anyagfelhasznalás-Flowchart': true,
+                    'Feature-Gyartas-BOM-Hierarchia-Flowchart': true,
+                    'Feature-Gyartas-QA-Flow-Flowchart': true,
                     // Core tab diagrams (collapsible - MAIN DIAGRAMS START OPEN!)
                     '00-kgc-erp-master-flow-2025-12-12': true,  // 🔥 MASTER FLOW - always visible
                     'admin-operational-dashboard-flow': true,  // 🔥 ADMIN FLOW - always visible
@@ -6905,7 +7712,7 @@
                     const tabDiagrams = {
                         'v7-updated': ['1-ugyfelfelvitel-folyamat-v2', '1-ugyfelfelvitel-dontesi-fa-v2', '1-ugyfelfelvitel-erd-v2'],
                         'v7-new': ['location-hierarchy-kpd', 'twenty-crm-pipeline-dataflow', 'chatwoot-support-new-conversation', 'chatwoot-webhook-processing'],
-                        'features': ['Feature-Hetvege-Unnepnap-Kezeles-Flowchart', 'Feature-Kartya-Kaucio-Flowchart', 'Feature-Listar-Kedvezmeny-Flowchart', 'Feature-Torzsvendeg-Szemelyazonositás-Flowchart', 'Feature-Multi-Location-Kiadas-Flowchart', 'Feature-Kaució-Visszatartás-Flowchart'],
+                        'features': ['Feature-Hetvege-Unnepnap-Kezeles-Flowchart', 'Feature-Kartya-Kaucio-Flowchart', 'Feature-Listar-Kedvezmeny-Flowchart', 'Feature-Torzsvendeg-Szemelyazonositás-Flowchart', 'Feature-Multi-Location-Kiadas-Flowchart', 'Feature-Kaució-Visszatartás-Flowchart', 'Feature-Gyartas-Modul-Wireframe', 'Feature-Gyartas-Modul-ERD', 'Feature-Gyartas-Rendeles-Lifecycle-Flowchart', 'Feature-Gyartas-Anyagfelhasznalás-Flowchart', 'Feature-Gyartas-BOM-Hierarchia-Flowchart', 'Feature-Gyartas-QA-Flow-Flowchart'],
                         'core': ['00-kgc-erp-master-flow-2025-12-12', 'admin-operational-dashboard-flow', 'system-monitoring-master-flow', '2-ertekesites-folyamat', '2-ertekesites-erd', '4-szerviz-folyamat', '4-szerviz-erd-2025-12-11', '5-penzugy-folyamat', '7-ertesitesek-folyamat'],
                         'master-flows': ['customer-journey-master-flow', 'integration-ecosystem-map', 'franchise-operations-master-flow', 'data-flow-master-diagram', 'error-handling-recovery-flow'],
                 'architecture': ['8-deployment-architektura', '11-multi-tenant-sema-struktura-2025-12-11', '10-arastrategia-hierarchia', 'kgc-erp-system-architecture', 'hr-plugin-architecture', 'crm-plugin-architecture', '8-holding-struktura', '8-keszlet-szinkron', '8-reszletfizetes-folyamat', '7-erd-uj-entitasok', 'koko-ai-chatbot-support-flow', 'supplier-api-inventory-algorithm', 'ocr-invoice-e-szamla', 'support-system-architecture']
@@ -6921,7 +7728,7 @@
                     const tabDiagrams = {
                         'v7-updated': ['1-ugyfelfelvitel-folyamat-v2', '1-ugyfelfelvitel-dontesi-fa-v2', '1-ugyfelfelvitel-erd-v2'],
                         'v7-new': ['location-hierarchy-kpd', 'twenty-crm-pipeline-dataflow', 'chatwoot-support-new-conversation', 'chatwoot-webhook-processing'],
-                        'features': ['Feature-Hetvege-Unnepnap-Kezeles-Flowchart', 'Feature-Kartya-Kaucio-Flowchart', 'Feature-Listar-Kedvezmeny-Flowchart', 'Feature-Torzsvendeg-Szemelyazonositás-Flowchart', 'Feature-Multi-Location-Kiadas-Flowchart', 'Feature-Kaució-Visszatartás-Flowchart'],
+                        'features': ['Feature-Hetvege-Unnepnap-Kezeles-Flowchart', 'Feature-Kartya-Kaucio-Flowchart', 'Feature-Listar-Kedvezmeny-Flowchart', 'Feature-Torzsvendeg-Szemelyazonositás-Flowchart', 'Feature-Multi-Location-Kiadas-Flowchart', 'Feature-Kaució-Visszatartás-Flowchart', 'Feature-Gyartas-Modul-Wireframe', 'Feature-Gyartas-Modul-ERD', 'Feature-Gyartas-Rendeles-Lifecycle-Flowchart', 'Feature-Gyartas-Anyagfelhasznalás-Flowchart', 'Feature-Gyartas-BOM-Hierarchia-Flowchart', 'Feature-Gyartas-QA-Flow-Flowchart'],
                         'core': ['00-kgc-erp-master-flow-2025-12-12', 'admin-operational-dashboard-flow', 'system-monitoring-master-flow', '2-ertekesites-folyamat', '2-ertekesites-erd', '4-szerviz-folyamat', '4-szerviz-erd-2025-12-11', '5-penzugy-folyamat', '7-ertesitesek-folyamat'],
                         'master-flows': ['customer-journey-master-flow', 'integration-ecosystem-map', 'franchise-operations-master-flow', 'data-flow-master-diagram', 'error-handling-recovery-flow'],
                 'architecture': ['8-deployment-architektura', '11-multi-tenant-sema-struktura-2025-12-11', '10-arastrategia-hierarchia', 'kgc-erp-system-architecture', 'hr-plugin-architecture', 'crm-plugin-architecture', '8-holding-struktura', '8-keszlet-szinkron', '8-reszletfizetes-folyamat', '7-erd-uj-entitasok', 'koko-ai-chatbot-support-flow', 'supplier-api-inventory-algorithm', 'ocr-invoice-e-szamla', 'support-system-architecture']

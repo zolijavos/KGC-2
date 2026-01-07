@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 -20 1260 970" class="w-full h-auto">
+<defs>
+<style>.excalidraw-text { font-family: Segoe UI, Arial, sans-serif; }</style>
+<marker id="ah" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-blue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#1976d2"/>
+</marker>
+<marker id="ah-green" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#388e3c"/>
+</marker>
+<marker id="ah-orange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+<polygon points="0 0, 12 4, 0 8" fill="#f57c00"/>
+</marker>
+</defs>
+<rect x="-20" y="-20" width="1260" height="970" fill="#ffffff"/>
+<text x="20" y="44" font-size="24" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">KGC Gyartas Modul - Wireframe</text>
+<text x="20" y="69" font-size="14" fill="#868e96" text-anchor="start" class="excalidraw-text" opacity="1">BOM Kezeles + Gyartasi Rendeles + Gyartasi Lap reszletek</text>
+<text x="20" y="118" font-size="18" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">1. BOM KEZELES (bal oldal)</text>
+<rect x="20" y="130" width="320" height="400" stroke="#495057" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<rect x="20" y="130" width="320" height="45" stroke="#1971c2" fill="#e7f5ff" stroke-width="1" rx="0" opacity="1"/>
+<text x="35" y="158" font-size="16" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">BOM Lista</text>
+<rect x="245" y="138" width="85" height="30" stroke="#1971c2" fill="#1971c2" stroke-width="1" rx="0" opacity="1"/>
+<text x="287" y="156" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">+ Uj BOM</text>
+<rect x="30" y="185" width="200" height="32" stroke="#868e96" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="50" y="205" font-size="12" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Q</text>
+<text x="65" y="204" font-size="11" fill="#adb5bd" text-anchor="start" class="excalidraw-text" opacity="1">Kereses...</text>
+<rect x="240" y="190" width="18" height="18" stroke="#1971c2" fill="#1971c2" stroke-width="1" rx="0" opacity="1"/>
+<text x="249" y="202" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">v</text>
+<text x="265" y="202" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Csak aktiv</text>
+<rect x="30" y="230" width="300" height="28" stroke="#dee2e6" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="40" y="247" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Kod</text>
+<text x="100" y="247" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Megnevezes</text>
+<text x="237.5" y="247" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Ver.</text>
+<text x="295" y="247" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Aktiv</text>
+<rect x="30" y="260" width="300" height="36" stroke="#1971c2" fill="#e7f5ff" stroke-width="2" rx="0" opacity="1"/>
+<text x="40" y="281" font-size="10" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">BOM-001</text>
+<text x="100" y="281" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Lancfuresz keszlet</text>
+<text x="237.5" y="281" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">v2.1</text>
+<ellipse cx="293" cy="278" rx="8" ry="8" stroke="#2f9e44" fill="#2f9e44" stroke-width="1" opacity="1"/>
+<rect x="30" y="300" width="300" height="36" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="40" y="321" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">BOM-002</text>
+<text x="100" y="321" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Funyiro csomag</text>
+<text x="237.5" y="321" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">v1.0</text>
+<ellipse cx="293" cy="318" rx="8" ry="8" stroke="#2f9e44" fill="#2f9e44" stroke-width="1" opacity="1"/>
+<rect x="30" y="340" width="300" height="36" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="40" y="361" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">BOM-003</text>
+<text x="100" y="361" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Kerti gepcsomag Pro</text>
+<text x="237.5" y="361" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">v3.2</text>
+<ellipse cx="293" cy="358" rx="8" ry="8" stroke="#868e96" fill="#dee2e6" stroke-width="1" opacity="1"/>
+<rect x="30" y="380" width="300" height="36" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="40" y="401" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">BOM-004</text>
+<text x="100" y="401" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Stihl alapcsomag</text>
+<text x="237.5" y="401" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">v1.5</text>
+<ellipse cx="293" cy="398" rx="8" ry="8" stroke="#2f9e44" fill="#2f9e44" stroke-width="1" opacity="1"/>
+<text x="180" y="511" font-size="11" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">&lt; 1 2 3 ... 8 &gt;</text>
+<text x="370" y="118" font-size="18" fill="#2f9e44" text-anchor="start" class="excalidraw-text" opacity="1">2. BOM SZERKESZTO (kozepso panel)</text>
+<rect x="370" y="130" width="420" height="400" stroke="#495057" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<rect x="370" y="130" width="420" height="70" stroke="#2f9e44" fill="#ebfbee" stroke-width="1" rx="0" opacity="1"/>
+<text x="385" y="152" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">BOM kod:</text>
+<text x="450" y="154" font-size="14" fill="#1971c2" text-anchor="start" class="excalidraw-text" opacity="1">BOM-001</text>
+<rect x="550" y="138" width="45" height="22" stroke="#1971c2" fill="#d0ebff" stroke-width="1" rx="0" opacity="1"/>
+<text x="572.5" y="153" font-size="10" fill="#1864ab" text-anchor="middle" class="excalidraw-text" opacity="1">v2.1</text>
+<rect x="605" y="138" width="50" height="22" stroke="#2f9e44" fill="#c3fae8" stroke-width="1" rx="0" opacity="1"/>
+<text x="630" y="153" font-size="10" fill="#087f5b" text-anchor="middle" class="excalidraw-text" opacity="1">Aktiv</text>
+<text x="385" y="178" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Megnevezes:</text>
+<text x="470" y="180" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Lancfuresz keszlet</text>
+<text x="385" y="222" font-size="12" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Komponensek (fa nezet)</text>
+<rect x="385" y="230" width="390" height="220" stroke="#dee2e6" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<rect x="395" y="240" width="370" height="32" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="407.5" y="260" font-size="12" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">:::</text>
+<text x="427.5" y="260" font-size="12" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">v</text>
+<text x="440" y="260" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Stihl MS 251 lancfuresz</text>
+<text x="660" y="260" font-size="11" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">1 db</text>
+<text x="737.5" y="259" font-size="10" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">szerk</text>
+<rect x="420" y="278" width="345" height="28" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="432.5" y="295" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">L</text>
+<text x="452.5" y="295" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">:::</text>
+<text x="465" y="295" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Vezetolanc 35cm</text>
+<text x="660" y="295" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">2 db</text>
+<rect x="420" y="310" width="345" height="28" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="432.5" y="327" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">L</text>
+<text x="452.5" y="327" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">:::</text>
+<text x="465" y="327" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Fureslanc PM3</text>
+<text x="660" y="327" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">3 db</text>
+<rect x="395" y="346" width="370" height="32" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="407.5" y="366" font-size="12" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">:::</text>
+<text x="427.5" y="366" font-size="12" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">&gt;</text>
+<text x="440" y="366" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Vedofelszereles szett</text>
+<text x="660" y="366" font-size="11" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">1 db</text>
+<text x="725" y="365" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">(4 elem)</text>
+<rect x="395" y="384" width="370" height="32" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="407.5" y="404" font-size="12" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">:::</text>
+<text x="440" y="404" font-size="11" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Olaj 2T keverek 1L</text>
+<text x="660" y="404" font-size="11" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">2 L</text>
+<rect x="385" y="460" width="150" height="32" stroke="#1971c2" fill="#e7f5ff" stroke-width="1" rx="0" opacity="1"/>
+<text x="460" y="479" font-size="10" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">+ Komponens hozzaad</text>
+<rect x="610" y="460" width="80" height="32" stroke="#868e96" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="650.5" y="479" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Mentes</text>
+<rect x="700" y="460" width="75" height="32" stroke="#2f9e44" fill="#2f9e44" stroke-width="1" rx="0" opacity="1"/>
+<text x="737" y="479" font-size="10" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Aktivalas</text>
+<text x="820" y="118" font-size="18" fill="#9c36b5" text-anchor="start" class="excalidraw-text" opacity="1">3. GYARTASI RENDELES (jobb oldal)</text>
+<rect x="820" y="130" width="380" height="400" stroke="#495057" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<rect x="820" y="130" width="380" height="45" stroke="#9c36b5" fill="#f3d9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="835" y="156" font-size="14" fill="#862e9c" text-anchor="start" class="excalidraw-text" opacity="1">Gyartasi rendelesek</text>
+<rect x="1090" y="138" width="100" height="30" stroke="#9c36b5" fill="#9c36b5" stroke-width="1" rx="0" opacity="1"/>
+<text x="1139.5" y="155" font-size="10" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">+ Uj rendeles</text>
+<rect x="830" y="185" width="360" height="28" stroke="#dee2e6" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="840" y="202" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Szam</text>
+<text x="910" y="202" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">BOM</text>
+<text x="1015" y="202" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Mny</text>
+<text x="1080" y="202" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Statusz</text>
+<text x="1157.5" y="202" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Datum</text>
+<rect x="830" y="218" width="360" height="40" stroke="#9c36b5" fill="#f3d9fa" stroke-width="2" rx="0" opacity="1"/>
+<text x="840" y="241" font-size="10" fill="#862e9c" text-anchor="start" class="excalidraw-text" opacity="1">GY-2026-001</text>
+<text x="910" y="241" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Lancfuresz k.</text>
+<text x="1015" y="241" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">5</text>
+<rect x="1040" y="226" width="70" height="22" stroke="#f59f00" fill="#fff3bf" stroke-width="1" rx="0" opacity="1"/>
+<text x="1075.5" y="240" font-size="9" fill="#e67700" text-anchor="middle" class="excalidraw-text" opacity="1">Folyamatban</text>
+<text x="1155" y="241" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Jan 5.</text>
+<rect x="830" y="263" width="360" height="40" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="840" y="286" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">GY-2026-002</text>
+<text x="910" y="286" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Funyiro cs.</text>
+<text x="1015" y="286" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">10</text>
+<rect x="1040" y="271" width="70" height="22" stroke="#1971c2" fill="#d0ebff" stroke-width="1" rx="0" opacity="1"/>
+<text x="1075" y="285" font-size="9" fill="#1864ab" text-anchor="middle" class="excalidraw-text" opacity="1">Megerositett</text>
+<text x="1155" y="286" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Jan 6.</text>
+<rect x="830" y="308" width="360" height="40" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="840" y="331" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">GY-2025-089</text>
+<text x="910" y="331" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Stihl alap</text>
+<text x="1015" y="331" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">3</text>
+<rect x="1040" y="316" width="70" height="22" stroke="#2f9e44" fill="#c3fae8" stroke-width="1" rx="0" opacity="1"/>
+<text x="1074.5" y="330" font-size="9" fill="#087f5b" text-anchor="middle" class="excalidraw-text" opacity="1">Kesz</text>
+<text x="1155" y="331" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Dec 28.</text>
+<rect x="830" y="353" width="360" height="40" stroke="#dee2e6" fill="#ffffff" stroke-width="1" rx="0" opacity="1"/>
+<text x="840" y="376" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">GY-2026-003</text>
+<text x="910" y="376" font-size="10" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Kerti Pro</text>
+<text x="1015" y="376" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">2</text>
+<rect x="1040" y="361" width="70" height="22" stroke="#868e96" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="1075" y="375" font-size="9" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Tervezet</text>
+<text x="1155" y="376" font-size="10" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Jan 7.</text>
+<rect x="830" y="410" width="360" height="50" stroke="#dee2e6" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="840" y="428" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Statusz badge-ek:</text>
+<rect x="840" y="435" width="50" height="18" stroke="#868e96" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="865" y="447" font-size="8" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Tervezet</text>
+<rect x="900" y="435" width="60" height="18" stroke="#1971c2" fill="#d0ebff" stroke-width="1" rx="0" opacity="1"/>
+<text x="930" y="447" font-size="8" fill="#1864ab" text-anchor="middle" class="excalidraw-text" opacity="1">Megerositett</text>
+<rect x="970" y="435" width="60" height="18" stroke="#f59f00" fill="#fff3bf" stroke-width="1" rx="0" opacity="1"/>
+<text x="1000" y="447" font-size="8" fill="#e67700" text-anchor="middle" class="excalidraw-text" opacity="1">Folyamatban</text>
+<rect x="1040" y="435" width="35" height="18" stroke="#2f9e44" fill="#c3fae8" stroke-width="1" rx="0" opacity="1"/>
+<text x="1057.5" y="447" font-size="8" fill="#087f5b" text-anchor="middle" class="excalidraw-text" opacity="1">Kesz</text>
+<text x="1010" y="511" font-size="11" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">&lt; 1 2 ... 5 &gt;</text>
+<text x="20" y="578" font-size="18" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">4. GYARTASI LAP RESZLETEK (alul)</text>
+<rect x="20" y="590" width="1180" height="320" stroke="#495057" fill="#ffffff" stroke-width="2" rx="0" opacity="1"/>
+<rect x="20" y="590" width="1180" height="55" stroke="#e03131" fill="#ffe3e3" stroke-width="1" rx="0" opacity="1"/>
+<text x="35" y="618" font-size="16" fill="#c92a2a" text-anchor="start" class="excalidraw-text" opacity="1">Gyartasi Lap: GY-2026-001</text>
+<text x="35" y="636" font-size="11" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">BOM: Lancfuresz keszlet v2.1</text>
+<text x="280" y="636" font-size="11" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Mennyiseg: 5 db</text>
+<rect x="450" y="608" width="80" height="24" stroke="#f59f00" fill="#fff3bf" stroke-width="1" rx="0" opacity="1"/>
+<text x="490" y="624" font-size="10" fill="#e67700" text-anchor="middle" class="excalidraw-text" opacity="1">Folyamatban</text>
+<text x="35" y="674" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Gyartasi fazisok:</text>
+<rect x="35" y="700" width="1000" height="4" stroke="#dee2e6" fill="#dee2e6" stroke-width="1" rx="0" opacity="1"/>
+<ellipse cx="95" cy="702" rx="10" ry="10" stroke="#2f9e44" fill="#2f9e44" stroke-width="2" opacity="1"/>
+<text x="95" y="706" font-size="11" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">v</text>
+<text x="95" y="731" font-size="11" fill="#2f9e44" text-anchor="middle" class="excalidraw-text" opacity="1">Elokeszites</text>
+<text x="95" y="747" font-size="9" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Jan 5. 08:00 - 09:30</text>
+<text x="95" y="762" font-size="9" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Felelos: Kovacs P.</text>
+<rect x="105" y="700" width="180" height="4" stroke="#2f9e44" fill="#2f9e44" stroke-width="1" rx="0" opacity="1"/>
+<ellipse cx="345" cy="702" rx="10" ry="10" stroke="#f59f00" fill="#f59f00" stroke-width="2" opacity="1"/>
+<text x="345" y="703" font-size="8" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">...</text>
+<text x="345" y="731" font-size="11" fill="#f59f00" text-anchor="middle" class="excalidraw-text" opacity="1">Gyartas</text>
+<text x="345" y="747" font-size="9" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Jan 5. 09:30 - ...</text>
+<text x="345" y="762" font-size="9" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Felelos: Nagy J.</text>
+<text x="345" y="777" font-size="9" fill="#e03131" text-anchor="middle" class="excalidraw-text" opacity="1">Selejt: 1 db</text>
+<ellipse cx="595" cy="702" rx="10" ry="10" stroke="#868e96" fill="#ffffff" stroke-width="2" opacity="1"/>
+<text x="595" y="731" font-size="11" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Ellenorzes</text>
+<text x="595" y="747" font-size="9" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Fuggben</text>
+<ellipse cx="845" cy="702" rx="10" ry="10" stroke="#868e96" fill="#ffffff" stroke-width="2" opacity="1"/>
+<text x="845" y="731" font-size="11" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Keszletbe vetel</text>
+<text x="845" y="747" font-size="9" fill="#868e96" text-anchor="middle" class="excalidraw-text" opacity="1">Fuggben</text>
+<text x="35" y="814" font-size="14" fill="#1e1e1e" text-anchor="start" class="excalidraw-text" opacity="1">Keszlet mozgas elonezet:</text>
+<rect x="35" y="825" width="300" height="70" stroke="#e03131" fill="#ffe3e3" stroke-width="1" rx="0" opacity="1"/>
+<text x="50" y="844" font-size="11" fill="#c92a2a" text-anchor="start" class="excalidraw-text" opacity="1">Alapanyag csokkenes:</text>
+<text x="50" y="861" font-size="9" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">- Stihl MS 251 lancfuresz: -5 db</text>
+<text x="50" y="875" font-size="9" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">- Vezetolanc 35cm: -10 db</text>
+<text x="50" y="889" font-size="9" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">- Fureslanc PM3: -15 db  | + 2 tovabb...</text>
+<text x="380" y="874" font-size="24" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">--&gt;</text>
+<rect x="420" y="825" width="300" height="70" stroke="#2f9e44" fill="#c3fae8" stroke-width="1" rx="0" opacity="1"/>
+<text x="435" y="844" font-size="11" fill="#087f5b" text-anchor="start" class="excalidraw-text" opacity="1">Kesztermek novelkedes:</text>
+<text x="435" y="865" font-size="10" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">+ Lancfuresz keszlet (BOM-001): +5 db</text>
+<text x="435" y="884" font-size="9" fill="#e03131" text-anchor="start" class="excalidraw-text" opacity="1">(selejt utan: effektiv +4 db)</text>
+<rect x="760" y="825" width="430" height="70" stroke="#dee2e6" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="775" y="844" font-size="11" fill="#495057" text-anchor="start" class="excalidraw-text" opacity="1">Muveletek:</text>
+<rect x="775" y="855" width="100" height="30" stroke="#1971c2" fill="#e7f5ff" stroke-width="1" rx="0" opacity="1"/>
+<text x="825" y="873" font-size="10" fill="#1971c2" text-anchor="middle" class="excalidraw-text" opacity="1">Fazis lepes</text>
+<rect x="885" y="855" width="100" height="30" stroke="#e03131" fill="#ffe3e3" stroke-width="1" rx="0" opacity="1"/>
+<text x="935" y="873" font-size="10" fill="#c92a2a" text-anchor="middle" class="excalidraw-text" opacity="1">Selejt rogzites</text>
+<rect x="995" y="855" width="80" height="30" stroke="#868e96" fill="#f8f9fa" stroke-width="1" rx="0" opacity="1"/>
+<text x="1035" y="873" font-size="10" fill="#495057" text-anchor="middle" class="excalidraw-text" opacity="1">Nyomtat</text>
+<rect x="1085" y="855" width="95" height="30" stroke="#2f9e44" fill="#2f9e44" stroke-width="1" rx="0" opacity="1"/>
+<text x="1132.5" y="873" font-size="10" fill="#ffffff" text-anchor="middle" class="excalidraw-text" opacity="1">Befejezesre</text>
+</svg>
